@@ -1,0 +1,338 @@
+<!doctype html><html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#43a047">
+    <link rel="icon" type="image/svg+xml" href="icon-192.svg">
+    <link rel="apple-touch-icon" href="icon-192.svg">
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Day Code Generator</title>
+<style>
+  :root{
+    --bg:#f5f7fa; --surface:#ffffff; --surface-2:#eaeff5; --fg:#0B2545; --muted:#5a6a82;
+    --border:#d6e4f0; --accent:#0B2545; --accent-ink:#1C4E8A; --accent-soft:#e3edf7;
+    --orange:#F4511E; --orange-soft:#fde3d8; --good:#2f8f5b;
+    --l1:#1C4E8A; --l2:#3476B8; --l3:#F4511E;
+    --font-head:"Space Grotesk",system-ui,sans-serif;
+    --font-body:"Inter",system-ui,sans-serif;
+    --font-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+    color-scheme:light;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --bg:#060E1E; --surface:#0f1a30; --surface-2:#172544; --fg:#D6E4F0; --muted:#7AABDD;
+    --border:#1f3058; --accent:#3476B8; --accent-ink:#7AABDD; --accent-soft:#122445;
+    --orange:#F4511E; --orange-soft:#2a1810;
+    --l1:#7AABDD; --l2:#3476B8; --l3:#F4511E; color-scheme:dark;
+  }}
+  :root[data-theme="dark"]{
+    --bg:#060E1E; --surface:#0f1a30; --surface-2:#172544; --fg:#D6E4F0; --muted:#7AABDD;
+    --border:#1f3058; --accent:#3476B8; --accent-ink:#7AABDD; --accent-soft:#122445;
+    --orange:#F4511E; --orange-soft:#2a1810;
+    --l1:#7AABDD; --l2:#3476B8; --l3:#F4511E; color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  body{background:var(--bg);color:var(--fg);font-family:var(--font-body);line-height:1.5;margin:0}
+  .wrap{max-width:900px;margin:0 auto;padding-block:24px 56px;
+    padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+
+  header.top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:14px}
+  .brand{display:flex;align-items:center;min-width:0}
+  .logo{height:46px;width:auto;flex:0 0 auto}
+  .logo-dark{display:none}
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]) .logo-light{display:none}
+    :root:not([data-theme="light"]) .logo-dark{display:block}
+  }
+  :root[data-theme="dark"] .logo-light{display:none}
+  :root[data-theme="dark"] .logo-dark{display:block}
+  :root[data-theme="light"] .logo-light{display:block}
+  :root[data-theme="light"] .logo-dark{display:none}
+  .theme-btn{font-family:var(--font-body);font-size:.8rem;color:var(--muted);background:var(--surface-2);
+    border:1px solid var(--border);border-radius:999px;padding:7px 14px;cursor:pointer}
+  .theme-btn:hover{color:var(--fg)}
+
+  h1{font-family:var(--font-head);font-weight:800;font-size:clamp(1.35rem,3.2vw,1.8rem);margin:4px 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:.9rem;margin:0 0 20px}
+  .badge{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-body);font-size:.72rem;
+    font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--good);
+    background:color-mix(in srgb,var(--good) 14%,transparent);border:1px solid color-mix(in srgb,var(--good) 40%,transparent);
+    border-radius:999px;padding:4px 10px;margin:0 0 22px}
+
+  .panel{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px}
+  .row{display:flex;flex-wrap:wrap;gap:16px}
+  .field{display:flex;flex-direction:column;gap:6px;min-width:0;flex:1 1 200px}
+  label.lbl{font-size:.72rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:700}
+  input[type=date],input[type=number]{font-family:var(--font-mono);font-size:1rem;color:var(--fg);
+    background:var(--surface-2);border:1px solid var(--border);border-radius:9px;padding:9px 11px;width:100%}
+  input:focus-visible,button:focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+
+  .seg{display:inline-flex;background:var(--surface-2);border:1px solid var(--border);border-radius:9px;padding:3px;gap:3px}
+  .seg button{font-family:var(--font-body);font-size:.85rem;font-weight:600;color:var(--muted);
+    background:transparent;border:0;border-radius:7px;padding:7px 14px;cursor:pointer}
+  .seg button[aria-pressed=true]{background:var(--orange);color:#fff}
+  .hint{font-size:.78rem;color:var(--muted)}
+
+  .daybar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:26px 0 14px}
+  .daybar .dow{font-family:var(--font-head);font-weight:700;font-size:1.1rem}
+  .pill{font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:3px 10px;border-radius:999px;border:1px solid var(--border);color:var(--muted)}
+  .levels{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  @media (max-width:520px){.levels{grid-template-columns:1fr}}
+  .lvl{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px 18px;display:flex;flex-direction:column;gap:4px}
+  .lvl .tag{font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:700}
+  .lvl .name{font-family:var(--font-head);font-weight:700;font-size:.95rem}
+  .lvl.l1 .name{color:var(--l1)} .lvl.l2 .name{color:var(--l2)} .lvl.l3 .name{color:var(--l3)}
+  .lvl .code{font-family:var(--font-mono);font-weight:800;font-size:clamp(1.9rem,7vw,2.5rem);
+    font-variant-numeric:tabular-nums;color:var(--fg);line-height:1.1;margin-top:4px}
+  .lvl .seedline{font-size:.74rem;color:var(--muted);font-family:var(--font-mono)}
+
+  details.break{margin-top:18px;border:1px solid var(--border);border-radius:12px;background:var(--surface);overflow:hidden}
+  details.break summary{cursor:pointer;padding:12px 16px;font-size:.85rem;font-weight:700;color:var(--fg);list-style:none}
+  details.break summary::-webkit-details-marker{display:none}
+  details.break summary::before{content:"▸ ";color:var(--muted)}
+  details.break[open] summary::before{content:"▾ "}
+  .break .bwrap{overflow-x:auto;padding:0 16px 14px}
+  table{border-collapse:collapse;width:100%;font-size:.86rem}
+  th,td{text-align:right;padding:7px 10px;white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  thead th{font-size:.72rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border-bottom:1px solid var(--border)}
+  tbody td{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+  tbody tr+tr td{border-top:1px solid var(--border)}
+  td.term{color:var(--muted)}
+  tr.sum td{font-weight:800;color:var(--accent-ink);border-top:2px solid var(--border)}
+
+  .rangebar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:24px 0 12px}
+  .copybtn{font-family:var(--font-body);font-size:.82rem;font-weight:600;color:#fff;background:var(--orange);
+    border:0;border-radius:9px;padding:9px 16px;cursor:pointer}
+  .copybtn:hover{filter:brightness(1.07)}
+  .tablecard{border:1px solid var(--border);border-radius:12px;background:var(--surface);overflow-x:auto}
+  .tablecard table{font-size:.9rem}
+  .tablecard th,.tablecard td{padding:9px 14px}
+  .tablecard tbody tr:nth-child(even){background:var(--surface-2)}
+  .tablecard td.dow{font-family:var(--font-body);color:var(--muted)}
+  .tablecard td.codecell{color:var(--accent-ink);font-weight:600}
+
+  footer.note{margin-top:34px;font-size:.8rem;color:var(--muted);line-height:1.65;
+    border-top:1px solid var(--border);padding-top:18px}
+  footer.note code{font-family:var(--font-mono);background:var(--surface-2);padding:1px 5px;border-radius:5px;font-size:.78rem}
+  footer.note strong{color:var(--fg)}
+  .formula{font-family:var(--font-mono);font-size:.78rem;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:9px;padding:12px;overflow-x:auto;margin:8px 0 14px;color:var(--fg)}
+  .brandline{display:flex;align-items:center;gap:8px;margin-top:20px;padding-top:14px;border-top:1px solid var(--border);
+    font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700}
+  .brandline .dot{width:6px;height:6px;border-radius:50%;background:var(--orange)}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand">
+      <svg class="logo logo-light" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" aria-label="Coelho Wind Advisory">
+        <g transform="translate(40,40) scale(0.33)">
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/>
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(100)"/>
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(220)"/>
+          <circle r="22" fill="white"/>
+          <circle r="28" fill="none" stroke="#0B2545" stroke-width="4.5"/>
+          <circle r="10" fill="#0B2545"/>
+          <circle r="4.5" fill="#F4511E"/>
+        </g>
+        <text x="88" y="47" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="#0B2545" letter-spacing="3">COELHO</text>
+        <text x="90" y="67" font-family="Arial, sans-serif" font-weight="400" font-size="15" fill="#1C4E8A" letter-spacing="5">WIND ADVISORY</text>
+      </svg>
+      <svg class="logo logo-dark" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg" aria-label="Coelho Wind Advisory">
+        <g transform="translate(40,40) scale(0.33)">
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/>
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(100)"/>
+          <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(220)"/>
+          <circle r="22" fill="#060E1E"/>
+          <circle r="28" fill="none" stroke="#3476B8" stroke-width="4.5"/>
+          <circle r="10" fill="#3476B8"/>
+          <circle r="4.5" fill="#C8DEFF"/>
+        </g>
+        <text x="88" y="47" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="36" fill="white" letter-spacing="3">COELHO</text>
+        <text x="90" y="67" font-family="Arial, sans-serif" font-weight="400" font-size="15" fill="#B8D4F8" letter-spacing="5">WIND ADVISORY</text>
+      </svg>
+    </div>
+    <button class="theme-btn" id="themeBtn" type="button">Theme</button>
+  </header>
+
+  <h1>Day Code Generator</h1>
+  <p class="sub">A date goes in, three level codes come out — one closed formula, no lookups.</p>
+
+
+  <div class="panel">
+    <div class="row">
+      <div class="field" style="flex:0 0 auto">
+        <span class="lbl">Mode</span>
+        <div class="seg" id="modeSeg">
+          <button type="button" data-mode="single" aria-pressed="true">Single date</button>
+          <button type="button" data-mode="range" aria-pressed="false">Date range</button>
+        </div>
+      </div>
+      <div class="field" id="dateField">
+        <label class="lbl" for="dateIn">Date</label>
+        <input type="date" id="dateIn" value="2026-11-10">
+      </div>
+      <div class="field" id="countField" hidden>
+        <label class="lbl" for="countIn">Number of days</label>
+        <input type="number" id="countIn" value="30" min="1" max="366">
+      </div>
+    </div>
+  </div>
+
+  <section id="singleView">
+    <div class="daybar">
+      <span class="dow" id="dowOut">—</span>
+      <span class="pill" id="parityOut">—</span>
+      <span class="hint" id="dateEcho"></span>
+    </div>
+    <div class="levels" id="levelCards"></div>
+  </section>
+
+  <section id="rangeView" hidden>
+    <div class="rangebar">
+      <span class="hint" id="rangeEcho"></span>
+      <button class="copybtn" id="copyBtn" type="button">Copy table</button>
+    </div>
+    <div class="tablecard"><table id="rangeTable"></table></div>
+  </section>
+
+  <footer class="note">
+    <div class="brandline" style="border-top:0;padding-top:0;margin-top:0"><span class="dot"></span>Coelho Wind Advisory · Day Code</div>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var SEEDS={1:4680,2:5913,3:7497};
+  var LVL_NAMES={1:"First",2:"Second",3:"Third"};
+  var DOW=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var DOW_AB=["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+
+  function yearTerm(y){var yy=y%100; var m=((yy%9)+9)%9; return m*m;}
+  function baseFor(day){return (day%2===0)?2092:91;}
+  function terms(day,month,year){
+    return {
+      base:baseFor(day),
+      k20:20,
+      seed1:Math.floor(SEEDS[1]/day),
+      seed2:Math.floor(SEEDS[2]/day),
+      seed3:Math.floor(SEEDS[3]/day),
+      dayTerm:day*29,
+      quad:day*(day+17),
+      monthTerm:61*(day-month),
+      yearTerm:yearTerm(year)
+    };
+  }
+  function codeFor(level,day,month,year){
+    return baseFor(day)+20+Math.floor(SEEDS[level]/day)
+      +day*29+day*(day+17)+61*(day-month)+yearTerm(year);
+  }
+  function parse(v){var p=(v||"").split("-");return {y:+p[0],m:+p[1],d:+p[2]};}
+  function dow(y,m,d){return (new Date(y,m-1,d).getDay()+6)%7;}
+  function pad2(n){return (n<10?"0":"")+n;}
+
+  var $=function(id){return document.getElementById(id);};
+  var mode="single";
+
+  (function(){
+    var saved; try{saved=localStorage.getItem("lvlcode-theme");}catch(e){}
+    if(saved==="dark"||saved==="light") document.documentElement.setAttribute("data-theme",saved);
+    $("themeBtn").addEventListener("click",function(){
+      var cur=document.documentElement.getAttribute("data-theme");
+      var sysDark=window.matchMedia&&window.matchMedia("(prefers-color-scheme:dark)").matches;
+      var next=cur==="dark"?"light":cur==="light"?"dark":(sysDark?"light":"dark");
+      document.documentElement.setAttribute("data-theme",next);
+      try{localStorage.setItem("lvlcode-theme",next);}catch(e){}
+    });
+  })();
+
+  function renderSingle(){
+    var dt=parse($("dateIn").value); if(!dt.y) return;
+    var wd=dow(dt.y,dt.m,dt.d);
+    $("dowOut").textContent=DOW[wd];
+    var par=$("parityOut");
+    par.textContent=(dt.d%2===0)?"even day":"odd day";
+    $("dateEcho").textContent=DOW_AB[wd]+" "+pad2(dt.d)+"-"+pad2(dt.m)+"-"+dt.y;
+
+    var wrap=$("levelCards"); wrap.innerHTML="";
+    for(var L=1;L<=3;L++){
+      var c=codeFor(L,dt.d,dt.m,dt.y);
+      var card=document.createElement("div"); card.className="lvl l"+L;
+      card.innerHTML='<span class="tag">Level '+L+'</span>'+
+        '<span class="name">'+LVL_NAMES[L]+'</span>'+
+        '<span class="code">'+c+'</span>';
+      wrap.appendChild(card);
+    }
+  }
+
+  var lastRows=[];
+  function renderRange(){
+    var dt=parse($("dateIn").value); if(!dt.y) return;
+    var n=Math.max(1,Math.min(366,parseInt($("countIn").value,10)||30));
+    var cur=new Date(dt.y,dt.m-1,dt.d);
+    lastRows=[];
+    var html='<thead><tr><th>Date</th><th>Level 1</th><th>Level 2</th><th>Level 3</th></tr></thead><tbody>';
+    for(var i=0;i<n;i++){
+      var y=cur.getFullYear(),m=cur.getMonth()+1,d=cur.getDate(),wd=(cur.getDay()+6)%7;
+      var c1=codeFor(1,d,m,y),c2=codeFor(2,d,m,y),c3=codeFor(3,d,m,y);
+      var ds=DOW_AB[wd]+" "+pad2(d)+"-"+pad2(m)+"-"+y;
+      html+='<tr><td class="dow">'+ds+'</td><td class="codecell">'+c1+'</td><td class="codecell">'+c2+'</td><td class="codecell">'+c3+'</td></tr>';
+      lastRows.push([ds,c1,c2,c3]);
+      cur.setDate(cur.getDate()+1);
+    }
+    html+='</tbody>';
+    $("rangeTable").innerHTML=html;
+    $("rangeEcho").textContent=n+" day"+(n>1?"s":"");
+  }
+
+  $("copyBtn").addEventListener("click",function(){
+    var txt="Date\tLevel 1\tLevel 2\tLevel 3\n"+lastRows.map(function(r){return r.join("\t");}).join("\n");
+    var btn=this;
+    function done(){var o=btn.textContent;btn.textContent="Copied";setTimeout(function(){btn.textContent=o;},1400);}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(txt).then(done).catch(selectFallback);
+    } else selectFallback();
+    function selectFallback(){
+      var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";
+      document.body.appendChild(ta);ta.select();try{document.execCommand("copy");done();}catch(e){}
+      document.body.removeChild(ta);
+    }
+  });
+
+  function setMode(m){
+    mode=m;
+    Array.prototype.forEach.call(document.querySelectorAll("#modeSeg button"),function(b){
+      b.setAttribute("aria-pressed", b.dataset.mode===m ? "true":"false");
+    });
+    $("singleView").hidden=m!=="single";
+    $("rangeView").hidden=m!=="range";
+    $("countField").hidden=m!=="range";
+    render();
+  }
+  function render(){if(mode==="single") renderSingle(); else renderRange();}
+
+  document.querySelectorAll("#modeSeg button").forEach(function(b){
+    b.addEventListener("click",function(){setMode(b.dataset.mode);});
+  });
+  ["dateIn","countIn"].forEach(function(id){$(id).addEventListener("input",render);});
+
+  render();
+})();
+</script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(r => console.log('SW registered:', r.scope))
+            .catch(e => console.log('SW failed:', e));
+        });
+      }
+    </script>
+</body></html>

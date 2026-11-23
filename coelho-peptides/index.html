@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#7c4dff">
+    <link rel="icon" type="image/svg+xml" href="icon-192.svg">
+    <link rel="apple-touch-icon" href="icon-192.svg">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Coelho Peptides (Copy)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@600;700&family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+:root {
+  --bg: #14171A;
+  --surface: #1E2225;
+  --surface2: #282D31;
+  --border: #2B302E;
+  --text: #ECEDE9;
+  --text2: #9AA39F;
+  --accent: #C97C2E;
+  --accent2: #E0954A;
+  --accent-ink: #FFD9A8;
+  --green: #34d399;
+  --orange: #f59e0b;
+  --red: #ef4444;
+  --radius: 12px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --f-display: "Archivo Narrow","Archivo",ui-sans-serif,system-ui,sans-serif;
+  --f-body: "Archivo",ui-sans-serif,system-ui,sans-serif;
+  --f-mono: "IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: var(--f-body);
+  background: var(--bg); color: var(--text);
+  min-height: 100vh; overflow-x: hidden;
+  padding-top: var(--safe-top);
+  padding-bottom: calc(70px + var(--safe-bottom));
+  -webkit-font-smoothing: antialiased;
+}
+button { font-family: inherit; cursor: pointer; border: none; background: none; color: var(--text); }
+input, select, textarea { font-family: inherit; font-size: 16px; }
+
+/* Header */
+.header {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--surface); border-bottom: 1px solid var(--border);
+  padding: 12px 16px; display: flex; align-items: center; gap: 10px;
+}
+.header-logo {
+  display: flex; align-items: center; gap: 8px;
+}
+.header-logo svg { width: 28px; height: 14px; flex-shrink:0; }
+.header-logo .brand-text {
+  font-family: var(--f-display); font-weight: 700; font-size: 11px;
+  letter-spacing: .08em; text-transform: uppercase; color: var(--accent-ink);
+  line-height: 1.1;
+}
+.header h1 {
+  font-family: var(--f-display); font-size: 18px; font-weight: 700;
+  margin-left: auto; color: var(--text);
+}
+.header-actions { margin-left: auto; display: flex; gap: 8px; }
+.header-btn {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: var(--surface2); display: flex; align-items: center; justify-content: center;
+  font-size: 16px;
+}
+
+/* Bottom Nav */
+.bottom-nav {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 100;
+  background: var(--surface); border-top: 1px solid var(--border);
+  display: flex; padding-bottom: var(--safe-bottom);
+}
+.nav-item {
+  flex: 1; display: flex; flex-direction: column; align-items: center;
+  padding: 8px 2px; gap: 2px; font-size: 10px; color: var(--text2);
+  transition: color .2s; font-family: var(--f-body);
+}
+.nav-item.active { color: var(--accent2); }
+.nav-item svg { width: 22px; height: 22px; }
+
+/* Pages */
+.page { display: none; padding: 12px 16px 20px; }
+.page.active { display: block; }
+
+/* Cards */
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px; margin-bottom: 10px;
+}
+
+/* Peptide Item */
+.pep-item {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 14px; margin-bottom: 8px;
+  display: flex; align-items: center; gap: 12px;
+}
+.pep-icon {
+  width: 42px; height: 42px; border-radius: 10px;
+  background: var(--accent); display: flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 12px; flex-shrink: 0; color: #1B1F1E;
+  font-family: var(--f-display);
+}
+.pep-info { flex: 1; min-width: 0; }
+.pep-name { font-family: var(--f-display); font-weight: 700; font-size: 15px; }
+.pep-detail { font-size: 12px; color: var(--text2); margin-top: 2px; }
+.pep-ref-badge {
+  display: inline-block; font-size: 9px; font-weight: 600; padding: 1px 6px;
+  border-radius: 4px; background: rgba(201,124,46,.15); color: var(--accent2);
+  margin-left: 6px; vertical-align: middle; letter-spacing: .04em; text-transform: uppercase;
+}
+.pep-count {
+  font-family: var(--f-mono); font-weight: 700; font-size: 18px; text-align: right;
+}
+.pep-count.low-stock { color: var(--orange); }
+.pep-count.critical-stock { color: var(--red); }
+.pep-count small { font-size: 10px; color: var(--text2); font-weight: 400; display: block; font-family: var(--f-body); }
+.pep-item.low-stock { border-color: rgba(245,158,11,.35); }
+.pep-item.critical-stock { border-color: rgba(239,68,68,.35); }
+.low-stock-tag { font-size:9px;font-weight:600;padding:1px 6px;border-radius:4px;margin-left:6px;vertical-align:middle;letter-spacing:.04em;text-transform:uppercase; }
+.open-vial-btn {
+  display:flex;align-items:center;justify-content:center;gap:8px;
+  width:100%;padding:14px;margin-bottom:12px;
+  background:var(--surface);border:1px dashed var(--accent);border-radius:var(--radius);
+  color:var(--accent2);font-weight:700;font-size:14px;font-family:var(--f-display);
+  letter-spacing:.02em;
+}
+.open-vial-btn:active { background:var(--accent);color:#000; }
+
+/* Search */
+.search-bar { display: flex; gap: 8px; margin-bottom: 12px; }
+.search-input {
+  flex: 1; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 14px; color: var(--text); font-size: 15px; outline: none;
+}
+.search-input:focus { border-color: var(--accent); }
+.sort-btn {
+  padding: 10px 14px; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; font-size: 12px; color: var(--text2); white-space: nowrap;
+  font-family: var(--f-mono); font-weight: 500;
+}
+
+/* Summary */
+.summary-strip { display: flex; gap: 8px; margin-bottom: 14px; overflow-x: auto; scrollbar-width: none; }
+.summary-strip::-webkit-scrollbar { display: none; }
+.summary-chip {
+  flex-shrink: 0; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 10px; padding: 10px 14px; text-align: center;
+}
+.summary-chip .num { font-family: var(--f-mono); font-size: 20px; font-weight: 700; }
+.summary-chip .lbl { font-size: 10px; color: var(--text2); text-transform: uppercase; letter-spacing: .05em; }
+
+/* Forms */
+.form-group { margin-bottom: 14px; }
+.form-label { font-size: 12px; color: var(--text2); margin-bottom: 6px; display: block; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+.form-input {
+  width: 100%; background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 12px 14px; color: var(--text); font-size: 15px; outline: none;
+}
+.form-input:focus { border-color: var(--accent); }
+select.form-input { appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239AA39F' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; }
+.form-row { display: flex; gap: 10px; }
+.form-row .form-group { flex: 1; }
+.btn-primary {
+  width: 100%; padding: 14px; background: var(--accent); color: #1B1F1E;
+  border-radius: 10px; font-size: 15px; font-weight: 700; margin-top: 6px;
+  font-family: var(--f-display); letter-spacing: .02em;
+}
+.btn-primary:active { background: var(--accent2); }
+.btn-danger {
+  width: 100%; padding: 14px; background: var(--red); color: #fff;
+  border-radius: 10px; font-size: 15px; font-weight: 700; margin-top: 6px;
+}
+.btn-secondary {
+  width: 100%; padding: 14px; background: var(--surface2); border: 1px solid var(--border);
+  color: var(--text); border-radius: 10px; font-size: 15px; font-weight: 600; margin-top: 6px;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.65); z-index: 200;
+  display: none; align-items: flex-end; justify-content: center;
+}
+.modal-overlay.open { display: flex; }
+.modal {
+  background: var(--bg); border-radius: 16px 16px 0 0; width: 100%; max-width: 500px;
+  max-height: 90vh; overflow-y: auto; padding: 20px 16px calc(20px + var(--safe-bottom));
+}
+.modal-title {
+  font-family: var(--f-display); font-size: 18px; font-weight: 700;
+  margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;
+}
+.modal-close { font-size: 22px; color: var(--text2); padding: 4px; }
+
+/* Calculator */
+.calc-result {
+  background: var(--surface); border: 2px solid var(--accent);
+  border-radius: var(--radius); padding: 20px; text-align: center; margin: 16px 0;
+}
+.calc-result .big { font-family: var(--f-mono); font-size: 36px; font-weight: 700; color: var(--accent2); }
+.calc-result .unit { font-size: 14px; color: var(--text2); }
+.calc-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; }
+.calc-info-item { background: var(--surface2); border-radius: 8px; padding: 10px; text-align: center; }
+.calc-info-item .val { font-family: var(--f-mono); font-weight: 700; font-size: 14px; }
+.calc-info-item .lbl { font-size: 10px; color: var(--text2); text-transform: uppercase; letter-spacing: .04em; }
+
+/* Protocol */
+.proto-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px; margin-bottom: 10px;
+}
+.proto-header { display: flex; justify-content: space-between; align-items: start; margin-bottom: 8px; }
+.proto-name { font-family: var(--f-display); font-weight: 700; font-size: 16px; }
+.proto-badge { padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 600; }
+.proto-badge.active { background: rgba(52,211,153,.15); color: var(--green); }
+.proto-badge.planned { background: rgba(201,124,46,.15); color: var(--accent2); }
+.proto-badge.completed { background: rgba(154,163,159,.15); color: var(--text2); }
+.proto-peptides { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.proto-pep-tag { background: var(--surface2); border-radius: 6px; padding: 4px 10px; font-size: 12px; font-weight: 500; }
+.proto-detail-row { display: flex; justify-content: space-between; font-size: 13px; color: var(--text2); margin-top: 4px; }
+
+/* Cycle */
+.cycle-week { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.cycle-week:last-child { border-bottom: none; }
+.cycle-week-num {
+  width: 34px; height: 34px; border-radius: 50%; background: var(--surface2);
+  display: flex; align-items: center; justify-content: center;
+  font-family: var(--f-mono); font-size: 12px; font-weight: 700; flex-shrink: 0;
+}
+.cycle-week-dose { font-family: var(--f-mono); font-weight: 600; font-size: 14px; }
+.cycle-week-note { font-size: 12px; color: var(--text2); }
+
+/* Reference card */
+.ref-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 14px; margin-bottom: 10px;
+}
+.ref-card .ref-name { font-family: var(--f-display); font-weight: 700; font-size: 16px; }
+.ref-card .ref-type { font-size: 11px; color: var(--accent2); margin-top: 2px; }
+.ref-card .ref-desc { font-size: 13px; color: var(--text2); margin-top: 8px; line-height: 1.5; }
+.ref-card .ref-evidence {
+  margin-top: 8px; padding: 8px 10px; background: var(--surface2); border-radius: 8px;
+  font-size: 12px; line-height: 1.5;
+}
+.ref-card .ref-evidence .ev-label { font-weight: 700; color: var(--accent-ink); font-size: 10px; text-transform: uppercase; letter-spacing: .06em; }
+.ref-card .ref-link {
+  display: inline-block; margin-top: 10px; color: var(--accent2); font-size: 13px;
+  font-weight: 600; text-decoration: none;
+}
+
+/* Tabs */
+.tab-row { display: flex; gap: 4px; margin-bottom: 14px; overflow-x: auto; scrollbar-width: none; }
+.tab-row::-webkit-scrollbar { display: none; }
+.tab-btn {
+  padding: 8px 14px; border-radius: 8px; font-size: 12px; font-weight: 600;
+  white-space: nowrap; color: var(--text2); background: var(--surface2);
+  font-family: var(--f-body);
+}
+.tab-btn.active { background: var(--accent); color: #1B1F1E; }
+
+/* FAB */
+.fab {
+  position: fixed; bottom: calc(80px + var(--safe-bottom)); right: 16px;
+  width: 50px; height: 50px; border-radius: 50%; background: var(--accent);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; color: #1B1F1E; box-shadow: 0 4px 16px rgba(201,124,46,.35);
+  z-index: 50; font-weight: 700;
+}
+
+/* Toast */
+.toast {
+  position: fixed; top: 60px; left: 50%; transform: translateX(-50%);
+  background: var(--accent); color: #1B1F1E; padding: 10px 20px; border-radius: 10px;
+  font-size: 14px; font-weight: 600; z-index: 300; opacity: 0;
+  transition: opacity .3s; pointer-events: none;
+}
+.toast.show { opacity: 1; }
+
+.empty-state { text-align: center; padding: 40px 20px; color: var(--text2); }
+.empty-state .icon { font-size: 40px; margin-bottom: 12px; }
+.empty-state .msg { font-size: 14px; }
+
+/* Protocol template cards */
+.tmpl-card {
+  background: var(--surface2); border: 1px solid var(--border);
+  border-radius: 10px; padding: 12px; margin-bottom: 8px; cursor: pointer;
+}
+.tmpl-card:active { background: var(--border); }
+.tmpl-name { font-family: var(--f-display); font-weight: 700; font-size: 14px; }
+.tmpl-desc { font-size: 12px; color: var(--text2); margin-top: 4px; line-height: 1.4; }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <div class="header-logo">
+    <svg viewBox="0 0 24 12" xmlns="http://www.w3.org/2000/svg">
+      <line x1="4" y1="8" x2="12" y2="4" stroke="#C97C2E" stroke-width="1.3"/>
+      <line x1="12" y1="4" x2="20" y2="8" stroke="#C97C2E" stroke-width="1.3"/>
+      <circle cx="4" cy="8" r="2.1" fill="#C97C2E"/><circle cx="12" cy="4" r="2.1" fill="#C97C2E"/><circle cx="20" cy="8" r="2.1" fill="#C97C2E"/>
+    </svg>
+    <div class="brand-text">Coelho<br>Peptides</div>
+  </div>
+  <h1 id="pageTitle">Inventory</h1>
+  <div class="header-actions">
+    <button class="header-btn" onclick="exportData()" title="Export">&#8681;</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- ===== INVENTORY ===== -->
+<div class="page active" id="page-inventory">
+  <div class="summary-strip" id="summaryStrip"></div>
+  <div class="search-bar">
+    <input class="search-input" placeholder="Search peptides..." id="searchInput" oninput="renderInventory();renderConsumables()">
+    <button class="sort-btn" onclick="toggleSort()" id="sortBtn">A-Z</button>
+  </div>
+  <div id="inventoryList"></div>
+
+  <div style="margin-top:24px;display:flex;align-items:center;justify-content:space-between">
+    <div style="font-family:var(--f-display);font-size:16px;font-weight:700;color:var(--text)">Consumables</div>
+    <button onclick="openConsumableModal()" style="background:var(--surface);border:1px dashed var(--accent);border-radius:8px;padding:6px 14px;color:var(--accent2);font-weight:700;font-size:12px;font-family:var(--f-display);letter-spacing:.02em">+ Add</button>
+  </div>
+  <div id="consumablesList" style="margin-top:8px"></div>
+</div>
+
+<!-- ===== CALCULATOR ===== -->
+<div class="page" id="page-calc">
+  <div class="card" style="margin-bottom:16px">
+    <div class="form-group">
+      <label class="form-label">Peptide</label>
+      <select class="form-input" id="calcPeptide" onchange="onCalcPeptideSelect()">
+        <option value="">-- Select or enter manually --</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Peptide Amount (mg)</label>
+        <input class="form-input" type="number" id="calcMg" placeholder="e.g. 10" oninput="calcRecon()">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Desired Dose (mcg)</label>
+        <input class="form-input" type="number" id="calcDose" placeholder="e.g. 250" oninput="calcRecon()">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Solvent Volume (mL)</label>
+        <input class="form-input" type="number" id="calcSolvent" placeholder="e.g. 2" oninput="calcRecon()">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Solvent Type</label>
+        <select class="form-input" id="calcSolventType">
+          <option value="BAC">BAC Water</option>
+          <option value="Sterile">Sterile Water</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Syringe Size</label>
+      <select class="form-input" id="calcSyringe" onchange="calcRecon()">
+        <option value="100">100 unit (1mL)</option>
+        <option value="50">50 unit (0.5mL)</option>
+        <option value="30">30 unit (0.3mL)</option>
+      </select>
+    </div>
+  </div>
+  <div class="calc-result" id="calcResult" style="display:none">
+    <div class="big" id="calcUnits">--</div>
+    <div class="unit">units per dose</div>
+    <div class="calc-info-grid">
+      <div class="calc-info-item"><div class="val" id="calcMlPerDose">--</div><div class="lbl">mL / dose</div></div>
+      <div class="calc-info-item"><div class="val" id="calcDosesPerVial">--</div><div class="lbl">Doses / vial</div></div>
+      <div class="calc-info-item"><div class="val" id="calcConc">--</div><div class="lbl">mcg/mL</div></div>
+      <div class="calc-info-item"><div class="val" id="calcSolventInfo">--</div><div class="lbl">Solvent</div></div>
+    </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <div style="font-family:var(--f-display);font-size:14px;font-weight:700;margin-bottom:8px">Reconstitution Tips</div>
+    <div style="font-size:13px;color:var(--text2);line-height:1.7">
+      &bull; Aim solvent at the vial wall, not directly on powder<br>
+      &bull; Gently swirl — never shake<br>
+      &bull; <strong style="color:var(--text)">BAC water</strong>: multi-use, store refrigerated up to 28 days<br>
+      &bull; <strong style="color:var(--text)">Sterile water</strong>: single use, no preservative<br>
+      &bull; 1 mL = 100 units on a standard insulin syringe
+    </div>
+  </div>
+</div>
+
+<!-- ===== PROTOCOLS ===== -->
+<div class="page" id="page-protocols">
+  <div class="tab-row">
+    <button class="tab-btn active" onclick="setProtoTab('all',this)">All</button>
+    <button class="tab-btn" onclick="setProtoTab('active',this)">Active</button>
+    <button class="tab-btn" onclick="setProtoTab('planned',this)">Planned</button>
+    <button class="tab-btn" onclick="setProtoTab('templates',this)">Templates</button>
+  </div>
+  <button class="open-vial-btn" onclick="openVialModal()">&#128300; Open New Vial</button>
+  <div id="protocolList"></div>
+  <div id="templateList" style="display:none"></div>
+</div>
+
+<!-- ===== REFERENCE ===== -->
+<div class="page" id="page-reference">
+  <div class="search-bar">
+    <input class="search-input" placeholder="Search Peptidia database..." id="refSearchInput" oninput="renderReference()">
+  </div>
+  <div style="font-size:11px;color:var(--text2);margin-bottom:8px;line-height:1.5">
+    Comprehensive peptide database with mechanism, evidence, safety, regulatory status, half-lives, and storage data. Sources: <a href="https://peptidia.app" target="_blank" rel="noopener" style="color:var(--accent2);text-decoration:none;font-weight:600">Peptidia</a>, PubMed, FDA, WADA. Tap any entry for full details.
+  </div>
+  <div style="font-size:11px;padding:8px 10px;background:var(--surface2);border-radius:8px;margin-bottom:12px;color:var(--text2);line-height:1.4;border:1px solid var(--border)">
+    <strong style="color:var(--text)">&#10052;&#65039; Storage tip:</strong> Lyophilized powder: 2-8°C (months) or -20°C (18-24mo). Reconstituted w/ BAC water: ~28 days refrigerated. Sterile water: use within 24hr.
+  </div>
+  <div id="referenceList"></div>
+</div>
+
+<!-- ===== CYCLES ===== -->
+<div class="page" id="page-cycles">
+  <div id="cycleList"></div>
+</div>
+
+<!-- Bottom Nav -->
+<div class="bottom-nav">
+  <button class="nav-item active" onclick="switchPage('inventory',this)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+    Inventory
+  </button>
+  <button class="nav-item" onclick="switchPage('calc',this)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19.5 12c0 1.232-.046 2.453-.138 3.662a4.006 4.006 0 01-3.7 3.7 48.678 48.678 0 01-7.324 0 4.006 4.006 0 01-3.7-3.7c-.017-.22-.032-.441-.046-.662M19.5 12l-3-9m3 9h-4.5M4.5 12l3-9m-3 9h4.5m0 0V3m0 9h6m-6 0V3m6 0v9m0-9h-6"/></svg>
+    Recon
+  </button>
+  <button class="nav-item" onclick="switchPage('protocols',this)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+    Protocols
+  </button>
+  <button class="nav-item" onclick="switchPage('reference',this)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
+    Peptidia
+  </button>
+  <button class="nav-item" onclick="switchPage('cycles',this)">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+    Cycles
+  </button>
+</div>
+
+<button class="fab" id="fab" onclick="openAddModal()">+</button>
+
+<!-- ===== OPEN VIAL MODAL ===== -->
+<div class="modal-overlay" id="modalVial">
+  <div class="modal">
+    <div class="modal-title">
+      <span>Open New Vial</span>
+      <button class="modal-close" onclick="closeModal('modalVial')">&times;</button>
+    </div>
+    <div style="font-size:13px;color:var(--text2);margin-bottom:12px">Select a peptide to open a new vial. This will deduct 1 vial from your inventory.</div>
+    <div id="vialPeptideList"></div>
+  </div>
+</div>
+
+<!-- ===== ADD/EDIT CONSUMABLE MODAL ===== -->
+<div class="modal-overlay" id="modalConsumable">
+  <div class="modal">
+    <div class="modal-title">
+      <span id="modalConsTitle">Add Consumable</span>
+      <button class="modal-close" onclick="closeModal('modalConsumable')">&times;</button>
+    </div>
+    <input type="hidden" id="consEditId">
+    <div class="form-group">
+      <label class="form-label">Name</label>
+      <input class="form-input" id="consName" placeholder="e.g. Insulin Syringes 1mL">
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Quantity</label>
+        <input class="form-input" type="number" id="consCount" placeholder="e.g. 100">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Unit</label>
+        <select class="form-input" id="consUnit">
+          <option value="pcs">pcs</option>
+          <option value="box">box</option>
+          <option value="pack">pack</option>
+          <option value="roll">roll</option>
+          <option value="bottle">bottle</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Notes</label>
+      <input class="form-input" id="consNotes" placeholder="Optional notes">
+    </div>
+    <button class="btn-primary" id="consSaveBtn" onclick="saveConsumable()">Add Consumable</button>
+    <button class="btn-danger" id="consDeleteBtn" style="display:none" onclick="deleteConsumable()">Delete</button>
+  </div>
+</div>
+
+<!-- ===== ADD/EDIT PEPTIDE MODAL ===== -->
+<div class="modal-overlay" id="modalPeptide">
+  <div class="modal">
+    <div class="modal-title">
+      <span id="modalPepTitle">Add Peptide</span>
+      <button class="modal-close" onclick="closeModal('modalPeptide')">&times;</button>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Code / Name</label>
+      <input class="form-input" id="pepCode" placeholder="e.g. BPC-157">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Link to Peptidia Reference</label>
+      <select class="form-input" id="pepRefLink">
+        <option value="">-- None --</option>
+      </select>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">mg per Vial</label>
+        <input class="form-input" type="number" id="pepMg" placeholder="e.g. 5">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Vial Count</label>
+        <input class="form-input" type="number" id="pepCount" placeholder="e.g. 10">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Category</label>
+      <select class="form-input" id="pepCategory">
+        <option value="">-- None --</option>
+        <option value="Healing">Healing</option>
+        <option value="Growth">Growth</option>
+        <option value="Fat Loss">Fat Loss</option>
+        <option value="Tanning">Tanning</option>
+        <option value="Cognitive">Cognitive</option>
+        <option value="Sleep">Sleep</option>
+        <option value="Sexual Health">Sexual Health</option>
+        <option value="Anti-Aging">Anti-Aging</option>
+        <option value="Immune">Immune</option>
+        <option value="GLP-1">GLP-1</option>
+        <option value="GHRH">GHRH</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Notes</label>
+      <textarea class="form-input" id="pepNotes" rows="2" placeholder="Storage, expiry, batch..."></textarea>
+    </div>
+    <button class="btn-primary" id="pepSaveBtn" onclick="savePeptide()">Add to Inventory</button>
+    <button class="btn-danger" id="pepDeleteBtn" style="display:none" onclick="deletePeptide()">Delete</button>
+    <input type="hidden" id="pepEditId">
+  </div>
+</div>
+
+<!-- ===== ADD PROTOCOL MODAL ===== -->
+<div class="modal-overlay" id="modalProtocol">
+  <div class="modal">
+    <div class="modal-title">
+      <span id="modalProtoTitle">New Protocol</span>
+      <button class="modal-close" onclick="closeModal('modalProtocol')">&times;</button>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Protocol Name</label>
+      <input class="form-input" id="protoName" placeholder="e.g. Healing Stack">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Status</label>
+      <select class="form-input" id="protoStatus">
+        <option value="planned">Planned</option>
+        <option value="active">Active</option>
+        <option value="completed">Completed</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Peptides</label>
+      <div id="protoSelectPeps" style="max-height:140px;overflow-y:auto;background:var(--surface2);border-radius:10px;padding:8px;border:1px solid var(--border)"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Dose (mcg)</label>
+        <input class="form-input" type="number" id="protoDose" placeholder="250">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Frequency</label>
+        <select class="form-input" id="protoFreq">
+          <option value="Daily">Daily</option>
+          <option value="2x/day">2x/day</option>
+          <option value="EOD">Every Other Day</option>
+          <option value="2x/week">2x/week</option>
+          <option value="3x/week">3x/week</option>
+          <option value="Weekly">Weekly</option>
+          <option value="Bi-weekly">Bi-weekly</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Injection Site</label>
+        <select class="form-input" id="protoSite">
+          <option value="">-- Select --</option>
+          <option value="SubQ (belly)">SubQ (belly)</option>
+          <option value="SubQ (thigh)">SubQ (thigh)</option>
+          <option value="SubQ (arm)">SubQ (arm)</option>
+          <option value="IM (delt)">IM (delt)</option>
+          <option value="IM (glute)">IM (glute)</option>
+          <option value="IM (quad)">IM (quad)</option>
+          <option value="Oral">Oral</option>
+          <option value="Nasal">Nasal</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Time of Day</label>
+        <select class="form-input" id="protoTime">
+          <option value="Morning">Morning</option>
+          <option value="Pre-workout">Pre-workout</option>
+          <option value="Post-workout">Post-workout</option>
+          <option value="Evening">Evening</option>
+          <option value="Before bed">Before bed</option>
+          <option value="Flexible">Flexible</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Notes</label>
+      <textarea class="form-input" id="protoNotes" rows="2" placeholder="Special instructions..."></textarea>
+    </div>
+    <button class="btn-primary" id="protoSaveBtn" onclick="saveProtocol()">Save Protocol</button>
+    <button class="btn-danger" id="protoDeleteBtn" style="display:none" onclick="deleteProtocol()">Delete Protocol</button>
+    <input type="hidden" id="protoEditId">
+  </div>
+</div>
+
+<!-- ===== ADD CYCLE MODAL ===== -->
+<div class="modal-overlay" id="modalCycle">
+  <div class="modal">
+    <div class="modal-title">
+      <span id="modalCycleTitle">New Cycle Plan</span>
+      <button class="modal-close" onclick="closeModal('modalCycle')">&times;</button>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Cycle Name</label>
+      <input class="form-input" id="cycleName" placeholder="e.g. 12-Week Healing">
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Start Date</label>
+        <input class="form-input" type="date" id="cycleStart">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Duration (weeks)</label>
+        <input class="form-input" type="number" id="cycleWeeks" placeholder="8" value="8">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Peptides in Cycle</label>
+      <div id="cycleSelectPeps" style="max-height:120px;overflow-y:auto;background:var(--surface2);border-radius:10px;padding:8px;border:1px solid var(--border)"></div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Start Dose (mcg)</label>
+        <input class="form-input" type="number" id="cycleStartDose" placeholder="100">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Target Dose (mcg)</label>
+        <input class="form-input" type="number" id="cycleTargetDose" placeholder="500">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Ramp Strategy</label>
+        <select class="form-input" id="cycleRamp">
+          <option value="linear">Linear</option>
+          <option value="step">Step (every 2wk)</option>
+          <option value="flat">Flat</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Frequency</label>
+        <select class="form-input" id="cycleFreq">
+          <option value="Daily">Daily</option>
+          <option value="EOD">EOD</option>
+          <option value="3x/week">3x/week</option>
+          <option value="2x/week">2x/week</option>
+          <option value="Weekly">Weekly</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Notes</label>
+      <textarea class="form-input" id="cycleNotes" rows="2" placeholder="Goals, stacking..."></textarea>
+    </div>
+    <button class="btn-primary" id="cycleSaveBtn" onclick="saveCycle()">Create Cycle</button>
+    <button class="btn-danger" id="cycleDeleteBtn" style="display:none" onclick="deleteCycle()">Delete Cycle</button>
+    <input type="hidden" id="cycleEditId">
+  </div>
+</div>
+
+<!-- ===== REFERENCE DETAIL MODAL ===== -->
+<div class="modal-overlay" id="modalRefDetail">
+  <div class="modal">
+    <div class="modal-title">
+      <span id="refDetailTitle">Peptide Details</span>
+      <button class="modal-close" onclick="closeModal('modalRefDetail')">&times;</button>
+    </div>
+    <div id="refDetailContent"></div>
+  </div>
+</div>
+
+<script>
+// ===== PEPTIDIA REFERENCE DATABASE =====
+const PEPTIDIA = [
+  { id:'bpc157', name:'BPC-157', aka:'BPC 157, Body Protection Compound 157', type:'Synthetic peptide (15 aa)', category:'Healing',
+    halfLife:'~4 hours', storage:'Reconstituted: ~45-60 days refrigerated (BAC water)',
+    mechanism:'Proposed tissue-repair pathways involving angiogenesis, nitric oxide modulation, and collagen formation. In rats, it sped healing of colon/skin defects and closed fistulas. Most studies come from one research group at the University of Zagreb; independent replication is limited.',
+    evidence:'Preclinical. A 2026 systematic review found only 3 small uncontrolled human studies (30 people total). All lacked control groups; certainty rated very low. No peer-reviewed RCT in people. A phase 2 hamstring trial (NCT07437547) is recruiting.',
+    safety:'Human safety not established. FDA flags immune reaction risks and impurity concerns for compounded products. Absorption, clearance, and oral bioavailability unmeasured in humans.',
+    fda:'Not approved. Bulk substance nominated for compounding — withdrawn.',
+    canada:'Not approved. No product in Drug Product Database.',
+    wada:'Prohibited at all times under S0 (non-approved substances).',
+    url:'https://peptidia.app/research/peptides/bpc-157' },
+  { id:'tb500', name:'TB-500', aka:'TB500, Thymosin Beta-4 Fragment (LKKTETQ)', type:'Fragment of thymosin beta-4', category:'Healing',
+    halfLife:'~2-3 hours', storage:'Reconstituted: ~30 days refrigerated (BAC water)',
+    mechanism:'Short fragment of thymosin beta-4, a naturally occurring repair molecule released by platelets at injury sites. Full-length molecule promotes cell migration, stem cell mobilization, and limits inflammation. Effects are largely extrapolated to TB-500 without direct evidence for the fragment.',
+    evidence:'No controlled human trial of TB-500 published. FDA reports no human exposure data. Cited human trials used full-length thymosin beta-4 (phase 2 dry eye in 9 people; phase 2 ulcer trials; phase 1 safety). No human trials on tendon/muscle/joint repair.',
+    safety:'Not established. FDA flags immune reactions (aggregation) and impurity concerns. Theoretical concern that pro-repair activity could support tumor growth (not demonstrated).',
+    fda:'Not approved. Bulk substance — withdrawn nominations.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2 (thymosin beta-4 derivatives).',
+    url:'https://peptidia.app/research/peptides/tb-500' },
+  { id:'ghkcu', name:'GHK-Cu', aka:'GHK Cu, Copper Peptide, Copper Tripeptide-1', type:'Copper-bound tripeptide', category:'Anti-Aging',
+    halfLife:'~1-2 hours', storage:'Reconstituted: ~45 days refrigerated (avoid reducing agents)',
+    mechanism:'Naturally occurring tripeptide (Gly-His-Lys) that binds copper. In cell/animal studies linked to collagen and elastin production, extracellular matrix turnover, anti-inflammatory signaling. Tissue levels reported to decline with age.',
+    evidence:'Topical: small, short cosmetic studies with commercial ties. A 2025 review found insufficient data on skin permeability and effectiveness. Injected: no human efficacy or safety data. Hair, wound healing, cognition, anti-cancer claims remain preclinical.',
+    safety:'FDA flags immune reactions and impurities for injectable compounded products. Cumulative copper exposure is a consideration with systemic or long-term use.',
+    fda:'Not approved. Compounding nominations withdrawn (previously category 2).',
+    canada:'No authorized product.',
+    wada:'Not named on Prohibited List. S0 may cover unnamed substances.',
+    url:'https://peptidia.app/research/peptides/ghk-cu' },
+  { id:'kpv', name:'KPV', aka:'Lys-Pro-Val, alpha-MSH (11-13)', type:'Tripeptide from alpha-MSH', category:'Healing',
+    halfLife:'~30 minutes',
+    mechanism:'C-terminal fragment of alpha-melanocyte-stimulating hormone. In mouse colitis models, reduced intestinal inflammation partly independent of melanocortin-1 receptor. In human cell lines, entered cells via PepT1 transporter, inhibited NF-kB and MAP kinase signaling.',
+    evidence:'Zero human studies. All evidence from cell and mouse models. Two of three key papers share a senior author — limited independent replication. Benefits in IBD, skin, or other conditions not established.',
+    safety:'Human safety unknown. FDA says it lacks important safety information including whether KPV would cause harm in people. No adverse event data exist.',
+    fda:'Not approved. Bulk substance — withdrawn nominations.',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app/research/peptides/kpv' },
+  { id:'ta1', name:'Thymosin Alpha-1', aka:'Thymalfasin, Zadaxin', type:'Immune-signaling peptide', category:'Immune',
+    halfLife:'~2 hours',
+    mechanism:'First isolated from thymus tissue. Proposed to act through Toll-like receptors on dendritic cells, affecting immune-cell activity and cytokine production. Different molecule from thymosin beta-4 and TB-500.',
+    evidence:'Sepsis: TESTS phase 3 trial (1,106 adults) showed no clear mortality reduction vs placebo. Hepatitis B: 2026 Cochrane review (10 RCTs, 1,349 patients) rated certainty low to very low. No trials address general wellness.',
+    safety:'TESTS trial showed no safety difference vs placebo. Cochrane review rated safety evidence low to very low certainty. FDA flags immune reactions and impurities for compounded products.',
+    fda:'Not approved. Bulk substance — withdrawn nominations.',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply. (Thymosin beta-4/TB-500 are under S2 separately.)',
+    url:'https://peptidia.app/research/peptides/thymosin-alpha-1' },
+  { id:'reta', name:'Retatrutide', aka:'LY3437943, Reta', type:'Investigational triple agonist (GLP-1/GIP/glucagon)', category:'GLP-1',
+    halfLife:'~6 days (144 hours)',
+    mechanism:'Activates three receptors: GLP-1 and GIP for appetite reduction and glucose control, glucagon for proposed increased energy expenditure and liver fat burning. Developed by Eli Lilly.',
+    evidence:'TRIUMPH-1 (phase 3, 2,339 adults): ~24-25% weight loss vs ~4% placebo over 80 weeks. TRIUMPH-2 (phase 3, 1,152 adults with T2D): significant weight loss and glycemic improvement. Phase 2a substudy showed liver fat reduction. All Lilly-funded. No head-to-head vs tirzepatide or semaglutide results yet.',
+    safety:'GI events (nausea, vomiting, diarrhea) mainly during dose escalation. Heart rate rise peaking at 24 weeks. Hypotension and dysesthesia in TRIUMPH-2. Safety beyond 80 weeks unknown. CV/kidney outcome trials ongoing.',
+    fda:'Not approved. Cannot be compounded under federal law. FDA has warned sellers.',
+    canada:'No authorized product.',
+    wada:'Falls under S0 (non-approved substances in clinical development).',
+    url:'https://peptidia.app/research/peptides/retatrutide' },
+  { id:'sema', name:'Semaglutide', aka:'Ozempic, Wegovy, Rybelsus', type:'GLP-1 receptor agonist', category:'GLP-1',
+    halfLife:'~7 days (165 hours)', storage:'Reconstituted: ~28 days refrigerated (follow pen guidance)',
+    mechanism:'GLP-1 receptor agonism — reduces appetite, improves glucose regulation. Binds GLP-1 receptors in brain, pancreas, and gut.',
+    evidence:'Large randomized trials support approved uses. Well-established efficacy for T2D (Ozempic) and weight management (Wegovy). Oral form available (Rybelsus).',
+    safety:'Boxed warning: thyroid C-cell tumors in rats (unknown if occurs in humans). Contraindicated with personal/family history of medullary thyroid carcinoma or MEN2. Common: nausea, diarrhea, vomiting, constipation.',
+    fda:'FDA-approved: Ozempic and Rybelsus (T2D), Wegovy (weight management).',
+    canada:'Authorized (Mounjaro and Ozempic).',
+    wada:'Not prohibited. On WADA Monitoring Program since 2026.',
+    url:'https://peptidia.app/research/peptides/semaglutide' },
+  { id:'tirz', name:'Tirzepatide', aka:'Mounjaro, Zepbound, LY3298176', type:'Dual GIP/GLP-1 agonist', category:'GLP-1',
+    halfLife:'~5 days (120 hours)', storage:'Reconstituted: ~28 days refrigerated',
+    mechanism:'Built on GIP sequence, engineered to also act at GLP-1 receptor. In vitro binds GIP receptor like natural GIP but GLP-1 receptor ~5x weaker than natural GLP-1. How much GIP component contributes in people is unsettled.',
+    evidence:'SURMOUNT-1: large weight loss vs placebo. SURPASS-2: head-to-head favored tirzepatide over semaglutide for glycemic control. SURMOUNT-5: open-label, more weight/waist reduction vs semaglutide. Sleep apnea trials positive. CV outcomes: non-inferior to dulaglutide. All Lilly-funded.',
+    safety:'Boxed warning: thyroid C-cell tumors in rats. Common: nausea, diarrhea, decreased appetite, vomiting. Warnings: pancreatitis, gallbladder disease, kidney injury, hypoglycemia risk with insulin.',
+    fda:'FDA-approved: Mounjaro (T2D + CV risk), Zepbound (weight + sleep apnea).',
+    canada:'Authorized (Mounjaro and Zepbound).',
+    wada:'Not prohibited. On Monitoring Program since 2026.',
+    url:'https://peptidia.app/research/peptides/tirzepatide' },
+  { id:'motsc', name:'MOTS-c', aka:'MOTSc, Mitochondrial-Derived Peptide 1', type:'Mitochondrial-derived peptide (16 aa)', category:'Anti-Aging',
+    halfLife:'~1-2 hours',
+    mechanism:'Encoded in mitochondrial 12S rRNA gene. In mouse/cell studies, inhibits folate cycle and purine synthesis, activating AMPK in skeletal muscle. Later work links it to lower myostatin. Sometimes marketed as "exercise mimetic" — label based only on animal studies.',
+    evidence:'Mice: prevented insulin resistance and obesity, improved physical capacity. Humans: observational only — exercise raises MOTS-c levels. No published controlled trial has given MOTS-c to people. Main studies share authors from one USC group with CohBar ties.',
+    safety:'Not established. No controlled human safety study. FDA cited immune reactions, impurities, no human exposure data. Cancer, heart, pregnancy risks cannot be assessed.',
+    fda:'Not approved. Compounding nominations withdrawn (previously category 2).',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S4.4.1 (AMPK activators).',
+    url:'https://peptidia.app/research/peptides/mots-c' },
+  { id:'nad', name:'NAD+', aka:'NAD, Nadide, Coenzyme I', type:'Coenzyme (not a peptide)', category:'Anti-Aging',
+    halfLife:'Variable (oral NR raises levels over hours; IV immediate)',
+    mechanism:'Cellular coenzyme in every cell. Carries electrons in energy metabolism, substrate for sirtuins, PARP, CD38. Levels decline with age. Two forms marketed: direct NAD+ (often infused) and oral precursors NR/NMN.',
+    evidence:'Oral NR reliably raises blood NAD. A 2023 critical review of 25 NR studies found "few clinically relevant effects." An RCT in healthy adults found NR well tolerated, increased NAD metabolism, but did not establish BP, arterial, or health benefits. Infused NAD+ not tested in reviewed trials.',
+    safety:'Oral NR well tolerated short-term. Infused/injected NAD+ safety not characterized in controlled trials. Long-term safety not established. Products outside approved channels have no regulatory check.',
+    fda:'Not approved as a drug.',
+    canada:'No authorized drug product.',
+    wada:'Not named. Method M2.2 prohibits IV infusions above set volumes outside hospital care.',
+    url:'https://peptidia.app/research/peptides/nad-plus' },
+  { id:'aod9604', name:'AOD-9604', aka:'AOD9604, hGH 176-191, HGH Fragment 176-191', type:'HGH fragment (residues 177-191 + tyrosine)', category:'Fat Loss',
+    halfLife:'~30 minutes',
+    mechanism:'Synthetic fragment from C-terminal region of growth hormone. In obese rodents, proposed to increase fat breakdown without affecting glucose/insulin via beta-3 adrenergic pathway. Preclinical hypothesis unconfirmed in human fat tissue.',
+    evidence:'12-week human trial (~300 adults): only a meeting abstract, FDA judged differences small. 24-week OPTIONS trial (536 enrolled): missed primary weight-loss endpoint. Developer ended obesity program Feb 2007. Cartilage/joint claims rest mainly on one rabbit study. No adequate human trials for any claim.',
+    safety:'Sponsor pooled review (~900 adults): no effect on IGF-1 or glucose, no serious AEs. But FDA found limited safety data, possible immune reactions and impurities, and SAEs possibly associated with peptide.',
+    fda:'Not approved. Obesity program ended 2007. Compounding nominations withdrawn.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.3 (GH fragments).',
+    url:'https://peptidia.app/research/peptides/aod-9604' },
+  { id:'cjc1295', name:'CJC-1295 (with DAC)', aka:'CJC-1295 DAC, DAC:GRF', type:'Long-acting GHRH analog (29 aa + DAC)', category:'GHRH',
+    halfLife:'~6-8 days', storage:'Reconstituted: ~30 days refrigerated (BAC water)',
+    mechanism:'Activates pituitary GHRH receptors, signals through cAMP, triggers growth hormone release. DAC group binds albumin to extend activity. GH then raises IGF-1. FDA treats DAC and no-DAC forms as distinct substances.',
+    evidence:'Two RCTs in healthy adults showed prolonged GH/IGF-1 increases (hormone endpoints only). All from one development program. No disease studies, no muscle/strength/fat/recovery/aging outcomes tested. An unpublished phase 2 HIV lipodystrophy trial had one death (heart attack); developer withdrew from trials in 2006.',
+    safety:'Common: injection site reactions. Also: vasodilatory reactions, headache, nausea, low BP, increased heart rate. FDA lists increased HR and vasodilatory reaction as serious AEs. Animal studies: bleeding, inflammation, tissue death at dosing site; genetic damage signals. No animal cancer studies.',
+    fda:'Not approved. 2024 FDA evaluation proposed against adding to 503A bulks. Nominations withdrawn.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.4 (GHRH analogues).',
+    url:'https://peptidia.app/research/peptides/cjc-1295-dac' },
+  { id:'serm', name:'Sermorelin', aka:'Geref, GRF(1-29)NH2, GHRH(1-29)', type:'Synthetic GHRH (1-29)', category:'GHRH',
+    halfLife:'~11-20 minutes', storage:'Reconstituted: ~14 days refrigerated',
+    mechanism:'Copies the first 29 amino acids of human GHRH — shortest fragment with full receptor activity. Binds pituitary GHRH receptors, raises cAMP, prompts release of stored GH. Action depends on a working hypothalamic-pituitary axis. Activity in blood lasts only minutes.',
+    evidence:'Old, small, mostly diagnostic studies. A 1986 study tested pituitary response in children (diagnostic, not therapeutic). A 2006 editorial (opinion, not trial) proposed it for adult GH insufficiency. No modern RCTs for muscle, strength, sleep, weight loss, or aging.',
+    safety:'No modern safety trial cited. 1986 study called diagnostic test safe (says little about repeated use). Long-term effects on glucose and tissue growth unstudied.',
+    fda:'Approved as Geref (1990) — now discontinued. Not withdrawn for safety. No current product.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.4 (GHRH analogues).',
+    url:'https://peptidia.app/research/peptides/sermorelin' },
+  { id:'tesa', name:'Tesamorelin', aka:'Egrifta, EGRIFTA WR/SV, TH9507', type:'GHRH analog (44 aa + hexenoyl)', category:'GHRH',
+    halfLife:'~26 minutes',
+    mechanism:'Does not supply GH directly. Binds pituitary GHRH receptors, prompting pulsed GH release and raising IGF-1. Fat-releasing effects proposed basis for visceral/liver fat reduction seen in trials.',
+    evidence:'Two phase 3 RCTs in adults with HIV and excess abdominal fat: visceral fat fell vs placebo, triglycerides decreased, benefits held 52 weeks. A smaller trial (61 people) showed liver fat reduction. Rebound: fat rose within 26 weeks of stopping. Nearly all data from HIV population.',
+    safety:'Contraindicated: disrupted hypothalamic-pituitary axis, active malignancy, pregnancy. Warnings: neoplasm risk, elevated IGF-1, fluid retention, joint pain, glucose intolerance, hypersensitivity. Common: joint pain, injection-site reactions, limb/muscle pain.',
+    fda:'FDA-approved: EGRIFTA WR for HIV lipodystrophy abdominal fat. Not indicated for weight loss.',
+    canada:'Both Egrifta products cancelled (2022-2023). No current marketed product.',
+    wada:'Prohibited at all times under S2.2.4 (GHRH analogues).',
+    url:'https://peptidia.app/research/peptides/tesamorelin' },
+  { id:'mk677', name:'MK-677 (Ibutamoren)', aka:'Ibutamoren mesylate, MK-0677, L-163,191', type:'Oral ghrelin receptor agonist (small molecule, not a peptide)', category:'Growth',
+    halfLife:'~5-6 hours (oral)',
+    mechanism:'Activates the ghrelin receptor (GHS-R1a) in hypothalamus and pituitary, promoting pulsed GH release and raising IGF-1. Receptor also influences appetite, energy balance, and glucose. Effects broader than GH alone.',
+    evidence:'Alzheimer RCT (12 months): IGF-1 rose but no clinical difference from placebo. Hip fracture phase IIb RCT: IGF-1 and gait speed improved, most other measures did not; trial stopped early over congestive heart failure signal. 2018 review: few long-term rigorous studies. No benefit shown for strength, healing, cognition, or longevity.',
+    safety:'Increased appetite, fluid retention, muscle pain, impaired glucose handling. Serious: CHF signal in hip fracture trial. 2025 case report of raised liver enzymes. Long-term safety (cancer, mortality) unknown.',
+    fda:'Not approved. FDA excludes from supplement definition. Two warning letters Dec 2025. Category 2 (possible significant safety risks) for compounding.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.4 (GH secretagogues).',
+    url:'https://peptidia.app/research/peptides/mk-677' },
+  { id:'igf1lr3', name:'IGF-1 LR3', aka:'Long R3 IGF-1, LongR3-IGF-I', type:'Modified insulin-like growth factor', category:'Growth',
+    halfLife:'~20-30 hours (vs ~15 min for native IGF-1)',
+    mechanism:'Synthetic IGF-1 analog with extension and substitution at position 3. Greatly reduced binding to IGF binding proteins, leaving more free to act on tissues. In rats, analogs more potent at stimulating growth. Different from mecasermin (INCRELEX, approved recombinant IGF-1).',
+    evidence:'All preclinical/laboratory. No human efficacy or safety trial. Guinea pigs: organ weight increases without overall growth. Pigs: reduced growth in older animals, increased in newborns. Only human-sample work is an anti-doping detection method.',
+    safety:'Not established. No human safety study. Animal findings (organ changes, low glucose, suppressed natural IGF) raise safety questions. No regulatory check on identity/purity of products.',
+    fda:'Not approved.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.3 (IGF-1 and analogues).',
+    url:'https://peptidia.app/research/peptides/igf-1-lr3' },
+  { id:'ipam', name:'Ipamorelin', aka:'Ipamorelin acetate, NNC 26-0161', type:'Synthetic GHRP (ghrelin receptor agonist)', category:'GHRH',
+    halfLife:'~2 hours', storage:'Reconstituted: ~30 days refrigerated (BAC water)',
+    mechanism:'Activates ghrelin receptor selectively to stimulate pituitary GH release. Early animal studies reported more selective hormone release than earlier secretagogues, but selectivity evidence mostly preclinical.',
+    evidence:'Strongest human trial: multicenter double-blind RCT of 117 adults after bowel resection — no significant difference on primary endpoint (time to tolerated solid meal). Positive rodent GI findings did not translate. No adequate trials for muscle, fat loss, sleep, recovery, or aging.',
+    safety:'Human safety not established. Trial authors said well tolerated. FDA cites published study reporting serious AEs including death after IV use for gastric motility. FDA flags immunogenicity and impurity concerns.',
+    fda:'Not approved. Category 2 (possible significant safety risks) under 503B policy. Also nominated but withdrawn.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.4 (GH secretagogues). Named explicitly.',
+    url:'https://peptidia.app/research/peptides/ipamorelin' },
+  { id:'epit', name:'Epitalon', aka:'Epithalon, Epitalone, AEDG peptide (Ala-Glu-Asp-Gly)', type:'Synthetic tetrapeptide', category:'Anti-Aging',
+    halfLife:'~20-30 minutes',
+    mechanism:'Inspired by Epithalamin (pineal gland extract) but a different substance. In cultured human cells, reported to increase telomerase (hTERT) activity and lengthen telomeres. An independent 2025 study partly reproduced this. Melatonin, circadian, and antioxidant effects conflict across studies.',
+    evidence:'Limited to small, mostly open-label, short, single-center studies from one St. Petersburg group. One study (75 women) showed melatonin metabolite changes (biomarkers, not outcomes). No randomized blinded efficacy trial. Widely cited mortality claim is from Epithalamin, not Epitalon.',
+    safety:'Long-term human safety, genotoxicity, carcinogenicity not characterized. 2025 cell study: cancer cells lengthened telomeres via ALT pathway (potential concern). FDA flags immunogenicity and no safety info for proposed routes.',
+    fda:'Not approved. Compounding nominations withdrawn.',
+    canada:'No authorized product. Named in April 2026 advisory among seized unauthorized peptides.',
+    wada:'Not named on Prohibited List. S0 may apply.',
+    url:'https://peptidia.app/research/peptides/epitalon' },
+  { id:'semax', name:'Semax', aka:'TP-1, MEHFPGP, ACTH(4-10) analog', type:'Synthetic heptapeptide (ACTH fragment)', category:'Cognitive',
+    halfLife:'~5-20 minutes (longer intranasal)',
+    mechanism:'Based on ACTH fragment. In rats, raised hippocampal BDNF and trkB activation. After experimental brain ischemia in rats, increased neurotrophins. Also raises serotonin metabolite in striatum and enhances dopamine release. These are rodent findings.',
+    evidence:'One 2018 Russian study of 110 ischemic stroke patients: Semax subgroups had higher blood BDNF and better Barthel scores, but no described randomization or blinding. A 52-person brain imaging study found acute amygdala connectivity changes (not a clinical outcome). No studies tested cognition in healthy people.',
+    safety:'Limited. Stroke study small and short, not designed to detect rare/long-term harms. Drug interactions unstudied. FDA flags immunogenicity risk and says safety info for proposed routes is absent/limited.',
+    fda:'Not approved. Compounding nominations withdrawn (previously category 2).',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app/research/peptides/semax' },
+  { id:'ss31', name:'SS-31 (Elamipretide)', aka:'MTP-131, Bendavia, FORZINITY', type:'Mitochondria-targeted peptide', category:'Anti-Aging',
+    halfLife:'~4 hours',
+    mechanism:'Concentrates at inner mitochondrial membrane and binds cardiolipin. Proposed to stabilize membrane structure, reduce electron leak, support energy production under mitochondrial stress. Lab effects on ROS, cristae structure, and mitochondrial QC do not establish benefit in healthy people.',
+    evidence:'MMPOWER-3 (phase III, 218 adults with mitochondrial myopathy): no improvement over placebo in 6-min walk or fatigue. Barth syndrome crossover trial (12 patients): missed primary endpoints; gains only in uncontrolled open-label extension. Leber optic neuropathy phase II (12 people): missed primary endpoint. No aging/energy trials in healthy people.',
+    safety:'FORZINITY label: injection-site reactions most common. Warnings: serious hypersensitivity (can start minutes to months after), benzyl alcohol toxicity in newborns. Contraindicated with known hypersensitivity.',
+    fda:'Accelerated approval: FORZINITY for Barth syndrome muscle strength. Confirmatory trial may be required. Not approved for other uses.',
+    canada:'No authorized product. Named in April 2026 advisory among seized unauthorized peptides.',
+    wada:'Not named on Prohibited List.',
+    url:'https://peptidia.app/research/peptides/ss-31' },
+  { id:'pt141', name:'PT-141 (Bremelanotide)', aka:'Bremelanotide, VYLEESI', type:'Melanocortin receptor agonist', category:'Sexual Health',
+    halfLife:'~2 hours', storage:'Reconstituted: ~30 days refrigerated (BAC water)',
+    mechanism:'Nonselective melanocortin receptor agonist. MC4R in brain areas linked to desire/arousal, MC1R on pigment cells causes skin darkening. Mechanism for improving HSDD "unknown" per label. Not a PDE5 inhibitor like sildenafil.',
+    evidence:'RECONNECT (two phase 3 RCTs, 1,267 premenopausal women with HSDD, 24 weeks): modest but statistically significant gains in desire and reduced distress vs placebo. 52-week open-label extension: no new safety signals. Men: small early-phase studies showed erectile responses; few controlled trials.',
+    safety:'Most common: nausea, flushing, injection-site reactions, headache. Warnings: temporary BP rise and HR drop after each use; focal skin darkening (face, gums, breasts) that may not resolve. Contraindicated: uncontrolled HTN or known CVD.',
+    fda:'FDA-approved: VYLEESI for premenopausal HSDD only. Not indicated for men or performance.',
+    canada:'No authorized product.',
+    wada:'Not named. Not falling under S0 since it has government approval.',
+    url:'https://peptidia.app/research/peptides/pt-141' },
+  { id:'mt2', name:'Melanotan II', aka:'Melanotan 2, MT-II, MT2', type:'Nonselective melanocortin agonist (cyclic)', category:'Tanning',
+    halfLife:'~33 hours',
+    mechanism:'Synthetic cyclic analog of alpha-MSH. Activates MC1 receptors on melanocytes to increase melanin (tanning). MC3/MC4 activity may affect appetite, arousal, autonomic function. Non-selective: desired effects cannot be separated from other receptor effects. Different from afamelanotide (SCENESSE) and bremelanotide (VYLEESI).',
+    evidence:'One 2000 double-blind crossover study in 20 men with ED: most had erections without stimulation, increased desire vs placebo. Frequent nausea. Studies are small and old. No modern approval-quality trials.',
+    safety:'2017 review: changes in moles, new (sometimes dysplastic) moles, 4 case reports of melanoma. FDA case reports: melanoma, posterior reversible encephalopathy syndrome, sympathomimetic toxidrome, priapism. A tan from MT-II does NOT establish UV protection.',
+    fda:'Not approved. Compounding nominations withdrawn (previously category 2). FDA flags immunogenicity.',
+    canada:'Unauthorized. Named in April 2026 advisory among seized peptides.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app/research/peptides/melanotan-ii' },
+  { id:'selank', name:'Selank', aka:'Selanc, TP-7, N-acetyl-Selank', type:'Synthetic tuftsin-derived heptapeptide', category:'Cognitive',
+    halfLife:'~4-6 minutes (IV); longer intranasal',
+    mechanism:'Derived from tuftsin (immune peptide). Proposed: indirect GABA signaling interaction, monoamine metabolism changes, neurotrophic signaling, enkephalin biology, immune pathways. Cell study: no direct effect alone on GABAergic genes, but modulation when GABA present. These are hypotheses.',
+    evidence:'Anxiety study (62 patients): 30 Selank vs 32 medazepam, similar anxiety effects, antiasthenic benefit. No placebo group. A 52-person brain imaging study found acute amygdala connectivity changes (not clinical outcome). No large independent placebo-controlled trials.',
+    safety:'Low acute toxicity reported but data limited. Long-term safety not established. Interactions with sedatives, GABA drugs, serotonergic drugs, opioids unstudied. Dependence/withdrawal not tested. FDA flags immunogenicity.',
+    fda:'Not approved. Never reviewed for safety/efficacy. Compounding nominations withdrawn (previously category 2).',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app/research/peptides/selank' },
+  { id:'ll37', name:'LL-37', aka:'Cathelicidin, hCAP18', type:'Human antimicrobial peptide (37 aa)', category:'Immune',
+    halfLife:'Unknown (not characterized in pharmacokinetic studies)',
+    mechanism:'The only cathelicidin humans produce, cleaved from hCAP18 precursor. Cationic and amphipathic — inserts into bacterial membranes forming pores. Neutralizes LPS (endotoxin). Activates FPRL1 receptor driving angiogenesis. Raises VEGF in keratinocytes. Recruits neutrophils and promotes NET formation. Can be pro- or anti-inflammatory depending on tissue context.',
+    evidence:'One small RCT (2023): topical LL-37 cream in 25 diabetic foot ulcer patients — LL-37 group reached full granulation by day 14 vs day 28 for placebo. Single-center, small. Animal: improved vessel formation in rabbit ischemia model. In vitro: membrane disruption, LPS neutralization, VEGF induction confirmed. No broad human antimicrobial trials.',
+    safety:'Linked to psoriasis autoimmunity (overexpression triggers autoantigen activity). Context-dependent cancer effects: may promote ovarian/lung/breast cancer growth but suppress colon/gastric cancer in preclinical models. No formal adverse event profile exists.',
+    fda:'Not approved. Research use only. Topical formulation tested only in small investigational trials.',
+    canada:'No authorized product.',
+    wada:'Not named on Prohibited List.',
+    url:'https://peptidia.app' },
+  { id:'dihexa', name:'Dihexa', aka:'N-hexanoic-Tyr-Ile-(6) aminohexanoic amide', type:'Angiotensin IV-derived hexapeptide', category:'Cognitive',
+    halfLife:'Unknown (not characterized)',
+    mechanism:'Proposed to enhance hepatocyte growth factor (HGF) / c-Met receptor pathway, promoting synaptogenesis (new nerve connections). Designed to be orally bioavailable and cross the blood-brain barrier. Note: the primary paper describing this mechanism was retracted, weakening even the preclinical rationale.',
+    evidence:'No human trials. Animal studies (rats) showed improved performance in maze-based memory tests. Remaining supporting data from cell and rodent experiments only. Evidence rated "Low" across review sites. Primary mechanism paper retracted.',
+    safety:'No human safety data exist. Unknown risk profile. No adverse event reporting.',
+    fda:'Not approved. Not on FDA compounding lists. Not reviewed at 2026 FDA compounding advisory meetings.',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app' },
+  { id:'amino1mq', name:'5-Amino-1MQ', aka:'5-amino-1-methylquinolinium', type:'Small molecule NNMT inhibitor (not a peptide)', category:'Fat Loss',
+    halfLife:'Unknown (not characterized in humans)',
+    mechanism:'Inhibits NNMT (nicotinamide N-methyltransferase), an enzyme overactive in fat tissue of obese individuals. Blocking NNMT is proposed to raise cellular NAD+ and shift adipocytes toward fat burning rather than storage. Oral small molecule, not actually a peptide.',
+    evidence:'Mouse studies: NNMT inhibitor reduced body weight and fat mass, produced smaller fat cells, lowered cholesterol — without reduced food intake (2018 study). A 2024 review confirmed animal metabolic improvements. No published human clinical trials showing safety or weight loss in people.',
+    safety:'Human safety unknown. No clinical safety data. Absence of side effects in mouse studies does not equal proven human safety. Products sold online are unregulated with unknown purity.',
+    fda:'Not approved. Not an approved medicine.',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app' },
+  { id:'kiss10', name:'Kisspeptin-10', aka:'KP-10, Metastin (45-54)', type:'Reproductive neuropeptide (10 aa fragment)', category:'Sexual Health',
+    halfLife:'~4 minutes (IV, estimated from kisspeptin-54 data)',
+    mechanism:'Fragment of kisspeptin, a master switch for the reproductive axis. Acts on KISS1R receptors on GnRH neurons, stimulating GnRH release, which drives LH and FSH from the pituitary. Downstream: testosterone and estrogen production. Emerging research on brain areas involved in sexual/emotional processing.',
+    evidence:'One small uncontrolled human study (George 2013): 5 men with T2D and low testosterone received IV kisspeptin-10 — LH rose from 3.9 to 20.7 IU/L, testosterone from 8.5 to 11.4 nmol/L. No placebo group. Most other human studies used kisspeptin-54 (longer form). Thurston 2022: 32 women with HSDD showed brain imaging changes, not clinical outcomes.',
+    safety:'No formal safety profile established. Limited data from small studies. Drug interactions unstudied.',
+    fda:'Not approved. No FDA-approved kisspeptin product exists. Not reviewed favorably at 2026 compounding meetings.',
+    canada:'No authorized product.',
+    wada:'Prohibited — kisspeptin and agonist analogues banned in male athletes.',
+    url:'https://peptidia.app' },
+  { id:'vip', name:'VIP (Vasoactive Intestinal Peptide)', aka:'Aviptadil, Zyesami, RLF-100', type:'Natural neuropeptide (28 aa)', category:'Immune',
+    halfLife:'~1-2 minutes (IV, rapidly degraded)',
+    mechanism:'Acts through VPAC1 and VPAC2 receptors. Relaxes smooth muscle in blood vessels and airways. Anti-inflammatory and immune-modulating. In the lung, supports surfactant production and protects alveolar type II cells. Used in CIRS (Chronic Inflammatory Response Syndrome) protocols.',
+    evidence:'Phase 3 TESICO trial (461 patients) for COVID-19 respiratory failure: primary endpoint negative (OR 1.11, p=0.54), no mortality benefit. VIP + phentolamine (Invicorp) approved for ED in parts of Europe. Pulmonary hypertension, ARDS, sarcoidosis remain research only. Evidence grade C.',
+    safety:'Dose-limiting blood pressure drops and diarrhea require monitored infusion. Potent vasodilator — not safe for unmonitored self-administration.',
+    fda:'Not approved. FDA declined EUA for COVID-19 use (Nov 2021) citing insufficient data.',
+    canada:'No authorized product.',
+    wada:'Not named on Prohibited List.',
+    url:'https://peptidia.app' },
+  { id:'dsip', name:'DSIP', aka:'Delta Sleep-Inducing Peptide, Emideltide', type:'Nonapeptide (9 aa)', category:'Sleep',
+    halfLife:'~7-20 minutes',
+    mechanism:'First isolated from rabbit cerebrospinal fluid (1974). Modulates delta wave (slow-wave) brain activity linked to deep sleep. May interact with opioid receptors and CRH pathways related to stress-induced sleep disruption. Does not cause sedation like benzodiazepines. Found naturally in hypothalamus, limbic system, and pituitary.',
+    evidence:'Early human trials (1980s-1990s) reported positive signals for insomnia and stress-related sleep disorders. All were small, methodologically inconsistent, not blinded or placebo-controlled by modern standards. No large-scale RCT completed as of 2026.',
+    safety:'No long-term human safety data. Dosing standards not established. Interactions with opioid-receptor or cortisol-affecting medications unstudied. Products vary in concentration and purity.',
+    fda:'Not approved for any indication. Available through compounding pharmacies in a gray zone narrowed by FDA 2024 actions.',
+    canada:'No authorized product.',
+    wada:'Not named. S0 may apply.',
+    url:'https://peptidia.app' },
+  { id:'hexarelin', name:'Hexarelin', aka:'Examorelin', type:'Synthetic GHRP (6 aa)', category:'Growth',
+    halfLife:'~60-70 minutes',
+    mechanism:'Among the most potent growth hormone-releasing peptides. Activates ghrelin receptor on pituitary to drive GH pulses. Also binds CD361 in cardiovascular tissue (preclinical interest in cardiac effects separate from GH). Repeated exposure can partially desensitize the GH response — a key limitation.',
+    evidence:'Arvat et al. 1995: larger GH rise than GHRH in healthy men, with synergy between the two — but this is a hormone-level result, not a clinical outcome. Cardiovascular effects described mainly in experimental models. No controlled human trials support muscle, recovery, or anti-aging uses. Evidence rated "Low."',
+    safety:'No dedicated safety data published. Desensitization with repeated use is a practical concern. Cortisol and prolactin elevation reported at higher doses.',
+    fda:'Not approved. Not eligible for routine 503A compounding.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times (GH-releasing peptide).',
+    url:'https://peptidia.app' },
+  { id:'fst344', name:'Follistatin-344', aka:'FST-344, FS344', type:'Myostatin-binding protein (344 aa)', category:'Growth',
+    halfLife:'Unknown for injectable form',
+    mechanism:'Binds and neutralizes myostatin and related TGF-beta factors, proposed to release the brake on muscle growth. This pathway is supported in animal models. The injectable product sold in performance markets is different and uncharacterized vs the gene-therapy material used in research.',
+    evidence:'Gene therapy (not injectable): Becker MD phase 1/2a (6 patients, no placebo) — 4 of 6 walked farther. Inclusion body myositis (6 treated vs 8 unmatched controls) — treated gained 56m/yr vs 25.8m decline. No controlled human trials of the injectable peptide. Evidence rated "Low."',
+    safety:'No safety data for injectable form in healthy people. Gene therapy form: limited safety data from small open-label studies. Quality/purity concerns for research-grade product.',
+    fda:'Not approved. No recognized compounding status. Gene therapy remains investigational.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times.',
+    url:'https://peptidia.app' },
+  { id:'pegmgf', name:'PEG-MGF', aka:'PEGylated Mechano Growth Factor, PEG-IGF-1Ec', type:'PEGylated IGF-1 splice variant', category:'Growth',
+    halfLife:'~Several hours (PEGylation extends vs minutes for unmodified MGF)',
+    mechanism:'MGF is a splice variant of IGF-1 produced in response to mechanical stress (exercise/damage). PEGylation extends its half-life. Proposed to activate satellite cells for muscle repair and growth. Preclinical rationale based on IGF-1 biology.',
+    evidence:'Very limited. Mostly cell culture and rodent studies. No controlled human trials for muscle growth, recovery, or any clinical endpoint. Evidence rated extremely low across review sites.',
+    safety:'Not established in humans. No adverse event data. PEGylation may introduce immunogenicity concerns. Quality/purity of research products unknown.',
+    fda:'Not approved.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2 (IGF-1 and analogues).',
+    url:'https://peptidia.app' },
+  { id:'cjcnodac', name:'CJC-1295 (no DAC)', aka:'Mod GRF 1-29, Modified GRF(1-29)', type:'Modified GHRH analog (29 aa, no DAC)', category:'GHRH',
+    halfLife:'~30 minutes',
+    mechanism:'Modified version of sermorelin with amino acid substitutions at positions 2, 8, 15, 27 to resist enzymatic breakdown. Same GHRH receptor target but longer-acting than sermorelin. Often paired with ipamorelin for synergistic GH release. No DAC means no albumin binding — shorter acting than CJC-1295 with DAC.',
+    evidence:'Pharmacokinetic studies show extended GH pulse vs sermorelin. No clinical outcome trials. Commonly used in wellness/anti-aging protocols but evidence is extrapolated from GHRH biology, not direct trials of this specific analog.',
+    safety:'Expected side effects similar to other GHRH analogs: flushing, headache, dizziness, injection site reactions. No formal safety trial.',
+    fda:'Not approved. Treated as distinct from CJC-1295 with DAC by FDA.',
+    canada:'No authorized product.',
+    wada:'Prohibited at all times under S2.2.4 (GHRH analogues).',
+    url:'https://peptidia.app' },
+  { id:'glutathione', name:'Glutathione', aka:'GSH, L-Glutathione, Reduced Glutathione', type:'Tripeptide antioxidant (Glu-Cys-Gly)', category:'Anti-Aging',
+    halfLife:'~10-15 minutes (IV); oral bioavailability very low',
+    mechanism:'The body\'s primary endogenous antioxidant. Neutralizes reactive oxygen species, regenerates vitamins C and E, supports phase II detoxification in the liver, maintains cellular redox balance. Levels decline with age and chronic illness.',
+    evidence:'IV glutathione: small studies in Parkinson\'s (mixed results, no definitive benefit). Skin lightening: some evidence for IV/topical use. Oral supplementation: poor bioavailability limits effectiveness — liposomal and NAC (precursor) forms may be better absorbed. Clinical benefit of supplementation remains uncertain across most marketed uses.',
+    safety:'Generally well tolerated. IV: rare allergic reactions, zinc depletion with long-term use. Skin lightening use: potential for mercury contamination in some products. Long-term high-dose safety not established.',
+    fda:'GRAS as food ingredient. Not approved as drug. Available as supplement.',
+    canada:'Available as supplement. Not approved as drug.',
+    wada:'Not prohibited.',
+    url:'https://peptidia.app' },
+  { id:'ahkcu', name:'AHK-Cu', aka:'Alanyl-Histidyl-Lysine Copper, Copper Tripeptide-3, Ala-His-Lys-Cu', type:'Synthetic copper-binding tripeptide', category:'Anti-Aging',
+    halfLife:'Not established systemically; local activity at follicular/dermal level',
+    storage:'Lyophilized: stable at room temp; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Delivers copper ions to dermal papilla cells and fibroblasts. Upregulates VEGF secretion, promoting angiogenesis around hair follicles and potentially prolonging anagen (growth) phase. Activates beta-catenin/Wnt pathway signaling in hair cycling. Copper serves as cofactor for lysyl oxidase, superoxide dismutase, and tyrosinase. Associated with increased collagen, elastin, and glycosaminoglycan synthesis in skin fibroblasts. Less studied sister compound to GHK-Cu.',
+    evidence:'Preclinical-dominant. Key study: Pyo et al. (2007) showed AHK-Cu increased VEGF secretion and cell proliferation in cultured human dermal papilla cells. Pickart et al. (2012) reviewed copper peptide biology broadly. No controlled human clinical trials for hair growth or skin rejuvenation. Small industry studies of finished products exist but are uncontrolled and confounded by other ingredients. Mesotherapy (scalp injection) used in some clinics at 1-5mg per session monthly, but human safety data limited compared to GHK-Cu.',
+    safety:'Topical use considered acceptable in cosmetic formulations (0.05-0.2%). Possible mild irritation at higher concentrations, rare contact dermatitis, green-blue staining from copper. Injectable safety data limited. Unknowns include long-term copper accumulation, pregnancy/breastfeeding safety, and systemic safety profile. Stability affected by retinoids, vitamin C, and hydroxy acids.',
+    fda:'Not approved as drug. Permitted as cosmetic ingredient. Not on bulk drug substances list for compounding.',
+    canada:'Cosmetic ingredient status only. No medicinal product approval.',
+    wada:'Not on 2026 Prohibited List.',
+    url:'https://peptidia.app' },
+  { id:'mt1', name:'Melanotan I', aka:'Afamelanotide, Scenesse, Melanotan-1, MT-1', type:'Synthetic α-MSH analog (13 aa)', category:'Tanning',
+    halfLife:'~30 minutes (subcutaneous)',
+    storage:'Lyophilized: stable refrigerated 2-8°C; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Synthetic analog of alpha-melanocyte-stimulating hormone (α-MSH) with enhanced stability against enzymatic degradation. Binds primarily to MC1 receptor with longer duration than natural α-MSH. Stimulates melanogenesis — the production and distribution of melanin in skin — producing a tanning effect without UV exposure. More selective for MC1R than Melanotan II, resulting in fewer off-target effects.',
+    evidence:'FDA-approved (Scenesse) for erythropoietic protoporphyria (EPP) based on three trials with 244 adults. Increases pain-free light exposure in EPP patients. Early development at University of Arizona focused on sunless tanning. Clinuvel trials (2007-2011) explored EPP, vitiligo, polymorphous light eruption, solar urticaria. Ongoing trials for xeroderma pigmentosum and variegate porphyria. More clinically validated than Melanotan II.',
+    safety:'Most common side effects: nausea (19%), headache (20%), implant site reactions (21%). Can darken pre-existing skin lesions — full-body skin exams every 6 months recommended. Uncommon but serious: hypersensitivity reactions including anaphylaxis reported. Other: back pain, decreased appetite, migraine, dizziness, fatigue, flushing, itchy skin, new moles/freckles/warts. Rare: depression, insomnia, syncope, palpitations, hypertension.',
+    fda:'Approved (October 2019) as Scenesse for EPP. First-in-class designation. Rx-only.',
+    canada:'Not approved.',
+    wada:'Prohibited at all times under S0 (non-approved substances) when used outside approved indication.',
+    url:'https://peptidia.app' },
+  { id:'klow', name:'KLOW Blend', aka:'KLOW, GHK-Cu/KPV/BPC-157/TB-500 blend', type:'Multi-peptide blend (4 peptides, 80 mg)', category:'Healing',
+    halfLife:'Varies by component (GHK-Cu ~minutes, BPC-157 ~hours, TB-500 ~hours, KPV ~minutes)',
+    storage:'Lyophilized: refrigerate 2-8°C; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Four-peptide blend targeting complementary repair pathways. GHK-Cu (50 mg): copper-binding tripeptide that modulates collagen synthesis and glycosaminoglycan production via copper signalling. BPC-157 (10 mg): synthetic 15-amino-acid fragment promoting cell migration and actin cytoskeleton remodelling. TB-500 (10 mg): 7-residue thymosin beta-4 fragment supporting actin-mediated cell motility and vascular growth. KPV (10 mg): alpha-MSH tripeptide that reduces NF-κB activation and inflammatory signalling, entering cells via PepT1 transporter.',
+    evidence:'No published study has tested all four components together (PubMed search October 2026: zero results). A 2026 rat tendon study (n=32) found BPC-157 + TB-500 together produced no additional effect beyond either alone. A systematic review found three small BPC-157 human studies totalling 30 participants, graded very low certainty. GHK-Cu evidence is mainly cell culture and fibroblast studies. KPV data limited to cell lines and two mouse inflammation models. The blend is a commercial hypothesis combining individually studied peptides.',
+    safety:'No safety data for the combined blend. Individual component data: BPC-157 and TB-500 appear on the WADA Prohibited List. Human evidence is limited for all components. No reported adverse event data specific to the KLOW formulation. Standard peptide precautions apply (injection site reactions, storage requirements).',
+    fda:'Not FDA-approved. Research use only.',
+    canada:'Not approved.',
+    wada:'Prohibited — contains BPC-157 and TB-500 (S0: non-approved substances).',
+    url:'https://peptidia.app' },
+  { id:'wolverine', name:'Wolverine Blend', aka:'Wolverine, BPC-157/TB-500 blend, Healing Stack blend', type:'Dual-peptide blend (2 peptides, 20 mg)', category:'Healing',
+    halfLife:'BPC-157: ~4 hours; TB-500: ~hours (varies by route)',
+    storage:'Lyophilized: refrigerate 2-8°C; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Two-peptide healing blend combining BPC-157 (10 mg) and TB-500 (10 mg). BPC-157 supports fibroblast activity, collagen synthesis, and angiogenesis while modulating inflammatory cytokines and oxidative stress — primarily local repair. TB-500 promotes cell migration, cytoskeletal reorganisation, and new blood vessel formation while reducing fibrotic scarring — broader systemic recovery. The combination is marketed as providing complementary "inside-out" healing at both local and systemic levels.',
+    evidence:'Preclinical and early clinical data for individual components. BPC-157 has the most evidence — multiple animal models showing tendon, ligament, muscle, and gut healing effects, plus limited early human data. TB-500 mechanisms are supported by preclinical models only. A 2026 rat tendon study (n=32) found the combination produced no added benefit beyond either peptide alone. Long-term human studies are lacking for both peptides individually and the blend.',
+    safety:'Commonly reported side effects: mild injection-site irritation, transient soreness, fatigue. Serious effects less defined due to limited human data — concerns raised about unknown immune, cardiovascular, or proliferative effects. Contraindicated in active malignancy, uncontrolled serious illness, pregnancy, breastfeeding, and complex immune or coagulation disorders. Not a replacement for surgery or physical therapy.',
+    fda:'Not FDA-approved. Neither BPC-157 nor TB-500 is approved for general injury recovery or anti-aging.',
+    canada:'Not approved.',
+    wada:'Prohibited — contains BPC-157 and TB-500 (S0: non-approved substances).',
+    url:'https://peptidia.app' },
+  { id:'glow', name:'Glow Blend', aka:'GLOW, GHK-Cu/BPC-157/TB-500 blend', type:'Multi-peptide blend (3 peptides, 70 mg)', category:'Healing',
+    halfLife:'Varies by component (GHK-Cu ~minutes, BPC-157 <30 min, TB-500 ~hours)',
+    storage:'Lyophilized: refrigerate 2-8°C; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Three-peptide healing and skin-repair blend. GHK-Cu (50 mg): copper-binding tripeptide linked to collagen synthesis, collagen gene expression, and glycosaminoglycan production in wound-healing models. BPC-157 (10 mg): synthetic 15-amino-acid gastric fragment proposed to promote cell migration via nitric oxide signalling, VEGFR2 upregulation, and FAK/paxillin pathways in tendon cells. TB-500 (10 mg): acetylated thymosin beta-4 fragment (residues 17-23) that binds actin and promotes cell migration and vascular growth. Essentially KLOW without the KPV anti-inflammatory component.',
+    evidence:'No study has tested all three components together in humans or animals. A 2026 rat Achilles-tendon study found BPC-157 + TB-500 gave no benefit over either alone. GHK-Cu: one small randomized topical trial (13 patients) found no statistically significant objective differences; no human trial for injected GHK-Cu. BPC-157: one uncontrolled chart review (16 knee-injection patients); a 2025 review found no controlled human trial. TB-500: human data exist only for full-length thymosin beta-4, including an 18-patient eye-drop trial that narrowly missed its primary endpoint. All evidence is preclinical for the individual components.',
+    safety:'Safety and effectiveness in people have not been established. Products sold under this name are labelled "not for human use" with no assurance of purity, potency, or sterility. BPC-157 and TB-500 appear on the WADA Prohibited List. Standard peptide precautions apply (injection site reactions, storage requirements). None of the ingredients is FDA-approved or eligible for 503A compounding in injectable form as of September 2026.',
+    fda:'Not FDA-approved. Research use only. FDA advisory committee voted 8-6 in favour of adding BPC-157 and TB-500 to the bulks list (non-binding; rulemaking pending).',
+    canada:'Not approved.',
+    wada:'Prohibited — contains BPC-157 and TB-500 (S0: non-approved substances).',
+    url:'https://peptidia.app' },
+  { id:'cjcipam', name:'CJC-1295 / Ipamorelin Blend', aka:'CJC/Ipam, GH Secretagogue Blend, CJC-1295+Ipamorelin', type:'Dual-peptide blend (GHRH analog + GHRP, 15 mg)', category:'Growth',
+    halfLife:'CJC-1295 (no DAC): ~30 min; Ipamorelin: ~2 hours',
+    storage:'Lyophilized: refrigerate 2-8°C; reconstituted: refrigerate, use within 30 days',
+    mechanism:'Two-peptide growth hormone secretagogue blend combining CJC-1295 (10 mg) and Ipamorelin (5 mg). CJC-1295 is a modified GHRH (growth hormone-releasing hormone) analog — a 29-amino-acid peptide with four substituted amino acids for protease resistance. It stimulates GH release from the pituitary via the GHRH receptor, amplifying the natural GH pulse. Ipamorelin is a selective growth hormone secretagogue receptor (GHS-R/ghrelin receptor) agonist — a pentapeptide that triggers GH release through a separate pathway. Together they synergistically amplify GH pulses: CJC-1295 primes the pituitary while Ipamorelin triggers the release, producing a larger GH response than either alone without significantly raising cortisol or prolactin.',
+    evidence:'CJC-1295 (with DAC version) showed sustained GH elevation for 6+ days in healthy adults (Teichman et al., 2006). Ipamorelin selectively stimulates GH release in human studies with minimal effect on cortisol, ACTH, or prolactin (Raun et al., 1998). The combination is one of the most widely prescribed peptide stacks in anti-aging and sports medicine clinics. Limited published clinical trials on the specific blend — most evidence comes from studies on individual components and clinical practice data. The synergy rationale (GHRH + GHRP pathways) is well-established in endocrinology.',
+    safety:'Generally well-tolerated. Common side effects: injection site reactions, water retention, tingling/numbness in extremities, headache, flushing. Ipamorelin may cause transient hunger. Less likely to raise cortisol or prolactin compared to other GH secretagogues (GHRP-6, GHRP-2). Caution in active malignancy (GH may promote tumor growth), diabetes (may affect insulin sensitivity), and pregnancy. Long-term safety data limited.',
+    fda:'Not FDA-approved. Both peptides are investigational.',
+    canada:'Not approved.',
+    wada:'Prohibited at all times under S2 (peptide hormones, growth factors, and related substances).',
+    url:'https://peptidia.app' },
+];
+
+// Protocol templates
+const TEMPLATES = [
+  { name:'Healing Stack', desc:'BPC-157 + TB-500 combination for injury recovery', peptides:['BPC-157','TB-500'], dose:250, freq:'Daily', site:'SubQ (belly)', time:'Morning', notes:'Inject near injury site when possible. Run 4-8 weeks.' },
+  { name:'GH Secretagogue', desc:'Ipamorelin + CJC-1295 for growth hormone support', peptides:['Ipamorelin','CJC-1295'], dose:200, freq:'Daily', site:'SubQ (belly)', time:'Before bed', notes:'Administer on empty stomach. Avoid eating 30 min before/after.' },
+  { name:'Cognitive Support', desc:'Semax + Selank for focus and anxiety', peptides:['Semax','Selank'], dose:300, freq:'Daily', site:'Nasal', time:'Morning', notes:'Nasal administration. Can split doses AM/PM.' },
+  { name:'Anti-Aging', desc:'Epitalon for telomere support', peptides:['Epitalon'], dose:10000, freq:'Daily', site:'SubQ (belly)', time:'Evening', notes:'Typical research cycle: 10-20 days on, then break.' },
+  { name:'Fat Loss', desc:'AOD-9604 for body composition', peptides:['AOD-9604'], dose:300, freq:'Daily', site:'SubQ (belly)', time:'Morning', notes:'Administer on empty stomach, fasted.' },
+  { name:'Tanning', desc:'Melanotan II for skin pigmentation', peptides:['Melanotan II'], dose:250, freq:'EOD', site:'SubQ (belly)', time:'Evening', notes:'Start with low loading dose. Monitor moles regularly.' },
+];
+
+// ===== CATEGORY COLORS =====
+const catColors = {'Healing':'#22c55e','Anti-Aging':'#a78bfa','Immune':'#38bdf8','GLP-1':'#f472b6','Growth':'#fb923c','GHRH':'#facc15','Fat Loss':'#f87171','Cognitive':'#60a5fa','Sexual Health':'#e879f9','Tanning':'#fbbf24','Sleep':'#818cf8'};
+
+// ===== CODE-TO-REF MAP =====
+const CODE_MAP_EXACT = {
+  'AU50':'ahkcu','AU80':'klow','MT1':'mt1','G70':'glow','670':'glow','BA30':'','E250':'','CP10':'cjcipam'
+};
+const CODE_MAP = {'CU':'ghkcu','G5C':'ghkcu','SX':'semax',
+  'TSM':'tesa','SK':'selank','BC':'bpc157',
+  'PT':'pt141','PA':'pt141','SS':'ss31',
+  'BB':'wolverine','MS':'motsc','IP':'ipam',
+  'NI':'nad','RT':'reta','G5K':'ghkcu'
+};
+const MAP_VERSION = 12;
+function forceRelink(p) {
+  p.refId=''; p.category=''; autoLinkRef(p);
+}
+function autoLinkRef(p) {
+  if (p.refId) return;
+  const upper = p.code.toUpperCase();
+  if (upper in CODE_MAP_EXACT) {
+    if (!CODE_MAP_EXACT[upper]) return;
+    const ref = PEPTIDIA.find(r=>r.id===CODE_MAP_EXACT[upper]);
+    if (ref) { p.refId=ref.id; p.category=ref.category; }
+    return;
+  }
+  const c = p.code.replace(/[\d\/]+$/,'').replace(/\/.*$/,'');
+  const keys = Object.keys(CODE_MAP).sort((a,b)=>b.length-a.length);
+  for (const k of keys) {
+    if (c.toUpperCase()===k.toUpperCase() || p.code.toUpperCase().startsWith(k.toUpperCase())) {
+      const ref = PEPTIDIA.find(r=>r.id===CODE_MAP[k]);
+      if (ref) { p.refId=ref.id; p.category=ref.category; }
+      return;
+    }
+  }
+}
+
+// ===== STATE =====
+let state = { peptides:[], protocols:[], cycles:[], consumables:[], nextId:100, sortMode:'alpha' };
+
+function init() {
+  const initial = [
+    { code:'AU50', mg:50, count:16 }, { code:'CU100', mg:100, count:20 },
+    { code:'G5K', mg:50, count:16 }, { code:'SX10', mg:10, count:16 },
+    { code:'TSM10', mg:10, count:10 }, { code:'TSM5', mg:5, count:8 },
+    { code:'SK10', mg:10, count:16 }, { code:'G70', mg:70, count:26 },
+    { code:'BC5', mg:5, count:8 }, { code:'PT10/PA1', mg:10, count:16 },
+    { code:'SS50', mg:50, count:8 }, { code:'MT1', mg:1, count:8 },
+    { code:'AU80', mg:80, count:8 }, { code:'CP10', mg:10, count:16 },
+    { code:'BB20', mg:20, count:10 }, { code:'MS40', mg:40, count:10 },
+    { code:'MS20', mg:20, count:8 }, { code:'IP10', mg:10, count:8 },
+    { code:'NI100', mg:1000, count:8 }, { code:'RT20', mg:20, count:10 },
+    { code:'RT30', mg:30, count:10 }, { code:'SS10', mg:10, count:20 },
+    { code:'E250', mg:250, count:10 }, { code:'BA30', mg:30, count:10 },
+  ];
+  try {
+    const saved = localStorage.getItem('coelhoPepV2');
+    if (saved) { state = JSON.parse(saved); if(!state.consumables)state.consumables=[]; if((state.mapVer||0)<MAP_VERSION){state.peptides.forEach(p=>forceRelink(p));const fix65=state.peptides.find(x=>x.code==='65K');if(fix65){fix65.code='G5K';fix65.mg=50;}const fixSS=state.peptides.find(x=>x.code==='SS30');if(fixSS){fixSS.code='SS10';fixSS.mg=10;}state.mapVer=MAP_VERSION;}else{state.peptides.forEach(p=>autoLinkRef(p));} save(); render(); return; }
+  } catch(e) {}
+  initial.forEach(p => {
+    const item = { id: state.nextId++, code:p.code, mg:p.mg, count:p.count, category:'', notes:'', refId:'' };
+    autoLinkRef(item);
+    state.peptides.push(item);
+  });
+  state.mapVer = MAP_VERSION;
+  save(); render();
+}
+
+function save() { try { localStorage.setItem('coelhoPepV2', JSON.stringify(state)); } catch(e) {} }
+function showToast(msg) { const t=document.getElementById('toast'); t.textContent=msg; t.classList.add('show'); setTimeout(()=>t.classList.remove('show'),2000); }
+function esc(s) { const d=document.createElement('div'); d.textContent=s; return d.innerHTML; }
+
+// ===== NAV =====
+let currentPage = 'inventory';
+let protoFilter = 'all';
+
+function switchPage(page, btn) {
+  currentPage = page;
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-'+page).classList.add('active');
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  btn.classList.add('active');
+  const titles = { inventory:'Inventory', calc:'Reconstitution', protocols:'Protocols', reference:'Peptidia', cycles:'Cycles' };
+  document.getElementById('pageTitle').textContent = titles[page];
+  document.getElementById('fab').style.display = (page==='calc'||page==='reference') ? 'none' : 'flex';
+  render();
+}
+
+// ===== RENDER =====
+function render() { renderSummary(); renderInventory(); renderConsumables(); renderCalcDropdown(); renderProtocols(); renderReference(); renderCycles(); renderPepRefDropdown(); }
+
+function renderSummary() {
+  const tv = state.peptides.reduce((s,p)=>s+p.count,0);
+  const tt = state.peptides.length;
+  const tm = state.peptides.reduce((s,p)=>s+(p.mg*p.count),0);
+  document.getElementById('summaryStrip').innerHTML = `
+    <div class="summary-chip"><div class="num">${tt}</div><div class="lbl">Peptides</div></div>
+    <div class="summary-chip"><div class="num">${tv}</div><div class="lbl">Vials</div></div>
+    <div class="summary-chip"><div class="num">${(tm/1000).toFixed(1)}g</div><div class="lbl">Total</div></div>
+    <div class="summary-chip"><div class="num">${state.protocols.filter(p=>p.status==='active').length}</div><div class="lbl">Active</div></div>`;
+}
+
+function renderInventory() {
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  let list = state.peptides.filter(p => {
+    const ref = p.refId ? PEPTIDIA.find(r=>r.id===p.refId) : null;
+    return p.code.toLowerCase().includes(q) || (p.category||'').toLowerCase().includes(q) || (ref && ref.name.toLowerCase().includes(q));
+  });
+  if (state.sortMode==='alpha') list.sort((a,b)=>a.code.localeCompare(b.code));
+  else if (state.sortMode==='count') list.sort((a,b)=>b.count-a.count);
+  else if (state.sortMode==='mg') list.sort((a,b)=>b.mg-a.mg);
+  const colors = ['#C97C2E','#34d399','#E0954A','#ec4899','#8b5cf6','#ef4444','#06b6d4','#f97316','#a3e635','#818cf8'];
+  if (!list.length) { document.getElementById('inventoryList').innerHTML='<div class="empty-state"><div class="icon">&#128218;</div><div class="msg">No peptides found</div></div>'; return; }
+  document.getElementById('inventoryList').innerHTML = list.map((p,i) => {
+    const ref = p.refId ? PEPTIDIA.find(r=>r.id===p.refId) : null;
+    const catCol = ref ? (catColors[ref.category]||'#9AA39F') : (p.category ? (catColors[p.category]||'#9AA39F') : null);
+    const stockClass = p.count<=2?'critical-stock':p.count<=5?'low-stock':'';
+    const stockTag = p.count<=2?'<span class="low-stock-tag" style="background:rgba(239,68,68,.15);color:var(--red)">Reorder!</span>':p.count<=5?'<span class="low-stock-tag" style="background:rgba(245,158,11,.15);color:var(--orange)">Low stock</span>':'';
+    return `<div class="pep-item ${stockClass}" onclick="editPeptide(${p.id})">
+      <div class="pep-icon" style="background:${catCol||colors[i%colors.length]}">${p.code.slice(0,2)}</div>
+      <div class="pep-info">
+        <div class="pep-name">${esc(p.code)}${ref?'<span class="pep-ref-badge">'+esc(ref.name)+'</span>':''}${stockTag}</div>
+        <div class="pep-detail">${p.mg}mg/vial${p.category?'<span style="color:'+( catCol||'#9AA39F')+'"> · '+esc(p.category)+'</span>':''}</div>
+      </div>
+      <div class="pep-count ${stockClass}">${p.count}<small>vials</small></div>
+    </div>`;
+  }).join('');
+}
+
+function renderConsumables() {
+  const el = document.getElementById('consumablesList');
+  if(!el) return;
+  const q = document.getElementById('searchInput').value.toLowerCase();
+  let list = (state.consumables||[]).filter(c => c.name.toLowerCase().includes(q));
+  list.sort((a,b)=>a.name.localeCompare(b.name));
+  if(!list.length){ el.innerHTML='<div style="text-align:center;padding:20px;color:var(--text2);font-size:13px">No consumables yet. Tap + Add to track supplies.</div>'; return; }
+  const consIcons = {'syringe':'&#128137;','needle':'&#128137;','wipe':'&#129531;','alcohol':'&#129531;','swab':'&#129531;','bandage':'&#129657;','band-aid':'&#129657;','gauze':'&#129657;','glove':'&#129350;','sharps':'&#9888;','container':'&#128230;','vial':'&#129514;','filter':'&#128167;'};
+  el.innerHTML = list.map(c => {
+    const stockClass = c.count<=2?'critical-stock':c.count<=5?'low-stock':'';
+    const stockTag = c.count<=2?'<span class="low-stock-tag" style="background:rgba(239,68,68,.15);color:var(--red)">Reorder!</span>':c.count<=5?'<span class="low-stock-tag" style="background:rgba(245,158,11,.15);color:var(--orange)">Low stock</span>':'';
+    let icon = '&#128230;';
+    const nl = c.name.toLowerCase();
+    for(const [k,v] of Object.entries(consIcons)){if(nl.includes(k)){icon=v;break;}}
+    return `<div class="pep-item ${stockClass}" onclick="editConsumable(${c.id})">
+      <div class="pep-icon" style="background:#607D8B">${icon}</div>
+      <div class="pep-info">
+        <div class="pep-name">${esc(c.name)}${stockTag}</div>
+        <div class="pep-detail">${c.notes||'Consumable'}</div>
+      </div>
+      <div class="pep-count ${stockClass}">${c.count}<small>${esc(c.unit||'pcs')}</small></div>
+    </div>`;
+  }).join('');
+}
+
+function openConsumableModal(){
+  document.getElementById('modalConsTitle').textContent='Add Consumable';
+  document.getElementById('consSaveBtn').textContent='Add Consumable';
+  document.getElementById('consDeleteBtn').style.display='none';
+  document.getElementById('consEditId').value='';
+  ['consName','consCount','consNotes'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('consUnit').value='pcs';
+  openModal('modalConsumable');
+}
+
+function editConsumable(id){
+  const c=(state.consumables||[]).find(x=>x.id===id);if(!c)return;
+  document.getElementById('modalConsTitle').textContent='Edit Consumable';
+  document.getElementById('consSaveBtn').textContent='Save Changes';
+  document.getElementById('consDeleteBtn').style.display='block';
+  document.getElementById('consEditId').value=id;
+  document.getElementById('consName').value=c.name;
+  document.getElementById('consCount').value=c.count;
+  document.getElementById('consUnit').value=c.unit||'pcs';
+  document.getElementById('consNotes').value=c.notes||'';
+  openModal('modalConsumable');
+}
+
+function saveConsumable(){
+  const editId=document.getElementById('consEditId').value;
+  const name=document.getElementById('consName').value.trim();
+  const count=parseInt(document.getElementById('consCount').value)||0;
+  const unit=document.getElementById('consUnit').value;
+  const notes=document.getElementById('consNotes').value.trim();
+  if(!name){showToast('Name is required');return;}
+  if(editId){
+    const c=state.consumables.find(x=>x.id===parseInt(editId));
+    if(c){c.name=name;c.count=count;c.unit=unit;c.notes=notes;}
+    showToast('Consumable updated');
+  } else {
+    state.consumables.push({id:state.nextId++,name,count,unit,notes});
+    showToast('Consumable added');
+  }
+  save();render();closeModal('modalConsumable');
+}
+
+function deleteConsumable(){
+  const editId=parseInt(document.getElementById('consEditId').value);
+  state.consumables=state.consumables.filter(c=>c.id!==editId);
+  save();render();closeModal('modalConsumable');
+  showToast('Consumable deleted');
+}
+
+function renderCalcDropdown() {
+  const sel=document.getElementById('calcPeptide'); const cur=sel.value;
+  sel.innerHTML='<option value="">-- Select from inventory --</option>'+state.peptides.map(p=>`<option value="${p.id}" ${cur==p.id?'selected':''}>${esc(p.code)} (${p.mg}mg)</option>`).join('');
+}
+
+function renderPepRefDropdown() {
+  const sel=document.getElementById('pepRefLink');
+  sel.innerHTML='<option value="">-- None --</option>'+PEPTIDIA.map(r=>`<option value="${r.id}">${esc(r.name)}</option>`).join('');
+}
+
+function renderProtocols() {
+  const tl = document.getElementById('templateList');
+  const pl = document.getElementById('protocolList');
+  if (protoFilter==='templates') {
+    pl.style.display='none'; tl.style.display='block';
+    tl.innerHTML = TEMPLATES.map((t,i)=>`
+      <div class="tmpl-card" onclick="useTemplate(${i})">
+        <div class="tmpl-name">${esc(t.name)}</div>
+        <div class="tmpl-desc">${esc(t.desc)}</div>
+        <div style="margin-top:6px;font-size:11px;color:var(--accent2)">${t.peptides.join(' + ')} · ${t.dose}mcg · ${t.freq}</div>
+      </div>`).join('');
+    return;
+  }
+  tl.style.display='none'; pl.style.display='block';
+  let list = state.protocols;
+  if (protoFilter!=='all') list=list.filter(p=>p.status===protoFilter);
+  if (!list.length) { pl.innerHTML='<div class="empty-state"><div class="icon">&#128203;</div><div class="msg">No protocols. Tap + or try Templates.</div></div>'; return; }
+  pl.innerHTML = list.map(p=>`
+    <div class="proto-card" onclick="editProtocol(${p.id})">
+      <div class="proto-header"><div class="proto-name">${esc(p.name)}</div><span class="proto-badge ${p.status}">${p.status}</span></div>
+      <div class="proto-peptides">${(p.peptideIds||[]).map(id=>{const x=state.peptides.find(y=>y.id===id);return x?'<span class="proto-pep-tag">'+esc(x.code)+'</span>':'';}).join('')}</div>
+      <div class="proto-detail-row"><span>${p.dose}mcg · ${p.freq}</span><span>${p.site||''}</span></div>
+      <div class="proto-detail-row"><span>${p.timeOfDay||''}</span><span>${p.notes?'&#128221;':''}</span></div>
+    </div>`).join('');
+}
+
+let refCatFilter = 'All';
+function renderReference() {
+  const q = (document.getElementById('refSearchInput')||{}).value||'';
+  const ql = q.toLowerCase();
+  let list = PEPTIDIA.filter(r => r.name.toLowerCase().includes(ql) || r.type.toLowerCase().includes(ql) || r.category.toLowerCase().includes(ql) || r.mechanism.toLowerCase().includes(ql) || (r.aka||'').toLowerCase().includes(ql));
+  if (refCatFilter !== 'All') list = list.filter(r => r.category === refCatFilter);
+  const cats = ['All',...[...new Set(PEPTIDIA.map(r=>r.category))].sort()];
+  const chips = cats.map(c=>{
+    const active = c===refCatFilter;
+    const col = c==='All'?'var(--accent)':(catColors[c]||'var(--accent)');
+    return `<button onclick="refCatFilter='${c}';renderReference()" style="font-size:11px;padding:4px 10px;border-radius:12px;white-space:nowrap;font-weight:${active?'700':'500'};background:${active?col+'33':'var(--surface2)'};color:${active?col:'var(--text2)'};border:1px solid ${active?col+'55':'var(--border)'}">${c==='All'?'All ('+PEPTIDIA.length+')':c}</button>`;
+  }).join('');
+  const header = `<div style="display:flex;gap:6px;overflow-x:auto;padding-bottom:8px;margin-bottom:8px;scrollbar-width:none">${chips}</div>
+    <div style="font-size:12px;color:var(--text2);margin-bottom:8px">${list.length} peptide${list.length!==1?'s':''} found</div>`;
+  document.getElementById('referenceList').innerHTML = header + list.map(r=>{
+    const cc = catColors[r.category]||'var(--accent)';
+    return `<div class="ref-card" onclick="showRefDetail('${r.id}')">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:4px">
+        <div class="ref-name">${esc(r.name)}</div>
+        <span style="font-size:10px;padding:2px 8px;border-radius:10px;background:${cc}22;color:${cc};font-weight:600;white-space:nowrap;margin-left:8px;flex-shrink:0">${esc(r.category)}</span>
+      </div>
+      ${r.aka?'<div style="font-size:11px;color:var(--text2);margin-bottom:4px;opacity:.7">aka '+esc(r.aka)+'</div>':''}
+      <div class="ref-type">${esc(r.type)}${r.halfLife?' · t½ '+esc(r.halfLife):''}</div>
+      <div class="ref-desc" style="display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden">${esc(r.mechanism)}</div>
+    </div>`;
+  }).join('');
+}
+
+function showRefDetail(id) {
+  const r = PEPTIDIA.find(x=>x.id===id); if(!r) return;
+  document.getElementById('refDetailTitle').textContent=r.name;
+  const secStyle = 'margin-bottom:16px';
+  const headStyle = 'font-family:var(--f-display);font-weight:700;font-size:13px;margin-bottom:6px;color:var(--accent2);text-transform:uppercase;letter-spacing:.04em';
+  const bodyStyle = 'font-size:14px;color:var(--text2);line-height:1.65';
+  const regItem = (label, text, color) => text ? `<div style="display:flex;gap:8px;margin-bottom:8px;align-items:flex-start"><span style="font-size:11px;font-weight:700;padding:2px 8px;border-radius:6px;background:${color}22;color:${color};white-space:nowrap;min-width:60px;text-align:center">${label}</span><span style="${bodyStyle};font-size:13px">${esc(text)}</span></div>` : '';
+  document.getElementById('refDetailContent').innerHTML=`
+    <div style="font-size:12px;color:var(--accent2);margin-bottom:6px;text-transform:uppercase;letter-spacing:.06em;font-weight:600">${esc(r.type)} · ${esc(r.category)}</div>
+    ${r.aka?'<div style="font-size:13px;color:var(--text2);margin-bottom:14px"><strong style="color:var(--text)">Also known as:</strong> '+esc(r.aka)+'</div>':''}
+    ${(r.halfLife||r.storage)?'<div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px">'+(r.halfLife?'<span style="font-size:12px;padding:4px 10px;border-radius:8px;background:var(--surface2);border:1px solid var(--border)">&#9201; Half-life: <strong>'+esc(r.halfLife)+'</strong></span>':'')+(r.storage?'<span style="font-size:12px;padding:4px 10px;border-radius:8px;background:var(--surface2);border:1px solid var(--border)">&#10052;&#65039; '+esc(r.storage)+'</span>':'')+'</div>':''}
+    <div style="${secStyle}"><div style="${headStyle}">Mechanism of Action</div><div style="${bodyStyle}">${esc(r.mechanism)}</div></div>
+    <div class="ref-evidence" style="${secStyle}"><div class="ev-label">Clinical Evidence</div><div style="margin-top:6px;${bodyStyle}">${esc(r.evidence)}</div></div>
+    <div style="${secStyle};padding:12px;background:rgba(239,68,68,.08);border-radius:10px;border:1px solid rgba(239,68,68,.15)">
+      <div style="${headStyle};color:var(--red)">Safety Profile</div>
+      <div style="${bodyStyle}">${esc(r.safety)}</div>
+    </div>
+    <div style="${secStyle};padding:12px;background:var(--surface2);border-radius:10px;border:1px solid var(--border)">
+      <div style="${headStyle}">Regulatory Status</div>
+      ${regItem('FDA', r.fda, '#3b82f6')}
+      ${regItem('Canada', r.canada, '#ef4444')}
+      ${regItem('WADA', r.wada, '#f59e0b')}
+    </div>
+    <a href="${r.url}" target="_blank" rel="noopener" class="ref-card ref-link" style="display:flex;align-items:center;justify-content:center;gap:8px;margin-top:14px;padding:14px;font-weight:700;background:var(--accent);color:#000;border-radius:10px;text-decoration:none">
+      <span>View Full Profile on Peptidia</span><span>&#8599;</span>
+    </a>`;
+  openModal('modalRefDetail');
+}
+
+function renderCycles() {
+  if (!state.cycles.length) { document.getElementById('cycleList').innerHTML='<div class="empty-state"><div class="icon">&#128197;</div><div class="msg">No cycle plans yet.</div></div>'; return; }
+  document.getElementById('cycleList').innerHTML = state.cycles.map(c=>{
+    const weeks=buildCycleWeeks(c);
+    const pepNames=(c.peptideIds||[]).map(id=>{const p=state.peptides.find(x=>x.id===id);return p?esc(p.code):'?';}).join(', ');
+    return `<div class="card" style="margin-bottom:14px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+        <div><div style="font-family:var(--f-display);font-weight:700;font-size:16px">${esc(c.name)}</div>
+        <div style="font-size:12px;color:var(--text2)">${pepNames} · ${c.freq} · ${c.weeks}wk</div></div>
+        <button style="width:32px;height:32px;border-radius:8px;background:var(--surface2);display:flex;align-items:center;justify-content:center;font-size:12px" onclick="editCycle(${c.id})">&#9998;</button>
+      </div>
+      ${weeks.map(w=>`<div class="cycle-week"><div class="cycle-week-num">W${w.week}</div><div><div class="cycle-week-dose">${w.dose} mcg</div><div class="cycle-week-note">${w.note}</div></div></div>`).join('')}
+      ${c.notes?'<div style="margin-top:10px;font-size:13px;color:var(--text2)">'+esc(c.notes)+'</div>':''}
+    </div>`;}).join('');
+}
+
+function buildCycleWeeks(c) {
+  const weeks=[]; const n=parseInt(c.weeks)||8;
+  const startD=parseFloat(c.startDose)||100; const targetD=parseFloat(c.targetDose)||startD;
+  for(let i=1;i<=n;i++){
+    let dose;
+    if(c.ramp==='flat') dose=startD;
+    else if(c.ramp==='step'){ const steps=Math.floor(n/2); const sz=steps>0?(targetD-startD)/steps:0; dose=startD+sz*Math.floor((i-1)/2); }
+    else dose=startD+(targetD-startD)*((i-1)/Math.max(n-1,1));
+    dose=Math.round(dose);
+    const sd=c.startDate?new Date(c.startDate):null;
+    let note='';
+    if(sd){const ws=new Date(sd);ws.setDate(ws.getDate()+(i-1)*7);note=ws.toLocaleDateString('en-US',{month:'short',day:'numeric'});}
+    if(i===1) note+=(note?' — ':'')+'Start';
+    if(i===n) note+=(note?' — ':'')+'Final week';
+    weeks.push({week:i,dose,note});
+  }
+  return weeks;
+}
+
+// ===== MODALS =====
+function openModal(id){document.getElementById(id).classList.add('open');}
+function closeModal(id){document.getElementById(id).classList.remove('open');}
+
+function openAddModal(){
+  if(currentPage==='inventory'){
+    document.getElementById('modalPepTitle').textContent='Add Peptide';
+    document.getElementById('pepSaveBtn').textContent='Add to Inventory';
+    document.getElementById('pepDeleteBtn').style.display='none';
+    document.getElementById('pepEditId').value='';
+    ['pepCode','pepMg','pepCount','pepNotes'].forEach(id=>document.getElementById(id).value='');
+    document.getElementById('pepCategory').value='';
+    document.getElementById('pepRefLink').value='';
+    openModal('modalPeptide');
+  } else if(currentPage==='protocols'){
+    document.getElementById('modalProtoTitle').textContent='New Protocol';
+    document.getElementById('protoSaveBtn').textContent='Save Protocol';
+    document.getElementById('protoDeleteBtn').style.display='none';
+    document.getElementById('protoEditId').value='';
+    ['protoName','protoDose','protoNotes'].forEach(id=>document.getElementById(id).value='');
+    document.getElementById('protoStatus').value='planned';
+    document.getElementById('protoFreq').value='Daily';
+    document.getElementById('protoSite').value='';
+    document.getElementById('protoTime').value='Morning';
+    renderProtoPepSelect([]);
+    openModal('modalProtocol');
+  } else if(currentPage==='cycles'){
+    document.getElementById('modalCycleTitle').textContent='New Cycle Plan';
+    document.getElementById('cycleSaveBtn').textContent='Create Cycle';
+    document.getElementById('cycleDeleteBtn').style.display='none';
+    document.getElementById('cycleEditId').value='';
+    ['cycleName','cycleStartDose','cycleTargetDose','cycleNotes'].forEach(id=>document.getElementById(id).value='');
+    document.getElementById('cycleStart').value=new Date().toISOString().split('T')[0];
+    document.getElementById('cycleWeeks').value='8';
+    document.getElementById('cycleRamp').value='linear';
+    document.getElementById('cycleFreq').value='Daily';
+    renderCyclePepSelect([]);
+    openModal('modalCycle');
+  }
+}
+
+function renderProtoPepSelect(sel){
+  document.getElementById('protoSelectPeps').innerHTML=state.peptides.map(p=>`<label style="display:flex;align-items:center;gap:8px;padding:4px 0;font-size:14px;cursor:pointer"><input type="checkbox" value="${p.id}" ${sel.includes(p.id)?'checked':''} style="width:18px;height:18px;accent-color:var(--accent)"> ${esc(p.code)} (${p.mg}mg)</label>`).join('');
+}
+function renderCyclePepSelect(sel){
+  document.getElementById('cycleSelectPeps').innerHTML=state.peptides.map(p=>`<label style="display:flex;align-items:center;gap:8px;padding:4px 0;font-size:14px;cursor:pointer"><input type="checkbox" value="${p.id}" ${sel.includes(p.id)?'checked':''} style="width:18px;height:18px;accent-color:var(--accent)"> ${esc(p.code)} (${p.mg}mg)</label>`).join('');
+}
+function getSelectedPeps(cid){return[...document.querySelectorAll('#'+cid+' input:checked')].map(c=>parseInt(c.value));}
+
+// ===== PEPTIDE CRUD =====
+function savePeptide(){
+  const editId=document.getElementById('pepEditId').value;
+  const code=document.getElementById('pepCode').value.trim();
+  const mg=parseFloat(document.getElementById('pepMg').value)||0;
+  const count=parseInt(document.getElementById('pepCount').value)||0;
+  const category=document.getElementById('pepCategory').value;
+  const notes=document.getElementById('pepNotes').value.trim();
+  const refId=document.getElementById('pepRefLink').value;
+  if(!code){showToast('Enter a peptide code');return;}
+  if(editId){
+    const p=state.peptides.find(x=>x.id===parseInt(editId));
+    if(p){
+      const codeChanged = p.code!==code;
+      p.code=code;p.mg=mg;p.count=count;p.notes=notes;
+      if(refId){p.refId=refId;p.category=category;}
+      else if(codeChanged||!p.refId){p.refId='';p.category='';autoLinkRef(p);}
+      else{p.category=category;}
+    }
+    showToast('Updated '+code);
+  } else {
+    const item={id:state.nextId++,code,mg,count,category,notes,refId};if(!refId)autoLinkRef(item);
+    state.peptides.push(item);
+    showToast('Added '+code);
+  }
+  save();render();closeModal('modalPeptide');
+}
+function editPeptide(id){
+  const p=state.peptides.find(x=>x.id===id);if(!p)return;
+  document.getElementById('modalPepTitle').textContent='Edit '+p.code;
+  document.getElementById('pepSaveBtn').textContent='Save Changes';
+  document.getElementById('pepDeleteBtn').style.display='block';
+  document.getElementById('pepEditId').value=p.id;
+  document.getElementById('pepCode').value=p.code;
+  document.getElementById('pepMg').value=p.mg;
+  document.getElementById('pepCount').value=p.count;
+  document.getElementById('pepCategory').value=p.category||'';
+  document.getElementById('pepNotes').value=p.notes||'';
+  renderPepRefDropdown();
+  document.getElementById('pepRefLink').value=p.refId||'';
+  openModal('modalPeptide');
+}
+function deletePeptide(){
+  const id=parseInt(document.getElementById('pepEditId').value);
+  state.peptides=state.peptides.filter(p=>p.id!==id);
+  save();render();closeModal('modalPeptide');showToast('Deleted');
+}
+
+// ===== PROTOCOL CRUD =====
+function saveProtocol(){
+  const editId=document.getElementById('protoEditId').value;
+  const name=document.getElementById('protoName').value.trim();
+  const status=document.getElementById('protoStatus').value;
+  const peptideIds=getSelectedPeps('protoSelectPeps');
+  const dose=parseFloat(document.getElementById('protoDose').value)||0;
+  const freq=document.getElementById('protoFreq').value;
+  const site=document.getElementById('protoSite').value;
+  const timeOfDay=document.getElementById('protoTime').value;
+  const notes=document.getElementById('protoNotes').value.trim();
+  if(!name){showToast('Enter a name');return;}
+  if(editId){const p=state.protocols.find(x=>x.id===parseInt(editId));if(p)Object.assign(p,{name,status,peptideIds,dose,freq,site,timeOfDay,notes});showToast('Updated');}
+  else{state.protocols.push({id:state.nextId++,name,status,peptideIds,dose,freq,site,timeOfDay,notes});showToast('Protocol created');}
+  save();render();closeModal('modalProtocol');
+}
+function editProtocol(id){
+  const p=state.protocols.find(x=>x.id===id);if(!p)return;
+  document.getElementById('modalProtoTitle').textContent='Edit Protocol';
+  document.getElementById('protoSaveBtn').textContent='Save Changes';
+  document.getElementById('protoDeleteBtn').style.display='block';
+  document.getElementById('protoEditId').value=p.id;
+  document.getElementById('protoName').value=p.name;
+  document.getElementById('protoStatus').value=p.status;
+  document.getElementById('protoDose').value=p.dose;
+  document.getElementById('protoFreq').value=p.freq;
+  document.getElementById('protoSite').value=p.site||'';
+  document.getElementById('protoTime').value=p.timeOfDay||'Morning';
+  document.getElementById('protoNotes').value=p.notes||'';
+  renderProtoPepSelect(p.peptideIds||[]);
+  openModal('modalProtocol');
+}
+function deleteProtocol(){
+  const id=parseInt(document.getElementById('protoEditId').value);
+  state.protocols=state.protocols.filter(p=>p.id!==id);
+  save();render();closeModal('modalProtocol');showToast('Deleted');
+}
+function setProtoTab(tab,btn){
+  protoFilter=tab;
+  document.querySelectorAll('#page-protocols .tab-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  renderProtocols();
+}
+
+// ===== OPEN VIAL =====
+function openVialModal(){
+  const list = state.peptides.filter(p=>p.count>0);
+  const colors = ['#C97C2E','#34d399','#E0954A','#ec4899','#8b5cf6','#ef4444','#06b6d4','#f97316','#a3e635','#818cf8'];
+  const el = document.getElementById('vialPeptideList');
+  if(!list.length){el.innerHTML='<div class="empty-state"><div class="icon">&#128230;</div><div class="msg">No vials in inventory</div></div>';openModal('modalVial');return;}
+  el.innerHTML=list.map((p,i)=>{
+    const ref=p.refId?PEPTIDIA.find(r=>r.id===p.refId):null;
+    const catCol=ref?(catColors[ref.category]||'#9AA39F'):(p.category?(catColors[p.category]||'#9AA39F'):null);
+    const stockClass=p.count<=2?'critical-stock':p.count<=5?'low-stock':'';
+    return `<div class="pep-item ${stockClass}" onclick="useVial(${p.id})" style="cursor:pointer">
+      <div class="pep-icon" style="background:${catCol||colors[i%colors.length]}">${p.code.slice(0,2)}</div>
+      <div class="pep-info">
+        <div class="pep-name">${esc(p.code)}${ref?'<span class="pep-ref-badge">'+esc(ref.name)+'</span>':''}</div>
+        <div class="pep-detail">${p.mg}mg/vial${p.category?'<span style="color:'+(catCol||'#9AA39F')+'"> · '+esc(p.category)+'</span>':''}</div>
+      </div>
+      <div class="pep-count ${stockClass}">${p.count}<small>vials</small></div>
+    </div>`;
+  }).join('');
+  openModal('modalVial');
+}
+function useVial(id){
+  const p=state.peptides.find(x=>x.id===id);if(!p||p.count<=0)return;
+  p.count--;
+  save();render();closeModal('modalVial');
+  const ref=p.refId?PEPTIDIA.find(r=>r.id===p.refId):null;
+  const name=ref?ref.name:p.code;
+  showToast('Opened '+name+' vial ('+p.count+' left)');
+  if(p.count<=5&&p.count>0)setTimeout(()=>showToast('Low stock: '+name+' — '+p.count+' vials left'),2200);
+  if(p.count===0)setTimeout(()=>showToast('Last vial! Reorder '+name),2200);
+}
+
+// ===== TEMPLATE =====
+function useTemplate(idx){
+  const t=TEMPLATES[idx];
+  document.getElementById('modalProtoTitle').textContent='New Protocol from Template';
+  document.getElementById('protoSaveBtn').textContent='Save Protocol';
+  document.getElementById('protoDeleteBtn').style.display='none';
+  document.getElementById('protoEditId').value='';
+  document.getElementById('protoName').value=t.name;
+  document.getElementById('protoStatus').value='planned';
+  document.getElementById('protoDose').value=t.dose;
+  document.getElementById('protoFreq').value=t.freq;
+  document.getElementById('protoSite').value=t.site;
+  document.getElementById('protoTime').value=t.time;
+  document.getElementById('protoNotes').value=t.notes;
+  renderProtoPepSelect([]);
+  openModal('modalProtocol');
+}
+
+// ===== CYCLE CRUD =====
+function saveCycle(){
+  const editId=document.getElementById('cycleEditId').value;
+  const name=document.getElementById('cycleName').value.trim();
+  const startDate=document.getElementById('cycleStart').value;
+  const weeks=parseInt(document.getElementById('cycleWeeks').value)||8;
+  const peptideIds=getSelectedPeps('cycleSelectPeps');
+  const startDose=parseFloat(document.getElementById('cycleStartDose').value)||100;
+  const targetDose=parseFloat(document.getElementById('cycleTargetDose').value)||startDose;
+  const ramp=document.getElementById('cycleRamp').value;
+  const freq=document.getElementById('cycleFreq').value;
+  const notes=document.getElementById('cycleNotes').value.trim();
+  if(!name){showToast('Enter a name');return;}
+  if(editId){const c=state.cycles.find(x=>x.id===parseInt(editId));if(c)Object.assign(c,{name,startDate,weeks,peptideIds,startDose,targetDose,ramp,freq,notes});showToast('Updated');}
+  else{state.cycles.push({id:state.nextId++,name,startDate,weeks,peptideIds,startDose,targetDose,ramp,freq,notes});showToast('Cycle created');}
+  save();render();closeModal('modalCycle');
+}
+function editCycle(id){
+  const c=state.cycles.find(x=>x.id===id);if(!c)return;
+  document.getElementById('modalCycleTitle').textContent='Edit Cycle';
+  document.getElementById('cycleSaveBtn').textContent='Save Changes';
+  document.getElementById('cycleDeleteBtn').style.display='block';
+  document.getElementById('cycleEditId').value=c.id;
+  document.getElementById('cycleName').value=c.name;
+  document.getElementById('cycleStart').value=c.startDate||'';
+  document.getElementById('cycleWeeks').value=c.weeks;
+  document.getElementById('cycleStartDose').value=c.startDose;
+  document.getElementById('cycleTargetDose').value=c.targetDose;
+  document.getElementById('cycleRamp').value=c.ramp;
+  document.getElementById('cycleFreq').value=c.freq;
+  document.getElementById('cycleNotes').value=c.notes||'';
+  renderCyclePepSelect(c.peptideIds||[]);
+  openModal('modalCycle');
+}
+function deleteCycle(){
+  const id=parseInt(document.getElementById('cycleEditId').value);
+  state.cycles=state.cycles.filter(c=>c.id!==id);
+  save();render();closeModal('modalCycle');showToast('Deleted');
+}
+
+// ===== CALCULATOR =====
+function onCalcPeptideSelect(){
+  const id=parseInt(document.getElementById('calcPeptide').value);
+  const p=state.peptides.find(x=>x.id===id);
+  if(p){document.getElementById('calcMg').value=p.mg;calcRecon();}
+}
+function calcRecon(){
+  const mg=parseFloat(document.getElementById('calcMg').value);
+  const dose=parseFloat(document.getElementById('calcDose').value);
+  const solvent=parseFloat(document.getElementById('calcSolvent').value);
+  const syringeSize=parseInt(document.getElementById('calcSyringe').value);
+  const solventType=document.getElementById('calcSolventType').value;
+  if(!mg||!dose||!solvent){document.getElementById('calcResult').style.display='none';return;}
+  const totalMcg=mg*1000;
+  const concMcgPerMl=totalMcg/solvent;
+  const mlPerDose=dose/concMcgPerMl;
+  const unitsPerDose=mlPerDose*syringeSize;
+  const dosesPerVial=Math.floor(totalMcg/dose);
+  document.getElementById('calcResult').style.display='block';
+  document.getElementById('calcUnits').textContent=unitsPerDose.toFixed(1);
+  document.getElementById('calcMlPerDose').textContent=mlPerDose.toFixed(3)+' mL';
+  document.getElementById('calcDosesPerVial').textContent=dosesPerVial;
+  document.getElementById('calcConc').textContent=Math.round(concMcgPerMl);
+  document.getElementById('calcSolventInfo').textContent=solvent+'mL '+solventType;
+}
+
+function toggleSort(){
+  const modes=['alpha','count','mg']; const labels=['A-Z','# Vials','by mg'];
+  const i=(modes.indexOf(state.sortMode)+1)%modes.length;
+  state.sortMode=modes[i]; document.getElementById('sortBtn').textContent=labels[i]; renderInventory();
+}
+
+function exportData(){
+  let txt='COELHO PEPTIDES — INVENTORY EXPORT\n'+new Date().toLocaleString()+'\n\n';
+  txt+='CODE | mg/vial | Vials | Category | Reference\n'+'-'.repeat(60)+'\n';
+  state.peptides.forEach(p=>{const ref=p.refId?PEPTIDIA.find(r=>r.id===p.refId):null;txt+=`${p.code} | ${p.mg}mg | ${p.count} | ${p.category||'-'} | ${ref?ref.name:'-'}\n`;});
+  txt+='\nPROTOCOLS:\n';
+  state.protocols.forEach(p=>{const peps=(p.peptideIds||[]).map(id=>{const x=state.peptides.find(y=>y.id===id);return x?x.code:'?';}).join(', ');txt+=`- ${p.name} [${p.status}]: ${peps} | ${p.dose}mcg ${p.freq} | ${p.site||''} ${p.timeOfDay||''}\n`;});
+  txt+='\nCYCLE PLANS:\n';
+  state.cycles.forEach(c=>{txt+=`- ${c.name}: ${c.weeks}wk, ${c.startDose}-${c.targetDose}mcg (${c.ramp}), ${c.freq}\n`;});
+  const blob=new Blob([txt],{type:'text/plain'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='coelho-peptides-inventory.txt';a.click();
+}
+
+document.querySelectorAll('.modal-overlay').forEach(o=>{o.addEventListener('click',e=>{if(e.target===o)o.classList.remove('open');});});
+init();
+</script>
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(r => console.log('SW registered:', r.scope))
+            .catch(e => console.log('SW failed:', e));
+        });
+      }
+    </script>
+</body>
+</html>

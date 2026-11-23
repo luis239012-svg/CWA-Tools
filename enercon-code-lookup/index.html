@@ -1,0 +1,870 @@
+<!doctype html><html><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#2196f3">
+    <link rel="icon" type="image/svg+xml" href="icon-192.svg">
+    <link rel="apple-touch-icon" href="icon-192.svg">
+<meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>ENERCON Code Lookup</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+
+<style>
+:root {
+  --bg: #f5f6f8;
+  --bg-card: #ffffff;
+  --bg-input: #ffffff;
+  --fg: #1a1d23;
+  --fg-dim: #5c6370;
+  --fg-muted: #8b919d;
+  --accent: #0066cc;
+  --accent-light: #e8f0fe;
+  --green: #15803d;
+  --green-bg: #dcfce7;
+  --red: #b91c1c;
+  --red-bg: #fee2e2;
+  --yellow: #a16207;
+  --yellow-bg: #fef9c3;
+  --border: #dfe2e8;
+  --border-light: #eceef2;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.06);
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111318;
+    --bg-card: #1a1d24;
+    --bg-input: #22262e;
+    --fg: #e4e6eb;
+    --fg-dim: #9da3b0;
+    --fg-muted: #6b7280;
+    --accent: #4d9fff;
+    --accent-light: #1a2a42;
+    --green: #4ade80;
+    --green-bg: #14331f;
+    --red: #f87171;
+    --red-bg: #3b1515;
+    --yellow: #facc15;
+    --yellow-bg: #332b0a;
+    --border: #2e323b;
+    --border-light: #252930;
+    --shadow: 0 1px 3px rgba(0,0,0,0.3);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111318;
+  --bg-card: #1a1d24;
+  --bg-input: #22262e;
+  --fg: #e4e6eb;
+  --fg-dim: #9da3b0;
+  --fg-muted: #6b7280;
+  --accent: #4d9fff;
+  --accent-light: #1a2a42;
+  --green: #4ade80;
+  --green-bg: #14331f;
+  --red: #f87171;
+  --red-bg: #3b1515;
+  --yellow: #facc15;
+  --yellow-bg: #332b0a;
+  --border: #2e323b;
+  --border-light: #252930;
+  --shadow: 0 1px 3px rgba(0,0,0,0.3);
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; margin: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  height: env(safe-area-inset-top, 0px);
+  z-index: 10;
+  background: var(--bg);
+}
+
+.header {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 5;
+  background: var(--bg);
+  padding: 16px 0 12px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 16px;
+}
+
+.header h1 {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.logo-light { display: block; }
+.logo-dark { display: none; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .logo-light { display: none; }
+  :root:not([data-theme="light"]) .logo-dark { display: block; }
+}
+:root[data-theme="dark"] .logo-light { display: none; }
+:root[data-theme="dark"] .logo-dark { display: block; }
+
+.header-sub {
+  font-size: 0.8rem;
+  color: var(--fg-muted);
+  margin-top: 2px;
+  font-variant-numeric: tabular-nums;
+}
+
+.tabs {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+  overflow-x: auto;
+}
+
+.tab {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: var(--fg-dim);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.tab:hover { background: var(--accent-light); color: var(--accent); }
+.tab.active { background: var(--accent); color: #fff; }
+
+.search-section {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 20px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+.search-row {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.field { display: flex; flex-direction: column; gap: 4px; flex: 1; min-width: 140px; }
+.field label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--fg-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.field input, .field select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg-input);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.field input:focus, .field select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+.field input::placeholder { color: var(--fg-muted); }
+
+.result-card {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.result-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.result-user {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.badge-active { background: var(--green-bg); color: var(--green); }
+.badge-blocked { background: var(--red-bg); color: var(--red); }
+
+.result-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border-light);
+}
+
+.code-block {
+  padding: 16px 20px;
+  background: var(--bg-card);
+}
+
+.code-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--fg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 4px;
+}
+
+.code-value {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.result-footer {
+  padding: 12px 20px;
+  background: var(--bg);
+  border-top: 1px solid var(--border-light);
+  font-size: 0.78rem;
+  color: var(--fg-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.family-section {
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.family-header {
+  padding: 12px 20px;
+  border-bottom: 1px solid var(--border-light);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--fg-dim);
+}
+
+.family-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 16px 20px;
+}
+
+.family-member {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: opacity 0.15s;
+  border: none;
+  color: inherit;
+}
+
+.family-member:hover { opacity: 0.8; }
+.family-member.active { background: var(--green-bg); color: var(--green); }
+.family-member.blocked { background: var(--red-bg); color: var(--red); }
+.family-member.current { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+.table-wrap {
+  overflow-x: auto;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: var(--bg-card);
+  padding: 10px 16px;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--fg-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+
+td {
+  padding: 8px 16px;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+tr:hover td { background: var(--accent-light); }
+tr.row-blocked td { color: var(--red); }
+
+.empty-state {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--fg-muted);
+  font-size: 0.9rem;
+}
+
+.stats-bar {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.stat-chip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--fg-dim);
+}
+
+.stat-chip strong {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  color: var(--fg);
+}
+
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot-green { background: var(--green); }
+.dot-red { background: var(--red); }
+.dot-blue { background: var(--accent); }
+
+.code-table-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 2px;
+  padding: 12px;
+}
+
+.ct-cell {
+  padding: 6px 8px;
+  text-align: center;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  border-radius: 3px;
+  background: var(--bg);
+}
+
+.ct-cell .ct-idx {
+  font-size: 0.65rem;
+  color: var(--fg-muted);
+  display: block;
+}
+
+.ct-cell .ct-val {
+  font-weight: 600;
+  font-family: var(--font-display);
+}
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.filter-btn {
+  padding: 6px 14px;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  background: var(--bg-card);
+  color: var(--fg-dim);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+.filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.panel { display: none; }
+.panel.visible { display: block; }
+
+.warning-banner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--yellow-bg);
+  color: var(--yellow);
+  border-radius: var(--radius);
+  font-size: 0.82rem;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+@media (max-width: 500px) {
+  .search-row { flex-direction: column; }
+  .result-body { grid-template-columns: 1fr; }
+  .code-table-grid { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
+  .header h1 { font-size: 1.25rem; }
+  .tabs { gap: 2px; }
+  .tab { padding: 7px 8px; font-size: 0.75rem; }
+}
+</style>
+
+<div class="header">
+  <div class="logo-light" style="margin-bottom:8px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="220" height="55"><g transform="translate(40,40) scale(0.33)"><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(100)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(220)"/><circle r="22" fill="white"/><circle r="28" fill="none" stroke="#0B2545" stroke-width="4.5"/><circle r="10" fill="#0B2545"/><circle r="4.5" fill="#F4511E"/></g><text x="88" y="47" font-family="Arial Black, Arial" font-weight="900" font-size="36" fill="#0B2545" letter-spacing="3">COELHO</text><text x="90" y="67" font-family="Arial" font-weight="400" font-size="15" fill="#1C4E8A" letter-spacing="5">WIND ADVISORY</text></svg></div>
+  <div class="logo-dark" style="margin-bottom:8px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="220" height="55"><g transform="translate(40,40) scale(0.33)"><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(100)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(220)"/><circle r="22" fill="#111318"/><circle r="28" fill="none" stroke="#3476B8" stroke-width="4.5"/><circle r="10" fill="#3476B8"/><circle r="4.5" fill="#C8DEFF"/></g><text x="88" y="47" font-family="Arial Black, Arial" font-weight="900" font-size="36" fill="white" letter-spacing="3">COELHO</text><text x="90" y="67" font-family="Arial" font-weight="400" font-size="15" fill="#B8D4F8" letter-spacing="5">WIND ADVISORY</text></svg></div>
+  <div style="font-size:0.95rem;font-weight:600;color:var(--fg-dim)">ENERCON Service Code Lookup</div>
+  <div class="header-sub">V5.88 Block List · 6,144 Users · 256 Code Pairs</div>
+</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab active" data-tab="active" role="tab">Active Users</button>
+  <button class="tab" data-tab="lookup" role="tab">Lookup</button>
+  <button class="tab" data-tab="search" role="tab">Search by Code</button>
+  <button class="tab" data-tab="blocklist" role="tab">Block List</button>
+  <button class="tab" data-tab="tables" role="tab">Code Tables</button>
+</div>
+
+<!-- ACTIVE USERS -->
+<div id="panel-active" class="panel visible">
+  <div class="stats-bar">
+    <div class="stat-chip"><span class="dot dot-green"></span> <strong>5,648</strong> Active</div>
+    <div class="stat-chip"><span class="dot dot-red"></span> <strong>496</strong> Blocked</div>
+    <div class="stat-chip"><span class="dot dot-blue"></span> <strong>6,144</strong> Total</div>
+  </div>
+  <div class="filter-bar">
+    <input type="text" id="au-search" inputmode="numeric" placeholder="Filter by user or code..." style="padding:6px 14px;border:1px solid var(--border);border-radius:20px;background:var(--bg-card);color:var(--fg);font-family:var(--font-body);font-size:0.8rem;flex:1;min-width:120px;outline:none;">
+  </div>
+  <div class="table-wrap" style="max-height:65vh;overflow-y:auto">
+    <table>
+      <thead><tr><th>User</th><th>2018 Code</th><th>2009 Code</th><th>Family</th></tr></thead>
+      <tbody id="au-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- LOOKUP PANEL -->
+<div id="panel-lookup" class="panel">
+  <div class="search-section">
+    <div class="search-row">
+      <div class="field" style="flex:2">
+        <label for="user-input">User Number</label>
+        <input type="text" id="user-input" inputmode="numeric" pattern="[0-9]*" placeholder="e.g. 0130, 4910, 1111" maxlength="5" autocomplete="off">
+      </div>
+    </div>
+  </div>
+  <div id="lookup-result"></div>
+</div>
+
+<!-- SEARCH BY CODE PANEL -->
+<div id="panel-search" class="panel">
+  <div class="search-section">
+    <div class="search-row">
+      <div class="field" style="flex:2">
+        <label for="code-input">Service Code</label>
+        <input type="text" id="code-input" inputmode="numeric" pattern="[0-9]*" placeholder="e.g. 1199, 8712, 3487" maxlength="5" autocomplete="off">
+      </div>
+      <div class="field" style="flex:1">
+        <label for="code-type">Code System</label>
+        <select id="code-type">
+          <option value="2018">2018 Codes</option>
+          <option value="2009">2009 Codes</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div id="search-result"></div>
+</div>
+
+<!-- BLOCK LIST PANEL -->
+<div id="panel-blocklist" class="panel">
+  <div class="stats-bar">
+    <div class="stat-chip"><span class="dot dot-red"></span> <strong>496</strong> Blocked</div>
+    <div class="stat-chip"><span class="dot dot-green"></span> <strong>5,648</strong> Active</div>
+    <div class="stat-chip"><span class="dot dot-blue"></span> <strong>6,144</strong> Total</div>
+  </div>
+  <div class="filter-bar">
+    <input type="text" id="bl-search" placeholder="Filter by user number..." style="padding:6px 14px;border:1px solid var(--border);border-radius:20px;background:var(--bg-card);color:var(--fg);font-family:var(--font-body);font-size:0.8rem;flex:1;min-width:120px;outline:none;">
+  </div>
+  <div class="table-wrap" style="max-height:60vh;overflow-y:auto">
+    <table>
+      <thead><tr><th>User</th><th>2018 Code</th><th>2009 Code</th><th>Family Index</th></tr></thead>
+      <tbody id="bl-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- CODE TABLES PANEL -->
+<div id="panel-tables" class="panel">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-ct="2018">2018 Codes (Table 1)</button>
+    <button class="filter-btn" data-ct="2009">2009 Codes (Table 2)</button>
+  </div>
+  <div class="search-section" style="padding:12px 16px;">
+    <div class="search-row">
+      <div class="field">
+        <label for="ct-search">Search Code Table</label>
+        <input type="text" id="ct-search" inputmode="numeric" placeholder="Search by index or code value..." autocomplete="off">
+      </div>
+    </div>
+  </div>
+  <div id="ct-grid-wrap" class="table-wrap" style="max-height:60vh;overflow-y:auto">
+    <table>
+      <thead><tr><th>Index</th><th>Code</th><th>Example Users (2018)</th></tr></thead>
+      <tbody id="ct-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const T1=[4680,8359,5674,7195,5396,9282,4826,8134,6850,3909,6090,3030,2268,5812,9172,1061,6759,8375,2643,1481,7295,6183,5472,2412,9121,3417,3957,5848,3011,7198,1164,1736,3418,1834,5414,8674,3662,2958,2389,1056,2025,9848,7248,6743,7781,4758,7663,5255,4876,6535,4060,4526,4711,1923,8737,4100,2891,5772,7812,1487,6725,3135,1653,7640,2917,8100,1199,1728,8876,4079,6260,2824,4438,2293,7351,4028,8363,3362,4417,6539,4004,6826,2417,3303,8720,4302,2491,5072,7419,4295,3725,1268,2753,7043,5917,9270,5429,9054,3275,1392,3745,1768,2758,1043,5217,4570,5478,1024,4303,2372,5816,2768,2458,1083,5219,7570,5178,7024,4823,2262,7819,2661,4152,2285,7436,8557,2173,1020,4821,5277,7422,2662,4822,2165,7492,8107,2223,1660,2931,3292,1422,4165,6822,2565,6494,4107,2683,2640,2690,3212,1522,4164,5829,2561,2490,5102,4689,2633,2594,5216,2252,1837,3193,3845,1217,1928,3621,5815,5291,2817,5222,3615,8162,6655,2688,4722,2667,1543,4727,5647,5523,7192,5184,4735,1531,5923,1187,4521,5931,3781,7532,7124,3827,2141,1380,5371,3788,4522,1494,2516,1552,3163,5125,2862,6450,7103,1688,3633,3574,2216,4242,3835,7123,3445,9375,2283,1934,4921,3355,5138,5234,8712,3142,3851,3678,5225,1727,3573,2729,5446,4418,2718,4272,5646,2623,2717,3487,5422,2933,6782,5531,6316,4726,1246,3160,4315,2186,5525,2525,2578,3558,6153,4248,3749,2484,7417];
+const T2=[4680,4821,5277,7422,2662,4822,2165,7492,8107,1909,1660,1422,3292,2931,4165,2223,2565,6494,4107,2683,2640,2690,3212,1322,4164,5829,2561,2490,5102,4689,2633,2594,5216,2252,1837,3193,3845,1217,1928,3621,5815,5291,2817,5222,3615,8162,6655,2688,4722,2667,1543,4727,5647,5523,7192,5184,4735,1531,5923,1187,4521,5931,3781,7532,7124,3827,2141,1380,5371,3788,4522,1494,2516,1552,3163,5125,2862,6450,7103,1688,3633,3574,2216,4242,3835,7123,3445,9375,2283,1934,4921,3355,5138,5234,8712,3142,3851,3678,5225,1727,3573,2729,5446,4418,2718,4272,5646,2623,2717,3487,5422,2933,6782,5531,6316,4726,1246,3160,4315,2186,5525,2525,2578,3558,6153,4248,3749,2484,8359,5674,7195,5396,9282,4826,8134,6850,3909,6090,3030,2268,5812,9172,1061,6759,8375,2643,1481,7295,6183,5472,2412,9121,3417,3957,5848,3011,7198,1164,1736,3418,1834,5414,8674,3662,2958,2389,1056,2025,9848,7248,6743,7781,4758,7663,5255,4876,6535,4060,4526,4711,1923,8737,4100,2891,5772,7812,1487,6725,3135,1653,7640,2917,8100,1199,1728,8876,4079,6260,2824,4438,2293,7351,4028,8363,3362,4417,6539,4004,6826,2417,3303,8720,4302,2491,5072,7419,4295,3725,1268,2753,7043,5917,9270,5429,9054,3275,1392,3745,1768,2758,1043,5217,4570,5478,1024,4303,2372,5816,2768,2458,1083,5219,7570,5178,7024,4823,2262,7819,2661,4152,2285,7436,8557,2173,1020,6321];
+const BL=new Set([37,44,48,53,54,90,94,110,119,146,152,165,170,372,381,423,437,485,655,749,793,827,846,851,857,940,947,994,999,1000,1001,1004,1014,1057,1061,1137,1139,1151,1192,1194,1195,1270,1312,1323,1326,1356,1397,1401,1404,1452,1494,1499,1500,1501,1502,1519,1526,1544,1566,1577,1592,1594,1620,1643,1651,1693,1745,1747,1774,1783,1786,1787,1788,1798,1805,1842,1844,1888,1897,1903,1908,1910,1920,1936,1943,1966,1977,2002,2015,2024,2032,2038,2043,2084,2085,2086,2105,2109,2118,2132,2134,2135,2136,2144,2153,2167,2175,2176,2191,2223,2248,2261,2272,2301,2316,2325,2345,2369,2379,2382,2389,2402,2405,2411,2419,2440,2441,2442,2470,2500,2518,2541,2542,2551,2562,2609,2633,2638,2639,2641,2696,2707,2713,2722,2750,2835,2852,2854,2866,2872,2900,2912,2916,2922,2928,2935,2946,2978,2985,3039,3096,3108,3116,3121,3164,3165,3168,3169,3183,3190,3192,3193,3194,3223,3225,3229,3275,3282,3283,3293,3302,3303,3304,3321,3334,3367,3390,3394,3399,3405,3422,3424,3439,3448,3488,3500,3506,3515,3521,3524,3533,3534,3540,3550,3556,3591,3621,3645,3668,3679,3681,3683,3695,3699,3702,3707,3711,3712,3719,3740,3746,3753,3773,3779,3785,3793,3821,3826,3829,3834,3871,3887,3888,3894,3899,3913,3935,3941,3943,3946,3948,3961,3972,3973,3981,4001,4019,4038,4045,4047,4057,4058,4074,4077,4088,4097,4105,4106,4109,4111,4114,4120,4128,4131,4133,4141,4146,4149,4159,4163,4166,4167,4174,4195,4200,4205,4222,4225,4231,4232,4234,4238,4241,4251,4253,4259,4266,4267,4269,4282,4283,4284,4285,4286,4290,4293,4295,4300,4307,4314,4322,4325,4332,4341,4343,4346,4362,4375,4376,4401,4402,4404,4419,4432,4461,4464,4467,4482,4494,4498,4500,4503,4505,4512,4520,4537,4540,4544,4545,4550,4555,4559,4565,4567,4568,4569,4583,4585,4591,4597,4603,4606,4618,4621,4626,4630,4635,4637,4638,4641,4644,4652,4656,4675,4687,4697,4701,4705,4708,4712,4713,4716,4720,4722,4728,4740,4741,4757,4761,4786,4787,4788,4794,4799,4812,4813,4817,4818,4820,4860,4870,4871,4874,4875,4876,4886,4887,4889,4891,4893,4894,4898,4899,4901,4904,4919,4920,4922,4923,4924,4926,4928,4930,4934,4935,4938,4942,4947,4975,4977,4981,4982,4984,4993,5011,5012,5506,5526,5527,5529,5534,5536,5537,5541,5543,5550,5552,5553,5560,5561,5570,5571,5572,5581,5595,5621,5627,5629,5630,5640,5641,5642,5664,5677,5678,5685,5692,5698,5701,5705,5715,5716,5718,5719,5766,5767,5776,5777,5783,5784,5800,5806,5826,5828,5829,5830,5832,5835,5844,5845,5849,5866,5894,5895,5897,5903,5919,5920,5936,5951,5963,5967,5968,5976,5993,6018,6021,6029,6039,6040,6042,6048,6057,6066,6083,6095]);
+const BL_ARR=[...BL].sort((a,b)=>a-b);
+
+function idx2018(u){ return ((u-64)%256+256)%256; }
+function idx2009(u){ return ((u%256)+256)%256; }
+function code2018(u){ return T1[idx2018(u)]; }
+function code2009(u){ return T2[idx2009(u)]; }
+function isBlocked(u){ return BL.has(u); }
+function pad4(n){ return String(n).padStart(4,'0'); }
+
+function family2018(u){
+  const idx = idx2018(u);
+  const members = [];
+  for(let i=0;i<6144;i++){
+    if(idx2018(i)===idx) members.push(i);
+  }
+  return members;
+}
+
+const tabs = document.querySelectorAll('.tab');
+const panels = document.querySelectorAll('.panel');
+tabs.forEach(t => {
+  t.addEventListener('click', () => {
+    tabs.forEach(x => x.classList.remove('active'));
+    panels.forEach(x => x.classList.remove('visible'));
+    t.classList.add('active');
+    document.getElementById('panel-' + t.dataset.tab).classList.add('visible');
+  });
+});
+
+const userInput = document.getElementById('user-input');
+const lookupResult = document.getElementById('lookup-result');
+
+userInput.addEventListener('input', () => {
+  const val = userInput.value.trim();
+  if(!val || isNaN(val)) { lookupResult.innerHTML=''; return; }
+  const u = parseInt(val, 10);
+  if(u < 0 || u > 6143) {
+    lookupResult.innerHTML='<div class="empty-state">User numbers range from 0000 to 6143</div>';
+    return;
+  }
+  const c18 = code2018(u);
+  const c09 = code2009(u);
+  const blocked = isBlocked(u);
+  const fam = family2018(u);
+  const activeCount = fam.filter(m => !isBlocked(m)).length;
+  const blockedCount = fam.length - activeCount;
+
+  let html = `
+    <div class="result-card">
+      <div class="result-header">
+        <div class="result-user">User ${pad4(u)}</div>
+        <span class="badge ${blocked?'badge-blocked':'badge-active'}">
+          ${blocked ? '⛔ Blocked' : '✓ Active'}
+        </span>
+      </div>
+      <div class="result-body">
+        <div class="code-block">
+          <div class="code-label">2018 Code (Table 1)</div>
+          <div class="code-value">${pad4(c18)}</div>
+        </div>
+        <div class="code-block">
+          <div class="code-label">2009 Code (Table 2)</div>
+          <div class="code-value">${pad4(c09)}</div>
+        </div>
+      </div>
+      <div class="result-footer">
+        Family index: ${idx2018(u)} · Formula: (${u} − 64) mod 256 = ${idx2018(u)}
+      </div>
+    </div>`;
+
+  if(blocked){
+    html += `<div class="warning-banner">⚠ This user is in the V5.88 block list. Use an active family member below instead.</div>`;
+  }
+
+  html += `
+    <div class="family-section">
+      <div class="family-header">Family (same 2018 code ${pad4(c18)}) — ${activeCount} active, ${blockedCount} blocked</div>
+      <div class="family-grid">
+        ${fam.map(m => `<button class="family-member ${isBlocked(m)?'blocked':'active'} ${m===u?'current':''}" onclick="document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}</button>`).join('')}
+      </div>
+    </div>`;
+
+  lookupResult.innerHTML = html;
+});
+
+const codeInput = document.getElementById('code-input');
+const codeType = document.getElementById('code-type');
+const searchResult = document.getElementById('search-result');
+
+function doCodeSearch(){
+  const val = codeInput.value.trim();
+  if(!val || isNaN(val)) { searchResult.innerHTML=''; return; }
+  const code = parseInt(val, 10);
+  const is2018 = codeType.value === '2018';
+  const table = is2018 ? T1 : T2;
+
+  const indices = [];
+  for(let i=0;i<256;i++){
+    if(table[i] === code) indices.push(i);
+  }
+
+  if(indices.length === 0){
+    searchResult.innerHTML = `<div class="empty-state">Code ${pad4(code)} not found in the ${codeType.value} code table</div>`;
+    return;
+  }
+
+  let html = '';
+  for(const idx of indices){
+    const users = [];
+    for(let u=0;u<6144;u++){
+      const uIdx = is2018 ? idx2018(u) : idx2009(u);
+      if(uIdx === idx) users.push(u);
+    }
+    const activeUsers = users.filter(u => !isBlocked(u));
+    const blockedUsers = users.filter(u => isBlocked(u));
+
+    html += `
+      <div class="result-card">
+        <div class="result-header">
+          <div class="result-user">Code ${pad4(code)}</div>
+          <span class="badge badge-active">${codeType.value} · Index ${idx}</span>
+        </div>
+        <div class="result-footer">
+          ${users.length} users total · ${activeUsers.length} active · ${blockedUsers.length} blocked
+        </div>
+      </div>
+      <div class="family-section">
+        <div class="family-header">All users with ${codeType.value} code ${pad4(code)}</div>
+        <div class="family-grid">
+          ${users.map(m => `<button class="family-member ${isBlocked(m)?'blocked':'active'}" onclick="tabs[1].click();document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}</button>`).join('')}
+        </div>
+      </div>`;
+  }
+  searchResult.innerHTML = html;
+}
+
+codeInput.addEventListener('input', doCodeSearch);
+codeType.addEventListener('change', doCodeSearch);
+
+const blBody = document.getElementById('bl-body');
+const blSearch = document.getElementById('bl-search');
+
+function renderBlockList(filter){
+  const items = filter
+    ? BL_ARR.filter(u => String(u).includes(filter) || pad4(u).includes(filter))
+    : BL_ARR;
+  blBody.innerHTML = items.map(u => `
+    <tr class="row-blocked" style="cursor:pointer" onclick="tabs[1].click();document.getElementById('user-input').value='${u}';document.getElementById('user-input').dispatchEvent(new Event('input'))">
+      <td><strong>${pad4(u)}</strong></td>
+      <td>${pad4(code2018(u))}</td>
+      <td>${pad4(code2009(u))}</td>
+      <td>${idx2018(u)}</td>
+    </tr>`).join('');
+}
+renderBlockList('');
+blSearch.addEventListener('input', () => renderBlockList(blSearch.value.trim()));
+
+const auBody = document.getElementById('au-body');
+const auSearch = document.getElementById('au-search');
+const auWrap = auBody.closest('.table-wrap');
+const ACTIVE_USERS = [];
+for(let i=0;i<6144;i++){if(!BL.has(i)) ACTIVE_USERS.push(i);}
+let auFiltered = ACTIVE_USERS;
+let auShown = 0;
+const AU_PAGE = 200;
+
+function renderActiveUsers(filter, reset){
+  if(reset){
+    auFiltered = filter
+      ? ACTIVE_USERS.filter(u =>
+          pad4(u).includes(filter) ||
+          String(code2018(u)).includes(filter) ||
+          pad4(code2018(u)).includes(filter) ||
+          String(code2009(u)).includes(filter) ||
+          pad4(code2009(u)).includes(filter)
+        )
+      : ACTIVE_USERS;
+    auShown = 0;
+    auBody.innerHTML = '';
+  }
+  const batch = auFiltered.slice(auShown, auShown + AU_PAGE);
+  let html = batch.map(u => `
+    <tr style="cursor:pointer" onclick="tabs[1].click();document.getElementById('user-input').value='${u}';document.getElementById('user-input').dispatchEvent(new Event('input'))">
+      <td><strong>${pad4(u)}</strong></td>
+      <td>${pad4(code2018(u))}</td>
+      <td>${pad4(code2009(u))}</td>
+      <td>${idx2018(u)}</td>
+    </tr>`).join('');
+  auShown += batch.length;
+  const old = document.getElementById('au-loadmore');
+  if(old) old.remove();
+  auBody.insertAdjacentHTML('beforeend', html);
+  if(auShown < auFiltered.length){
+    auBody.insertAdjacentHTML('beforeend',
+      `<tr id="au-loadmore"><td colspan="4" style="text-align:center;padding:12px">
+        <button onclick="renderActiveUsers('',false)" style="padding:8px 24px;border:1px solid var(--border);border-radius:20px;background:var(--accent);color:#fff;font-size:0.85rem;cursor:pointer">Load more (${auFiltered.length - auShown} remaining)</button>
+      </td></tr>`);
+  }
+}
+renderActiveUsers('', true);
+auSearch.addEventListener('input', () => renderActiveUsers(auSearch.value.trim(), true));
+auWrap.addEventListener('scroll', () => {
+  if(auShown >= auFiltered.length) return;
+  if(auWrap.scrollTop + auWrap.clientHeight >= auWrap.scrollHeight - 100){
+    renderActiveUsers('', false);
+  }
+});
+
+const ctBody = document.getElementById('ct-body');
+const ctSearch = document.getElementById('ct-search');
+const ctBtns = document.querySelectorAll('[data-ct]');
+let currentCT = '2018';
+
+function renderCodeTable(filter){
+  const table = currentCT === '2018' ? T1 : T2;
+  const is2018 = currentCT === '2018';
+  let rows = [];
+  for(let i=0;i<256;i++){
+    rows.push({idx:i, code:table[i]});
+  }
+  if(filter){
+    rows = rows.filter(r =>
+      String(r.idx).includes(filter) ||
+      String(r.code).includes(filter) ||
+      pad4(r.code).includes(filter)
+    );
+  }
+
+  const thead = ctBody.parentElement.querySelector('thead tr');
+  thead.innerHTML = `<th>Index</th><th>Code</th><th>Example Users (${currentCT})</th>`;
+
+  ctBody.innerHTML = rows.map(r => {
+    const examples = [];
+    for(let u=0;u<6144 && examples.length<3;u++){
+      const uIdx = is2018 ? idx2018(u) : idx2009(u);
+      if(uIdx === r.idx && !isBlocked(u)) examples.push(pad4(u));
+    }
+    return `<tr>
+      <td>${r.idx}</td>
+      <td><strong>${pad4(r.code)}</strong></td>
+      <td style="color:var(--fg-dim)">${examples.join(', ')}${examples.length===3?' …':''}</td>
+    </tr>`;
+  }).join('');
+}
+
+ctBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    ctBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentCT = btn.dataset.ct;
+    renderCodeTable(ctSearch.value.trim());
+  });
+});
+
+ctSearch.addEventListener('input', () => renderCodeTable(ctSearch.value.trim()));
+renderCodeTable('');
+
+userInput.focus();
+</script>
+
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(r => console.log('SW registered:', r.scope))
+            .catch(e => console.log('SW failed:', e));
+        });
+      }
+    </script>
+</body></html>
