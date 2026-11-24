@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
-  <rect width="192" height="192" rx="28.799999999999997" fill="#0a0a0a"/>
-  <rect x="9.600000000000001" y="9.600000000000001" width="172.8" height="172.8" rx="23.04" fill="#2196f3" opacity="0.15"/>
-  <text x="50%" y="54%" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="67.19999999999999" fill="#2196f3" text-anchor="middle" dominant-baseline="middle">CL</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200" width="192" height="192">
+<rect x="-100" y="-100" width="200" height="200" rx="40" fill="#0B2545"/>
+<g transform="scale(0.85)">
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/>
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="white" transform="rotate(100)"/>
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="white" transform="rotate(220)"/>
+<circle r="22" fill="#0B2545"/>
+<circle r="28" fill="none" stroke="white" stroke-width="4.5"/>
+<circle r="10" fill="white"/>
+<circle r="4.5" fill="#F4511E"/>
+</g>
 </svg>
