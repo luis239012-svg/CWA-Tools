@@ -1,36 +1,12 @@
-const CACHE_NAME = 'cwa-pwa-v1';
-
-self.addEventListener('install', event => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll([
-      './',
-      './index.html',
-      './manifest.json'
-    ]))
-  );
-  self.skipWaiting();
-});
-
-self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    )
-  );
-  self.clients.claim();
-});
-
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request).then(cached => {
-      if (cached) return cached;
-      return fetch(event.request).then(response => {
-        if (response.ok) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
-        }
-        return response;
-      }).catch(() => cached);
-    })
-  );
+const PREFIX='enercon-code-lookup-v2-';
+const CACHE_NAME=PREFIX+'v2';
+const ASSETS=['./','./index.html','./manifest.json','./icon-192.svg','./icon-512.svg','./icon-maskable.svg'];
+self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE_NAME).then(c=>c.addAll(ASSETS)));self.skipWaiting();});
+self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(ks=>Promise.all(ks.filter(k=>k.startsWith(PREFIX)&&k!==CACHE_NAME).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET')return;
+  e.respondWith(caches.open(CACHE_NAME).then(cache=>cache.match(e.request).then(cached=>{
+    const net=fetch(e.request).then(res=>{if(res.ok)cache.put(e.request,res.clone());return res;}).catch(()=>cached);
+    return cached||net;
+  })));
 });
