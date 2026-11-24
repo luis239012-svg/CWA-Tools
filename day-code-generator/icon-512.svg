@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="76.8" fill="#0a0a0a"/>
-  <rect x="25.6" y="25.6" width="460.8" height="460.8" rx="61.44" fill="#43a047" opacity="0.15"/>
-  <text x="50%" y="54%" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="179.2" fill="#43a047" text-anchor="middle" dominant-baseline="middle">DC</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200" width="512" height="512">
+<rect x="-100" y="-100" width="200" height="200" rx="40" fill="#0B2545"/>
+<g transform="scale(0.85)">
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/>
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="white" transform="rotate(100)"/>
+<path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="white" transform="rotate(220)"/>
+<circle r="22" fill="#0B2545"/>
+<circle r="28" fill="none" stroke="white" stroke-width="4.5"/>
+<circle r="10" fill="white"/>
+<circle r="4.5" fill="#F4511E"/>
+</g>
 </svg>
