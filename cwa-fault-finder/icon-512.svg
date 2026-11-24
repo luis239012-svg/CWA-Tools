@@ -9,4 +9,5 @@
     <circle r="10" fill="white"/>
     <circle r="4.5" fill="#F4511E"/>
   </g>
+  <text y="82" text-anchor="middle" x="0" font-family="Arial,Helvetica,sans-serif" font-weight="700" font-size="22" fill="#B8D4F8" letter-spacing="2">FF</text>
 </svg>
