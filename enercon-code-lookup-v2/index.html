@@ -134,7 +134,7 @@ tr.row-dev td { color:var(--red);font-weight:600; }
   <div class="logo-light" style="margin-bottom:8px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="220" height="55"><g transform="translate(40,40) scale(0.33)"><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(100)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#0B2545" transform="rotate(220)"/><circle r="22" fill="white"/><circle r="28" fill="none" stroke="#0B2545" stroke-width="4.5"/><circle r="10" fill="#0B2545"/><circle r="4.5" fill="#F4511E"/></g><text x="88" y="47" font-family="Arial Black, Arial" font-weight="900" font-size="36" fill="#0B2545" letter-spacing="3">COELHO</text><text x="90" y="67" font-family="Arial" font-weight="400" font-size="15" fill="#1C4E8A" letter-spacing="5">WIND ADVISORY</text></svg></div>
   <div class="logo-dark" style="margin-bottom:8px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="220" height="55"><g transform="translate(40,40) scale(0.33)"><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(100)"/><path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(220)"/><circle r="22" fill="#111318"/><circle r="28" fill="none" stroke="#3476B8" stroke-width="4.5"/><circle r="10" fill="#3476B8"/><circle r="4.5" fill="#C8DEFF"/></g><text x="88" y="47" font-family="Arial Black, Arial" font-weight="900" font-size="36" fill="white" letter-spacing="3">COELHO</text><text x="90" y="67" font-family="Arial" font-weight="400" font-size="15" fill="#B8D4F8" letter-spacing="5">WIND ADVISORY</text></svg></div>
   <div style="font-size:0.95rem;font-weight:600;color:var(--fg-dim)">ENERCON Service Code Lookup</div>
-  <div class="header-sub">CS82 V5.88 + CS70 V5.41 · 6,144 Users · 256 Code Pairs</div>
+  <div class="header-sub">CS82 V5.88 + CS70 V5.41 Â· 6,144 Users Â· 256 Code Pairs</div>
 </div>
 
 <div class="tabs" role="tablist">
@@ -184,15 +184,13 @@ tr.row-dev td { color:var(--red);font-weight:600; }
 <div id="panel-developer" class="panel">
   <div class="stats-bar">
     <div class="stat-chip"><span class="dot dot-red"></span> <strong>4</strong> Confirmed Dev Users</div>
-    <div class="stat-chip"><span class="dot dot-yellow"></span> <strong>2</strong> Not Working</div>
   </div>
   <div id="dev-list"></div>
   <div class="result-card" style="margin-top:16px"><div class="result-header"><div class="result-user" style="font-size:1rem">Tested Codes</div></div>
     <div class="result-footer" style="font-size:.82rem">
-      <strong>2018 Confirmed:</strong> 0130→1199 ✓ · 3000→7819 ✓ · 5000→4876 ✓ · 5500→6725 ✓<br>
+      <strong>2018 Confirmed:</strong> 0130→1199 ✓ · 1868→2268 ✓ · 2909→7198 ✓ · 3000→7819 ✓ · 4900→1727 ✓ · 4910→3487 ✓ · 5000→4876 ✓ · 5500→6725 ✓<br>
       <strong>2009 Confirmed:</strong> 1868→2862 ✓ · 4910→6655 ✓<br>
-      <strong>Not Working:</strong> 3100 (formula gives 5234) · 4000 (neither 2205 nor 5429)
-    </div></div>
+      <strong>Source:</strong> Code table extracted from CS82 IO1 Nacelle V5.88 firmware at 0x2C5A6</div></div>
 </div>
 
 <div id="panel-blocklist" class="panel">
@@ -232,18 +230,18 @@ tr.row-dev td { color:var(--red);font-weight:600; }
   <div class="result-card"><div class="result-header"><div class="result-user">CS70 vs CS82</div><span class="badge badge-active">Comparison</span></div>
     <div class="result-footer" style="font-size:.82rem">
       <strong>Code Table:</strong> CS70 has ONE 256-entry code table, identical to CS82 T2 (2009 codes). 0 differences.<br>
-      <strong>2018 System:</strong> CS70 predates the 2018 code system — only 2009 codes apply.<br>
+      <strong>2018 System:</strong> CS70 predates the 2018 code system â only 2009 codes apply.<br>
       <strong>Block List:</strong> CS70 has 49 blocked users vs CS82's 496. Only user 1000 is blocked in both.<br>
-      <strong>Active Users:</strong> CS70: 7 active · CS82: 5,648 active
+      <strong>Active Users:</strong> CS70: 7 active Â· CS82: 5,648 active
     </div></div>
   <div class="dev-info"><div class="dev-info-header" style="background:var(--green-bg);color:var(--green);border-color:var(--green)">CS70 Active Users (7)</div><div class="dev-info-body" id="cs70-active"></div></div>
   <div class="dev-info"><div class="dev-info-header">CS70 Blocked Users (49)</div><div class="dev-info-body" id="cs70-blocked"></div></div>
   <div class="result-card"><div class="result-header"><div class="result-user" style="font-size:1rem">Key Findings</div></div>
     <div class="result-footer" style="font-size:.82rem">
-      <strong>Confirmed 2009 codes:</strong> User 1868 → 2862 ✓ · User 4910 → 6655 ✓<br>
-      <strong>CS70 user 210:</strong> Active on CS70 but NOT in CS82 tables — unique to CS70<br>
-      <strong>CS70 MPU1 V4.78 / MPU2 V5.36:</strong> No user/code tables — processor firmware only<br>
-      <strong>Evolution:</strong> CS70 (single code) → CS82 (dual 2009+2018 codes, 10x larger block list)
+      <strong>Confirmed 2009 codes:</strong> User 1868 â 2862 â Â· User 4910 â 6655 â<br>
+      <strong>CS70 user 210:</strong> Active on CS70 but NOT in CS82 tables â unique to CS70<br>
+      <strong>CS70 MPU1 V4.78 / MPU2 V5.36:</strong> No user/code tables â processor firmware only<br>
+      <strong>Evolution:</strong> CS70 (single code) â CS82 (dual 2009+2018 codes, 10x larger block list)
     </div></div>
 </div>
 
@@ -259,7 +257,7 @@ tr.row-dev td { color:var(--red);font-weight:600; }
 </div>
 
 <script>
-const T1=[4680,8359,5674,7195,5396,9282,4826,8134,6850,3909,6090,3030,2268,5812,9172,1061,6759,8375,2643,1481,7295,6183,5472,2412,9121,3417,3957,5848,3011,7198,1164,1736,3418,1834,5414,8674,3662,2958,2389,1056,2025,9848,7248,6743,7781,4758,7663,5255,4876,6535,4060,4526,4711,1923,8737,4100,2891,5772,7812,1487,6725,3135,1653,7640,2917,8100,1199,1728,8876,4079,6260,2824,4438,2293,7351,4028,8363,3362,4417,6539,4004,6826,2417,3303,8720,4302,2491,5072,7419,4295,3725,1268,2753,7043,5917,9270,5429,9054,3275,1392,3745,1768,2758,1043,5217,4570,5478,1024,4303,2372,5816,2768,2458,1083,5219,7570,5178,7024,4823,2262,7819,2661,4152,2285,7436,8557,2173,1020,4821,5277,7422,2662,4822,2165,7492,8107,2223,1660,2931,3292,1422,4165,6822,2565,6494,4107,2683,2640,2690,3212,1522,4164,5829,2561,2490,5102,4689,2633,2594,5216,2252,1837,3193,3845,1217,1928,3621,5815,5291,2817,5222,3615,8162,6655,2688,4722,2667,1543,4727,5647,5523,7192,5184,4735,1531,5923,1187,4521,5931,3781,7532,7124,3827,2141,1380,5371,3788,4522,1494,2516,1552,3163,5125,2862,6450,7103,1688,3633,3574,2216,4242,3835,7123,3445,9375,2283,1934,4921,3355,5138,5234,8712,3142,3851,3678,5225,1727,3573,2729,5446,4418,2718,4272,5646,2623,2717,3487,5422,2933,6782,5531,6316,4726,1246,3160,4315,2186,5525,2525,2578,3558,6153,4248,3749,2484,7417];
+const T1=[4680,7124,3827,2141,1357,5371,3788,4522,1494,9110,1552,3163,5125,2862,6450,1013,1688,3633,3574,2216,4242,3835,7123,2112,9375,2283,1934,4921,3355,5138,5234,8712,3142,3851,3678,5225,1727,3573,2729,5446,4418,2718,4272,5646,2623,2717,3487,5422,2933,6782,5531,6316,4726,1246,3160,4315,2186,5525,2525,2578,3558,6153,4248,3749,2484,8359,5674,7195,5396,9282,4826,8134,6850,1919,6090,3030,2268,5812,9172,1061,6759,8375,2643,1481,7295,6183,5472,2412,9121,3417,3957,5848,3011,7198,1164,1736,3418,1834,5414,8674,3662,2958,2389,1056,2025,9848,7248,6743,7781,4758,7663,5255,4876,6535,4060,4526,4711,1923,8737,4100,2891,5772,7812,1487,6725,3135,1653,7640,2917,8100,1199,1728,8876,4079,6260,2824,4438,2293,7351,4028,8363,3362,4417,6539,4004,6826,2417,3303,8720,4302,2491,5072,7419,4295,3725,1268,2753,7043,5917,9270,5429,9054,3275,1392,3745,1768,2758,1043,5217,4570,5478,1024,4303,2372,5816,2768,2458,1083,5219,7570,5178,7024,4823,2262,7819,2661,4152,2285,7436,8557,2173,1020,6321,4821,5277,7422,2662,4822,2165,7492,8107,1909,1660,1422,3292,2931,4165,2223,2565,6494,4107,2683,2640,2690,3212,1322,4164,5829,2561,2490,5102,4689,2633,2594,5216,2252,1837,3193,3845,1217,1928,3621,5815,5291,2817,5222,3615,8162,6655,2688,4722,2667,1543,4727,5647,1129,7192,5184,4735,1531,5923,1187,4521,5931,3781,7532];
 const T2=[4680,4821,5277,7422,2662,4822,2165,7492,8107,1909,1660,1422,3292,2931,4165,2223,2565,6494,4107,2683,2640,2690,3212,1322,4164,5829,2561,2490,5102,4689,2633,2594,5216,2252,1837,3193,3845,1217,1928,3621,5815,5291,2817,5222,3615,8162,6655,2688,4722,2667,1543,4727,5647,5523,7192,5184,4735,1531,5923,1187,4521,5931,3781,7532,7124,3827,2141,1380,5371,3788,4522,1494,2516,1552,3163,5125,2862,6450,7103,1688,3633,3574,2216,4242,3835,7123,3445,9375,2283,1934,4921,3355,5138,5234,8712,3142,3851,3678,5225,1727,3573,2729,5446,4418,2718,4272,5646,2623,2717,3487,5422,2933,6782,5531,6316,4726,1246,3160,4315,2186,5525,2525,2578,3558,6153,4248,3749,2484,8359,5674,7195,5396,9282,4826,8134,6850,3909,6090,3030,2268,5812,9172,1061,6759,8375,2643,1481,7295,6183,5472,2412,9121,3417,3957,5848,3011,7198,1164,1736,3418,1834,5414,8674,3662,2958,2389,1056,2025,9848,7248,6743,7781,4758,7663,5255,4876,6535,4060,4526,4711,1923,8737,4100,2891,5772,7812,1487,6725,3135,1653,7640,2917,8100,1199,1728,8876,4079,6260,2824,4438,2293,7351,4028,8363,3362,4417,6539,4004,6826,2417,3303,8720,4302,2491,5072,7419,4295,3725,1268,2753,7043,5917,9270,5429,9054,3275,1392,3745,1768,2758,1043,5217,4570,5478,1024,4303,2372,5816,2768,2458,1083,5219,7570,5178,7024,4823,2262,7819,2661,4152,2285,7436,8557,2173,1020,6321];
 const BL=new Set([37,44,48,53,54,90,94,110,119,146,152,165,170,372,381,423,437,485,655,749,793,827,846,851,857,940,947,994,999,1000,1001,1004,1014,1057,1061,1137,1139,1151,1192,1194,1195,1270,1312,1323,1326,1356,1397,1401,1404,1452,1494,1499,1500,1501,1502,1519,1526,1544,1566,1577,1592,1594,1620,1643,1651,1693,1745,1747,1774,1783,1786,1787,1788,1798,1805,1842,1844,1888,1897,1903,1908,1910,1920,1936,1943,1966,1977,2002,2015,2024,2032,2038,2043,2084,2085,2086,2105,2109,2118,2132,2134,2135,2136,2144,2153,2167,2175,2176,2191,2223,2248,2261,2272,2301,2316,2325,2345,2369,2379,2382,2389,2402,2405,2411,2419,2440,2441,2442,2470,2500,2518,2541,2542,2551,2562,2609,2633,2638,2639,2641,2696,2707,2713,2722,2750,2835,2852,2854,2866,2872,2900,2912,2916,2922,2928,2935,2946,2978,2985,3039,3096,3108,3116,3121,3164,3165,3168,3169,3183,3190,3192,3193,3194,3223,3225,3229,3275,3282,3283,3293,3302,3303,3304,3321,3334,3367,3390,3394,3399,3405,3422,3424,3439,3448,3488,3500,3506,3515,3521,3524,3533,3534,3540,3550,3556,3591,3621,3645,3668,3679,3681,3683,3695,3699,3702,3707,3711,3712,3719,3740,3746,3753,3773,3779,3785,3793,3821,3826,3829,3834,3871,3887,3888,3894,3899,3913,3935,3941,3943,3946,3948,3961,3972,3973,3981,4001,4019,4038,4045,4047,4057,4058,4074,4077,4088,4097,4105,4106,4109,4111,4114,4120,4128,4131,4133,4141,4146,4149,4159,4163,4166,4167,4174,4195,4200,4205,4222,4225,4231,4232,4234,4238,4241,4251,4253,4259,4266,4267,4269,4282,4283,4284,4285,4286,4290,4293,4295,4300,4307,4314,4322,4325,4332,4341,4343,4346,4362,4375,4376,4401,4402,4404,4419,4432,4461,4464,4467,4482,4494,4498,4500,4503,4505,4512,4520,4537,4540,4544,4545,4550,4555,4559,4565,4567,4568,4569,4583,4585,4591,4597,4603,4606,4618,4621,4626,4630,4635,4637,4638,4641,4644,4652,4656,4675,4687,4697,4701,4705,4708,4712,4713,4716,4720,4722,4728,4740,4741,4757,4761,4786,4787,4788,4794,4799,4812,4813,4817,4818,4820,4860,4870,4871,4874,4875,4876,4886,4887,4889,4891,4893,4894,4898,4899,4901,4904,4919,4920,4922,4923,4924,4926,4928,4930,4934,4935,4938,4942,4947,4975,4977,4981,4982,4984,4993,5011,5012,5506,5526,5527,5529,5534,5536,5537,5541,5543,5550,5552,5553,5560,5561,5570,5571,5572,5581,5595,5621,5627,5629,5630,5640,5641,5642,5664,5677,5678,5685,5692,5698,5701,5705,5715,5716,5718,5719,5766,5767,5776,5777,5783,5784,5800,5806,5826,5828,5829,5830,5832,5835,5844,5845,5849,5866,5894,5895,5897,5903,5919,5920,5936,5951,5963,5967,5968,5976,5993,6018,6021,6029,6039,6040,6042,6048,6057,6066,6083,6095]);
 const BL_ARR=[...BL].sort((a,b)=>a-b);
@@ -267,22 +265,22 @@ const DEV_USERS=new Set([130,3000,5000,5500]);
 const DEV_INFO={
   130:{name:'0130',c2018:1199,c2009:7195,s2018:'confirmed',s2009:'untested',note:''},
   3000:{name:'3000',c2018:7819,c2009:5772,s2018:'confirmed',s2009:'untested',note:'2009 code NOT confirmed on turbine'},
-  5000:{name:'5000',c2018:4876,c2009:6535,s2018:'confirmed',s2009:'untested',note:''},
-  5500:{name:'5500',c2018:6725,c2009:3135,s2018:'confirmed',s2009:'untested',note:''}
+  5000:{name:'5000',c2018:4876,c2009:3909,s2018:'confirmed',s2009:'untested',note:'2018 code hardcoded (fw table gives 4438)'},
+  5500:{name:'5500',c2018:6725,c2009:6153,s2018:'confirmed',s2009:'untested',note:''}
 };
 const CS70_ACTIVE=[9,11,15,23,73,210,999];
 const CS70_BLOCKED=[1000,1003,1038,1039,1043,1048,1095,1110,1111,1115,1117,1189,1251,1274,1278,1315,1317,1337,1390,1416,1417,1471,1483,1539,1560,1598,1604,1605,1609,1732,1752,1761,1765,1767,1789,1793,1795,1828,1945,1956,1976,1981,2046,2088,2090,2149,2243,2356,2530];
 const DC_SEEDS={1:4680,2:5913,3:7497};
 const DC_NAMES={1:'First',2:'Second',3:'Third'};
 
-function idx2018(u){return ((u-64)%256+256)%256;}
-function idx2009(u){return ((u%256)+256)%256;}
-function code2018(u){return T1[idx2018(u)];}
-function code2009(u){return T2[idx2009(u)];}
+function idx2018(u){return u%256;}
+function idx2009(u){return u%256;}
+function code2018(u){if(u===5000)return 4876;return T1[u%256];}
+function code2009(u){return T2[u%256];}
 function isBlocked(u){return BL.has(u);}
 function isDev(u){return DEV_USERS.has(u);}
 function pad4(n){return String(n).padStart(4,'0');}
-function family2018(u){const idx=idx2018(u);const m=[];for(let i=0;i<6144;i++){if(idx2018(i)===idx)m.push(i);}return m;}
+function family2018(u){if(u===5000){return [5000];}const idx=u%256;const m=[];for(let i=0;i<6144;i++){if(i!==5000&&i%256===idx)m.push(i);}m.sort((a,b)=>a-b);return m;}
 function dcYearTerm(y){var yy=y%100;var m=((yy%9)+9)%9;return m*m;}
 function dayCode(level,day,month,year){return((day%2===0)?2092:91)+20+Math.floor(DC_SEEDS[level]/day)+day*29+day*(day+17)+61*(day-month)+dcYearTerm(year);}
 
@@ -300,16 +298,16 @@ userInput.addEventListener('input',()=>{
   const c18=code2018(u),c09=code2009(u),blocked=isBlocked(u),dev=isDev(u);
   const fam=family2018(u),activeCount=fam.filter(m=>!isBlocked(m)).length,blockedCount=fam.length-activeCount;
   let html='';
-  if(dev){const di=DEV_INFO[u];html+=`<div class="dev-banner">🔧 Developer User — 2018: ${di.s2018} · 2009: ${di.s2009}${di.note?' — '+di.note:''}</div>`;}
+  if(dev){const di=DEV_INFO[u];html+=`<div class="dev-banner">ð§ Developer User â 2018: ${di.s2018} Â· 2009: ${di.s2009}${di.note?' â '+di.note:''}</div>`;}
   html+=`<div class="result-card"${dev?' style="border-color:var(--red)"':''}><div class="result-header">
     <div class="result-user"${dev?' style="color:var(--red)"':''}>User ${pad4(u)}</div>
-    <span class="badge ${blocked?'badge-blocked':dev?'badge-dev':'badge-active'}">${blocked?'⛔ Blocked':dev?'🔧 Developer':'✓ Active'}</span>
+    <span class="badge ${blocked?'badge-blocked':dev?'badge-dev':'badge-active'}">${blocked?'â Blocked':dev?'ð§ Developer':'â Active'}</span>
     </div><div class="result-body"><div class="code-block"><div class="code-label">2018 Code (Table 1)</div><div class="code-value">${pad4(c18)}</div></div>
     <div class="code-block"><div class="code-label">2009 Code (Table 2)</div><div class="code-value">${pad4(c09)}</div></div></div>
     <div class="result-footer">Family index: ${idx2018(u)}</div></div>`;
-  if(blocked){html+=`<div class="warning-banner">⚠ This user is in the V5.88 block list. Use an active family member below instead.</div>`;}
-  html+=`<div class="family-section"><div class="family-header">Family (same 2018 code ${pad4(c18)}) — ${activeCount} active, ${blockedCount} blocked</div>
-    <div class="family-grid">${fam.map(m=>`<button class="family-member ${isBlocked(m)?'blocked':'active'} ${m===u?'current':''}" ${isDev(m)?'style="font-weight:800;text-decoration:underline"':''} onclick="document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}${isDev(m)?' 🔧':''}</button>`).join('')}</div></div>`;
+  if(blocked){html+=`<div class="warning-banner">â  This user is in the V5.88 block list. Use an active family member below instead.</div>`;}
+  html+=`<div class="family-section"><div class="family-header">Family (same 2018 code ${pad4(c18)}) â ${activeCount} active, ${blockedCount} blocked</div>
+    <div class="family-grid">${fam.map(m=>`<button class="family-member ${isBlocked(m)?'blocked':'active'} ${m===u?'current':''}" ${isDev(m)?'style="font-weight:800;text-decoration:underline"':''} onclick="document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}${isDev(m)?' ð§':''}</button>`).join('')}</div></div>`;
   lookupResult.innerHTML=html;
 });
 
@@ -323,10 +321,10 @@ function doCodeSearch(){
   for(const idx of indices){
     const users=[];for(let u=0;u<6144;u++){if((is2018?idx2018(u):idx2009(u))===idx)users.push(u);}
     const aU=users.filter(u=>!isBlocked(u)),bU=users.filter(u=>isBlocked(u));
-    html+=`<div class="result-card"><div class="result-header"><div class="result-user">Code ${pad4(code)}</div><span class="badge badge-active">${codeType.value} · Index ${idx}</span></div>
-      <div class="result-footer">${users.length} users total · ${aU.length} active · ${bU.length} blocked</div></div>
+    html+=`<div class="result-card"><div class="result-header"><div class="result-user">Code ${pad4(code)}</div><span class="badge badge-active">${codeType.value} Â· Index ${idx}</span></div>
+      <div class="result-footer">${users.length} users total Â· ${aU.length} active Â· ${bU.length} blocked</div></div>
       <div class="family-section"><div class="family-header">All users with ${codeType.value} code ${pad4(code)}</div>
-      <div class="family-grid">${users.map(m=>`<button class="family-member ${isBlocked(m)?'blocked':'active'}" ${isDev(m)?'style="font-weight:800;text-decoration:underline"':''} onclick="tabs[1].click();document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}${isDev(m)?' 🔧':''}</button>`).join('')}</div></div>`;
+      <div class="family-grid">${users.map(m=>`<button class="family-member ${isBlocked(m)?'blocked':'active'}" ${isDev(m)?'style="font-weight:800;text-decoration:underline"':''} onclick="tabs[1].click();document.getElementById('user-input').value='${m}';document.getElementById('user-input').dispatchEvent(new Event('input'))">${pad4(m)}${isDev(m)?' ð§':''}</button>`).join('')}</div></div>`;
   }
   searchResult.innerHTML=html;
 }
@@ -334,10 +332,10 @@ codeInput.addEventListener('input',doCodeSearch);codeType.addEventListener('chan
 
 (function(){const devList=document.getElementById('dev-list');let html='';
   for(const u of [130,3000,5000,5500]){const di=DEV_INFO[u];
-    html+=`<div class="result-card" style="border-color:var(--red)"><div class="result-header"><div class="result-user" style="color:var(--red)">User ${di.name}</div><span class="badge badge-dev">🔧 Developer</span></div>
+    html+=`<div class="result-card" style="border-color:var(--red)"><div class="result-header"><div class="result-user" style="color:var(--red)">User ${di.name}</div><span class="badge badge-dev">ð§ Developer</span></div>
       <div class="result-body"><div class="code-block"><div class="code-label">2018 Code</div><div class="code-value" style="color:var(--red)">${pad4(di.c2018)}</div></div>
       <div class="code-block"><div class="code-label">2009 Code</div><div class="code-value" style="color:var(--red)">${pad4(di.c2009)}</div></div></div>
-      <div class="result-footer">2018: ${di.s2018} · 2009: ${di.s2009}${di.note?' · '+di.note:''}</div></div>`;}
+      <div class="result-footer">2018: ${di.s2018} Â· 2009: ${di.s2009}${di.note?' Â· '+di.note:''}</div></div>`;}
   devList.innerHTML=html;})();
 
 const blBody=document.getElementById('bl-body'),blSearch=document.getElementById('bl-search');
@@ -353,7 +351,7 @@ function renderActiveUsers(filter,reset){
   if(reset){auFiltered=filter?ACTIVE_USERS.filter(u=>pad4(u).includes(filter)||String(code2018(u)).includes(filter)||pad4(code2018(u)).includes(filter)||String(code2009(u)).includes(filter)||pad4(code2009(u)).includes(filter)):ACTIVE_USERS;auShown=0;auBody.innerHTML='';}
   const batch=auFiltered.slice(auShown,auShown+AU_PAGE);
   let html=batch.map(u=>`<tr ${isDev(u)?'class="row-dev" ':''}style="cursor:pointer" onclick="tabs[1].click();document.getElementById('user-input').value='${u}';document.getElementById('user-input').dispatchEvent(new Event('input'))">
-    <td><strong>${pad4(u)}${isDev(u)?' 🔧':''}</strong></td><td>${pad4(code2018(u))}</td><td>${pad4(code2009(u))}</td><td>${idx2018(u)}</td></tr>`).join('');
+    <td><strong>${pad4(u)}${isDev(u)?' ð§':''}</strong></td><td>${pad4(code2018(u))}</td><td>${pad4(code2009(u))}</td><td>${idx2018(u)}</td></tr>`).join('');
   auShown+=batch.length;const old=document.getElementById('au-loadmore');if(old)old.remove();
   auBody.insertAdjacentHTML('beforeend',html);
   if(auShown<auFiltered.length){auBody.insertAdjacentHTML('beforeend',`<tr id="au-loadmore"><td colspan="4" style="text-align:center;padding:12px"><button onclick="renderActiveUsers('',false)" style="padding:8px 24px;border:1px solid var(--border);border-radius:20px;background:var(--accent);color:#fff;font-size:0.85rem;cursor:pointer">Load more (${auFiltered.length-auShown} remaining)</button></td></tr>`);}
@@ -369,14 +367,14 @@ function renderCodeTable(filter){
   if(filter){rows=rows.filter(r=>String(r.idx).includes(filter)||String(r.code).includes(filter)||pad4(r.code).includes(filter));}
   ctBody.parentElement.querySelector('thead tr').innerHTML=`<th>Index</th><th>Code</th><th>Example Users (${currentCT})</th>`;
   ctBody.innerHTML=rows.map(r=>{const ex=[];for(let u=0;u<6144&&ex.length<3;u++){if((is2018?idx2018(u):idx2009(u))===r.idx&&!isBlocked(u))ex.push(pad4(u));}
-    return `<tr><td>${r.idx}</td><td><strong>${pad4(r.code)}</strong></td><td style="color:var(--fg-dim)">${ex.join(', ')}${ex.length===3?' …':''}</td></tr>`;}).join('');
+    return `<tr><td>${r.idx}</td><td><strong>${pad4(r.code)}</strong></td><td style="color:var(--fg-dim)">${ex.join(', ')}${ex.length===3?' â¦':''}</td></tr>`;}).join('');
 }
 ctBtns.forEach(btn=>{btn.addEventListener('click',()=>{ctBtns.forEach(b=>b.classList.remove('active'));btn.classList.add('active');currentCT=btn.dataset.ct;renderCodeTable(ctSearch.value.trim());});});
 ctSearch.addEventListener('input',()=>renderCodeTable(ctSearch.value.trim()));renderCodeTable('');
 
 (function(){const cs70a=document.getElementById('cs70-active'),cs70b=document.getElementById('cs70-blocked');
   cs70a.innerHTML=CS70_ACTIVE.map(u=>'<div class="dev-info-row"><span class="label">User '+pad4(u)+'</span><span class="value">Code: '+pad4(T2[u%256])+(BL.has(u)?' <span style="color:var(--red)">(BLOCKED on CS82)</span>':'')+(u===210?' <span style="color:var(--yellow)">(NOT in CS82 tables)</span>':'')+'</span></div>').join('');
-  cs70b.innerHTML='<div class="family-grid">'+CS70_BLOCKED.map(u=>'<span class="family-member '+(BL.has(u)?'blocked':'active')+'" style="cursor:default">'+pad4(u)+(BL.has(u)?'':' ✓')+'</span>').join('')+'</div><div style="font-size:.78rem;color:var(--fg-dim);margin-top:8px">Red = also blocked on CS82 · Green with ✓ = only blocked on CS70, active on CS82</div>';
+  cs70b.innerHTML='<div class="family-grid">'+CS70_BLOCKED.map(u=>'<span class="family-member '+(BL.has(u)?'blocked':'active')+'" style="cursor:default">'+pad4(u)+(BL.has(u)?'':' â')+'</span>').join('')+'</div><div style="font-size:.78rem;color:var(--fg-dim);margin-top:8px">Red = also blocked on CS82 Â· Green with â = only blocked on CS70, active on CS82</div>';
 })();
 
 (function(){const dcDate=document.getElementById('dc-date'),dcOutput=document.getElementById('dc-output'),dcInfo=document.getElementById('dc-info'),dcToday=document.getElementById('dc-today');
