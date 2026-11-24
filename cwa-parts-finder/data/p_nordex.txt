@@ -1,0 +1,3144 @@
+1000181	shaft nut N80	PCE		
+1000274	Axial-Ventilator A, flow direction A	ST		
+1000917	operation terminal bracket N80/N90	PCE		
+1001393	hex screw ISO 4017-M12x90-8.8-tZn	PCE		
+1002197	mass unit for vibration sensor	ST		
+10036	membrane pressure switch 0,6 bar	ST		
+1004378	border  for luke hub N80/N90	ST		
+1005620-01	support plate metal 495x300x2 600 door	PCE		
+1006801	initiatordisc main shaft	PCE		
+1006803	spacer sleeve initiator disc rotor shaft	PCE		
+1008758	clamp half pair for gearbox mounting	PCE		
+1009378	yaw brake disc	PCE		
+1010855	guide pin M36/ﾘ42	PCE		
+1011871-01	rubber sealing 370x240x3mm Pitchmaster2	PCE		
+10125	cover D-UK 4/10	PCE		
+10126	universal clip UK 5 N gray	PCE		
+10127	universal clip UK 5 N BU	PCE		
+1012749-00	0ｰ-marking inside rotor blade	PCE		
+10128	grounding terminal USLKG10 N	PCE		
+10129	grounding terminal USLKG 5	PCE		
+1013067	grease pan for rotor bearing	PCE		
+1013092-01	Pre-assembled cable 2 Pitch 3 W305	PCE		
+1013093-01	Pre-assembled cable 2 Pitch 3 W405	PCE		
+1013094-01	Pre-assembled cable 2 Pitch 3 W505	PCE		
+1013101	Pre-assembled cable 5 Pitch 3 W309	PCE		
+1013102	Pre-assembled cable 5 Pitch 3 W409	PCE		
+1013103	Pre-assembled cable 6 Pitch 3 W318	PCE		
+1013112	Pre-assembled cable 10 Pitch 3 W574	PCE		
+1013134	Handhold nacelle entry area	PCE		
+1013327	spacer 1mm	PCE		
+1013330	spacer 2mm	PCE		
+1013665	folded sheet service entrance rotor hub	PCE		
+1013691-01	sealing ring front	PCE		
+10138	NH-fuse size 00 63A gl/gG 690V	PCE		
+1014258-01	Ladder 1 To Enter Rotor Hub	PCE		
+10161	power supply terminal AKG 4 GNYE	PCE		
+10162	universal clip UK 10 N	PCE		
+10163	universal clip UK 10 N BU	PCE		
+1016588	U-washer for generator base	PCE		
+1016860-01	clamp sleeve for generator frame	PCE		
+1017295-01	bracket for lamp rotor hub	PCE		
+1017561	pre-assembled cable 1 box6 W800/900	PCE		
+1017641	pre-assembled cable 4 azimuth W084	PCE		
+1017642	pre-assembled cable 5 azimuth W807	PCE		
+1017689	washer mounting handle bar roof front	PCE		
+1017715	bracket top attachment topbox	PCE		
+10184	cover D-UK 4/10 BU	PCE		
+1018928-02	pre-assembled cable 19 pitch 3 W349	PCE		
+1018929-02	pre-assembled cable 19 pitch 3 W449	PCE		
+1018930-02	pre-assembled cable 19 pitch 3 W549	PCE		
+1018931-02	pre-assembled cable 20 pitch 3 W350/W351	PCE		
+1018932-02	pre-assembled cable 20 pitch 3 W450/W451	PCE		
+1018933-02	pre-assembled cable 20 pitch 3 W550/W551	PCE		
+1018944-01	pre-assembled cable 25 pitch 3 W374	PCE		
+1019243	bracket for lightning protection brush	PCE		
+1019244	guiding rail f. lightning prot. brush	PCE		
+10198	terminal TT-UKK5-D/24DC	PCE		
+10202	base element VAL-MS BE/FM	PCE		
+1020768	special tool pitch drive	PCE		
+10209	SUB-D-Plug SUBCON 9/M-SH bolt	PCE		
+1020967-03	subplate control cabinet pitch3	PCE		
+1021110-01	battery box, pitch 3 cover side	PCE		
+1021111-01	battery box, pitch 3 bottom part	PCE		
+1021115	frame service hatch rotor hub	PCE		
+1021122	service hatch rotor hub	PCE		
+10212	cover D-UKKB 3/5	PCE		
+1021229-01	battery box pitch3 assembly	PCE		
+1021230	pipe 9 hydraulic system yaw brake	PCE		
+1021589	threaded bushing nacelle housing	PCE		
+1021658	cable tray 4 machine frame	PCE		
+1021858-02	bottom part nacelle housing	PCE		
+1021860-03	bottom part 1 nacelle housing	PCE		
+1021862-03	bottom part 2 nacelle housing	PCE		
+1021864-03	bottom part 3 nacelle housing	PCE		
+1021978-01	control cabinet FC, pitch 3 cover	PCE		
+1021979	expanded rubber section 423 0004 Happich	PCE		
+1021989-02	control cabinet FC, pitch 3 upper part	PCE		
+1022046	cable tray 6 generator frame	PCE		
+1022051	cable tray 7 generator frame	PCE		
+1022109	centering pin roof mounting	PCE		
+1022131-02	control cabinet FC1, pitch 3 bottom part	PCE		
+10222	universal clip UK 16 N	PCE		
+1022268-04	control cabinet FC1 pitch3 assembly	PCE		
+1022348-01	bracket yaw system lubrication	PCE		
+1022424	bracket bottom attechment topbox	PCE		
+1022425	bracket bottom attachment switch cabinet	PCE		
+1022461-02	upper rear part nacelle housing	PCE		
+1022478	bracket bottom attachment trafobox	PCE		
+10225	universal clip UK 16 N BU	PCE		
+1022569	cable duct machine frame	PCE		
+1022647-03	control cabinet FC2, pitch 3	PCE		
+1022648-05	control cabinet FC2 pitch3 assembly	PCE		
+1022650-05	control cabinet FC3 pitch3 assembly	PCE		
+1022651-04	control cabinet FC3, pitch 3 bottom part	PCE		
+1022686	bracket bottom frame obstacle light/CMS	PCE		
+1022691	bracket 2 cableduct	PCE		
+1022693	cable duct slip ring	PCE		
+1022696	bracket 1 cableduct	PCE		
+1022706	bracket 3 cableduct	PCE		
+1022715	ladder 2 to enter rotor hub	PCE		
+1022886	bracket yaw system cam-switch	PCE		
+1022893-01	support frame topbox bottom	PCE		
+1022894	support frame topbox top	PCE		
+1022895	support frame trafobox top	PCE		
+1022896-01	support frame trafobox bottom	PCE		
+10229	2-deck terminal UKKB 5	PCE		
+1022966	cable tray 9 machine frame	PCE		
+1022969	cable tray 10 machine frame	PCE		
+1022978	bracket right cableduct machine frame	PCE		
+1022979	bracket left cableduct machine frame	PCE		
+1023007	bracket tower cable	PCE		
+1023028	bracket 1 hydraulic pipes	PCE		
+1023030	bracket 2 hydraulic pipes	PCE		
+1023090	ladder nacelle entry area	PCE		
+1023124	bracket top front frame obst. light/CMS	PCE		
+1023125	bracket top rear frame obst. light/CMS	PCE		
+1023180	bracket step pitch module	PCE		
+1023181	step pitch module	PCE		
+1023226	bracket hydraulic pipe	PCE		
+1023313	bracket hydraulic unit	PCE		
+1023328	pre-assembled cable 27 pitch 3 W307	PCE		
+1023331	bracket 2 cable duct machine frame	PCE		
+1023332	pre-assembled cable 27 pitch 3 W407	PCE		
+1023333	pre-assembled cable 27 pitch 3 W507	PCE		
+1023349-02	Mounting assembly cap entrance hatch RH	PCE		
+1023353-01	cover top battery box, pitch 3	PCE		
+1023388	cable duct hydraulic unit	PCE		
+1023398-01	lower rear part nacelle housing	PCE		
+1023419-03	bracket gear box oil pump	PCE		
+1023430-01	Cabel duct down for pitch drive	PCE		
+1023457	bracket colling pipe gearbox	PCE		
+1023490-01	cable duct top for pitch drive	PCE		
+1023584	cover bottom part 3 nacelle housing	PCE		
+1023590	tool holder locking pitch	PCE		
+1023597	cable duct for yaw drive	PCE		
+1023601	cable duct down for yaw drive	PCE		
+1023605	step front for rotor hub	PCE		
+1023606	handle service luke for rotor hub	PCE		
+1023646-01	flap bracket tower cable	PCE		
+1023655-01	bracket partial flow filter unit	PCE		
+1023662-01	cover sheet rotor lock disk	PCE		
+1023663	bracket long step entrance rotor hub	PCE		
+1023665	bracket short step entrance rotor hub	PCE		
+1023667	tread plate step entrance rotor hub	PCE		
+1023679	bracket 2 hydraulic pipes	PCE		
+10237	fuse terminal UK 10-DREHSI (5X20)	PCE		
+1023719	air ventilation pipe service hatch hub	PCE		
+1023720	air ventilation cap service hatch hub	PCE		
+1023732	arrester for gantry crane	PCE		
+1023739	lightn.conductor wind measuring system	PCE		
+1023833	bracket fire safety	PCE		
+1023839	washer	PCE		
+1023840	contact protection temperature sensor	PCE		
+1023845-01	handle bar roof front	PCE		
+1023872-01	handle bar roof front	PCE		
+1023940	pipe 10 cooling system gear box	PCE		
+1023954	pipe 3 cooling system generator	PCE		
+1023997	pipe 5 hydraulic system rotor brake	PCE		
+1023998	pipe 6 hydraulic system rotor brake	PCE		
+1024015	pipe 5 hydraulic system yaw brake	PCE		
+1024016	pipe 6 hydraulic system yaw brake	PCE		
+1024037	pipe 7 hydraulic system yaw brake	PCE		
+1024038	pipe 8 hydraulic system yaw brake	PCE		
+1024039	pipe 10 hydraulic system yaw brake	PCE		
+1024040	pipe 11 hydraulic system yaw brake	PCE		
+1024041	pipe 12 hydraulic system yaw brake	PCE		
+1024042	pipe 13 hydraulic system yaw brake	PCE		
+1024069	bracket generator cable	PCE		
+1024079	cone washer M24	PCE		
+1024080	cone washer M16	PCE		
+1024116	Seal roof assembly	PCE		
+1024173	cover front opening left nacelle housing	PCE		
+1024174	cover front opening right nacelle h.	PCE		
+1024224	threaded bushing M16 nacelle housing	PCE		
+1024286	stay ladder rear roof	PCE		
+10244	AO modul IB ST 24 AO 4/SF4	PCE		
+1024459	air vent nacelle housing	PCE		
+10245	PLC interface relay	ST		
+1024561	washer personal attachment point	PCE		
+1024585	bracket lamps	PCE		
+10246	PLC interface relay PLC-RSC-24DC/21	ST		
+1024671	chain guide rear module	PCE		
+1024680	bracket ladder rear roof	PCE		
+10247	PLC interf. relay PLC-RSC-24DC/21AU	ST		
+1024896	adapter wind measuring system	PCE		
+1025051	moun grease intercep tank+tension relief	PCE		
+1025512	stud bolt cover front opening	PCE		
+1025626	seal personal attachment point 6mm	PCE		
+1025628	washer personal attachment point	PCE		
+1025876	cover for cable tray 7 generator frame	PCE		
+1026287-01	sealing flange rear	PCE		
+10266	thermic release unit TA 25 DU 11	ST		
+10267	part for TA25 <=25A DB25/25A	PCE		
+1026937	steel construction for tray battery tray	PCE		
+10270	grounding terminal USLKG 16 N	PCE		
+1027032-01	pressure strip battery tray	PCE		
+1027109-01	pipe 8 cooling system generator	PCE		
+1027111	pipe 9 cooling system generator	PCE		
+1027602	adapter plate cooling water pump CCV	PCE		
+1027701	lock bracket entrance hatch rotor hub	PCE		
+1028249	mounting bolt rotor lock disc,shaft, hub	PCE		
+10288	additional printed card for UPS	ST		
+10291	glas tube small fuse T6 3A	ST		
+1029295	tower flange L 4286x135,5x80-t16-n138	PCE		
+1029296	tower flange L 4290x220x96-t20-n96	PCE		
+1029308	tower steel plate 13415x2940x15,5	PCE		
+1029309	tower steel plate 13415x2940x16,5	PCE		
+1029311	tower steel plate 13415x2940x18	PCE		
+1029343	cover pitch 3	PCE		
+10296	ad. label stop_DE_EN	PCE		
+1029769	label warning emergency shut-off_DE	PCE		
+1029786	washer service hatch rotor hub	PCE		
+10298	ad. label start_DE_EN	PCE		
+1029877	bracket bearing rotary transmission lead	PCE		
+1029880-01	bracket cable run	PCE		
+10299	ad. label reset_DE_EN	PCE		
+10300	ad. label lamp test_ EN	PCE		
+10301	ad. label  ''Auto''_DE_EN	PCE		
+1030127-01	cover yaw brake pipe	PCE		
+1030163	cable run slip ring	PCE		
+10302	ad. label alarm_DE_EN	PCE		
+1030212-01	bearing flange rear	PCE		
+10303	ad. label light_EN	PCE		
+1030592-01	bearing flange front	PCE		
+1030815	label entrance hatch safety note	PCE		
+1030960	Chain store expansion for 160m chain	PCE		
+1031087-01	pipe 12 cooling system gear box	PCE		
+1031089	pipe 11 cooling system gear box	PCE		
+1031095-01	pipe 10 cooling system generator	PCE		
+1031153	bell Parker VKA42CF with G3/8"	PCE		
+1031154	bell Parker VKA42CF with G1/2"	PCE		
+1031155	pipe 1 comb. hyd. sys. rotorbrake	PCE		
+1031156	pipe 2 comb. hyd. sys. rotorbrake	PCE		
+1031157	pipe 1 comb. hyd. sys. yaw brake	PCE		
+1031158	pipe 2 comb. hyd. sys. yaw brake	PCE		
+1031718-01	front part nacelle housing	PCE		
+1031823	base plate adjusting RB	PCE		
+1031835	base plate adjusting RB with lock.device	PCE		
+1032734-03	rotor shaft K08 gamma N117	PCE		
+1032771-01	GRP-angle rotor blade anti-icing	PCE		
+1032930-02	adapter frame bearing generator	PCE		
+1033370-03	roof 1 nacelle housing	PCE		
+10334	patch cable RJ45 gray 1.5m bend protect.	PCE		
+1033447	ladder long pitch module	PCE		
+1033500-00	position angle right adap frame gen N117	PCE		
+1033506-00	position angle left adapt frame gen N117	PCE		
+1033599-00	thread plate generator frame	PCE		
+1033700	frame wind measuring system	PCE		
+1033778-01	rotor lock bolt rotor lock	PCE		
+1033779-01	spindle guide rotor lock	PCE		
+1033780-02	spindle rotor lock	PCE		
+1033781-01	spindle nut rotor lock	PCE		
+1033782-02		PCE		
+1033783-01	bushing rotor lock	PCE		
+1033784-01	quick guide rotor lock	PCE		
+1033785-01	type plate rotor lock	PCE		
+1033787	seal personal attechment point 1,0mm	PCE		
+1033901-00	bracket chain hoist	PCE		
+1033917	pre-assembled cable 7 azimuth W212A	PCE		
+1033918	pre-assembled cable 7 azimuth W212B	PCE		
+1033919	pre-assembled cable 7 azimuth W212C	PCE		
+1033920	pre-assembled cable 7 azimuth W212D	PCE		
+1033928	pipe 11 cooling system gear box	PCE		
+10340	c-rail 28x11 HRLTS28x11STZN2M 2m	PCE		
+1034043	bracket hose cooling	PCE		
+1034080-00	bracket ladder rear roof	PCE		
+1034082	pipe 16 cooling system gear box	PCE		
+1034084	pipe 15 cooling system gear box	PCE		
+1034352	block crane arrester	PCE		
+1034353-02	guiding pin rotor lock	PCE		
+1034354-01	bearing seat rotor lock	PCE		
+1034489-01	housing rotor lock	PCE		
+1034491-01	safety-pin rotor lock	PCE		
+1034492-01	index rotor lock	PCE		
+1034493-01	clamp rotor lock	PCE		
+1034605	tower steel plate 13415x2940x19	PCE		
+1034757-00	ladder roof front	PCE		
+1034884-01	label red rotor lock	PCE		
+1034885-01	label green rotor lock	PCE		
+1035039-02	index rotor lock	PCE		
+1035066-01	blade tip NR58.5-1/-2 coated	PCE		
+1035068-01	core material kit bottom plate K08	PCE		
+1035108-00	pipe 9 hydraulic system rotor brake	PCE		
+1035110-00	pipe 10 hydraulic system rotor brake	PCE		
+1035174-01	adjusting bushing rotor lock	PCE		
+1035234-00	oil pan hydraulic unit	PCE		
+1035248-00	bracket chain guide	PCE		
+1035936-00	rotary transmission leadthrough pipe D60	PCE		
+1036105-00	bracket 2 cooling hoses generator	PCE		
+1036106-00	bracket 1 cooling hoses generator	PCE		
+1036433-02	Assembly line 36 Pitch 3 SR Bus	PCE		
+1036434-02	Assembly line 37 Pitch 3 TB-SR	PCE		
+10367	switch bridge ISSBI 100-6	PCE		
+10369	flat bracket BG/F 1	PCE		
+1036956-00	tower flange L 2958x150x170-t21-n60	PCE		
+10370	top hat rail NS 35/15 punshed meter	M		
+1037160-00	label extinguish. system ext.uishline_EN	PCE		
+1037161-00	label extinguish. system ext.uishline_DE	PCE		
+1037385-01	aslant rod 4 left crane supportstructure	PCE		
+10374	inlaid bridge EB 80 - DIK BU 80 pol.	PCE		
+10375	inlaid bridge EB 80 - DIK RD 80 pol.	PCE		
+1037555-01	aslant rod 4 right cranesupportstructure	PCE		
+1037642-01	arch left 200	PCE		
+10377	overvoltage protection FLT 25-400	ST		
+1037717-01	support frame cooler	PCE		
+1037743-01	round steel bow wind measuring system fr	PCE		
+1037777-01	oil pan rear module	PCE		
+1037780-01	frame top rear module	PCE		
+1037787-01	bracket 1 cooler lower	PCE		
+1037788-00	bracket 1 cooler top	PCE		
+1037790-00	grating left rear module	PCE		
+1037791-00	grating right rear module	PCE		
+1037792-00	tread plate 01 rear module	PCE		
+1037793-00	tread plate 02 rear module	PCE		
+1037794-00	tread plate 03 rear module	PCE		
+1037795-01	tread plate 04 rear module	PCE		
+1037797-00	bracket divider left	PCE		
+1037798-00	bracket divider right	PCE		
+1037804-00	divider part rear module top side	PCE		
+1037808-00	divider part rear module top center	PCE		
+1037811-01	bracket left divider part lower center	PCE		
+1037813-00	lower hook divider parts side	PCE		
+1037815-01	bracket right divider part lower center	PCE		
+1037824-01	bend left 100	PCE		
+1037832-00	vortex generator H5	PCE		
+1037842-00	vortex generator H7.5	PCE		
+1037850-00	bracket terminal box 5 / 7	PCE		
+1037856-00	vortex generator H10	PCE		
+10379	PE/N-earth terminal UK 16 N-PE/N	PCE		
+1038076-00	cable flume 2 gen-support	PCE		
+1038304-00	lower hook divider part center	PCE		
+1038305-00	top hook divider parts side	PCE		
+1038310-01	divider part rear module right	PCE		
+1038317-01	divider part rear module left	PCE		
+1038333-01	straight profile hinge gorge gaiting	PCE		
+1038341-01	railing lower part crane hatch	PCE		
+1038346-01	railing top part crane hatch	PCE		
+1038349-01	bottom plate 3 support structure cmpl.	PCE		
+1038363-02	locking bar gorge grating rear module	PCE		
+1038366-01	bracked bottom part 3 left	PCE		
+1038369-00	bracked bottom part 3 right	PCE		
+1038371-00	bracket tread plate rear module	PCE		
+1038373-01	divider part rear module lower side	PCE		
+1038374-01	divider part rear module lower center	PCE		
+1038375-00	contact pressure plate divider part top	PCE		
+1038376-00	clip plate divider part lower side	PCE		
+1038377-00	contact p. plate divider part top center	PCE		
+1038378-00	clip plate divider part top center	PCE		
+1038392-01	bracket 2 cooler top	PCE		
+1038393-00	bracket 2 cooler lower	PCE		
+1038480-01	upper side part left red nacelle housing	PCE		
+1038490-01	bend right 200	PCE		
+1038525-01	upper side part right red nacellehousing	PCE		
+1038546-00	cable tray 1 machine bearing	PCE		
+1038555-00	bracket obstacle light, right	PCE		
+1038565-00	bracket obstacle light, left	PCE		
+1038710-00	step plate 24 platform gen-support K08 G	PCE		
+1038712-00	step plate 03platform gen-support K08 G	PCE		
+1038716-01	Step Plate 04 platform gen-support K08G	PCE		
+1038720-00	vertical rod 3 left crane support struct	PCE		
+1038721-00	step plate 09 platform gen-support K08 G	PCE		
+1038722-00	step plate 11platform gen-support K08 G	PCE		
+1038723-00	step plate 10 platform gen-support K08 G	PCE		
+1038724-00	step plate 21 platform gen-support K08 G	PCE		
+1038725-00	step plate 20platform gen-support K08 G	PCE		
+1038726-00	step plate 19 platform gen-support K08 G	PCE		
+1038728-00	step plate 15 platform gen-support K08 G	PCE		
+1038732-00	step plate 06 platform gen-support K08 G	PCE		
+1038733-00	step plate 07 platform gen-support K08 G	PCE		
+1038734-01	step plate 08 platform gen-support K08 G	PCE		
+1038735-00	step plate 12 platform gen-support K08 G	PCE		
+1038736-00	step plate 14 stage gen-carrier K08 G	PCE		
+1038740-00	step plate 13 platform gen-support K08 G	PCE		
+1038741-00	bracket platform gen-support K08 G	PCE		
+1038760-00	bracket platform	PCE		
+1038776-01	bend right 100	PCE		
+1038780-00	lower side part left, red nacelle housin	PCE		
+1038800-00	vertical rod 3 right crane support struc	PCE		
+1038820-00	lower side part right, red nacelle housi	PCE		
+1040021-01	arch middle 100	PCE		
+1040231-00	cable tray 5 machin bearing	PCE		
+1040404-01	roof 3 nacelle housing	PCE		
+1040510-01	center support 3 crane support structure	PCE		
+1040516-00	tower section mid N117PH141 IEC3a	PCE		
+1040517-00	tower section top  N117PH141 IEC3a	PCE		
+1040520-00	tower plate 9551x2865x21	PCE		
+1040521-00	tower plate 9884x2895x13,5	PCE		
+1040522-00	tower plate 10213x2889x13,5	PCE		
+1040523-00	tower plate 10543x2885x13,5	PCE		
+1040524-00	tower plate 10873x2885x13,5	PCE		
+1040525-00	tower plate 11199x2873x13,5	PCE		
+1040526-00	tower plate 11526x2875x13,5	PCE		
+1040527-00	tower plate 11852x2875x14	PCE		
+1040528-00	tower plate 12176x2869x14,5	PCE		
+1040529-00	tower plate 12499x2860x14,5	PCE		
+1040530-00	tower plate 12822x2855x15	PCE		
+1040531-00	tower plate 13143x2849x15	PCE		
+1040532-00	tower plate 13407x2393x15,5	PCE		
+1040533-00	tower plate 13415x2940x17	PCE		
+1040534-00	tower plate 13415x2940x18,5	PCE		
+1040535-00	tower plate 13415x2940x20	PCE		
+1040536-00	tower plate 13415x2184x20	PCE		
+1040661-00	tread plate 01 platform generator supp.	PCE		
+1040662-01	tread plate 02 platform generator supp.	PCE		
+1040675-00	roof 4 nacelle housing	PCE		
+1041173-02	bracket platform generator support	PCE		
+10414	grounding terminal USLKG 6 N	PCE		
+1042108-00	bracket for ladder	PCE		siemens:A9B00573854
+1042111-00	ladder roof rear	PCE		
+10422	network interference filter NHE230/7	PCE		
+1042972-00	rotor lock disk	PCE		
+1043500-00	roof 2 nacelle housing	PCE		
+1043501-00	mounting tab hatch roof 2	PCE		
+1043505-00	hatch roof 2 nacelle housing	PCE		
+1043518-00	mount. bracket hatch roof 2 lat. ahead	PCE		
+1043519-00	mount. bracket hatch roof 2 backside	PCE		
+1043550-01	center support 2 crane support structure	PCE		
+1043753-01	bracket ALU-pump platform machine frame	PCE		
+1043893-00	lightning protection receptor rear modul	PCE		
+1043942-00	mount. bracket hatch roof 2 lat. backs.	PCE		
+1044024-00	interfacial folio 1 battery box	PCE		
+1044025-00	interfacial folio 2 battery box	PCE		
+1044026-00	interfacial folio 3 battery box	PCE		
+1044027-00	interfacial folio 4 battery box	PCE		
+1044028-00	interfacial folio 5 battery box	PCE		
+1044029-00	interfacial folio 6 battery box	PCE		
+1044055-00	bracket f. cooler piping generator frame	PCE		
+1044160-00	bracket cable tray machine frame	PCE		
+1044161-00	tower interiors N117PH141 TOP 35000 mm	PCE		
+1044190-01	center support 1 crane support structure	PCE		
+1044200-01	center support 4 crane support structure	PCE		
+1044240-00	crossbeam 1 crane support structure	PCE		
+1044250-00	crossbeam 2 crane support structure	PCE		
+1044260-00	crossbeam 3 crane support structure	PCE		
+1044275-00	bracket lower part right	PCE		
+1044280-00	mounting angle side part	PCE		
+1044281-00	mounting angle 1 bottom part left	PCE		
+1044282-00	mounting angle 1 bottom part right	PCE		
+1044285-00	bracket bottom part right	PCE		
+1044290-00	bracket bottom part left	PCE		
+1044295-00	bracket bottom part 1 right	PCE		
+1044298-00	bracket bottom part 1 left	PCE		
+1044299-00	mounting angle 2 bottom part	PCE		
+1044356-00	tower interiors N117PH141 MID 23000 mm	PCE		
+1045460-00	bracket speed sensor generator shaft	PCE		
+1045572-00	adaptor slip ring	PCE		
+1045580-00	bracket speed sensor ad. rotor shaftN117	PCE		
+1045581-01	bracket speed sensor rotor shaft	PCE		
+1045644-00	carrier middle 2 platform machine frame	PCE		
+1045653-00	carrier middle 1 platform machine frame	PCE		
+1045662-00	side carrier left platform machine frame	PCE		
+1045665-00	side carrier right platf. machine frame	PCE		
+1045668-00	side carrier holder 1 platf. mach. frame	PCE		
+1045671-00	side carrier holder 2 platf. mach. frame	PCE		
+1045674-00	tread plate 1 platform machine frame	PCE		
+1045678-00	tread plate 2 platform machine frame	PCE		
+1045682-00	tread plate 3 platform machine frame	PCE		
+1045692-00	tread plate 4 platform machine frame	PCE		
+1045702-01	tread plate 7 platform machine frame	PCE		
+1045708-01	tread plate 5 platform machine frame	PCE		
+1045714-00	double hinge platform machine frame	PCE		
+1045720-00	carrier front 1 platform machine frame	PCE		
+1045725-00	carrier front 2 platform machine frame	PCE		
+1045732-00	carrier back 1 platform machine frame	PCE		
+1045739-00	carrier back 2 platform machine frame	PCE		
+1045742-00	carrier front 4 platform machine frame	PCE		
+1045745-01	carrier front 3 platform machine frame	PCE		
+1045748-01	carrier front 5 platform machine frame	PCE		
+1045764-01	carrier front 6 platform machine frame	PCE		
+1045765-01	cover front left platform machine frame	PCE		
+1045766-01	cover front right platform machine frame	PCE		
+1045774-00	grid 1 platform machine frame	PCE		
+1045781-00	grid 2 platform machine frame	PCE		
+1045792-00	grid rotor shaft platform machine frame	PCE		
+1045794-01	guard rotor shaft platform machine frame	PCE		
+1045795-00	door 1 platform machine frame	PCE		
+1045796-00	door 2 platform machine frame	PCE		
+1045931-00	cable duct 01 Eickhoff N117	PCE		
+1045938-00	cable duct 02 Eickhoff N117	PCE		
+1045942-00	cable duct 04 Eickhoff N117	PCE		
+1045946-00	cable duct 05 Eickhoff N117	PCE		
+1046006-00	cable duct 03 Eickhoff N117	PCE		
+1046737-00	tread plate 6 platform machine frame	PCE		
+1046742-00	tread plate 8 platform machine frame	PCE		
+1046743-01	tread plate 9 platform machine frame	PCE		
+1046747-01	tread plate 10 platform machine frame	PCE		
+1046751-00	tread plate 11 platform machine frame	PCE		
+1046752-00	rotor shaft footbr. middle platf. mach.	PCE		
+1046759-01	shaft footridge 1 platform machine frame	PCE		
+1046770-00	protect. sheet metal 1 platf. machine fr	PCE		
+1046771-00	protect. sheet metal 2 platf. machine fr	PCE		
+1046772-00	Locking bolt platform machine frame	PCE		
+1046776-01	Protect. sheet metal platf. machine fr.	PCE		
+1046784-00	angle bracket rotor shaft platf. mach.fr	PCE		
+1046787-00	hand rail 1 platform machine frame	PCE		
+1046792-00	handrail 3 platform machine frame	PCE		
+1046797-01	hand rail 2 platform machine frame	PCE		
+1046802-01	hand rail 4 platform machine frame	PCE		
+1046806-00	hand rail 5 platform machine frame	PCE		
+1046810-01	hand rail 6 platform machine frame	PCE		
+1046817-01	shaft footridge 2 platform machine frame	PCE		
+1046818-01	ladder bracket front 1 platf. mach. fr.	PCE		
+1046819-01	ladder bracket front 2 platf. mach. fr.	PCE		
+1046820-01	ladder bracket back 1 platf. mach. frame	PCE		
+1046821-01	ladder bracket back 2 platf. mach. frame	PCE		
+1046822-01	ladder bracket middle 1 platf. mach. fr.	PCE		
+1046823-01	ladder bracket middle 2 platf. mach. fr.	PCE		
+1046824-01	ladder bracket middle 3 platf. mach. fr.	PCE		
+1046825-01	ladder bracket middle 4 platf. mach. fr.	PCE		
+1046836-00	grid access platform machine frame	PCE		
+10473	air heat blower FLH 250, 250W 230V	ST		
+1047534-01	machine frame NCV K08 Gamma	PCE		
+1047536-01	crane rail left crane support structure	PCE		
+1047548-01	crane rail right crane support structure	PCE		
+1047558-00	vertical rod 2 left crane support struc.	PCE		
+1047568-00	vertical rod 2 right crane supp. struc.	PCE		
+1047578-00	vertical rod 2 left crane support struc.	PCE		
+1047588-00	vertical rod 1 right crane supp. struc.	PCE		
+1047645-00	spring right platform machine frame	PCE		
+1047646-00	threaded washer platform machine frame	PCE		
+1047654-00	door 3 platform machine frame	PCE		
+1047655-00	cover shrink disc platform machine frame	PCE		
+1047657-01	cover Eickhoff platf. mach. frame	PCE		
+1047661-00	cover Bosch GPV510/535 platf. mach. fra.	PCE		
+1047664-00	rotor shaft protect. 1 platf. machine fr	PCE		
+1047674-00	spring left platform machine frame	PCE		
+1047681-00	bracket lower part left	PCE		
+1047704-01	housing for rotor bearing	PCE		
+1047751-00	cable duct 1 generator frame	PCE		
+1047757-00	bracket for cable duct 2	PCE		
+1047761-01	cable duct 2 generator frame	PCE		
+1048014-00	Hand rail 2 platform machine frame	PCE		
+1048018-00	tread platform machine frame	PCE		
+1048022-01	hand rail 1 platform machine frame	PCE		
+1048026-00	guard plate 6 platform machine frame	PCE		
+1048027-00	guard plate 7 platform machine frame	PCE		
+1048028-00	guard plate 8 platform machine frame	PCE		
+1048031-01	connecting sheet platform machine frame	PCE		
+1048032-00	door 4 platform machine frame	PCE		
+1048036-01		PCE		
+1048039-00	ladder bracket back 3 platf. mach. frame	PCE		
+1048040-00	ladder bracket back 4 platf. mach. frame	PCE		
+1048070-00	bracket tower cable	PCE		
+1048097-00	bottom bracket gen. cov. high speed shaf	PCE		
+1048115-00	upper bracket gen. cover highspeed shaft	PCE		
+1048123-01	adaptor gen. WNY cover shigh speed shaft	PCE		
+1048139-01	clutch cover high speed shaft	PCE		
+1048164-01	upp. casing brake disc cov.high sp.shaft	PCE		
+1048165-01	bottom casing brake disc cover shaft	PCE		
+10482	cover D-UKK 3/5	PCE		
+1048208-00	adaptor Eickhoff gear box cover shaft	PCE		
+1048250-01	generator frame welded assembly	PCE		
+1048306-00	bracket 1 Eickh.EBN2145 cover shaft	PCE		
+1048307-01	bracket 2 Eickhoff EBN2145 cover shaft	PCE		
+1048314-00	adaptor  Eickh. EBN2145 cover shaft	PCE		
+1048335-00	casing brake N117 cover shaft	PCE		
+1048364-00	upper shell cover high speed shaft	PCE		
+1048366-00	grating flap rear module	PCE		
+1048389-00	bracket grating flap	PCE		
+10484	cover DP-UKKB 3/5	PCE		
+1048411-00	rubbet sideward divider part	PCE		
+1048427-00	rabbet center divider part	PCE		
+1048463-00	supp.frame switch cabinet obst.light/CMS	PCE		
+10485	terminal block marker KLM	PCE		
+10486	top hat rail NS 35/7,5 punshed meter	M		
+10493	NH-fuse size 1 125A gl/gG 690V	ST		
+1049558-00	bracket lasertracker	PCE		
+1049639-01	Bracket blade angle-switch	PCE		
+1049640-01	Bracket cam switch	PCE		
+1049643-01	Tread 1 enter rotor hub	PCE		
+10501	aux.contactor N31E 230V DC 10A 4th pole	ST		
+1051040-00	bracket lubrication pinion pitch	PCE		
+1051567-00	stop plate outside rotor blade NR50	PCE		
+1051568-00	stop plate outside rotor blade NR50	PCE		
+1051609-02	Cover lubrication pinion rotor hub	PCE		
+1051634-02	Cover lubrication pinion rotor-hub	PCE		
+1051636-00	rotorblade stiffening ring welding part	PCE		
+10521	cover D-UK 16 BU	PCE		
+1052331-00	rotorhub base one-piece N117	PCE		
+1052350-01	Bracket 1 ladder pitch	PCE		
+1052645-01	Handle rotor hub	PCE		
+1053489-01	Step console rotor-hub	PCE		
+1053647-02	Tread plate 2 rotor hub	PCE		
+1053782-02	Tread plate 4 rotor hub	PCE		
+1053794-02	Tread plate 1  rotor hub	PCE		
+1053795-02	Tread plate 6  rotor hub	PCE		
+1053826-01	Tread plate 8 rotor hub	PCE		
+1053829-02	Tread plate 7 rotor hub	PCE		
+1053833-01	Tead plate 13 rotor hub	PCE		
+1053869-01	Bracket 3 ladder pitch	PCE		
+1053872-01	Bracket 2 ladder pitch	PCE		
+1053903-00	support carrier front 6 platf. mach.fr.	PCE		
+1053953-00	upper protection platform machine frame	PCE		
+1053963-00	upper protection 2 platf.machine frame	PCE		
+1054033-00	support carrier front 5 platf. mach.fra.	PCE		
+1054043-02	Tread plate 3 rotor hub	PCE		
+1054112-01	Tread plate 5 rotor hub	PCE		
+1054271-00	clamping ring chain guide	PCE		
+1054277-03	Console rotor hub	PCE		
+1054284-00	counterflange axial fan	PCE		
+1054286-00	seal counterflange axial fan	PCE		
+1054302-00	tread plate 23 platf. generator support	PCE		
+1054303-00	tread plate 05 platf. generator support	PCE		
+1054422-00	bracket step rotor hub	PCE		
+1054434-00	step 2 console rotor hub	PCE		
+1054462-01	Hatch blade cellar rotor hub	PCE		
+1054536-00	balancing chamber TE NR58	PCE		
+1055167-00	safety net for tower bottom N117PH141-B	PCE		
+1055168-00	snap hook DIN 5299-shape B electrogalv.	PCE		
+10563	lead-acid batteries type LC-R127R2PG1	PCE		
+1056324-01	Bracket 1 console rotor hub	PCE		
+1056325-01	Bracket 3 console rotor hub	PCE		
+1056429-00	Protective cover pitch sensors	PCE		
+1056430-00	bracket 1 cover pitch sensors	PCE		
+1056431-00	bracket 2 cover pitch sensors	PCE		
+1056480-00	protection pitch bearing	PCE		
+1056511-00	Bracket 2 console rotor-hub	PCE		
+1056534-00	Shim bracket 2 console rotor-hub	PCE		
+1056586-00	Cotter pin entrance hatch	PCE		
+1056589-00	Socket entrance hatch	PCE		
+1056590-00	Upper hinge part entrance hatch	PCE		
+1056596-00	Bottom hinge part entrance hatch	PCE		
+1056618-00	potential equalization R40300 SS	PCE		
+1056619-00	potential equalization R40300 DS	PCE		
+1056622-00	receptor base blade tip area	PCE		
+1056623-00	bushing 22mm potential equalization	PCE		
+1056624-00	bushing 27mm potential equalization	PCE		
+1056625-01	flange bush 40mm lightning pr. NR58	PCE		
+1056627-00	receptor base connection lightning prot.	PCE		
+1056628-00	receptor base thread plate lightn. prot.	PCE		
+1056634-00	potential equalization vario R56000 SS	PCE		
+1056635-00	potential equalization vario R56000 DS	PCE		
+1056638-00	potential equalization spiral R56000	PCE		
+1056639-01	spiral washer RB lightning protection	PCE		
+1056643-00	potential equalization vario R49750 SS	PCE		
+1056644-00	potential equalization vario R49750 DS	PCE		
+1056645-00	potential equalization spiral R49750	PCE		
+1056664-00	Pushbutton handle entrancehatch rotorhub	PCE		
+1056665-00	Actuator lock entrance hatch rotor hub	PCE		
+10569	fixed jumper FBI 10-12 10-pole	PCE		
+10572	2-deck terminal UKKB 10	PCE		
+10574	terminal cover for LS 3LD1	PCE		
+1057822-00	grfp-pet-insert R49750, R40300 SS	PCE		
+1057825-00	grfp-pet-insert R49750, R40300 PS	PCE		
+1057951-00	copper distance piece 4mm RB lightning d	PCE		
+1057956-00	equipotential bonding spiral R40340	PCE		
+1057961-00	main arrester SS R3000-R56000	PCE		
+1057962-00	main arrester DS R3000-R56000	PCE		
+1058135-00	grfp-pet-insert R3020 PS/SS	PCE		
+1058342-00	PET-insert 12mm	PCE		
+1058343-00	PET-insert 27mm	PCE		
+1058344-00	PET-insert 42mm	PCE		
+1058345-00	Balsa-insert 29mm	PCE		
+1058346-00	Balsa-insert 35mm	PCE		
+1058347-00	copper distance piece 8mm RB lightning d	PCE		
+1058373-01	main down conductor root lightn.pr. NR58	PCE		
+1058512-00	cable package tip	PCE		
+10586	wiring bridge MPB 18/1-4	ST		
+1058919-01	Gfrp plate tip lightning protection	PCE		
+1059947-00	VG protection rotor blade	PCE		
+1060057-00	Shim bracket pitch lubrication pinion	PCE		
+1060431-00	Label warning work blade cellar_DE	PCE		
+1060780-00	Label warning work blade cellar_EN	PCE		
+1061251-00	receptor screw fiber prot.M20x20-A2 PASI	PCE		
+10710	AO-modul IB IL AO 1/SF	ST		
+10720	cover D-UKKB 10	PCE		
+10722	terminal UKKB 5-PE	PCE		
+10734	cable duct 25x80	M		
+10735	cable duct 25x40	M		
+10736	cable duct 40x40	M		
+10737	cable duct 40x80	M		
+10738	cable duct 60x80	M		
+10739	duct f. wiring 80x80	M		
+10740	cable duct 100x80	M		
+10773	contactor A50-30-22	ST		
+10775	contactor A95-30-22	ST		
+10786	glas tube fuse 5x20 FO, 250mA	ST		
+10805	link plug FBS 2-10 2-pole	PCE		
+10807	base element PT-BE/FM	PCE		senvion:17833;senvion:A9BSEN17833
+10808	protective plug PT 2-PE/S- 24AC-ST	PCE		
+10848	patch cable RJ45 gray 2m	PCE		
+10849	patch cable RJ45 grey 5m	PCE		
+10859	emergency stop mushroombutton1ﾖ red/yell	PCE		
+10904	thermal overload relay TA 25 DU 5,0	PCE		
+10924	PLC Interface relay PLC-ATP-BK	ST		
+10934	2D-tower vibration sensor KS22 24V	ST		
+10938	support bracket AB/SS	PCE		
+10939	busbar NLS-CU 3/10 METER SN	PCE		
+10942	terminal SK 14	PCE		
+10943	terminal SK 20	PCE		
+10944	terminal SK 8	PCE		
+10964	PLC interface PLC-RSC-230UC/21AU	PCE		
+11088	oscillating element 50x40 rotund A M10	ST		
+11090	Remote Field Controller RFC 430 ETH-IB	ST		
+11136	heating 400W FLH400	PCE		
+1114111107	Contactor, GAE75-10-00, 250vDC, 75A	Piece		
+1114111234	Relay, timer, ABB, CT-ERD E234	Piece		
+11151	temperature sensor PT100 2,7m PVC-cable	ST		
+11155	terminal UK 4-TG	PCE		
+11157	device - connector ST-BE	PCE		
+11158	current difference monitor	ST		
+11159	appliance coupler for non-heating Appar.	PCE		
+11167	thermostate FLZ 520 0°C...+60°C red	ST		
+11170	universal clip UK 6 N gray	PCE		
+11183	isolation monitor IR475LY-4	ST		
+11186	hydrostat FLZ 600 30%...100%	ST		
+11189	patch cable RJ45 gray 0.5m long	PCE		
+11190	patch cable RJ45 grey 2,5m long	PCE		
+1119111121	REL-MR- 24DC/21AU	Piece		
+11198	set of connectors IB IL AO/CNT-PLSET	ST		
+1122111391	Relay, KSR 24/21	Piece		
+11225	transducer W1-S35 Di=35mm	ST		
+11228	thermostat FLZ 530 0ｰC...+60ｰC 1S blue	PCE		
+11237	diode 3A 1N5406 600V	ST		
+11263	thermal release device TA 25 DU 4,0	ST		
+11265	ST-digital-input mod. IB ST ZF 24 DI32/2	ST		
+11276	capsule fuse 4A/gR 10x38 600V 300kA	ST		
+11293	locknut GMP-GL-M16x1,5	PCE		
+11296	locknut GMP-GL-M20x1,5	PCE		
+11299	locknut GMP-GL-M32x1,5	PCE		
+11300	locknut GMP-GL-M40x1,5	PCE		
+11301	cable connection ST 40x1,5	PCE		
+11302	locknut GMP-GL-M50x1,5	PCE		
+11303	locknut GMP-GL-M63x1,5	PCE		
+11377	separation plate TS-KK 3	PCE		
+11399	nut M5 isolated	PCE		
+11401	cable connection STR M40x1,5	PCE		
+11402	locknut GMP-GL-M12x1,5	PCE		
+11404	expanding rivets plastic 6mm	PCE		
+11409	cable connection ST M63x1,5	PCE		
+11427	cable connection ST M16x1,5	PCE		
+11429	cable connection ST M12x1,5	PCE		
+11432	cable connection ST-M20x1,5	PCE		
+11451	cable connection ST M32x1,5	PCE		
+11452	cable connection ST M50x1,5	PCE		
+11458	access line for universal light	PCE		
+11475	contact washer M8	PCE		
+11476	cable conduit D=36	M		
+11477	cable conduit holder D=36	PCE		
+11479	support bracket 600mm	PCE		
+11491	cable conduit D=29	M		
+11547	ad. label fire extinguisher	PCE		
+11549	ad. label first aid kit	PCE		
+11550	ad. label ''Hazardous Voltage" SL100mm	PCE		
+11554	ad. label emergency rope device_DE	PCE		
+11578	sticky tape 20x3	PCE		
+11583	First Aid Box	PCE		enercon:1006641;opus:6660013
+11596	Hydraulic hose GH793-6DN10x500	ST		
+11627	CEE plug 5 pole 16A	PCE		
+11633	hex screw ISO 4017-M12x45-8.8-tZn	PCE		
+11673	Loctite 243 medium-strength 250ml	PCE		
+11699	Sikaflex 221, white  310ml	PCE		
+11702	hex screw ISO 4017-M8x20-A2-70	PCE		
+11703	washer M8 A2 8,4 DIN 125	PCE		
+11739	univ endstop for terminal Clipfix35	PCE		
+11740	fixed bridge FBI 10-6 10-pole	PCE		
+11750	jumper EB 100-6 100-pin	PCE		
+11764	Contactor A9-30-10 230V 50/60Hz 4kW 3-p.	ST		
+11765	contactor A12-30-10 230V 50/60Hz 5,5kW	ST		
+11771	emergency on-off switch 3 pole/25A	PCE		
+11772	1-phase transformer 230V/24V 0,16kVA	ST		
+11776	NH-fuse size 00 50A gG/gL 660/690V	ST		
+11781	glas tube small fuse 5x20 F0,16A	ST		
+11784	ad. label safety chain reset_EN	PCE		
+11785	ad. label net_EN	PCE		
+11786	ad. label safety chain activ_EN	PCE		
+11787	ad. label 0-kein Fzg., 1-Fzg._EN	PCE		
+11788	ad. label blink./insulation fault_EN	PCE		
+11803	NH-fuse socket size00 OFAX 00S3-10	PCE		
+11807	multifunctional relay  LR20662	ST		
+11810	capacity diode 140A	ST		
+11881	contactor size S00 3-polig SPS	ST		
+11907	overvoltage protection VAL-MS 230 ST	ST		
+11916	ad. label not stop_EN	PCE		
+11951	RFC blower DUAL fan	ST		
+12005	Helicoils M 08x20	PCE		
+1201511410	Contactor, A9-30-10 220-230V 50Hz	Piece		
+12118	gloves calf leather CBSA	PAA		
+12124	hex nut DIN 985-M5-A2 self-locking	PCE		
+12416	cyl. head screw ISO 4762-M6x25-A2-70	PCE		
+12664	cyl. head screw ISO 4762-M5x20-A2-70	PCE		
+12780	washer DIN 125-A-6.4-A2	PCE		
+12798	tacky (covering) tape	M		
+12836	countersunk hd.scrw DIN 7991-M8x30-A2/70	PCE		
+12837	countersunk screw ISO 10642-M8x25-A2-070	PCE		
+12861	double sided adhesive tape 50mm wide	M		
+12862	adhesive tape silver 48mm width	M		
+12906	helical hose, nature, diameter=12mm	M		
+1301511001	Contactor, A9-30-10, 200V, 50/60Hz	Piece		
+13042	lead shot, diameter=4mm	KG		
+13053	washer DIN 125-10.5-A2	PCE		
+13195	paintbrush f. radiators, 2 1/2gr Borste	PCE		
+13584	auxiliary switch CAL 5-11	PCE		
+13595	spiral hose till 6mm	M		
+13672	screw in heater 0/AVI 600W 300mm	ST		
+13725	e-motor IMB5/V1 BG 90S-1,1KW-1450U	ST		
+13729	Paint Thinner - 1 Gal Can	PCE		
+13730	superglue	PCE		
+13751	rubbish bag 120ltr. blue 1100x700	PCE		
+13934	ground socket 230/Anbau/16A IP68	PCE		
+13937	anti corrosion wax 500ml aerosol	PCE		
+13942	piston for BSAB 90	ST		
+13944	wiper for BSAB 90	PCE		
+13946	step seal for BSAB 90-S-401	ST		
+14066	hex nut ISO ISO 4032-M12-8-tZn	PCE		
+14067	con. spring washers DIN 6796-12-mechZnC	PCE		
+14168	shaft sealing ring 120x150x12 Schäfer	ST		
+14195	expansions-tank Flamco Flexcon 25	ST		
+14406	pre-assembled cable 1 N90	PCE		
+14447	ad. label Entering nacelle_DE	PCE		
+14453	ad. label cover tower plate_DE	PCE		
+14454-01	ad. label emergency call_DE	PCE		
+14456	ad. label entered by unauthorized _DE	PCE		
+14457	ad. label in front of ascension_DE	PCE		
+14462	terminal cover for terminals Gr.S2	PCE		
+14472	capsule fuse 22x58 w. release, 660V 50A	ST		
+14496	hex bolt ISO 4017-M16x35-8.8-galZn	PCE		
+14530	PLC interf. relay PLC-RSC-24DC/21-21	PCE		
+14576	hex screw ISO 4017-M16x50-8.8-tZn	PCE		
+14585	Hex nut ISO 7040-M10-8-galZn	PCE		
+14591	hex screw ISO 4017-M12x35-8.8-tZn	PCE		
+14594	washer DIN 125-A-13-140HV-tZn	PCE		
+14597	hex nut ISO 7040-M6-8-galZn	PCE		
+14598	hex screw ISO 4017-M12x30-8.8-tZn	PCE		
+14601	hex screw ISO 4017-M30x70-8.8-tZn	PCE		
+14604	hex screw ISO 4017-M10x25-8.8-tZn	PCE		
+14605	hex screw ISO 4017-M8x25-8.8-tZn	PCE		
+14619	straight male stud fitting XGE 42 LR	PCE		
+14624	hex screw ISO 4017-M16x45-8.8-tZn	PCE		
+14640	hex screw ISO 4014-M16x90-8.8-tZn	PCE		
+14641	hex screw ISO 4017-M12x40-8.8-tZn	PCE		
+14644	blind plug BLK-M20x1,5	PCE		
+14654	quenching circuit RC 5-1/250 110-250V AC	ST		
+14724	continuous jumper FBST 500-PLC GY	PCE		
+14738	PLC interf. relay PLC-RSC-24DC/1/ACT	ST		
+14783	cable connection brass MS-M32x1,5	PCE		
+14784	cable connection brass MS-M25x1,5	PCE		
+14785	cable connection brass MS-M16x1,5	PCE		
+14790	cable connection EMC MS-SC-M20x1,5	PCE		
+14791	locknut brass SM-PE-M20x1,5	PCE		
+14830	ad. label ''Entering nacelle'' EN	PCE		
+14835	ad. label damper tower platform_EN	PCE		
+14845	ad. label emergency cad. labell_EN	PCE		
+14847	ad. label before rise_EN	PCE		
+14848	ad. label entered by unauthorized_EN	PCE		
+14851	control voltage transformer 250VA/230VAC	ST		
+14880	standby battery supply system APC Smart	ST		
+14882	locknut brass SM-M50x1,5	PCE		
+14883	cable connection MS-M50x1,5; brass	PCE		
+14889	interbus bus terminal IBS IL 24 BK-T/U	ST		
+14901	TS-mounting bar 18x38mm	PCE		
+14909	bimetallic switch 7m	ST		
+14930	R・adur hardener EPH 294 - slow	KG		
+15094	fixed jumper FBI 10-8	PCE		
+15108	cable connection EMV MS-SC-M25x1,5	PCE		
+15132	Schwingelement 60x45 rund B M10	ST		
+15133	Schwingelement 60x45 rund C M10	ST		
+15138	emergency on-off switch 3 pole 32A	PCE		
+15143	safety relay PSR	PCE		
+15221	hose holder 190x70	PCE		
+15268	PLC-Interface/Relais PLC-RSC-230UC/21HC	ST		
+15299	lace, round 3.53mm NBR 70 shore A black	M		
+15439	straight male stud fitt_XGE 42 LR 11/4''	PCE		
+15514	grounding rec.e 2-pole+PE,mou. rail 35mm	PCE		
+15578	washer DIN 125-A-8.4-140HV-galZn	PCE		
+15689	hex nut ISO 10511-M12-8-galZn	PCE		
+15736	PLC interface relay PLC-RSP-24DC/21	ST		
+15741	ad. label service rostock_DE	PCE		
+15752	hydraulic hose    1 SN DN 51x620	ST		
+15782	terminal DLK 2,5-PE	PCE		
+15846	hex nut ISO 4032-M8-8-galZn	PCE		
+15851	protective plug PT2-PE/S-230AC-ST	PCE		
+15857	compact power supply	ST		
+15861	socket holder (3-lines)with switch	PCE		
+15948	standard-wire end sleeve GHD 1.0-8 red	PCE		
+16001	Locknut brass SM-PE-M25x1,5	PCE		
+16118	brake cleaner (with aceton)	PCE		
+16192	gear pump SNP1/1,7DCO01F	ST		
+16194	hydraulic fitting MM-coupling 1/2''	PCE		
+16213	light insert Osram 11W/840 Dulux-S	ST		
+16236	hand cleaning tissue	PCE		
+16237	cut-off wheel D=115x2,5x22,2 for steel	PCE		
+16242	ethernet cable paired twisted	M		
+16243	passive connec.fieldFL CAT5 terminal box	ST		
+16246	wash paste	PCE		
+16262	aux. switch for MS325 HKF11	ST		
+16272	ad. label for centre of mass	PCE		
+16273	rating plate	PCE		
+16276	hex screw ISO 4017-M4x10-8.8-galZn	PCE		
+16279	hex screw ISO 4017-M6x16-8.8-galZn	PCE		
+16328	cabinet heater 45W	ST		
+16342	filtercartridge1300R010BN4HC/-V-B-4-KE50	ST		
+16345	e-motor IMB35-BG132M-3,00kW-750U 50Hz	ST		
+16348	non return valve RV30 for NF SAE 1/2"	ST		
+16349	back-pressure valve RV30-01.1/0-4,5 bar	ST		
+16380	T-fitting XET 42L	PCE		
+16404	power unit Quint-PS-100-240AC/24DC/2,5	ST		
+16434	hex screw ISO 4017-M16x60-8.8-tZn	PCE		
+16463	Hydraulic hose 2SN38x650 DKOL90°/CEL	ST		
+16465	Hydraulic hose 2SN38x600 DKOL/CEL	ST		
+16493	Hydraulic hose 2SN38x1700 DKOL/DKOL45°	ST		
+16508	hex nut ISO 4032-M16-8-tZn	PCE		
+16510	hex screw ISO 4017-M10x30-8.8-tZn	PCE		
+16521	hex screw ISO 4017-M4x16-8.8-galZn	PCE		
+16522	washer DIN 125-A-4.3-140HV-galZn	PCE		
+16553	Brake pads D3731; 490 2853-801	ST		
+16584	Hydraulic hose 2SN38x1600 DKOL/CEL	ST		
+16595	Makrolon N80 USV 2000VA 520x220x50	PCE		
+16605	K臟igmutter M6 f・ TS-Fronteinbau	PCE		
+16623	MM-hose 2400mm on both sides 90ｰ	PCE		
+16628	Pressure transducer HDA 4445-A-250-000	ST		
+16709	Makrysol-spray 500ml	PCE		
+16717	hex screw ISO 4017-M8x16-8.8-tZn	PCE		
+16718	washer DIN 125-A-8.4-tZn	PCE		
+16778	central lubric. adapter straight	PCE		
+16788	automatic lubrication sleeve	ST		
+16789	autom. lubrication pipe connection D6C	ST		
+16801	central lubrication hose KF300 NW4,1	M		
+16844	Tei-Pol cleaning concentrate VP24	PCE		
+16846	lacquer pen yellow with brushes	PCE		
+16899	3/2 way valve WSECO 8130-04X-G24-Z4	ST		
+16998	offline filter unit OLF5/4-SV370-AB	PCE		
+17272	comserver highspeed 1x RS232/422/485	ST		
+17273	enhanced oil sample analysisset 5(KF+NZ)	PCE		
+17631	relay module MR 230VUC	PCE		
+17719	color blood orange RAL2002(socket 375ml)	PCE		
+17846	ad. label FI-Schad. labeltbox_DE	PCE		
+17943	cable mounting hose MW 15/E	PCE		
+17945	Anbauteil f・ E16 DU	PCE		
+1801511240	Module, relay, EMG 12-REL/KSR- 24/1	Piece		
+1801511283	Surge protection plug, PT 2X2-24AC-ST	Piece		
+1801511315	Inline terminal, IB IL AO 1/SF-PAC, replaces 2726298	Piece		
+1801511420	Monitor, residual current, Bender RCM420-D-2, screw in terminal	Piece		
+1801511537	Signal conditioner - MINI MCR-2-U-I4 (replaces 1801511537)	Piece		
+1801511580	Bus coupler, IBS IL 24 BK-T/U-PAC (replaces 2231511070)	Piece		
+1801511747	Module, ext., 24UC/URM/5X1/2X2	Piece		
+1801511844	Surge protection plug, type 2, VAL-MS 230 ST	Piece		senvion:S-1801511844
+1801511860	Power supply, QUINT4-PS/1AC/24DC/10 (replaces 1801511860)	Piece		
+18030	compensating plate f. gen. bearing 2mm	ST		
+18079	ad. label load platform_EN	PCE		
+18122	thermostate EEx d II C T6	PCE		
+18141	offline filter element N5DM005	PCE		
+18148	door position switch	PCE		
+18212	base element PT 4X1+F-BE	PCE		
+18300	hex bolt ISO 4017-M8x40-8.8-galZn	PCE		
+18309	ad. label for blade-number	PCE		
+18332	ad. label FI-Swith Box_EN	PCE		
+18361	ad. label load platform_DE	PCE		
+18362	ad. label keep off	PCE		
+18377	quenching circuit RC 5-2/250 110-250V AC	PCE		
+18428	diode 3A 1N5408 1000V	ST		
+18445	vacuum fleece 300 g/mｲ width=400mm	M		
+18536	Doppelseitiges Gitterklebeband 30mm	M		
+18580	adjustable angle screw XWEE10ML	PCE		
+18581	locknut GM10L	PCE		
+18582	wide-mouth bottle with cap, 125ml ﾘ50x75	ST		
+18585	circulation pump,cool.syst.UPS50-185F	ST		
+18595	sealing ring DIN 7603-A33x39x2-C4400	PCE		
+1860511342	Converter, fibre coupler, PSI-MOS-RS422	Piece		
+18674	Ceplattyn BL (can)	KG		
+18688	lubricant Ceplattyn BL ( Barrel )	KG		
+18765	ad. label Service Rostock_EN	PCE		
+18811	hex-screw ISO 4017-M6x20-A2-70	PCE		
+1883	HV-washer EN 14399-6-36-tZn	PCE		
+1886	HV-washer EN 14399-6-30-tZn	PCE		
+1890505101	Relay, Timer, ABB, CT-ERC.12 (replaces 1890505100)	Piece		
+1890511110	Relay, timer, ABB, CT AHD.12, off delay 1 c/o	Piece		
+1890511450	Slip ring, pitch, GAT, complete w. ancillaries, N90B	Piece		
+1890515519	Anemometer, mechanical, w. mount, SAP 31587	Piece		
+1890518500	Air-con unit, Rittal, top box, wall mount, N90	Piece		
+18918	ear caps banded	PCE		
+18946	hex screw ISO 4017-M6x12-8.8-galZn	PCE		
+1895	hex nut ISO 4032-M36-10-tZn	PCE		
+18953	tin bucket f. color with cover 2,5L	PCE		
+19004	ZERUST capsules VC-2-1	PCE		
+19007	time relay E234-AV 12...48V AC/DC	ST		
+19008	time relay E234-AV 12...48V AC/DC	ST		
+19022	contactor 3RT10 3-pole install.size S2	ST		
+19023	auxiliary switch block 1-pole 1S	ST		
+19024	auxiliary switch block 1-pole 1O	ST		
+19025	auxiliary switch block 1-pole 1S	ST		
+19026	auxiliary switch block 2-pole	ST		
+19027	varistor DC 24V up to 70V	ST		
+19060	main carbon brush 100mm Winergy geno.	PCE		
+19124	clogging indicator VM 2 D.0/-V-L24	PCE		
+19144	time relay CT-MFD	ST		
+19146	time relay E234-AV 12...48V AC/DC	ST		
+19155	spring cage through clamp ST 10 gray	PCE		
+19156	cover D-ST 10	PCE		
+19157	spring cage ground term.block ST 10-PE	PCE		
+19158	spring cage clamp ST 1,5-QUATTRO gray	PCE		
+19159	spring cage ground term.block	PCE		
+19160	cover D-ST 2,5-QUATTRO	PCE		
+19161	link plug FBS 2-4 2-pole	PCE		
+19162	link plug FBS 3-4 3-pole	PCE		
+19163	link plug FBS 4-4 4-pole	PCE		
+19164	link plug FBS 5-4 5-pole	PCE		
+19167	2-deck tension spring clamp STTB 1.5	PCE		
+19168	cover D-STTB 2.5	PCE		
+19178	3-cond.tens.spring clamp ST 2,5-TWIN	PCE		
+19179	cover D-ST 2.5-TWIN	PCE		
+19180	3-cond.tens.spring clamp ST 2,5-TWIN-PE	PCE		
+19192	hatch for nacelle roof	ST		
+19224	Hardener EPH 296 - fast - cold hardening	KG		
+1924	cone-type bearing D=75/M20	ST		
+1925	centre disk f. cone-type bearingﾘ75/M20	ST		
+1926	stop wash. f. cone-type bearing  ﾘ75/M20	PCE		
+19280	Sikaflex 521-UV,black,250ml-cartridge	PCE		
+19282	Molykote HSC PLUS Paste	PCE		
+19283	primer gray M9834/M8914	L		
+19286	adhesive label security seal	PCE		
+19294	hex screw ISO 4017-M20x70-10.9-tZn	PCE		
+19317	Direct.Seat Valve WSED08130-04X-G24-Z4-N	ST		
+19340	ad. label appr.Emergency Stop Az._DE	PCE		
+1938	current collector complete F1951N	ST		
+19400	hex screw ISO 4017-M5x20-8.8-galZn	PCE		
+19405	hex bolt ISO 4017-M6x10-8.8-galZn	PCE		
+19406	hex screw ISO 4017-M8x25-8.8-galZn	PCE		
+19407	hex screw ISO 4017-M8x30-8.8-galZn	PCE		
+19411	hex screw ISO 4017-M10x30-8.8-galZn	PCE		
+19424	hex screw ISO 4017-M8x40-A2-70	PCE		
+19426	hex screw ISO 4017-M10x25-A2-70	PCE		
+19428	hex nut ISO 4032-M10-A2-70	PCE		
+19432	washer ISO 7093-10-100HV-galZn	PCE		
+19434	washer ISO 7093-1-6-200HV-A2	PCE		
+19435	washer ISO 7093-1-10-200HV-A2	PCE		
+19437	tooth washer DIN 6797-A-8.4-galZn	PCE		
+19439	cyl. head screw ISO 1207-M5x18-4.8-galZn	PCE		
+19442	Ctrsunk hd.scrw ISO10642-M8x20-8.8-galZn	PCE		
+19446	washer DIN 125-A-5.3-140HV-galZn	PCE		
+19456	spring ring DIN 127-A-4-galZn	PCE		
+19458	spring ring DIN 127-A-6-galZn	PCE		
+19459	spring ring DIN 127-A-8-galZn	PCE		
+19463	washer ISO 7093-1-8-200HV-A2	PCE		
+19464	carriage bolts DIN 603-M8x25-A2-70	PCE		
+19468	self-tapping screw DIN 7504-K 5,5x25-A2	PCE		
+19469	flat head screw ISO10642-M6x16-8.8-galZn	PCE		
+19474	Senkschraube ISO 10642-M8x30-8.8-galZn	PCE		
+19477	cyl. head screw ISO 1207-M4x16-4.8-galZn	PCE		
+19479	cyl. head screw ISO4762-M5x10-8.8 galZn	PCE		
+19496	main carbon brush VEM Geno.DAKAA 6328-6U	ST		
+19513	slipring for Winergy generator	PCE		
+19543	universal clip UK 6 N BU	PCE		
+19547	encoder ITD 41A4Y100 2048 HNI	ST		
+19581	ad. Label appr.''Emergency Stop Az.''EN	PCE		
+19613	Kabinenzylinder_vormont.N80/N90/N90_2500	ST		
+19686	Sikaflex 521-UV,grey,300ml-cartridge	PCE		
+19712	Kohlestaubfilter VEM Generator	ST		
+19738	Peel play, width=0,350m, 105g/mｲ	M		
+19741	expanding rivets aluminium/steel 4,8x 25	PCE		
+19745	shear web door width 600mm	PCE		
+19831	radiator roller 10cm gold spring	PCE		
+19834	ring brush size 4	PCE		
+19840	VIBROWEB XP base unit in IP65 housing	PCE		
+19841	acceler.sensor for low frequ. messurem.	PCE		
+19842	connection cable CMS 10m	PCE		
+19843	connection cable CMS 15m	PCE		
+19844	RPM sensor incl. cable (12m/39,4ft)	PCE		
+19855	coil 24DG-40-1836	ST		
+19858	Freies Material (Dummy)	PCE		
+19877	retainer cap DV-M 16 (humidity)	PCE		
+19878	retainer cap SKINTOP DV-M20	PCE		
+19907	resin L135/G3	KG		enercon:39288
+19930	fan disc D=115	PCE		
+19962	Stromregelventil SRE1-G1/4-01X/0,6-0,6	ST		
+19963	Pressure relief valve DB4E-012-CE0034	ST		
+19999	compact power supply	ST		
+20072	opti.fibre alloca.50/125 24-times compl.	ST		
+20147	plug bail 40cm f.10cm radiator roller	PCE		
+20151	lacquer pen red with brushes	PCE		
+20161	ST analog inp.mod. IB ST ZF 24 PT100 4/4	ST		
+20162	ST bus terminal module IBS ST ZF 24 BK-T	ST		
+20164	temperature sensor G1/2-0100-PT100-W-GN9	PCE		
+20184	compensating plate f. gen. bearing 5mm	ST		
+20185	cooler OK-EL9L/2.0/R/690-50/SO65 aktiv	ST		
+20191	standard-wire end sleeve GHD 0,5-8 white	PCE		
+20192	standard-wire end sleeve GHD 0,75-8 gr	PCE		
+20193	standard-wire end sleeve GHD 2,5-8 blue	PCE		
+20194	standard-wire end sleeve GHD 4,0-10 grey	PCE		
+20195	standard-wire end sleeve GHD 6,0-12 yell	PCE		
+20197	standard-wire end sleeve GHD 16.0-12 bl	PCE		
+20241	spiral hose till 12mm	M		
+20249	shrink hose CGPT-6,4/3,2-0-SPsw	M		
+20257	shrink hose CGPT-38/19-45-SP gn/ge	M		
+20259	butt connector 4,0-6,0mm 32mm long ye	PCE		
+20276	Flachsteckh・se M 1,5ｲ-2,5ｲx4,8-0,5	PCE		
+20300	hex nut DIN 985-M12-8-galZn	PCE		
+20302	hex screw ISO 4017-M12x50-8.8 tZn	PCE		
+20311	con. spring washers DIN 6796-10-mechZnC	PCE		
+20312	hex screw ISO 4017-M6x20-plastic	PCE		
+20313	washer ISO 7093-6-Kunstst	PCE		
+20315	washer ISO 7093-8.4x24x2-100HV-galZn	PCE		
+20327	DI collar CL40 HGR	PCE		
+20328	DI collar CL32 HGR	PCE		
+20378	wire identification LKZ 25 PE	PCE		
+20386	washer DIN 125-A-10.5-140HV-galZn	PCE		
+20394	washer DIN 125-A-3,2-140HV-galZn	PCE		
+20447	ST-digital outp.mod.IB ST ZF 24 BDO 32/2	ST		
+20448	ST analog input mod. IB ST ZF 24 BAI 8/I	ST		
+20449	ST-Bus terminal IBS ST ZF 24 BK RB-T	ST		
+20450	3-way isolating amplifier MCR-C-U-I-4-DC	ST		
+20467	Threaded rod DIN 975-M10x1000-galZn	PCE		
+20471	hex nut DIN 985-M4-8-galZn	PCE		
+20472	hex nut ISO 10511-M5-8-galZn	PCE		
+20481	conical spring washer DIN 6796-8-mechZnC	PCE		
+20483	tooth_washer DIN 6797-A-4,3-galZn	PCE		
+20490	self-tapp_screw DIN 7504-K 4,8x19-galZn	PCE		
+20511	washer DIN 125-A-5.3-A2	PCE		
+20513	washer DIN 125-A-4.3-A2	PCE		
+20518	hex nut DIN 985-M6-A2 itself.	PCE		
+20531	hex screw ISO 4017-M6x10-plastic	PCE		
+20547	hex screw ISO 4017-M8x35-8.8-galZn	PCE		
+20550	cyl. head screw ISO 4762-M4x12-8.8-galZn	PCE		
+20551	cyl. head screw ISO 4762-M4x20-8.8-galZn	PCE		
+20552	Zyl-Schraube ISO 4762-M4x25-8.8-galZn	PCE		
+20556	cyl. head screw ISO 4762-M5x16-8.8-galZn	PCE		
+20557	cyl. head screw ISO 4762-M5x20-8.8-galZn	PCE		
+20563	cyl. head screw ISO 4762-M6x16-8.8-galZn	PCE		
+20567	cyl. head screw ISO 4762-M8x25-8.8-galZn	PCE		
+20570	Zyl-Schraube ISO 4762-M8x40-8.8-galZn	PCE		
+20580	cyl. head screw ISO 1207-M4x12-A2-70	PCE		
+20600	auxiliary contactor NL40E 24V DC	ST		
+2062	profile edge protec./clamp. range 6-8mm/	M		
+2063	profile edge protec./clamping range1-2mm	M		
+20720	insulating tape grey	PCE		
+20739	Ethernet switch FL SWITCH SF 8TX	ST		
+20756	accu gear cam limit switch + encoder	ST		
+20769	electric. brake f. azimut motor	ST		
+20800	thermistor motor protection relay CM-MSS	PCE		senvion:21877
+20801	hex screw ISO 4017-M10x20-8.8-tZn	PCE		
+20803	hex screw ISO 4017-M8x30-8.8-tZn	PCE		
+20806	hex screw ISO 4017-M8x20-8.8-tZn	PCE		
+20809	hex screw ISO 4017-M6x25-8.8-tZn	PCE		
+20811	washer DIN 125-A-6.4-tZn	PCE		
+20814	hex screw ISO 4017-M6x20-8.8-tZn	PCE		
+20815	hex screw ISO 4017-M10x35-8.8-tZn	PCE		
+20852	electric.inst. pipe flexible EYLF 25	M		
+20867	single pole circuit breaker S201-C2	PCE		
+20868	AUTOMAT 1 POL C3A, S201-C3	PCE		
+20871	single pole circuit breaker S201-B6	PCE		
+20873	single pole circuit breaker S201-B10	PCE		
+20874	single pole circuit breaker S201-B16	PCE		
+20878	three pole circuit breaker S203-B10	PCE		
+20889	single pole circuit breaker S201-K2	PCE		
+20890	single pole circuit breaker S201-K3	PCE		
+20891	single pole circuit breaker S201-K4	PCE		
+20892	single pole circuit breaker S201-K6	PCE		
+20893	single pole circuit breaker S201-K10	PCE		
+20894	single pole circuit breaker S201-K16	PCE		
+20913	three pole circuit breaker S203M-B16	PCE		
+20921	three pole circuit breaker S203-K6	PCE		
+20923	three pole circuit breaker S203-K10	PCE		
+20924	three pole circuit breaker S203-K16	PCE		
+20925	three pole circuit breaker S203M-C50	PCE		
+20942	mount. plug Quick 16A TE straight 5-pol	PCE		
+20943	mount. plug Quick 16A TE straight 3-pol	PCE		
+20944	ground socket 230/Anbau/16A IP54	PCE		
+2101	earthing strap MBJ 50-200-10	PCE		
+2101511948	PLC module, PLC-BSC-24DC-21	Piece		
+21045	pre-assembled cable 11	PCE		
+21059	ad. label Licht _DE_NL	PCE		
+21082	ad. label 34x20 supply voltage_EN	PCE		
+21083	ad. label 105x35 IT-supply voltage_EN	PCE		
+21084	ad. label screw connections_EN	PCE		
+21098	capsule fuse 10A/gR 10x38 600V 300kA	ST		
+21107	HELADUCT channel cable HTC 20SK PP 0,5m	PCE		
+21136	DI collar CL16 HGR	PCE		
+21222	1-pump oel circulation N90/2500	ST		
+21223	gear pump KF80RF2-D15 14bar 50Hz	ST		
+21227	fitting XEW 18 L	PCE		
+21279	cable rest. GSW30 15 Ohm	PCE		
+21282	Dio/dio DDB6U	PCE		
+21283	capacitor 0,10ｵF 10% 1400VDC 990VAC MKP	PCE		
+21287	encoderinterface potential isolated 1MHz	PCE		
+21289	MUV-Bus-terminator	PCE		
+21290	terminating impedance operator link	PCE		
+21299	overvoltage limiter AS varistor	PCE		
+21301	analog interface 3, 029.374 091	PCE		
+21302	DSisol.transf. MKD690/400+231 40kVA Dyn5	PCE		
+21304	Du/dt choke 767A	PCE		
+21305	dc link circuit detection 029.226 703	PCE		
+21306	distribution board 029.232 603	PCE		
+21307	power supply CA400 230VAC	PCE		
+21311	auxiliary contact GPAC10FBA 1NC	PCE		
+21312	auxiliary contact GPAC01FBA 1NO	PCE		
+21317	terminal platine 6 Ohm	PCE		
+21321	T-circuit breaker	PCE		
+21322	circuit breaker	PCE		powerwind:BLK.PVFE_24/24-24;senvion:31772
+21326	MVprotective switch GPS1BS 6,3-10A 1S 1ﾖ	PCE		
+21329	fieldbus coupler interbus S	PCE		
+21330	patch plug for H008-T2	PCE		
+21366	DI collar CL20 HGR	PCE		
+21367	DI collar CL25 HGR	PCE		
+21369	mounting bracket for mounting plate	PCE		
+21427	armored hose VA E10,1 1/4" lg1500	ST		
+21437	battery charger type LGW 22406 ID02,	ST		
+21449	HV-washer DIN 6916-28-C45-hot galvanized	PCE		
+21450	ad. label Green 110x34mm Checked!_DE	PCE		
+21453	Three-phase insulating transformer DTT 3	ST		
+21485	pitch motor  FBKF 132M/4D 400V, 5,8kW	ST		
+21520	e-motor 0,37kW 400/600V 50Hz 1500U	PCE		
+2152511916	Plug, surge protection, type 3, PLT-SEC-T3-24-FM-UT	Piece		
+21560	contact washer M6	PCE		
+21566	gearbox Pitch N80/N90	ST		
+21587	resin R・apox L-1100	KG		
+21605	Brake lining fan PFM 220 VG 002	ST		
+21618	pipe clamp NW 315	PCE		
+21630	washer DIN 125-A 37-300HV-flZnncL	PCE		
+2165	hex nut ISO 4032-M36-8-tZn M=D	PCE		
+21746	Ground socket MSCSE 16A 250VAC	PCE		
+21750	relay module MR 24VUC 6A 1W	PCE		
+21757	Sch・z MCRC022ATD 24VDC 2S2ﾖ	PCE		
+21759	contactor MC2A310AT6 230VAC	PCE		senvion:22605
+21763	M-Schutzschalter GPS1BS 0,1-0,16A 1S 1ﾖ	PCE		
+21779	contactor TAL9-30-10, 17-32VDC 4kW	PCE		
+21781	Delete Transil diode RT 5/32	ST		
+21793	fuse socket AES 1x38 1-pole 32A	PCE		
+21794	fuse socket AES 22x58 1-pole 125A	PCE		
+21802	canister 5L	PCE		
+21811	canister 10L	PCE		
+21812	canister 20L	PCE		
+21851	hex screw ISO 4017-M12x20-8.8-tZn	PCE		
+21852	Capacitor hose 12mm diameter	M		
+21854	Electric.inst. pipe flexible EYLF 16	M		
+21855	Electric.inst. pipe flexible EYLF 32	M		
+21865	washer ISO 7093-12-tZn	PCE		
+21866	washer ISO 7093-1-16-200HV-tZn	PCE		
+21870	Widerst.Ger舩 3x0,023Ohm 3x1,0kW 10%	PCE		
+21886	dust cover skintop SD-M 50	PCE		
+21887	Staubschutzverschluss SkintopSD-M 40	PCE		
+21890	washer ISO 7093-8-tZn	PCE		
+21917	DC/DC transducer 250W	ST		
+2192	Rubber-metal-buffer Typ A 10x50mm	ST		
+21995	hex nut ISO ISO 4032-M12-10-tZn	PCE		
+21996	PLC interface/relay of 2 change-over swi	ST		
+22005	yaw-DAS engine HCV 5,5KW 400V 50Hz	ST		
+2201511925	Type 3 surge protection device - PLT-SEC-T3-24-FM-PT, Push Fit connection	Piece		
+22022	Rotation transducer IGR 3620/25	ST		
+2203	hex nut ISO 4032-M20-10-tZn	PCE		
+22037	hex screw ISO 4017-M4x16-A2	PCE		
+22052	cable connection EMV MS-SC-M40x1,5	PCE		
+22053	locknut brass SM-PE-M40x1,5	PCE		
+22060	undervolt.relay w 2 change-over contacts	ST		
+22061	optocoup.term.blockDEK-OE- 24DC/48DC/100	PCE		
+22064	ad. label ﾜberbr・kung DE	PCE		
+22075	auxiliary contact block OBEA 10AU	PCE		
+22081	resin L135/G2	KG		enercon:55204
+22123	zinc dust paint grey 2,5l	L		
+22124	ST-Bus terminal IBS ST ZF 24 BK DIO8/8/3	PCE		
+22125	ST-digital-input IB ST ZF 24 BDI 16/4	ST		
+22126	device clamp G 10/ 2 (to 10mmｲ)	PCE		
+22137	damp room emergency lamp 1xT26/36W	PCE		
+22144	time relay CT-ERE 3-300s on-delayed	ST		
+22165	converter ACS800-01 20kVA 3x400V	ST		
+22166	brake resistor for ACS800 1000W	ST		
+22167	glas tube small fuse 5x20 T2,0A	ST		
+22189	ST plugset PSM-set-B-FOC/4-HCS	PCE		
+22197	hex screw ISO 4017-M10x80-8.8-tZn	PCE		
+22218	capsule fuse 40A/gR 22x58 690V 200kA	ST		
+22245	delay relay CT-ARE non return RV	ST		
+22271	hex bolt ISO 4017-M8x60-8.8-tZn	PCE		
+22317	VAP-foil 75 g/mｲ 1500mm wide	M		
+22341	hex screw ISO 4017-M10x50-8.8-tZn	PCE		
+22345	electric.inst. pipe flexible EYL 20	M		
+22346	electric.inst. pipe flexible EYL 40	M		
+22350	rubber mat 1000x400x8	PCE		
+22357	washer DIN 125-A17-140HV-tZn	PCE		
+22382	auxil. current gear box cam limit switch	ST		
+22396	blade cell pump FZP-1/3.1/V71/3.5	PCE		
+22470	Retifier Board f. Yaw motor brake 230VAC	ST		
+22471	adapter f. auxiliary switch block OEZNP1	PCE		
+22516	bushing housing 4-pin IP97	PCE		
+22517	bushing contact 0,5-1mmｲ	PCE		
+22518	seal 0,5-1mmｲ	PCE		
+22519	cable clamp 180ｰ	PCE		
+22545	protective plug PT 2X2-24AC-ST	PCE		
+22546	base element PT 2X2+F-BE	PCE		
+22547	protective plug PT 4X1-24AC-ST	PCE		
+22548	LW converter PSI-MOS-RS422/FO 660 E	ST		
+22647	adhesive tape cross bolt NR45-2/NR45-3	PCE		
+22649	sound transmitter PA100 10-30V DC IP55	ST		
+22685	ad. label Warranty_EN	PCE		
+22688	micro switch 6A-250V	ST		
+22696	ad. label Pitch FU3 weiﾟ 100x90mm	PCE		
+22697	ad. label Pitch FU2 weiﾟ 100x90mm	PCE		
+22698	ad. label Pitch FU1 weiﾟ 100x90mm	PCE		
+22719	brake caliper BSAK 3000-MS40S-101	ST		
+22726	mounting frame VS-A-F-IP67	PCE		
+22728	bush insert VS-08-BU/BU-RJ45-F	PCE		
+22729	protective cover VS-08-SD-F flat exec.	PCE		
+22730	plastic cable hood VS-08-T-H-RJ45/IP67	PCE		
+22731	CAT5-pin insert VS-08-ST-H11-RJ45	PCE		
+22733	contact unit holder MCBH-00	PCE		
+22734	selector switch M2SS2-10B black	PCE		
+22735	1 NO contact unit MCB-10	ST		
+22736	1 NC contact unit MCB-01	ST		
+22737	flat push button MP1-10B	PCE		
+22738	flat push button MP1-10R red	PCE		
+22739	lamp unit without holder MLB-1	PCE		
+22740	flat push button MP1-10G green	PCE		
+22741	flat push button MP1-10L blue	PCE		
+22743	1 NO contact unit MCB-10G	ST		
+22744	1 NC contact unit MCB-01G	ST		
+22745	status lamp ML1-100W white	ST		
+22746	status lamp ML1-100G green	ST		
+22747	status lamp ML1-100R red	ST		
+22748	selector switch M2SS1-10B black	PCE		
+22749	standard bracket label black	PCE		
+22750	insets f. select.switch settings 0 and 1	PCE		
+22751	light bulb with BA 9s holder 30V 1,2W	ST		
+22754	Rohrschutzkappe RS 42x2-4	ST		
+22767	central lubrication lube pinion	ST		
+22768	Automatische Schmierpumpe Pitch	ST		
+22773	Stromregelventil SRE 1-G1/4-01X/3-3.5	ST		
+22783	bipolar circuit breaker S201-K10 NA	PCE		
+22786	current release 12...60V S2C-A1	PCE		
+22787	auxiliary switch S2C-H11L	PCE		
+22791	universal crest rail PS1/60	PCE		
+22792	end cap 1-pin PS-END0	PCE		
+22860	bolt set BSAK 3000	PCE		
+22861	brake pad set MD 550 incl. PT100	ST		
+22862	position system BSFI 3000-MS	PCE		
+22864	sensor PT100 W/3m	ST		
+22881	brake pad single MD 550 excl. PT100	ST		
+22882	pad retraction spring set BSAK 3000	PCE		
+22883	seal set BSAK 3000-MS	PCE		
+22884	piston BSAK 3000	PCE		senvion:A9BSEN36373
+22904	system window 30''s profile 500x370x30	PCE		
+22944	rubber angle profile 35/45/7650mm	PCE		
+22969	ad. label ''Lift Here''	PCE		
+23104	pitch drive N90/2500	ST		
+23117	level switch FSK-127-2.X/0/-/12	ST		
+23121	return filter RF BN/HC 30 B B 20 E 1.0	ST		
+23122	pressure restrict valve DB4E-01X-250V	ST		
+23123	Stromregelventil SRE1-G1/4-01X/1,6-2	ST		
+23124	diaphragm vessel SBO250-3,5E1/112U-210AK	ST		
+23125	4/3 way valve NG6 AD3L02CZ004	ST		
+23126	4/3 way valve NG6 AD3L03CZD14	ST		
+23131	non return valve  Z2S 6-1-6X	ST		
+23132	2/2 way seat valve WSM06020Y-01-C-N-24DG	ST		
+23134	2/2 way seat valve HS2-1 hyd.betätigt	ST		
+23135	pressure reducing valve CDK32-5	ST		
+23136	diaphr. vessel SBO210-0,75E1/112U-210AK	ST		
+23138	manometer HN60-01-E 63/160/G 1/4B	ST		
+23140	pressure restrict valve DB4E-01X-200P	ST		
+23141	pressure switch EDS 410-250-0-056	ST		
+23158	sealing bearing pitch	ST		
+23171	geared cam switch GTES WKA	ST		
+23176	heating for cooling water connection	PCE		
+23183	pressure transd. HDA 4345-A-0016-000-F1	ST		
+23233	ALU rotor bearing N90/2500	PCE		
+23238	pipe clamp ST-rubber D9	PCE		
+23239	screw E M 5,0x16Z self-tapping	PCE		
+23240	connection WEDZ 6521-6-1/4	PCE		
+23241	BTL w. fil. connect. str. 203-2FL,4,8l	PCE		
+23242	supports ST RI G 1/2AXG 1/4C	PCE		
+23248	pump P203-8XLBO-2K7-AC-2A1.01	PCE		
+23261	ad. label Emergency rope_EN	PCE		
+2328	hex screw ISO 4017-M10x40-8.8-tZn	PCE		
+23322	capacitor hose 10mm diameter	M		
+23357	heater mat 300W 230V 900x140 silicon	PCE		
+23362	contact element P9B10 VN 1O normal	PCE		
+23363	contact element P9B10 VN 1S normal	PCE		
+23375	motor prot.switch GPS1BS 1-1,6A-S-O	PCE		
+23376	motor protection switch 029.225 488	PCE		
+23383	relay module MCVO 24VDC..A 3W	PCE		
+23388	contactor MC2A310AT6 230VAC 5,5kW 1S-O	PCE		
+23389	contactor CK85BA3116 230VAC 110kW 1S1O	PCE		
+23391	contactor MCRC022ATD 24VDC 2S2O	PCE		
+23394	fuse NH NT 10A 690VAC Gr. 00	PCE		
+23397	fuse NH NT 63A 690VAC Gr. 00	PCE		
+23400	fuse NH NT 160A 660VAG GR00	PCE		
+23401	circuit breaker AC690V, 160A	PCE		
+23409	realy output board 60V	PCE		
+23461	flange nut M36-10-tZn-m=d	PCE		
+23469	Trapez- Profil  5,0m lang (Groﾟ)	M		
+23509	contamination indicator VD 3 LZ	ST		
+23512	feeding component KFD2-EB2 24V	ST		
+23513	universal freq. converter KFD2-UFC-Ex1.D	ST		
+23514	slip and direction of rotation monitor	ST		
+23515	power rail PR03 application for DIN bar	PCE		
+23516	Reed switch NCN8-18GM40-N0-V1	ST		
+23530	yaw drive N80/N90 L&S-Motor 5,5kWFU r/l	ST		
+23531	gearbox yaw drive  Schäfer N80 r/l	ST		
+23606	time relay CT-ERE 0,3-30s	ST		
+23612	clamp HRL5 A1 38 PP M ZN	PCE		
+23615	CEE-wall connector 400V/32A 5-pole	PCE		
+2365	hex screw ISO 4017-M10x25-8.8-galZn	PCE		
+23736	ad. label safety chain reset_DE	PCE		
+23737	ad. label Netz_DE	PCE		
+23739	ad. label safety chain activ_DE	PCE		
+23742	dirtiness indicator VR 2 E.0	ST		
+23743	Hydraulic filter element 0030 R 020 BN3H	ST		
+23749	ad. label 34x20 supply voltage_DE	PCE		
+23750	ad. label 0-kein Fzg., 1-Fzg._DE	PCE		
+23751	ad. label blinking/Isolationsfa._DE	PCE		
+23753	ad. label Not Stop_DE	PCE		
+23760	ad. label 105x35 IT-supply voltage_DE	PCE		
+23761	ad. label screw connections_DE	PCE		
+2377	Quick lock Grene 1437-5028	ST		
+23772	ad. label call button DE	PCE		
+23773	ad. label call button_EN	PCE		
+23774	ad. label rotor brake_DE	PCE		
+23775	ad. label rotor brake_EN	PCE		
+23802	ad. label area limit DE	PCE		
+23803	ad. label pitch disconnect_DE	PCE		
+23888	thermo bypass valve TB55-RV 0,2	ST		
+23932	Hyd.hose DN6x900 DKOL90°/CEL	ST		
+23937	Hyd. hose DN10x680 DKOL90°/DKOL	ST		
+23988	Over /under voltage monitor CM-EFS	ST		
+24000	hyd. hose GH793-6DN10x800 CEL/CEL	ST		
+24006	Kl・erplex BEM 41-132 cartridge	CAT		
+24011	FI-circuit breaker 4-pole F204A-25/0,03	PCE		
+24012	FI-circuit breaker 4-pole F204A-40/0,3	PCE		
+24014	fuse load-breaker OT160E4 200A 4-pin	PCE		
+24018	color Hempatex Enamel 56360 RAL7035	KG		
+24019	cyl. head screw ISO 4762-M6x110-8.8	PCE		
+24051	O-ring 6,07x1,78-FPM	PCE		
+24052	O-ring 39x2,5-FPM	PCE		
+24053	O-ring 97,8x5,33-FPM	PCE		
+24054	filter case OLF-compact BG 0500	PCE		
+24055	V-coupling OLF-compact	PCE		
+24056	O-ring 107,62x2,62-FPM	PCE		
+24059	repair kit pump OLF-5/4 FPM	PCE		
+24060	repair kit OLF-5 filter case-FPM	PCE		
+24081	4/3 way valve NG6 AD3L03CZ004	ST		
+24091	FI-circuit breaker 2-pole F202A-25/0,03	PCE		
+24113	ad. label lamp test_DE	PCE		
+24116	hex screw ISO 4017-M8x35-8.8-tZn	PCE		
+24145	cyl.head screw ISO 4762-M10x35-8.8galZn	PCE		
+24186	auxiliary switch for MS116 HKF1-11	PCE		
+24202	e-motor IMB5/V1 BG 90l-1,10kW-6P	ST		
+24245	RC-circ.plateEMG15-RC/220MYF/330R-PS8129	PCE		
+24246	contactor GAE75-10-00	ST		
+24266	ultrasonic anemometer 2D DSP	ST		
+24299	washer ISO 7093-10-tZn	PCE		
+2431	hand lamp Schneider 8W 494/8	PCE		
+2432	hyd.hose GH793-6DN10x1000	ST		
+24376	hydraulic hose GH793-4DN6x2450	ST		
+24413	cable connection brass MS-M20x1,5	PCE		
+24418	blind plug SKINDICHT BL-M16x1,5	PCE		
+24419	blind plug SKINDICHT BL-M20x1,5	PCE		
+24440	Blindstopfen SKINDICHT BL-M40x1,5	PCE		
+24450	Temperaturmesswandler MCR-PT100-U-DC/3/2	ST		
+24472	Vortex generator 40 NR34/37.5/45-3/50	PCE		
+24510	chain store 5/116S kpl STAR-NORDEX	ST		
+24516	rail-switch RS20-0800S2S2SDAEHH0X.X	PCE		
+24562	Hydraulik pipe DIN2391 ø12x1,5	PCE		
+24576	coupling 28/38-38/24	PCE		siemens:A9B10237162
+24578	washer ISO 7089-8-200HV-A2	PCE		
+24632	colored lacquer signal yellow RAL 1003	PCE		
+24633	ad. label automatic turbine restart_GE	PCE		
+24634	ad. label automatic turbine restart_EN	PCE		
+24641	ad. label pitch disconnect_EN	PCE		
+24652	spray nozzle K4 PF-S-07-03-V	PCE		
+24658	pressure switches PF-S-06-V	PCE		
+2468	washer DIN 125-A-8.4-A2	PCE		
+24695	paral.fem.stud couplingGAI 35 LR1 1/4''	PCE		
+24737	controller f. thermo bypass valve TB55	ST		
+24738	2D-tower vibration sensor KS22-Ig	PCE		
+24802	cage nut M8	PCE		
+24811	earthing brush VEM DAKAA 6328 6UB	ST		
+24816	deadlock heating complete FY.13012.99	ST		
+24845	ad. label area limit_EN	PCE		
+24895	Stromregelventil SRE1-G1/4-01X/0,8-1,0	ST		
+24896	diaphr. vessel SBO210-2E1/112U-210AK	ST		
+24897	diaphr. vessel SBO210-0,16E1/112U-210AK	ST		
+24910	cable conduit holder D=29	PCE		
+24936	ad. label bridging_EN	PCE		
+24977	cyl. head screw ISO 4762-M4x20-A2-70	PCE		
+25155	thermal release relay TA 25 DU 14	ST		
+25156	glas tube small fuse 5x20 T0,25A	ST		
+25226	straight male stud fitting XGE08 LR ED	PCE		
+25254	support bracket AB-SK/E	PCE		
+2530	HV-nut EN 14399-4-M36-10-tZn	PCE		
+25347	extinguishing agent container 20l -30ｰC	PCE		
+25348	fire recognition element SPY20 79ｰC	PCE		
+25349	range valve PF-S-08-V	PCE		
+25350	TS-System-Chassis 23x73mm (int.) 600mm	PCE		
+25353	ad. label Diassembly Batt.Trays_DE	PCE		
+25354	ad. label Diassembly Batt.Trays_EN	PCE		
+25361	brake disc KTR f. active B. N80, N90	PCE		
+25362	flange KTR RADEX-N220	PCE		
+25363	clamping set KTR RADEX-N220	PCE		
+25364	clamping set - inside ring	PCE		
+25365	clamping set - outside ring	PCE		
+25367	disk pack KTR RADEX-N220 gearbox side	PCE		
+25368	disk pack KTR RADEX-N220 Geno. side	PCE		
+25369	clamping nut complete	PCE		
+25370	distance disc ø70x15	PCE		
+25371	lamellae blade	PCE		
+25372	washer	PCE		
+25373	fit bolt  M36x130	PCE		
+25374	fit bolt  M36x150	PCE		
+25375	distance disc ø90x40	PCE		
+25376	fit stud M36x191	PCE		
+25420	G-Sicherungseinsatz 1,6A 400V AC/DC	ST		
+25425	Break NFH10 90Nm 240V DC	ST		
+25430	Medienkonverter FL MC 10/100 BASE-T/FO	ST		
+25502	yaw brake K08 gamma	PCE		
+25503	used grease box AS/NS	PCE		
+2561	hose water circulation	ST		
+25611	cyl. head screw ISO 4762-M24x70-12.9	PCE		
+25649	tray colour	PCE		
+25662	angle industrial union AG 1 '''' 1/2	PCE		
+25702	power pack plate230VAC f.ASA pump	PCE		
+25729	interbus S-adapter module NIBA-01	PCE		
+25764	Frequenzumrichter 400V WTRS Durchste.-KK	ST		
+25800	square wrench 8mm chrome	PCE		
+25829	brake pads PSAS for BSAB-90-S500	PCE		
+25877	Rückmelderelais ASA Pumpe	ST		
+25921	panel PC PPC5112Nordex04	ST		
+25991	step seal U-CUP for BSAB 90	PCE		
+26001	overvoltage protector DT-LAN-CAT.6+	ST		
+26074	heating cartridge 670 Watt	PCE		
+26077	Ethernetswitch FL SWITCH  SFN 5TX	ST		
+26090	hex screw ISO 4017-M10x30-A2-70	PCE		
+26383	PLC-interface/relay PLC-RSC-230UC/21-21	ST		
+26398	fuse 5x20 fast acting 1,6A ceramic	ST		
+26453-01	yaw motor K08 gamma	PCE		
+26454-01	yaw gearbox K08 gamma	PCE		
+26508	vacuum fleece 300 g/mｲ width=500mm	M		
+26635	oil level indicator 0220	PCE		
+26636	thermometer 1XPT-100 2-conductL=200/6000	PCE		
+26694	hex screw ISO 4017-M8x12-8.8-tZn	PCE		
+26700	hex screw ISO 4014-M12x260-8.8-galZn	PCE		
+26774-01	K08T_08B0301YawAdjustingDriveTLA3	PCE		
+26873	hex screw ISO 4014-M27x280-10.9	PCE		
+26880	cu-spacing roller 30x20mm int. D=12,5mm	PCE		
+26897	roping device Skylotec Typ AGR2001 Milan	PCE		
+26905	hex nut ISO 4032-M8-8-tZn	PCE		
+26977	seal pac for descender Skylotec	PCE		
+26988	K08T_06E0201GearboxSupport	PCE		
+26989	K08T_06E0202GearboxSupportFas	PCE		
+26992-01	K08T_06L0201RotorBearingALU	PCE		
+26994	K08T_08F0201YawALU	PCE		
+27008	ratched strap two-part 35mm	PCE		
+27043	hose ring R-M50	PCE		
+2709	12l black plastic bucket	PCE		
+27135	auxiliary contact 1S OA1G10	PCE		
+27149	yaw bearing K08 gamma	PCE		
+27180	hydraulic hose GH793-6DN10x600	ST		
+27191	hydraulic hoses m.Kab.d.funk. K08	ST		
+27200	K08T_08A0201YawBearing	PCE		
+27202	K08T_08A0202YawBearing01Fas	PCE		
+27324	Csunk.hd.screw ISO 10642-M6x20-8.8-tZn	PCE		
+27345-01	K08T_05D0301GeneratorWNY	PCE		
+27346-03	K08T_05D0302GeneratorWNY_SmP	PCE		
+27347	K08T_05D0303GeneratorWNY_Fas	PCE		
+27382	electronic overload relay E16 DU 18,9	ST		
+27445	cyl. hd. screw ISO 4762-M16x70-8.8-galZn	PCE		
+2750	cable sleeve EHRD 185mmｲ	PCE		
+27539	edding pen white thin	PCE		
+27540	edding pen black	PCE		
+27541	insulating tape green yellow	PCE		
+27542	insulating tape black	PCE		
+27543	KFZ cable shoe insul.stand.size	PCE		
+27544	luster terminal to 2.5	PCE		
+27545	luster terminal to 6	PCE		
+27667	spring ring DIN 127-A-10-tZn	PCE		
+27673	hex screw ISO 4017-M10x16-8.8-galZn	PCE		
+27674	hex screw ISO 4017-M16x25-8.8-tZn	PCE		
+27676	hex screw ISO 4017-M16x70-8.8-tZn	PCE		
+27677	hex screw ISO 4017-M16x80-8.8-tZn	PCE		
+27686	hex nut ISO 4032-M6-A2-70	PCE		
+27744	raised-head screw DIN 7985-M4x16-4.8-A2	PCE		
+27771	T-coupling Typ5	PCE		
+27788	brake resistor for ACS800 500W	PCE		
+27835	slide ring unit K08	ST		
+27857	air pressure indicator PTB110 5A1AB	ST		
+27905	K08T_15Q0105Sign_SwC_EN	PCE		
+27906	K08T_15Q0113Sign_SwC_MFC_EN	PCE		
+27923	K08T_15Q0203Sign_SwC_DE	PCE		
+27924	K08T_15Q0204Sign_SwC_MFC_DE	PCE		
+2797	shrink hose SRH2/56-17	M		
+28057	ad. label white 100x90mm Pitch Batts._EN	PCE		
+28058	ad. label white 100x90mm Pitch Batts._DE	PCE		
+28069	sign 21x13 caution splinter_EN	PCE		
+28070	sign 21x13 caution splinter_DE	PCE		
+28084	warning sign 100x50 Pitch_EN	PCE		
+28085	warning sign 100x50 Pitch_DE	PCE		
+28096	label surge protection 80x55blue_EN	PCE		
+28097	label surge protection 80x55blue_DE	PCE		
+28121	adhesive 86A (473ml)	ML		
+28125	Biax glass fibre 443g/mｲ  1,270mm	M		
+28149	triax 0ｰ/-45ｰ/+45ｰ 1215g/mｲ  846mm	M		
+28160	Biax glass fibre 443g/mｲ  318mm	M		
+28167	geared cam switch GTES 51 LED	PCE		
+28172	hex nut ISO 4032-M10-8-tZn coat.ISO 2320	PCE		
+28176	cone-type bearing 45NR11 ﾘ55,6/M12	PCE		
+28203	ad. label tower 5-digit WTG-No K08	PCE		
+2821	standard-wire end sleeve GHD 1,5-8 black	PCE		
+28212	geared cam switch GTES 7.7 LC-190FV	PCE		
+28222	transducer MFR500M/WK0400	PCE		
+28283	centre disk f. cone-type bear. ﾘ55,6/M12	PCE		
+28284	stop wash.  f. cone-type bear. ﾘ55,6/M12	PCE		
+28357	encoder for pitch drive 5863 axial	PCE		
+28358	pitch brake BFK 460-14-002	PCE		
+28359-01	pitch motor K08 gamma	PCE		
+28360	pitch gearbox K08 gamma	PCE		
+28373	3-phase insulating transformer DTT 80kVA	PCE		
+28377	Schaltschrank Akku Pitch2 N80/N90	SA		
+28378	srv hex nut-M36-10-flZnncL	PCE		
+28420-01	K08T_07A0301Pitch3Drive	PCE		
+28421	K08T_07A0302Pitch3DriveFas	PCE		
+28430	cotter pin ISO 1234-5x40-A2	PCE		
+28432	hose PUR 6x1x4	M		
+28456	seal Profile Simrit	M		
+28541	srv hex screw M36x290-10.9-tZN	PCE		
+28575	srv stud bolt M36x205/140-10.9-tZn	PCE		
+28576	srv stud bolt M36x210/160-10.9-tZn	PCE		
+28578	srv stud bolt M36x560/300-10.9-flZnncL	PCE		
+28580	srv stud bolt M36x190/100-10.9-tZn	PCE		
+28583	HV-set M36x220	PCE		
+28613	K08T_01K0101Consumables	PCE		
+28614-01	K08T_01R0101Service500h	PCE		
+28615	touchpen incl. bracket IP B-08135/07	PCE		
+28620	plastic fitting RQG1-M40x1,5 AD42,5	PCE		
+28623	plastic fitting RQG1-M63x1,5 AD54,5	PCE		
+28629	pressure adjusting-connection DA284 IP66	PCE		
+28682	Klemmschelle ・2mm	PCE		
+28744	hex nut ISO 4032-M3-A2-70	PCE		
+28745	cyl. head screw ISO 4762-M3x12-A2-70	PCE		
+28762	knob cylinders Ruko 621, Serie 600 new	PCE		
+28788	automat 3 pole K32A, S203-K32 400V 6kA	PCE		
+28838	Makroplast QR 4663, 300 ml	PCE		
+28840	ball valve 1 1/4", i/i	PCE		
+28858	ad. label ''Wear Hearing Protection"	PCE		
+28860	ad. label Pacemakers Not ad. labellowed	PCE		
+28902	damp room lamp T26/36W	PCE		
+28903	setscrew DIN EN ISO 4028-M6x40-A1	PCE		
+28906-01	heating mat 350W 230V 405x685 silicon	PCE		
+28910	hose holder RQH AD 54,5 grey	PCE		
+29030	three pole circuit breaker S203-C25 6kA	PCE		
+29032	three pole circuit breaker S203-C32 6kA	PCE		
+29035	three pole circuit breaker S203-C63 6kA	PCE		
+29040	peel ply, width=1470 mm 105g/mｲ	M		
+29042	peel ply, width=1000 mm 105g/mｲ	M		
+29043	peel ply, width=0,5m, 105g/mｲ	M		
+29044	peel ply, width=0,2m, 105g/mｲ	M		
+29232	hex screw ISO 4017-M48x60-8.8-tZn	PCE		
+29233	DUBO-profile disk 243-M48x17-PA6	PCE		
+29234	hex screw ISO 4017-M5x22-A2-70	PCE		
+29236	damp room lamp 1xT16/8W	PCE		
+29237	protective cage SK 130/131	PCE		
+29252	MFR500-PC-cable DPC	PCE		
+29255	illuminate Osram T16/8W	PCE		
+29258	hex nut ISO 4032-M12-8-tZn coat.ISO 2320	PCE		
+29261	hexalobular tapping screw BZ5/5x13mm	PCE		
+29269	current collector complete K08	PCE		
+29276	hex screw ISO 4017-M10x45-8.8-tZn	PCE		
+29298	carbon brush for radius 470	PCE		
+29484	hex nut DIN 6330-M24-10-tZn	PCE		
+29500	ad. label circuit colours	PCE		
+29510	windcoat contur easy putty+ hardener	KG		
+29512	accelerator for Windcoat Contur Easy	L		
+29513	OLDOPUR Bladecoat SA	KG		
+29514	Hardener for OLDOPUR Bladecoat SA	KG		
+29517	capsule fuse 20A/gR 14x51 690V 200kA	PCE		
+29518	fuse socket AES 14x51 3-pole 50A	PCE		
+29561	PUR thinner for OLDOPUR bladecoat	L		
+29562	windcoat finish + Hardener RAL7035 Gray	KG		
+29565	hex screw ISO 4017-M6x20-A2-80	PCE		
+29567	windcoat finish + Hardener RAL3020 Red	KG		
+29577	washer ISO 7089-10-300HV-tZn	PCE		
+29578	washer ISO7089-12-300HVtZn	PCE		
+29579	washer ISO7089-16-300HVtZn inner chamfer	PCE		
+29597	K08T_16A0101Human_Safety	PCE		
+29602	hex bolt ISO 4017-M16x150-8.8-tZn	PCE		
+29604	hex screw ISO 4017-M12x25-8.8-tZn	PCE		
+29621	flat connection G42L	PCE		
+29637	H-junction QPD H 3PE2,5 BK	PCE		
+29638	patch plug QPD P 3PE2,5 9-14 BK	PCE		
+29639	nut QPD N 2,5 9-14 BK	PCE		
+29640	retaining clip QPD CLIP 2,5 BK	PCE		
+29641	grounding strap 16mmｲ-200mm-M8	PCE		
+29642	grounding strap 16mmｲ-300mm-M8	PCE		
+29663	edge protector profile 4-6mm PVC	M		
+29670	VIBROWEB XP-CMS set	PCE		
+29671	connection cable CMS 20m	PCE		
+29700	terminal SK 5	PCE		
+29701	support bracket AB/SS-M	PCE		
+29967	accelerator Windcoat Contur Easy dick	KG		
+29968	OLDOPUR bladecoat SA	KG		
+29969	Hardener Rot 3013	KG		
+29978	solid plastic-flexible hose PA6S AD54,5	M		
+29980	solid plastic-flexible hose PA6S AD42,5	M		
+30004	Remote Field Controller NFC 470	PCE		
+30057-01	pitch drive K08 gamma	PCE		
+30062	rail support-set WSH 19	PCE		
+30176	rubber/metal buffer type E 30x15 M8	PCE		
+30306	cable mounting hose MW 10/E	PCE		
+30307	cable mounting hose MW 20/E	PCE		
+30308	cable mounting hose MW 30/E	PCE		
+30346	hex screw ISO 4014-M20x100-10.9	PCE		
+30347	K08T_08B0303YawAdjustingDriveTLA3Fas	PCE		
+30367-01	yaw drive K08 gamma	PCE		
+30369	fastener TS assembly plate	PCE		
+30570	K08T_09E0202CoolingSystem_MFC_SmP	PCE		
+30671	brush seal Mink Flex-System	M		
+30675	pre-assembled cable 23 - interbus	PCE		
+30700	cable connection M50x1,5 with 8mm hole	PCE		
+30728	cyl. head screw DIN 7984-M8x30-A2-070	PCE		
+30729	washer ISO 7092 8-200HV-A2	PCE		
+30741-01	maintenance 500h Max Sch	PCE		
+30774	hex nut ISO 4032-M8-10-tZn	PCE		
+3081	cotton rags in 25kg bag	PAC		
+30811	phaseal bar monophase PS1/2	PCE		
+30812	phaseal bar monophase PS1/9	PCE		
+30813	phaseal bar 3-phase PS3/6	PCE		
+30814	phaseal bar 3-phase PS3/9	PCE		
+30815	phaseal bar 3-phase PS3/12	PCE		
+30816	memory card CF FLASH 256 MB Applic.A	PCE		
+30849	FO cable POW 0.8m	PCE		
+30850	FO cable POW 1.2m	PCE		
+30853	fire recognition element SPY20 141ｰC	PCE		
+30858	locking pin with head M20x1,5	PCE		
+30902	K08T_08C0601Yaw_BrakeTLA3_14k	PCE		
+30903	K08T_08C0602Yaw_BrakeTLA3_14kFas	PCE		
+30904-01	K08T_08C0603Yaw_BrakeTLA3_14kSmP	PCE		
+30905	K08T_08C0604Yaw_BrakeTLA3_14kPiH	PCE		
+30906	K08T_08D0501Sensors_azimuth	PCE		
+30907-01	K08T_09A0501HydraulicUnit50	PCE		
+30908-01	K08T_09A0502Hydraulic50PiH	PCE		
+30914	K08T_05B0501Sensors01GO	PCE		
+30915-01	K08T_05B0502Sensors02GO	PCE		
+30932-01	K08T_06C0401RotorBearing	PCE		
+30933-02	K08T_06C0402RotorBearing_Housing	PCE		
+30934	K08T_06C0403RotorBearing_HousingFas	PCE		
+30935-01	K08T_06C0404RotorBearing_Housing01SmP	PCE		
+30936	K08T_06C0405RotorBearing_Housing02SmP	PCE		
+30949	K08T_15Q1801Sign_MH_01_EN	PCE		
+30962	USB 2.0 cables Typ A - A 1,0m	PCE		
+30972	Star POINT eyebolt VRS-PSA M16	PCE		
+30973	Southco compression latches	PCE		
+30987	Front-COM-USB-bushing IE-FCM-USB-A	PCE		
+30999	Inox Star eyebolt PSA M16	PCE		
+31025	ring bolt DIN 580-M10-tZn	PCE		
+31046	PLC-interface/relay PLC-SC-S/H	PCE		
+31047	spacer ring SK615516-1	PCE		
+31048	plastic-blank box MEP1-0	PCE		
+31051	terminal cover for switch OTS63T3	PCE		
+31055	electronic overload relay E16 DU 6,3	PCE		
+31057	magnetic clamp GS88 D88x17/M8	PCE		
+31163	ad. label S75 ''MAX''	PCE		
+31166	swivel fitting WEDZV-6-1/8	PCE		
+31167	connection WEDKV 6520-6-1/4	PCE		
+31173	hydraulic unit K08 gamma	PCE		
+31353	cyl. head screw ISO 4762-M8x30-A2-70	PCE		
+31444	load transfer switch 4-pole 63A	PCE		
+31445	handle bar for OT16..63	PCE		
+31447	ground socket 230/16A IP68 AP	PCE		
+31467	motor protection switch MS132-1.0	PCE		
+31468	motor protection switch MS132-1.6	PCE		
+31470	motor protection switch MS132-4.0	PCE		
+31479	PS1-3-0-65 3-phase busbar	PCE		
+31482	S1-M1-25 3-phase between upstream block	PCE		
+31486	Griff f・ Hauptschalter OHSS2RJ	PCE		
+31493	sealing section	M		
+31499	Breaker NW32H1 / 4800-32000A 6W 690V	PCE		
+31500	power circuit breaker EP101UCC02 2A	PCE		
+31501	power circuit breaker 029.232 814	PCE		
+31502	auxiliary contact CA H	PCE		
+31503	power circuit breaker EP101UCC04 4A	PCE		
+31504	power circuit breaker 029.232 815	PCE		
+31507	fuse HLS 800A 690VAC	PCE		
+31514	power circuit breaker EP61C04 4A	PCE		
+31517	auxiliary contact HS9K.001 4-30V	PCE		
+31522	power circuit breaker 000.350 370	PCE		
+31523	transform. protection switch 590.034 905	PCE		
+31526	power circuit breaker EP61C06 6A	PCE		
+31527	transform. protection switch 029.203 673	PCE		
+31528	power circuit breaker 029.350 373	PCE		
+31535	power circuit breaker S223-K 0,75A	PCE		
+31537	flange nut M36-10-flZnncl-m=d	PCE		
+31538	motor protection switch 029.228 654	PCE		
+31545	motor protection switch GPS1BS 0.25-0.4A	PCE		
+31546	motor protection switch 029.228 656	PCE		
+31547	motor protection switch GPS1BS 19-25A	PCE		
+31549	motor protection switch GPS1BS 2.5-4A	PCE		
+31551	motor protection switch GPS1BS 4-6.3A	PCE		
+31552	motor protection switch 029.228 664	PCE		
+31554	motor protection switch 029.228 661	PCE		
+31555	fuse HLS 16A 1000VDC 3pieces/packing	PCE		
+31556	motor protection switch 029.228 662	PCE		
+31564	fuse load breaker 250A 690VAC	PCE		
+31565	fuse 125A 690V	PCE		
+31579	fuse NH NT 250A 690VAC size 1 3pieces/pa	PCE		
+31582	relay module MR 24VUC 17mA 029.210 813	PCE		
+31584	fuse load-breaker DTBL 160A -818	PCE		
+31587	anemometer compact 50m/s	PCE		
+31594	wind direction sensor-compact	PCE		
+31596	contactor MCRA022ATN 230VAC 2S2ﾖ	PCE		
+31602	contactor 029.357 840	PCE		
+31603	overvoltage limiter MP0AAE3 RC-filter	PCE		
+31609	fuse-disc. PSII PRE MCPS 80A 1W/1co	PCE		
+31614	Contactor LC1-F1700P7 110VAC 1000kW -S-ﾖ	PCE		
+31619	contactor 029.383 538	PCE		
+31621	analog interface 2, 029.374 089	PCE		
+31623	control board 40 Hz with EON-option	PCE		
+31625	overvoltage limiter LA4-FRCF RC-filter	PCE		
+31626	Delay module MREBC10AC2 0,5-60s	PCE		
+31629	wire resistor GWK300 180Ohm 300W	PCE		
+31630	overvoltage limiter MP0CAE3	PCE		
+31634	wire resistor GWS300 6,8kOhm 300W	PCE		
+31640	resistance unit 3x0,047-Ohm 3x2,0kW+-10%	PCE		
+31645	time relay ERS 24-240VUC 0,05s..300h	PCE		
+31657	fan R3G250 200-277V1AC 50/60Hz Rad	PCE		
+31674	contactor LC1-F500P7	PCE		
+31676	filter fan SK3325 230VAC 50/60Hz	PCE		
+31685	Temperature switches KS304 55ｰC ｱ3K	PCE		
+31688	cool water heater 2KW	PCE		
+31689	temp. transducer TMW-0+200C 0-10V 24VDC	PCE		
+31698	temperature Probe PT100 -25/+80ｰC	PCE		
+31700	nut M28x1,5 height 6mm X5CrNi18-10	PCE		
+31701	temp. switch KO3D4 45ｰC ｱ3K	PCE		
+31702	holding disk D=18,5 d=9,8	PCE		
+31706	temp. switch KO3D4 45ｰC ｱ3K	PCE		
+31710	sealing stud D=22,5 d=9,5	PCE		
+31711	cam-lock M28x1,5 l=12 height 16mm	PCE		
+31727	temp. switch KO3D4 70ｰC ｱ3K	PCE		
+31728	temp. switch KO3D4 90ｰC ｱ3K	PCE		
+31732	interference suppression filter complete	PCE		
+31733	Connector housing CAP 665475A	PCE		
+31734	Connector housing CAP 665525A	PCE		
+31735	capacitor 3x333ｵF C1..3	PCE		
+31736	Connector housing CAP 665699A	PCE		
+31745	converter-I 13A1030.3 3000/1A 15VA	PCE		
+31748	current Unit 296A	PCE		
+31750	laminate DC link capacitor 7mF	PCE		senvion:A9BSEN41646
+31776	countersunk hd. screw ISO 10642-M6x25-A2	PCE		
+31785	grd.cam switch GTES 51 LED incl. bracket	PCE		
+31788	Converter LF1005-S 1:5000 1000A +-24V	PCE		
+31792	V-transformer EKSZ150  660V/110V 20VA Kl	PCE		
+31797	resist.device 4x1,32/1x1,03-Ohm4x2,0kW	PCE		
+31799	3AC reactor 220ｵH 875A 029.361 305	PCE		
+31804	door operated switch SZ4127 1S1ﾖ / 1no1n	PCE		
+31808	Emerg.-stop palmb. P9XER4RA	PCE		
+31809	I-Transformer E16A1234 3000/1A 15VAKl0,2	PCE		
+31810	Label tag 080XTGR02 029.208 764	PCE		
+31813	Current Unit 232A 029.155 095	PCE		
+31818	overvoltage arrester 2,8KV 029.222 992	PCE		
+31823	mains protection, base VAL-MS-BE 500VAC	PCE		
+31825	phase modulewatercooledProX690-1E1-0W0H0	PCE		
+31826	COM-Server 58631 029.353 319	PCE		
+31841	hex-bolt ISO 4017-M12x50-10.9 tZn-G500B	PCE		
+31851-01	lubri.pinion PU Z=8;M12,C=100 w. bracke	PCE		
+31876-01	K08T_07G0401Pitch3ALU	PCE		
+31930	edge prot. profile KSD-2 4-6mm PVC/EPDM	M		
+31945	K08T_08B0304YawAdjustingDriveTLA3SmP	PCE		
+31960	metal hose SPR-AS AD19/50m	M		
+31961	straight male stud fitting L28 - G1''	PCE		
+31962	fitting incl. con. nippel L12 - 1/4''	PCE		
+31963	fitting L42 - G1 1/2''	PCE		
+31965	fitting L12 - 1/4''	PCE		
+31966	L-fitting incl. con. nipple L12	PCE		
+31967	seal UC-2805	PCE		
+31968	pipe clamp L42 RAN12-542	PCE		
+31969	pipe clamp L42 RBN4-542	PCE		
+31982	pipe clamp L12 RBN4-112	PCE		
+31984	grounding strap MBJ 50-500-10	PCE		
+32027	mounting branch fitting RAA 620 FT	PCE		
+32032	corner connection REV 60 DD	PCE		
+32033	vertical bend RBV 610 F FT	PCE		
+32034	mounting branch fitting RAA 605 FT	PCE		
+32035	bottom end panel BEB 100 DD	PCE		
+32059	oil circulation K08 gamma	PCE		
+32080	indexing plunger GN 822-7-B-NI	PCE		
+32091	parallel pin ISO 8734-8x40-C1	PCE		
+32092	cheese pin ISO 8734-6x24-C1	PCE		
+32093	lock washer DIN 6799-12	PCE		
+32094	pipe clamp L12 RAN12-112	PCE		
+32099	headless srew DIN 427-M8x20-14H	PCE		
+32174	Csunk.hd.screw ISO 10642-M6x20-8.8-galZn	PCE		
+32175	bolt EN 22341-B-18x80-St tZn	PCE		
+32192	plug 10x16 RD	PCE		
+32226	handhold Ganter GN 725-132-M8	PCE		
+32242	closure cap VK 250	PCE		
+32246	cotter pin ISO 1234-5x40-St galZn	PCE		
+32310	pushbottom E215-16-11C 250V AC/16A red	PCE		
+32318	set screw ISO 4029-M6x10-A2-21H	PCE		
+32352	tension relief HV 2103	PCE		
+32353	thread bolt DIN976-1-M24x180-B-10.9tZn	PCE		
+32354	thread bolt DIN976-1-M16x115-B-10.9tZn	PCE		
+32362-01	K08T_14A0301LightnProtectionMH	PCE		
+32387	straight connection RLVK 60 FT	PCE		
+32413	NALL_15Q0301Sign_control_unit_EN	PCE		
+32422	sign NC Authentication_EN	PCE		
+32433	2-deck tension spring clamp STTB 1,5-PE	PCE		
+32446	pre-assembled cable 27 - Interbus	PCE		
+32466	protective shroud emergency stop button	PCE		
+32530	hydraulic oil  K07/K08	L		
+32531	Lev. Foot Ganter GN342_2-60-M16_80-SV	PCE		
+32537	yaw converter ACS800-11kVA БBB1・        3	50		
+3256	armored hose VA E10, 1 1/4" lg1000	ST		
+32568	adapter shaft KTR RADEX-N220 GFK	PCE		
+3264	fast deaerator with vtl. 3/8''	ST		
+32687	GPS 100393	PCE		
+32688	battery SB 26-12	PCE		
+32757	earthing tower section K08 70mmｲ 0,7m	PCE		
+32763	terminal UK 35 N	PCE		
+32764	terminal USLKG 35 N	PCE		
+32808	cover clip DKU	PCE		
+32809	Spengler screw 4,5x25-Z-A2 EPDM 15mm	PCE		
+32863	corrugated tube FFTYL type29 PE-LD black	M		
+32864	rotor brake K08 CCV	PCE		
+3290	general purpose cleaner solvent	L		
+32937	hex screw ISO 4017-M12x30-10.9-tZn	PCE		
+32945	reed switch NCB8-18GM40-N0-V1	PCE		
+32955	carriage bolts DIN 603-M10x80-A2-70 G	PCE		
+32960-02	housing transformer box N100 CCV	PCE		
+32961-01	mounting plate 900x900mm	PCE		
+32993	Baxxodur Harz ER 5503	KG		
+32994	Baxxodur H舐ter EC 5511	KG		
+32995	Baxxodur H舐ter EC 5521	KG		
+33029	heater fan FLH250SL 250W 230V	PCE		
+33047	Gefahrenfeuer  NAL-EST100-B 1xrot	PCE		
+33049	union nut M12LCFX	PCE		
+33051	cutting ring PSR12LX	PCE		
+33056	K08T_14A0302LightnProtectionDrT	PCE		
+33057	distance bolt M6x100/12	PCE		
+33220	high power axial fan MD404A_400	PCE		
+33221-01	K08T_09C0401NacelleFan	PCE		
+33235	hex screw ISO 4017-M6x35-A2-70	PCE		
+33243	Fire alarm monitor FDOOT 241-9	PCE		
+33244	Fire alarm modul Genesis II MGEN2	PCE		
+33245	K08T_15G0301fire_alarm_system	PCE		
+33246-01	K08T_15H0301FireExtinguishingSyS_NCV	PCE		
+33247	heater fan FLH-T800 230V 50/60Hz	PCE		
+33261-01	K08T_14A0303LightnProtection_Hub_01	PCE		
+33262	K08T_14A0304LightnProtection_Hub_02	PCE		
+33318	frequency converter PM2 M25.1 U_BC 660VD	PCE		
+33322	hydraulic hose GH663-32x475 DKM90ｰ	PCE		
+33323	pipe clamp L50 RAN12-650	PCE		
+33326	gantry crane 1000kg CCV	PCE		
+33340	K08T_13A0601CraneBK50CCV	PCE		
+33341-02	K08T_13A0602CraneBKLiftkett50CCV	PCE		
+33365	thermal release relay TA25DU 1,0	PCE		
+33439	temp. sensor battery charger LGW22406 3m	PCE		
+33442	bolt box gamma	PCE		
+33445	K08T_01K0802Bolt_box_gamma	PCE		
+33453	hyd.hose 2TE DN16x850 DKOL18/DKOL18-90ｰ	PCE		
+33484	flatheaded screw ISO 7380-1-M6x16-A2-070	PCE		
+33485	flatheaded screw ISO 7380-1-M6x25-A2-070	PCE		
+33486	flatheaded screw ISO 7380-M6x30-A2-070	PCE		
+33487	flatheaded screw ISO 7380-M8x20-A2-070	PCE		
+33498	cooling water pump gen K08 50HzCCV gamma	PCE		
+33511	cooling water pump HU K08 50Hz CCV gamma	PCE		
+33512	cooler OK-EL9L-S/2.1/W/400-50 CCV	PCE		
+33625	cable duct VK FLEX 40 round 0,5m	PCE		
+33626	magnetic clamp with rubber covering GS43	PCE		
+33627	raised-head screw DIN 7985-M4x8-A2-70	PCE		
+33650	cable set earthing bottom K08 hybrid tow	PCE		
+33654-01	extinction pipe DN15x1 galvanized	SA		
+33655-01	control pipe DN8x1 galvanized	SA		
+33656	pressure gauge bracket, Hydac 3545339	PCE		
+33657	Fluid level gauge FSA-176-1.0/-/1	PCE		
+33687	lock, steel galvanized (chromated)	PCE		
+33688	lock grasp, single	PCE		
+33689	outer gasket EPDM 1mm black	M		
+33690	inner gasket EPDM 1mm black	M		
+33716	oil tank Hydac 3486331	PCE		
+33749	edge protector profile Fixxprofile	M		
+33755	level switch Hydac 6091598	PCE		
+33756	seal level switch Hydac 3482006	PCE		
+33758	hyd.tankcap with ventilation filter	PCE		
+33759	seal ELF	PCE		
+33780	hand pump MP10-01, Hydac 2610181	PCE		
+33781	handle MAGURA 851-10.2 KSZ	PCE		
+33782	compact unit Hydac 3508314	PCE		
+33783	cable entry 3Ph Hydac 3045055	PCE		
+33786	housing EDFR-x-030 1.4571, Hydac 3488997	PCE		
+33802	clamp Stauff 1110024581	PCE		
+33808	non return valve RVM06020-22-C-N-0.5 TT	PCE		
+33809	non return valve RVM06020-22-C-N-10 TT	PCE		
+33810	2 way seat valve WSM08130D-01M-C-N-24DG	PCE		
+33811	pressure transducer HDA 7446-A-250-000	PCE		
+33812	pressure restrict valve DB4E-06X-100V TT	PCE		
+33813	current reg. valve SRE1-G1/4-12X/3	PCE		
+33814	pressure restrict valve DB4E-063-CExxxx.	PCE		
+33815	throttle valve DV5E-22X-J TT	PCE		
+33816	screw coupling 2103-01-18.T5	PCE		
+33817	filter LF BN/HC 60 SET 20 W 1.0	PCE		
+33818	non return valve RVM06020-22-C-N-3.0 TT	PCE		
+33819	pressure restrict valve DB4E-06X-250V TT	PCE		
+33820	2/2way seat valve WSM06020Z-01M-C-N-24DG	PCE		
+33821	diaphragm vessel SBO250-3,5E1/663U-210AB	PCE		
+33822	double nipple DO G 3/4'' blue chromate	PCE		
+33823	pressure restrict valve DB4E-06X-200V TT	PCE		
+33824	2/2way seat valve WSM06020Y-01M-C-N-24DG	PCE		
+33825	nozzle-G-M 8x1x8x1,3 -CuZn	PCE		
+33826	nozzle-G-M 8x1x8x1,6 -CuZn	PCE		
+33827	nozzle-G-M 8x1x8x2,3 -CuZn	PCE		
+33828	2/2way seat valve WSM06020W-01M-C-N-24DG	PCE		
+33829	2 way valve WSM08130C-01-C-N-24DG TT	PCE		
+33830	2/2 way seat valve HAWE BVP1-S-H	PCE		
+33831	diaphr. vessel SBO210-0,75E1/663U-210AK	PCE		
+33832	diaphr. vessel SBO210-2E1/663U-210AK110	PCE		
+33833	manometer 233.50. 63/0-160bar -G1/4-B	PCE		
+33834	diaphr. vessel SBO210-0,16E1/663U-210AK	PCE		
+33835	pressure restrict valve DB4E-06X-200P TT	PCE		
+33836	control block K08 Gamma CCV (Alu)	PCE		
+33839	nozzle G-R1/4-0,40/ST	PCE		
+33840	nozzle G-R1/4-0,55/ST	PCE		
+33841	ASM nozzle/screen special gland G3/8	PCE		
+33842	manometer 233.50. 63/0-250bar -G1/4-B	PCE		
+33843	measuring tube S120-AC-AC-0100N	PCE		
+33844	control block brake rotor CCV (Alu)	PCE		
+33845	ball valve BV2G38-5i	PCE		
+33846	clamping box with multi-pin connector	PCE		
+33847	clamping box Fa. NATUS NTN 814026	PCE		
+3390	glue socket 4,8mm	PCE		
+33933	cable F-CY-JZ 3G1,5mmｲ	M		
+33946	Hardener Epikure Curing Ag. MGS BPH137GF	KG		
+33954	K08T_15B5001ObLiTM_ENER_4xrd_10_PH141	PCE		
+3408	fitting XEW 28 PL	PCE		
+34094	fixed jumper FBI 10-10 10pole	PCE		
+34096	K08T_09E2401cooling systemMFC50_PH141	PCE		
+34130	warning mark tape left showing bl/ye	M		
+34131	warning mark tape right showing bl/ye	M		
+34132	ad. Label "Warning Crushing"	PCE		
+3415	connection pressure transducer G1/4''	ST		
+34172	K08T_15Q1803Sign_TFbox_EN	PCE		
+34173	P203-4XBF-3K6-AC-2A1.01 unfilled	PCE		
+34175	K08T_15Q2101Sign_TFbox_DE	PCE		
+34193	locking bolt rotor brake disc	PCE		
+34200	reducing bracket RWEB 620 DD	PCE		
+34209	Einschnittdichtring Skindicht E-M 63	PCE		
+34212	earthing cable H07V-K gn/ge 16mmｲ 0,3m	PCE		
+34277	Adhesive Label Warning hot surface	PCE		
+34278	Adhesive Label Warning obstacles	PCE		
+34279	Ad. Label Warning slippery surface	PCE		
+34301-02	cable set cooling bottom K08 RB/PH141	PCE		
+34302-01	FO cable 4xHCS fibre 1 ring at 170m	PCE		
+34304	cable SLi-12YC11Y 4x2x0,5mmｲ 1ring ・70m	PCE		
+34310	Adhesive Label Wear safety harness	PCE		
+34311	label warning emergency shut-off_EN	PCE		
+34394	holder for additional motor terminal box	PCE		
+34515	O-ring 56x3 -NBR -70Sh - TT	PCE		
+34516	block seal TT	PCE		
+34562	retainer cap SKINTOP DV-M12	PCE		
+34563	castrol optigear synthetic X 320	L		
+34565	retainer cap SKINTOP DV-M32	PCE		
+34566	retainer cap SKINTOP DV-M40	PCE		
+34567	retainer cap SKINTOP DV-M50	PCE		
+34568	retainer cap SKINTOP DV-M63	PCE		
+34574	flatheaded screw ISO 7380-1-M6x20-A2-070	PCE		
+34589-01	spherical roller bearing 230/850	PCE		
+34611	resistance thermom. incl. casing TR10-D	PCE		
+34612	clamping fitting BF4 G1/2 B 6,2mm	PCE		
+34641	NALL_MODUL_FC_NFC470	PCE		
+34644	NALL_10C0301FieldControllerNFC470	PCE		
+3465	cable ties 4,8 x 200mm	PCE		
+3466	cable ties 4,8x360 UV-resistent SW	PCE		
+34667	hex. screw ISO 4017-M5x10-8.8-galZn	PCE		
+3467	cable ties 7,8 x 365 mm	PCE		
+34675	roping device Skylotec kompl. 160m	PCE		
+34692	distance bolt M6x35/14 x12 SW10	PCE		
+34727	chain hoist STAR Liftket 50 Hz 160 m	PCE		
+34743	rubber/metal buffer type D 40x35 M10x17	PCE		
+34877	Hyd. hose 1SN DN38 DKOL/DKOL90ｰ-1550	PCE		
+34878	Hyd.hose 2SN DN38 DKOL/DKOL90ｰ-1600	PCE		
+34879	Hyd.hose 1SN DN38 DKOL/DKOL90ｰ-1700	PCE		
+34913	flatheaded screw ISO 7380-1-M8x25-A2-070	PCE		
+34919	straight bulkhead fitting SV12LOMDCF	PCE		
+34925	NALL_15Q0204Sign_GboLubrication_X320	PCE		
+34926	ad. label Castrol Optigear SyntheticX320	PCE		
+34935	hose protection plastics ・0mm/350mm	PCE		
+34962	box by-pack kit gamma	PCE		
+34977	K08T_01L0401crane_bag	PCE		
+34987	hyd. hose 2SN DN10x800 DKOL 12/CEL 12	PCE		
+34988	hyd. hose 2SN DN10x700 DKOL 12/CEL 12	PCE		
+34989	hyd. hose 2SN DN10x330 DKOL 12/DKOL 12	PCE		
+35010	press cable thimble DIN 46235 16mmｲ	PCE		
+35014	plug connection 14-21,3	PCE		
+35017	K08T_15Q1804Sign_Hub	PCE		
+35020	hyd. hose 2SN DN10x340 DKOL 12/DKOL 12	PCE		
+35021	ridge bar 3phase 16mmｲ 27mm splitting	PCE		
+35022	terminal clamp isolated 6-25mmｲ	PCE		
+35036	locking bolts without collar	PCE		
+35038	moistu.-proof lamp shock-resist.2xTC-S9W	PCE		
+35039-01	NALL_15Q0501Sign_Tower_TG5_DE	PCE		
+35054	NALL_15Q0401Sign_Tower_TG5_EN	PCE		
+35055	NALL_15Q0402Sign_Tower_TG5_01	PCE		
+35057	K08T_15Q1805Sign_MH_03	PCE		
+35097	Biax glass fibre 1010g/mｲ 170mm	M		
+35099	K08T_15Q1806Sign_Hub_Opt	PCE		
+35112	K08T_15Q1809Sign_MH_02_EN	PCE		
+35120	K08T_15Q1807Sign_MH_Opt	PCE		
+3513	tooth_washer DIN 6797-A-6,4-galZn	PCE		
+35132	phaseal bar monophase PS1/4	PCE		
+35135	compact fluorescent lamp TC-S 9W	PCE		
+35156	triax -45ｰ/90ｰ/+45ｰ 1215g/mｲ 2540mm	M		
+35198	star handle DIN 6336-SK-50-M10-40; black	PCE		
+35223	hex bolt ISO 4017-M8x70-8.8-tZn	PCE		
+35316	generator support height-adjustable K08	PCE		
+35318	thermo bypass valve TB55 kpl SAE	PCE		
+35319	filter NF BNIHC 1310 DP10 Y2.1/-V-B4	PCE		
+35329	power supply "LOGO" 230V / 12V	PCE		
+35340	alarm base FDB201-AA	PCE		
+35341	cable J-Y (St) Y  2x2x0,8 red	M		
+35343	cable tie mount HDM321	PCE		
+3537	hex screw ISO 4014-M12x50-8.8 tZn	PCE		
+35376	Motor Hydac Umrichterk・ler OK-EL9	PCE		
+35391	diaphragm safety valve 1/2x3/4 4,0bar	PCE		
+35392	controller f. thermo bypass valve TB25	PCE		
+35393	pressure gage NG 63-6-G 1/4B rear	PCE		
+35394	circ.pump,cool.sysCRI5-5X-FGJ-I-E230/400	PCE		
+35457	brake pads set EF3-1	SA		
+35458	temperature PT100 M18x1,25	PCE		
+35459	wear detector	PCE		
+35460	seal kit	SA		
+35645	distributor	PCE		
+35646	connector 16	PCE		
+35659	fixed jumper FBI 3-15 3-polig	PCE		
+35667	Biax carbon 200g/mｲ 1270mm	M		
+35670	ad. label 5 safety rules_DE	PCE		
+35672	ad. label 5 safety rules_EN	PCE		
+35743	exhaust hose NW 315 0,8m	PCE		
+35747	mechanical connector GPH M185 NX	PCE		
+35748	mechanical connector GPH M300 NX	PCE		
+35749	mechanical cable lug GPH C185x12 NX	PCE		
+35750	mechanical cable lug GPH C300x12 NX	PCE		
+35766	ad. label circuit colours_DE_EN	PCE		
+35768	ad label nacelle illumina	PCE		
+35838	ad. label sort of oil for hydraulic unit	PCE		
+35839	NALL_15Q0205Sign_hydraulic_unit	PCE		
+35847	cross bolt M36 lightn.prot. with stop	PCE		
+35870-01	generator cooler  K08 50Hz gamma	PCE		
+35871-01	gearbox cooler K08 50Hz gamma	PCE		
+35894-01	K08T_06F0301coupling_DrT	PCE		
+35895-01	K08T_06F0302coupling_MH	PCE		
+35896	brake disc incl. clamping set K08	PCE		
+35897	Coupling - Drive Train to Generator K08	PCE		
+35898	clamping set incl. flange generator K08	PCE		
+3591	hex-nut ISO 4032-M16-10-tZn	PCE		
+35931	snap-hook 60x6 zinc-plated	PCE		
+35932		PCE		
+35951	squared timber 2000x10x10 mm	PCE		
+35952	squared timber 1200x20x10 mm	PCE		
+35956-01	gen. Siemens JFCD-560MR-06A 2.5MW DTC	PCE		
+35957-02	K08 housing Bottombox NCV 800x2000x600	PCE		
+35959	slip ring unit excl. encoder K08 gamma	PCE		
+35973	Hyd.Schlauch 2SN DN25 DKOL/DKOL90-1150	PCE		
+35974	Hyd.hose 2SN DN25 DKOL/DKOL90-2620	PCE		
+35975	Hyd.hose 2SN DN38 DKOL/CEL-960	PCE		
+35989	corrugat.tube Co-flex PP type 45 R.-Gr16	M		
+35996	Hyd. hose 2SN DN38 CEL/DKOL-650	PCE		
+35997	Hyd.hose 2SN DN38 DKOL90/DKOL90-700	PCE		
+36001	shrink sleeve SRMAHV 93-26	PCE		
+36102	K08T_03B0301FittingBA64	PCE		
+36114	axial needle bearing DIN 5405-2 AXK 4060	PCE		
+36115	axial bearing washer DIN 5405-3 AS 4060	PCE		
+36116	plain bearing DIN ISO 3547-1 PCM 323620M	PCE		
+36117	handwheel DIN 950-AL-315-K19-D	PCE		
+36174	screw protection cap M45x2	PCE		
+36206		PCE		
+36207	O-Ring DIN ISO 3601-109x4,5 - NBR70	PCE		
+36208	Round head grooved pin ISO 8746-2,5x5-Al	PCE		
+36209	spring type straight pin ISO 13337-5x30	PCE		
+36223	O-ring ISO 3601-1 16x2,65 EPDM	PCE		
+36372	K08T_15Q0127Sign_SwC_MFC_01_EN	PCE		
+36373	ad. label service switch off MFC_EN	PCE		
+36434	Leader 420mm 5 level with 4 end caps	PCE		
+36435	Leader 490mm 3 level with 4 end caps	PCE		
+36436	Leader 420mm 4 level with 4 end caps	PCE		
+36469	washer ISO 7092 24-200HV-tZn	PCE		
+36470-01	gearbox Eickhoff N117 50Hz CCV	PCE		
+36481	compression spring DIN 2098-1x12.5x80.5	PCE		
+36525	hex bolt ISO 4014-M8x100-8.8-galZn	PCE		
+36527	pitch bearing N117 72/64 bore holes	PCE		
+36592-03	K08_MODULE_HUBga_Hub_BA64_P3_N117	PCE		
+36611	filter fan 56mｳ/h	PCE		
+36702	K08T_07D0401Pitch3PitchBearingBA64	PCE		
+36703	K08T_07D0402Pitch3PitchBearingBA64_SmP	PCE		
+36704-01	K08T_07D0403Pitch3PitchBearingBA64_01Fas	PCE		
+36705	K08T_07D0404Pitch3PitchBearingBA64_02Fas	PCE		
+36705-01	K08T_07D0404Pitch3PitchBearingBA64_02Fas	PCE		
+36796	encoder for yaw motor SENDIX 5020 radial	PCE		
+36806-01	el. package 2 equipment K08 Hybrid140	PCE		
+36808	hex nut ISO 7035 M24x1,5-8.8-galZn	PCE		
+36809	washer ISO 7089-24-200HV-galZn	PCE		
+36820	woodruff key DIN 6888-8x11	PCE		
+36821	mechanical connector GPH M240 CU NX	PCE		
+36835	K08T_06A1104RotornabeVbM	PCE		
+36866	K08T_15Q1810Sign_MH_04	PCE		
+36879	srv stud M36x320/140-10.9-tZn	PCE		
+36897	plug 41,3mm	PCE		
+36943-01	ALU pitch gearing K08 gamma filled	PCE		
+36944-01	automatical Lu yaw bearing K08 filled	PCE		
+36945	P203-4XBF-3K6-AC1-2A1.01 Gef.CEPLAT.	PCE		
+36946	P203-2XLBO-1K7-AC1-2A1.01 Bef.CEPLAT.	PCE		
+36947	K08T_06B0901RotorShaftN117	PCE		
+36948-01	K08T_06B0902RotorShaftN117_SmP	PCE		
+36950	ad. label "Fuchs Ceplattyn BL"	PCE		
+36976	K08T_09D1101CoolingSystemGbo50_01	PCE		
+36977-01	K08T_09D1102CoolingSystemGbo50_02	PCE		
+36978	K08T_09D1103CoolinSystemGbo50_01PiH	PCE		
+36979	K08T_09D1104CoolinSystemGbo50_02PiH	PCE		
+37005	Pump element K6	PCE		
+37006	Cap, gland M26x1,5	PCE		
+37007	Pump element K7	PCE		
+37008	Extension piece R 1/8" / M10 x 1	PCE		
+37009	Push WEDZV-6-M10x1-S02 ZG	PCE		
+37018	P203-2XLBO-1K7-AC1-2A1.01 without fat	PCE		
+37024-01	mounting plate WxH 700x1900	PCE		
+37030	asynchr. motor BN 132MA 4 230/400-70IP55	PCE		
+37185	IB STME 24 PT100 4/4	PCE		
+37194	earthing cable 70mmｲ_1.5m	PCE		
+37203	mechanical connector GPH M185 CU NX	PCE		
+37231	label After switching off powersupply_EN	PCE		
+37232	label After switching off powersupply_DE	PCE		
+37264-01	K08T_15C0401OfflineFilterGboN117	PCE		
+37265	K08T_06G0501MainBrakeN117	PCE		
+37266	K08T_06G0502MainBrakeN117_Fas	PCE		
+37267-01	K08T_06G0503MainBrakeN117_SmP	PCE		
+37268-01	K08T_06G0504MainBrakeN117_PiH	PCE		
+37309	Vacuum foil Vacfilm 465B, 75ｵm, 4m wide	M		
+37310	Vacuum foil Vacfilm 465B, 75ｵm, 2m wide	M		
+37311	Vacuum foil Vacfilm 465B, 75ｵm, 3m wide	M		
+37312	Vacuum foil Vacfilm 465B, 75ｵm, 1m wide	M		
+37314	srv w. shank M36x556/215/80-10.9-flZnncL	PCE		
+37319	hyd. hose 1SN DN38 DKOL/DKOL-2000	PCE		
+37338	cable FO U-V(ZN) HQBH4E9/125 4SC/4SC	PCE		
+37343	FO dupl.patch cab. I-V(ZN)H2E9/125_SC/SC	PCE		
+37417	ad. label field design. top box_1	PCE		
+37418	ad. label field design. top box_2	PCE		
+37419	ad. label field design. bottom box	PCE		
+37430	ad. label field design. TF_box	PCE		
+37433	Nacelle cable set Generator K08_M12	PCE		
+37446	end shield DE WY560C4022A	PCE		
+37447	end shield NDE WY560C4024A	PCE		
+37448	bearing DE 6234 M C4	PCE		
+37449	bearing DE NU234 E M C3	PCE		
+37470	bearing NDE NU234 E M C3	PCE		
+37471	outside bearing cap DE WY170B4013	PCE		
+37472	inside bearing cap DE WY170C4004	PCE		
+37473	centrifugal disc DE WY000D4151 R1	PCE		
+37474	insulation disc DE WY000E4009 R16	PCE		
+37475	felt pack ring DE 12x10 DIN5419 F2 L=677	PCE		
+37476	insulation disc DE WY000E4009 R17	PCE		
+37478	outside bearing cap NDE WY170B4016 R1	PCE		
+37479	insulating disc NDE WY000E4009 R17	PCE		
+37481	split pin ISO 1234-4x28-galZn	PCE		
+37482	inside bearing cap NDE WY170C4008	PCE		
+37484	centrifugal disc NDE WY000D4151 R1	PCE		
+37485	felt pack ring NDE 12x10 DIN5419F2 L=677	PCE		
+37501	air-to-water heat exchanger finned pipe	PCE		
+37504	hose clamp D45	PCE		
+37505	hose clamp D50	PCE		
+37509	earthing slipring WY000D8011C R1	PCE		
+37510	spring carrier brush double spring carri	PCE		
+37512	spring carrier earthing brush single	PCE		
+37514	internal fan WY000C8143 R1	PCE		
+37515	slipring heating WY000D6139J	PCE		
+37516	carbon dust filter WY000C5011 R1	PCE		
+37517	filter pad precut part 315x278mm	PCE		
+37518	digital tacho cover sheet WY000D8045D R1	PCE		
+37519	regreasing unit Lincoln P203	PCE		
+37520	fuse Stator; 100A / 690V	PCE		
+37543-02	rotor lock K08 gamma	PCE		
+37688-04	el. package installation PH140 ToT	PCE		
+37707	power unit QUINT-PS/ 1AC/24DC/ 3.5	PCE		
+37709	power unit QUINT-PS/ 1AC/24DC/10	PCE		
+37720	power unit QUINT-PS/ 1AC/24DC/20	PCE		
+37811	K08T_06H0801RotorLock	PCE		
+37812	K08T_06H0802RotorLock01SmP	PCE		
+37813	K08T_06H0803RotorLock02SmP	PCE		
+37816	K08T_16A4402fall arrest Haca_PH141_TOP	PCE		
+37869	hydra. hose 1SN DN38 DKOL/DKOL-2250	PCE		
+37872-01	K08T_09B1401CoolingSystem_Gen50_01	PCE		
+37873-01	K08T_09B1402CoolingSystem_Gen50_02	PCE		
+37875-01	K08T_09B1404CoolingSystem_Gen50_02PiH	PCE		
+37876	K08T_09B1405CoolingSystem_Gen50_Sens	PCE		
+37939	Relais LEV200-H5ANF	PCE		
+38157	K08_MODUL_FD_foundation_F12_Z_HT_DIBT_F	PCE		
+38200-01	pre-assembled cable 2 Box 7 W201	PCE		
+38201-01	pre-assembled cable 2 Box 5 W700	PCE		
+38218	ethernet plug IE RJ45 4x2 AWG24 (Cat6)	PCE		
+38242	general purpose cleaner solvent(5 litre)	PCE		
+38243	general purpose cleaner solvent(2 litre)	PCE		
+38244	rubber plate SBR 4mm (pre-cut)	PCE		
+38245	consumables Max Sch set 1	PCE		
+38246	consumables Max Sch set 2	PCE		
+38312	K08T_06D5001GearboxECK_98,7_50	PCE		
+38313-01	K08T_06D5002GboECK_98,7_50_Sen	PCE		
+38314-02	K08T_06D5003GboECK_98,7_50_SmP	PCE		
+38315-02	K08T_06D5004GboECK_98,7_50_PiH	PCE		
+38316-01	K08T_06D5005GearboxECK_98,7_50_Lu	PCE		
+38330	blade angle enc. NOCA 64-KA2-2112C S C03	PCE		
+38331	Cable assembly W303 TWK blade angle K08g	PCE		
+38332	Cable assembly W306 TWK blade angle K08g	PCE		
+38333	Cable assembly W403 TWK blade angle K08g	PCE		
+38334	Cable assembly W406 TWK blade angle K08g	PCE		
+38335	Cable assembly W503 TWK blade angle K08g	PCE		
+38336	Cable assembly W506 TWK blade angle K08g	PCE		
+38400	pre-assembled cable 31 - Interbus	PCE		
+38409	maintenance unit fire extinguishing SyS	PCE		
+38442	main switch 63A 400V OT63FT3	PCE		
+38447	terminal box ETLBOX-4-24	PCE		
+38449	connecting cable ETL 2x0,5mmｲ 15m	PCE		
+38450	control cable ETL Roboflex 2001 / 2001-C	M		
+38451	adapter modul for option ETL -X41	PCE		
+38453	ob. light tower PH141 ETL01-4-H 1.level	PCE		
+38462	ob. light tower PH141 ETL01-4-H 2.level	PCE		
+38489	Support bracket AS / AW 15/21	PCE		
+38499	K08T_05C1301ElectricsN_01	PCE		
+38503-03	housing top box K08 gamma	PCE		
+3853	paintbrush for radiators, bent 1 1/2''	PCE		
+38537-01	Top Box MP1 K08 gamma	PCE		
+38538-01	Top Box MP2 K08 gamma	PCE		
+38546	K08T_15B5002ObLiTM_ENER_4xrd_10_PH141	PCE		
+38646	shrink hose 0,5m warm 3M MDT-A 12/3	PCE		
+38647	bell housing K08 gamma	PCE		
+38667	tower cable set K08_TOP_35000_AL	PCE		
+38683	K08T_15H0302FireExtingSyS_NCV_LabelTM	PCE		
+38693	tower cable set K08_PH141_78m_supply	PCE		
+38694	tower cable set K08_MID_23000_AL	PCE		
+38695-01	tower cable set K08_PH141_concrete_tower	PCE		
+38702	K08T_15H0303FireExtingSyS_NCV_LabelNAC	PCE		
+38704-01	K08_MODUL_TM_N117PH141B_D2I3_MID_HN50	PCE		
+38705-01	K08_MODUL_TM_N117PH141B_D2I3_TOP_HN50	PCE		
+38707-01	tower cable clamp HRFLEX 5M PPV0 8F	PCE		
+38710	Tacky Tape high temperature resistant	M		
+38740	pressure filter element 0060 D 020 BN4HC	PCE		
+38768	ball locking bolts D=25,4 L=40	PCE		
+38771	Mink Flex-System FBL6050-283841	PCE		
+38773		PCE		
+38774	Mink Flex-System FBL6051-283870	PCE		
+38775	pipe clamp AD38 RAN12-538	PCE		
+38850	safety helix cable L=200	PCE		
+38852	cable assembly D-SUB15M open 3m for USV	PCE		
+38860	UPS 3000 VA	PCE		
+38861	relay card PW 9120,9170+ Eaton	PCE		
+38862	relay card for free contacts Multimatic	PCE		
+38863	metal hose  AD 19/10m N90 set	PCE		
+38864	metal hose SPR-AS AD19/10m l=6m	PCE		
+38952-01	K08_TM_N117PH141B_D2I3_ToT_HN50_AL	PCE		
+38953	K08T_02A3201TM_N117PH141B_D2I3_MID	PCE		
+38954	K08T_02A3202TM_N117PH141B_D2I3_TOP	PCE		
+38955	K08T_02A3203TM_N117PH141B_D2I3_Vbm	PCE		
+38957-01	K08T_02E6402TM_TI_PH141B_D2I3_Tb	PCE		
+38958-01	K08T_02E6403TM_TI_PH141B_D2I3_MID	PCE		
+38959-01	K08T_02E6404TM_TI_PH141B_D2I3_TOP	PCE		
+38961-01	K08T_05E5902ETechTM_PH141_AL	PCE		
+38962	K08T_05F2701E-InstallationTM_PH141	PCE		
+38964-01	K08T_05G5602cableTM_PH141_Tb_AL	PCE		
+38965-01	K08T_05G5603cableTM_PH141_MID_AL	PCE		
+38966-01	K08T_05G5604cableTM_PH141_TOP_AL	PCE		
+38967	tower interiors concr. section N117PH141	PCE		
+38971	phase modulewatercooledProX690-2E2-0W0H0	PCE		
+38972	DC-Chopper FRT2 Slot	PCE		
+38973	Palm button switch P9 1S1O EMERG.-STOP	PCE		
+38974	rotective shroud 029.213 258	PCE		
+38976	lightningcurrentdischargerFLT440VAC3,0KV	PCE		
+38977	1lightningcurrentdischagerFLT440VAC5,0KV	PCE		
+38978	humidity supervision SK 50-100%	PCE		
+38979	Hand lamp 230VAC 11W	PCE		
+38983	hex. screw  ISO 4762-M10x70-A2/70	PCE		
+38989	PU-Adhesive tape 300mmx33m	M		
+38997-02	K08 gamma Box5	PCE		
+38998-02	K08 gamma Box7	PCE		
+39013	Sealing ring 23,39x3,53 029.060 218	PCE		
+39033	Float air vent PURG-INOX 2000 029.380462	PCE		
+39037	E-Installation K08 Hybrid Tower PH141	PCE		
+39057	accessories converter cooling PH141	PCE		
+39081-01	K08_MODUL_TM_N117PH141B_D2I3_TbToT_concr	PCE		
+39083-01	K08_MODUL_TM_N117PH141B_D2I3_Tb_TI_HN50	PCE		
+39084	K08T_16A4401Fall arrestHaca_PH141_Tb	PCE		
+39087	Fall arrest system HACA PH141 Bottom	PCE		
+39110	K08T_15Q0131Sign_Pitch_01_EN	PCE		
+39111	K08T_15Q0132Sign_Pitch_02_EN	PCE		
+39112	K08T_15Q0133Sign_Pitch_03_EN	PCE		
+39113	K08T_15Q0134Sign_Battery_01_EN	PCE		
+39114	K08T_15Q0135Sign_Battery_02_EN	PCE		
+39115	K08T_15Q0136Sign_Battery_03_EN	PCE		
+39116	K08T_15Q0214Sign_Pitch_DE	PCE		
+39117	K08T_15Q0215Sign_Battery_DE	PCE		
+39153	hex screw ISO 4017-M6x16-8.8-A2-70	PCE		
+39162	ad. label tower P2400-D117-H141	PCE		
+39169	K08T_07C0801Pitch3SlipRing	PCE		
+39170	K08T_07C0802Pitch3SlipRing_Cab	PCE		
+39171-01	K08T_07F0601Pitch3Sensors	PCE		
+39172	cable 3m + cooling unit - bush C19	PCE		
+39173	cable 3m + cooling unit - plug C14	PCE		
+39181	Biax glass fibre 1,010g/mｲ 2,540mm 200m	M		
+39184	obstacle light tower ETL01-H-N4 10cd 1xr	PCE		
+39192	cable lug 70mmｲ M12 DIN 46235	PCE		
+39193	Pipe Clamp Typ 2955 M20	PCE		
+39213	foundation N117PH141 DIBt2 ToT	PCE		
+39215	K08T_22B0602shallow found_PH141_DIBt2	PCE		
+39229	insulated trestle AB-SKS 60	PCE		
+39259	hex nut  ISO 8675-M20x1,5-A1-035	PCE		
+39274	Hyd.hose 2SN DN10 CEL/CEL-620	PCE		
+39281	relay card for free contacts Wrle	PCE		
+39285	K08T_01M0601transport_protection_SwC	PCE		
+39291	hex screw ISO 4014-M16x55-10.9-tZn	PCE		
+39300	hex screw ISO 4017-M12x40-10.9-tZn	PCE		
+39314	setscr.hexag.sock. ISO4026-M16x16-A2-21H	PCE		
+39316	K08_PfU_AkkuPitch3_01_FC_MOOG_1215	PCE		
+39317	K08_PfU_AkkuPitch3_02_FC_MOOG_1215	PCE		
+39318	K08_PfU_AkkuPitch3_03_FC_MOOG_1215	PCE		
+39319	K08T_07E1701SwitchCabinetPitch3	PCE		
+39334	temp.measur.conv.MINI MCR-SL-PT100-UI-SP	PCE		
+39340	K08T_07E1702SwitchCabinetPitch3	PCE		
+39341	K08T_07E1703SwitchCabinetPitch3	PCE		
+39389	K08T_07H1101AkkuPitch3	PCE		
+39406-01	K08T_04A0801Cabin_Modular	PCE		
+39407-01	K08T_04A0802Cabin_ModularSmP	PCE		
+39408-01	K08T_04A0803Cabin_ModularFas	PCE		
+39419-01	K08T_01J0313SwC_Topbox_KAN	PCE		
+39420	K08T_07H1102AkkuPitch3	PCE		
+39421	K08T_07H1103AkkuPitch3	PCE		
+39450-01	K08_PfU_SwC_Topbox_FreeVariants_1215	PCE		
+39451-01	K08T_05H2901SwC_Topbox	PCE		
+39452	K08T_05H2902SwC_Topbox_OPT_Yaw	PCE		
+39453	K08T_05H2903SwC_Topbox_SmP	PCE		
+39454	flatheaded screw ISO7380-1-M10x30-A2-070	PCE		
+39455	threaded sleeve WS9300-M10x50-A2	PCE		
+39523	sound transmitter PA1 for 10-57 V DC	PCE		
+39579	cooling device 2000W roof assemb.comfort	PCE		
+39617	hardener MGS BPH 135,5G	KG		
+39633	hex nut ISO 7040-M8-A2-70	PCE		
+39711	NALL_21H0901Splicebox24x_SC_9/125_4BO	PCE		
+39715	FO distri.frame 24fibre 9/125 SC compl.	PCE		
+39720	fastener, adjustable A-21-145-ST	PCE		
+39727-01	K08T_12A0901MachineFrame	PCE		
+39728-01	K08T_12A0902MachineFrame01SmP	PCE		
+39729	K08T_12A0903MachineFrame02SmP	PCE		
+39747	protective cap HC-B 16-SD-FQ/FS	PCE		
+39748	protective cap HC-B 24-SD-FQ/FS	PCE		
+39750	converter FL MC EF 1300 MM ST	PCE		
+39751	shrink disk HSD 750-81-19	PCE		
+39753-01	hatch BSI 600x600 R50	PCE		
+3988	coil 24V DC 23 OHM	ST		
+39899	loctite 243 medium-strength 10ml	PCE		
+39931	K08T_01S3901R-kit_slip_ring_K08ga	PCE		
+39943	K08_MODULE_BO_SwC_MFC_CVT50_1215	PCE		
+39949	K08T_05A4401CoS_MFC_50	PCE		
+39951	K08T_05A4403SwC_MFC_CVT50	PCE		
+39952	K08T_05A4404SwC_MFC_50_ACH	PCE		
+39975	ad. label extended reactive power range	PCE		
+40020		PCE		
+40026	K08T_03A0901RotorBladeNR58,5_01GRP	PCE		
+40027	K08T_03A0902RotorBladeNR58,5_02GRP	PCE		
+40028	K08T_03A0903RotorBladeNR58,5_03GRP	PCE		
+40029-01	K08T_03A0904RotorBladeNR58,5_01SmP	PCE		
+40040	K08T_03A0905RotorBladeNR58,5_02SmP	PCE		
+40041		PCE		
+40042-01		PCE		
+40043		PCE		
+40044		PCE		
+40045	K08T_03A0910MainShearWeb_NR58,5Cons	PCE		
+40046	K08T_03A0911TailShearWeb_NR58,5GRP	PCE		
+40047	K08T_03A0912TailShearWeb_NR58,5Cons	PCE		
+40048	K08T_03A0913HalfShellSS_NR58,5GRP	PCE		
+40049-01	K08T_03A0914HalfShellSS_NR58,5Cons	PCE		
+40050	K08T_03A0915HalfShellDS_NR58,5GRP	PCE		
+40051-01	K08T_03A0916HalfShellDS_NR58,5Cons	PCE		
+40052-01	K08T_03A0917MainStringerSS_NR58,5CfK	PCE		
+40053	K08T_03A0918MainStringerSS_NR58,5Cons	PCE		
+40054-01		PCE		
+40055		PCE		
+40056	K08T_03A0921TEGirderSS_NR58,5GRP	PCE		
+40057	K08T_03A0922TEGirderSS_NR58,5Cons	PCE		
+40058	K08T_03A0923TEGirderDS_NR58,5GRP	PCE		
+40059	K08T_03A0924TEGirderDS_NR58,5Cons	PCE		
+40062	K08T_03A0927AuABNK_NR58,5_R1,15-13,5Cons	PCE		
+40063	K08T_03A0928AuABNK_NR58,5_R1,15-13,5GRP	PCE		
+40064	K08T_03A0929AuABEK_NR58,5_R1,15-23,5Cons	PCE		
+40065	K08T_03A0930AuABEK_NR58,5_R1,15-23,5GRP	PCE		
+40066	K08T_03A0931InABNK_NR58,5_R1,15-R3,85GRP	PCE		
+40067	K08T_03A0932InABNK_NR58,5_R1,15-3,85Cons	PCE		
+40068	K08T_03A0933InnenEK_NR58,5_R3,5-21,8Cons	PCE		
+40069	K08T_03A0934InnenEK_NR58,5_R3,5-21,8GRP	PCE		
+40070	K08T_03A0935InABEK_NR58,5_R1,15-3,85GRP	PCE		
+40071	K08T_03A0936BalancingNR58,5	PCE		
+40075	K08T_15Q3701LabelNR58,5	PCE		
+40077	hex screw ISO 4017 M10x100-8.8-tZn	PCE		
+40091-02	K08_PfU_B_NR58,5-1_Completion	PCE		
+40093-02	K08_PfU_B_NR58,5-1_Blank	PCE		
+40094-02	K08_PfU_Main_Shear_Web_NR58,5-1	PCE		
+40095	K08_PfU_Tail_Shear_Web_Contour_NR58,5	PCE		
+40098	K08_PfU_Web_Feeder_SS_NR58,5	PCE		
+40099	K08_PfU_Trailing_Edge_Girder_SS_NR58,5	PCE		
+40108	glue Plexus MA 425	ML		
+40120-02	K08_PfU_Semi_Shell_DS_NR58,5-1	PCE		
+40121-02	K08_PfU_Main_Stringer_DS_NR58,5-1	PCE		
+40122	K08_PfU_Web_Feeder_DS_NR58,5	PCE		
+40123	K08_PfU_Trailing_Edge_Girder_DS_NR58,5	PCE		
+40156	Assembly line 38 Pitch 3 SR-400V	PCE		
+40160	K08_MODUL_PPC_PanelPC_PPC02	PCE		
+40170	plate front locking pin SVENDBORG	PCE		
+40171	plate locking pin SIME	PCE		
+40172	pad holder SIME	PCE		
+40173	pad holder SVENDBORG	PCE		
+40174	locking bolt rotor brake disc SIME	PCE		
+40175	K08T_10B0201PPC_WEA_IPC	PCE		
+40180-06	Wiring K08 Pitch3_01_614	PCE		
+40181-06	Wiring K08 Pitch3_02_624	PCE		
+40182-06	Wiring K08 Pitch3_03_634	PCE		
+40183-02	wiring K08 battery3_01_639	PCE		
+40184-02	wiring K08 battery3_02_640	PCE		
+40185-02	wiring K08 battery3_03_641	PCE		
+40186-03	Verdrahtung K08 TB1 intern 504	PCE		
+40188-01	wiring K08 TB1 external 539	PCE		
+40189-02	wiring K08 TB2 external 529	PCE		
+40190-01	wiring K08 TB external equipment 541	PCE		
+40242	K08T_01J0534SwitchCabinetPitch3_KAN1	PCE		
+40243	K08T_01J0535SwitchCabinetPitch3_KAN2	PCE		
+40244	K08T_01J0536SwitchCabinetPitch3_KAN3	PCE		
+40245	K08T_01J0619BatteryPitch3_KAN1	PCE		
+40246	K08T_01J0620BatteryPitch3_KAN2	PCE		
+40247	K08T_01J0621BatteryPitch3_KAN3	PCE		
+40259-01	K08T_15A0401CMS_Pr・technik	PCE		
+40260	K08T_15A0402CMS_Pr・technik_Cab	PCE		
+40291	set locking bolt rotor brake disc	SA		
+40292	plate back locking pin SVENDBORG	PCE		
+40319	yaw motor K08 Bonfiglioli	PCE		
+40324	yaw gear K08 Bonfiglioli	PCE		
+40326	yaw drive K08	PCE		
+40332	Biax glass fibre 1010g/mｲ 700mm	M		
+40333	UD glass fibre 600g/mｲ 635mm	M		
+40336	air vent grid kombimesh	M		
+40339	vacuum fleece 300 g/qm 200mm breit	M		
+40340	asynchr. motor 132 M/4D-11 7,0kW 528945	PCE		
+40341	asynchr. motor 132 M/4D-11 5,8kW 527486	PCE		
+40343	E-Motor CA3Ph-1,5 -220/380-50-4 -40°C	PCE		
+40344	gear pump 2,0ccm 3P-Li-KW--40°	PCE		
+40345	coupling Rd20x14,5 CA	PCE		
+40364	industrie PC K08	PCE		
+40386	power supply OPC 70XX EXT PS	PCE		
+40407	auxiliary switch S2C-H01_opener	PCE		
+40408	auxiliary switch S2C-H10_closer	PCE		
+40418	K08T_03A0937WebFeederSS_NR58,5GRP	PCE		
+40419	K08T_03A0938WebFeederSS_NR58,5Cons	PCE		
+40420	K08T_03A0939WebFeederDS_NR58,5GRP	PCE		
+40421	K08T_03A0940WebFeederDS_NR58,5Cons	PCE		
+40450	Adhes. label Warning hot surface 100x100	PCE		
+40472	K08_PfU_SwC_transformerbox_1215	PCE		
+40474	K08T_05H3201SwitchCabinetTFB	PCE		
+40475	K08T_05H3202SwitchCabinetTFB_SmP	PCE		
+40478	K08T_01J0409SwC_TFB_KAN	PCE		
+40508		PCE		
+40509		PCE		
+40535	over-voltage conductor Val-MS500ST	PCE		
+40536	over-voltage conductor Val-MS-BEFM	PCE		
+40537	over-current conductor FLT25-400	PCE		
+40539	clevis pin+head ISO 2341-B-16x65-St-gal	PCE		
+40635	clevis pin+head ISO 2341-B-16x80-St-gal	PCE		
+40636	flatheaded screw ISO7380-1-M10x25-A2-070	PCE		
+40654	K08T_15M1601ColorRB_NR58,5_2xRd6,0	PCE		
+4066	press cable connector 1,5-2,5mm blau	PCE		
+40660	main shear web core material NR58,5-1	PCE		
+40662	tail shear web core material NR58,5	PCE		
+40663	shell core material SS NR58,5	PCE		
+40664	shell core material DS NR58,5	PCE		
+40665	EKG core material SS NR58,5	PCE		
+40666	EKG core material DS NR58,5	PCE		
+4067	cable press connector  0,5-1,0mm red	PCE		
+40673	Hyd.hose 2SN DN10 DKOL/CEL-650	PCE		
+40687	K08T_07H1104BatteryPitch3_SmP	PCE		
+40688	K08T_07H1105BatteryPitch3_SmP	PCE		
+40689	K08T_07H1106BatteryPitch3_SmP	PCE		
+40730	hole perforation plate HDF 1830x97	PCE		
+40759	spring pressure brake Precima FDW 17 T	PCE		
+40760	brake disc complete FDW 17.244.025-HR	PCE		
+40776	hex nut ISO 7040-M5-A2-70	PCE		
+40777	hex nut ISO 7040-M6-A2-70	PCE		
+40778	hex nut ISO 7040-M10-A2-70	PCE		
+40873	K08T_05C1302ElectricsN_02	PCE		
+40874	K08T_05C1303ElectricsN_N100	PCE		
+40875	K08T_05C1304ElectricsN_DrT	PCE		
+40891-02	K08_PfU_B_NR58,5-1_Finish_2xRd6,0	PCE		
+40892-02	K08_MODULE_B_Blade_NR58,5-1_2xRd6,0	PCE		
+40900	layer fixer 3M Dry Layup Adhesive	G		
+40904-01	main stringer SS core material NR58,5	PCE		
+40905-01	main stringer DS core material NR58,5	PCE		
+40932-01	cable set ready-made PI3 PK1_23-1215	PCE		
+40933-01	cable set ready-made PI3 PK2_23-1215	PCE		
+40934-01	cable set ready-made PI3 PK3_23-1215	PCE		
+40959	UD glass fibre 1200g/mｲ 309mm	M		
+40969	blanking plug for cooler unit 2000 W	PCE		
+41277	Vacuum foil Vacfilm 465B 75ｵm 1,5m wide	M		
+41278	Vacuum foil Vacfilm 465B 75ｵm 0,32m wide	M		
+41279	VAP-foil 105 g/mｲ 100mm wide	M		
+41280	VAP-foil 105 g/mｲ 250mm wide	M		
+41282	VAP-bag 2m	PCE		
+41285	Greenmesh Intermas 5052/450 450mm wide	M		
+41287	punched foil, hot, white, 0,7 m wide	M		
+41288	Biax glass fibre 1010g/mｲ 170mm bonded	M		
+41289-01	tower cable clamp HRFLEX 5M PPV0 8_Cu	PCE		
+41291	K08T_03A0944InKFNK_NR58,5_R3,5,- 58,2GRP	PCE		
+41302	hose kit base plate NR50/58,5	PCE		
+41303	hose set EKG DS NR58,5	PCE		
+41304	hose set EKG SS NR58,5	PCE		
+41305	hose set web feeder DS NR58,5	PCE		
+41306	hose set web feeder SS NR58,5	PCE		
+41307	hose set tail shear web NR58,5	PCE		
+41308	hose set main shear web NR58,5	PCE		
+41309-03	hose-kit shell DS NR58,5	PCE		
+41310-03	hose-kit shell SS NR58,5	PCE		
+41311	Sensor bag	PCE		
+41312	Logger bag	PCE		
+41314	VAP bag medium	PCE		
+41358	cyl.h.screw ISO 4762-M20x70-8.8-GalZn	PCE		
+41484	Fire alarm modul Genesis II GEN2-EN	PCE		
+41485	restraining cable GN111.2-200-30-A	PCE		
+41486	hex bolt ISO 4017-M8x50-8.8-tZn	PCE		
+41487	hex bolt ISO 4017-M12x120-8.8-tZn	PCE		
+41488	flat head screw ISO 10642-M8x65-A2-070	PCE		
+41513	K08T_04A0804Cabin_Modular_Option	PCE		
+41545	K08T_01J0134SwC_MFC_CVT50_KAN	PCE		
+41636-03	wiring K08 TFB 527	PCE		
+41659	K08_PfU_CoC_MFC_SEG50_1215	PCE		
+41666	K08T_03A0948BasePlateNR58,5SmP	PCE		
+41720-03	wiring_K08_BO_internal 571	PCE		
+41723-03	wiring_K08_BO_external_CVT 589	PCE		
+41759	seal ring gasket CRI5	PCE		
+41767	cab. thimble thread GPH C240x12 Cu5 SW22	PCE		
+41836	roll hoses RS70-240_0,6kV	PCE		
+4184	hex nut DIN 985-M8-8-galZn	PCE		
+41844	wiring_K08_fire_alarm_system_024	PCE		
+41845	item design. f. fire alarm system K08 ga	PCE		
+41849	filter fan 230V, 50/60Hz SK3241.100	PCE		
+41977	spring pressure brake FD07 80Nm	PCE		
+41978	encoder 5883 for pitch motor	PCE		
+42003	ad. label electrical main switch	PCE		
+42037	adhesive Sikaflex 553 2K, 490 ml	ML		
+42039	cooling device 750W  roof comfortcontrol	PCE		
+42040	cooling device 750W wallmount. comfortc.	PCE		
+42043	Sika Aktivator 205, 250 ml	ML		
+42045	Sika Primer 206 G+P, 250 ml	ML		
+42081	K08T_06F0303CouplingCover	PCE		
+42082	K08T_06J0201ProtectiveCoverRotorShaft01	PCE		
+42083	K08T_06J0202ProtectiveCoverRotorShaft02	PCE		
+42160	Loop HRFLEX 5S 0019 PPV0 ST ZN 8F	PCE		
+42161	Loop HRFLEX 5S 0019 PPV0 ST ZN 8F Fix	PCE		
+42162	fastening set HRFLEX 5S brace set NX	PCE		
+42163	cable mounting hose MW 40/1/E/S1	PCE		
+42164-01	e-pack. Connectors K08 TG5 3sections AL	PCE		
+4219	O-ring ø6x5	PCE		
+42197	washer DIN 6340 21-350HV-tZn	PCE		
+42253	Sikaｮ Tape FA-22	PCE		
+42265	emergency-off push button MPET4-10R	PCE		
+42269	Castrol Optigear Synthetic X 320 (20l)	L		
+42271-01	adapt.plate air press.indic.TB K08 Gamma	PCE		
+42300	screw ISO 7380-2-M8x30-010.9-galZn	PCE		
+42317-02	K08_PfU_HalfShellSS_NR58,5	PCE		
+42318-02	K08_PfU_MainStringerSS_NR58,5	PCE		
+42381	K08T_06A1605RotorHub01SmP	PCE		
+42382	K08T_06A1606RotorHub02SmP	PCE		
+42383	K08_PfU_Base_Plate	PCE		
+42385	K08T_06A1608RotorHubPitch01Console	PCE		
+42386	K08T_06A1609RotorHubPitch01SmP	PCE		
+42387	K08T_06A1610RotorHubPitch02Console	PCE		
+42388	K08T_06A1611RotorHubPitch02SmP	PCE		
+42389	K08T_06A1612RotorHubPitch03Console	PCE		
+42390	K08T_06A1613RotorHubPitch03SmP	PCE		
+42391	K08T_03A0653BasePlateNR50/58,5GRP	PCE		
+42424	grounding strap MBJ 16-500-8	PCE		
+42426	HV-accessories M36x290	PCE		
+42447	carbon crush pressure equipment	PCE		
+42452	grounding strap MBJ 6-200-6	PCE		
+42461	dual cable bracket HDM375BDM4W	PCE		
+42545	Endless mat Unifilo 300g/mｲ B=850mm	M		
+42546	Endless mat Unifilo 300g/mｲ B=400mm	M		
+42549	Greenmesh Intermas 5052/1000 1000mm wide	M		
+42551	Greenmesh Intermas 5052/400 400mm wide	M		
+42552	air vent grid kombimesh 400mm wide	M		
+42555	VAP-foil 105 g/mｲ 80mm wide	M		
+42557	VAP- foil 105 g/mｲ 450mm wide	M		
+42561	shrink tube Tyco SMIK-25/8-1000	M		
+42800	connecting cable SAC-8P-M12FR/8.5PUR	PCE		
+4281	cable lug 70mmｲ M16 DIN 46235	PCE		
+42881	hose set main stringer SS NR58,5	PCE		
+42882	hose set main stringer DS NR58,5	PCE		
+42883	Countersunk hd srew  ISO 10642 M20x70-A2	PCE		
+42888	VAP- foil 105 g/mｲ 600mm wide	M		
+42889	inf. equipm. set. MainShearWeb SS NR58,5	PCE		
+42890	inf. equipm. set. TailShearWeb SS NR58,5	PCE		
+42893	inf. equipm. set. WebFeederSS NR58,5	PCE		
+42894	inf. equipm. set. WebFeederDS NR58,5	PCE		
+42895	VAP spiral hose	M		
+42896	knead rolls set NR58,5	PCE		
+42897-01	VAP exhaust flap set shell SS	PCE		
+42898	K08T_03A0949InABEK_NR58,5_R1,15-3,85Cons	PCE		
+42899	static_mixer_Plexus_MA425	PCE		
+42901	air pressuresens.600-1060hPa/4-20mA 1,6m	PCE		
+42903	turbine documentation gamma DE	SA		
+42970	K08T_01P0101TurbineDocumentation	PCE		
+43056	rope Milan Hub AGR2001 160m	PCE		
+43061	bolt fixing hose NR58.5	PCE		
+43127	Lightning Card Standard	PCE		
+43128	Lightning Card Holder Standard	PCE		
+43130	box accessories kit 2 gamma	PCE		
+43149	cutting vacuum foil main shear web 58,5	PCE		
+43151	cutting vacuum foil shell 58,5	PCE		
+43152-01	pre-cut Greenmesh SS NR58.5	PCE		
+43153-01	pre-cut Greenmesh DS NR58.5	PCE		
+43154	Endless mat Unifilo 300g/mｲ B=180mm	M		
+43155	VAP- foil 105 g/mｲ 700mm width	M		
+43156	vacuum foil Vacfilm465B 75ｵm 0,75m width	M		
+43157	peel ply B=800 mm 105g/mｲ	M		
+43160	ball washer DIN 6319-C-17-tZn	PCE		
+43188	Ad. Label Warning of falling 200mm	PCE		
+43206	punched foil, hot, white, 0,35 m wide	M		
+43207	VAP-foil 75 g/mｲ 550mm wide	M		
+43208	peel ply, width=450 mm 105g/mｲ	M		
+43224	K08T_01K1101locking system_tower	PCE		
+43253-01	VAP exhaust flap set shell DS	PCE		
+43260	screw ISO 7380-2-M6x20-010.9-galZn	PCE		
+43261	layer fixer E-Tap GLV 67-02	M		
+43294-02	Verdrahtung K08 TB2 intern_23-1215	PCE		
+43327	coil 24DG-50-1836	PCE		
+43339-02	Entrance hatch rotor hub	PCE		
+43350	cooling hydac cooler for gearoil OK-EL11	PCE		
+43351	cooling elem.hydac gener. cooler OK-EL11	PCE		
+43357	Pressurebypass valve gearoilcooler IBP-6	PCE		
+43358	blind cooler for gearoil OK-EL 11	PCE		
+43359	blind generator cooler OK-EL 11	PCE		
+43360	motor holder Hydac OK-EL 11 sound-opt.	PCE		
+43361	cooler housing Hydac OK-EL 11  sound-opt	PCE		
+43362	vent. wheel Hydac OK-EL11 50Hz sound-opt	PCE		
+43364	motor Nissens gearoil cooler	PCE		
+43365	motor holder gearoil-/generator cooler	PCE		
+43366	housing gearoil cooler Nissens	PCE		
+43367	cooling elem. Nissens gearoilcooler	PCE		
+43368	vent. wheel Nissens gearoil-/gener.cool.	PCE		
+43369	pressurebypassvalve gearoilcooler Nissen	PCE		
+43370	blind Nissens gear-/gener.cooler	PCE		
+43371	pressure bypass tube cooler for gearoil	PCE		
+43372	motor Nissens generator cooler	PCE		
+43373	housing generator cooler Nissens	PCE		
+43374	cooling elem. Nissens generatorcooler	PCE		
+43375	Motor Hydac OK-LN11 NCV	PCE		
+43379	holder motor hydac conv. cooler OK-EL9	PCE		
+43381	housing hydac converter cooler OK-EL9	PCE		
+43383	cooling elem. hydac conv. cooler OK-EL9	PCE		
+43385	vent. wheel convertercooler OK-EL 9 50Hz	PCE		
+43389	K08T_12B1501GeneratorFrameN117	PCE		
+43390	K08T_12B1502GeneratorFrameN117Fas	PCE		
+43391	K08T_12B1503GeneratorFrameN117_01SmP	PCE		
+43392	K08T_12B1504GeneratorFrameN117_02SmP	PCE		
+43405	fan BN132 spezial	PCE		
+43407	fan bushing BN132 SPEC	PCE		
+43409	brake disc brake FD07	PCE		
+43451	K08T_12D1501CraneSupportStructN117_01	PCE		
+43452	K08T_12D1502CraneSupportStructN117_02	PCE		
+43453	K08T_12D1503CraneSupportStructN117_01SmP	PCE		
+43454	K08T_12D1504CraneSupportStructN117_02SmP	PCE		
+43455	K08T_12D1505SupportStructN117_01SmP	PCE		
+43456	K08T_12D1506SupportStructN117_02SmP	PCE		
+43457	K08T_12D1507SupportStructN117_03SmP	PCE		
+43458	K08T_12D1508SupportStructN117WNY-ELI_SmP	PCE		
+43459	K08T_12D1509SupportStructN117Option	PCE		
+43462	VAP exhaust bag web feeder	PCE		
+43464	sensor-actuator-bush M12 V1-W-ABG-PG9	PCE		
+43465	K08T_01K0803box_accessories_kit_DrT_ga	PCE		
+43466	brake FD07 100V 64Nm incl. Microswitch	PCE		
+43467	fan cover M4LC FD	PCE		
+43468	encoder Kübler SPEC	PCE		
+4351	hex nut ISO 7040-M8-8-galZn	PCE		
+43544	Hardener Baxxodur TM EC 5310 (Bulk)	KG		
+43545	Baxxores Resin TM ER 5300 (Bulk)	KG		
+43548	digital tacho Thalheim ITD 41 A4 Y100	PCE		
+43575		PCE		
+43604	Ad. Label Warning rotor/azimuth lock EN	PCE		
+43606	Ad. Label Warning rear prot. separ. EN	PCE		
+43715	hex bolt ISO 4017-M20x100-10.9	PCE		
+43745	Hyd.hose FC310-06-450 / 2xDKOL10L	PCE		
+43754	Ad. Label Warning rotor/azimuth lock DE	PCE		
+43758	Ad. Label Warning rear prot. separ. DE	PCE		
+43772	shrink hose SRH2/12-3	M		
+43791	Chain guide cpl. STAR 097/90 with ES	PCE		
+43792	electrical limit switch for STAR	PCE		
+43794	downholder STAR 09..	PCE		
+43801	Ad. label emergency exit top	PCE		
+43802	Ad. label emergency exit bottom	PCE		
+43895	K08T_15Y0401Opt_ext_reactive power_sign	PCE		
+43970	K08T_01S6001R-Kit_CraneBK_K08_gamma	PCE		
+43988	K08T_03A0655BasePlateNR50/58,5_Cons	PCE		
+43991	vacuum fleece 300 g/mｲ width=120mm	M		
+43993	UDF carbon fibre fabr.600g/mｲ 500mm 354m	M		
+43994	UDF carbon fibre fabr.600g/mｲ 500mm 410m	M		
+43998	VAP-foil 75 g/mｲ 750mm wide	M		
+44003-01	K08T_02E6405TM_TE_PH141B_D2I3_SmP	PCE		
+44062	groundingcable H07V-K gn/ge 16mmｲ 0,15m	PCE		
+44198	K08T_06A1603RotorHubN117	PCE		
+44440	cone-type bearing 60NR11 ﾘ75/M16	PCE		
+44441	centre disk f. cone-type bearingﾘ75/M16	PCE		
+44442	stop wash.  f. cone-type bear. ﾘ75/M16	PCE		
+44451	double-face tape 50mx30mm,tesafix 4965	ROL		
+44455	angle profile 30x30x1,8mm	M		
+44457	hose clamp 20-32mm, steel	PCE		
+44458	ball valve MS-58	PCE		
+44459	punched foil, hot, white, 1,20 m wide	M		
+44460	PVC textile tube 25x4mm	M		
+44468	fan switching set pitch inverter PM2 M25	PCE		
+44478	key 4X4X25 A TS00019	PCE		
+44479	seeger 12x1 UNI 7435	PCE		
+44490	screw T.E. M6X10 UNI 5931	PCE		
+44491	pin special	PCE		
+44492	nut M4	PCE		
+44493	washer 5,3X10X1 UNI 6592	PCE		
+44494	cable gland reducer M32X1,5 - M20X1,5	PCE		
+44495	cable gland reducer M32X1,5 - M16X1,5	PCE		
+44496	cable gland M16	PCE		
+44497	cable gland M20	PCE		
+44498	brake sealing FD07 special	PCE		
+44555	hole perforation plate HDF 2600x300	PCE		
+44556	nozzle PPTV30	PCE		
+44557	radial sewer flexible infusion hose	PCE		
+44608	light sensor 011.02 without cable	PCE		
+44613	GPS receiver  900112 without cable	PCE		
+44614	light sensor 011.02 15m	PCE		
+44636	washer 18X24X1.5 UNI9001/2	PCE		
+44637	oil level plug M18x1,5 H60 DIN908	PCE		
+44638	elbow 90G M18x1,5 M-F	PCE		
+44639	riser M18x1,5 H35	PCE		
+44640	riser M22X1.5 H70	PCE		
+44641	elbow 90G M22x1,5 M-F	PCE		
+44642	reducer 711T M-F M22X1.5-1/2G H20	PCE		
+44643	washer 22X28X1.5 UNI9001/2	PCE		
+44644	magnetic plug 3/4GAS 36A TAB018	PCE		
+44645	washer 27X33X1.5 UNI9001/2	PCE		
+44646	seal shaft 65X95X10 L NBR(-40)	PCE		
+44647	O-ring hole 95X3 UNI7437	PCE		
+44648	Loose Parts Kit VASO ESP.1,5L+SFIATO/PR	PCE		
+44649	Loose Parts Kit DWG VTE 20X100 B+RON 21	PCE		
+44663	pressure disc DE DIN 2098 1,6x8x21,5	PCE		
+44666	quick vent valve 3/8" 10 bar	PCE		
+44668	heating 250 W / 220 - 240 V 1~	PCE		
+44822	brake pad set GKN ZS4-9	SA		
+44825	hole perforation plate HDF 2600x350	PCE		
+44826	double-face tape 25mx25mm,kip 3810-25	ROL		
+44827	double-face fleece 50mx9mm,tesafix 4959	ROL		
+44829	Greenmesh Intermas 5052/120 1200mm wide	M		
+44830	T-piece plastic ﾘ19mm	PCE		
+44896	hex nut  ISO 7040-M6-A4-70	PCE		
+45014	axial compact fan inside freq.conv. PM2	PCE		
+45015	axial compact fan outside freq.conv. PM2	PCE		
+45016	hex screw ISO 4017-M24x35-8.8-galZn	PCE		
+45061	flatheaded screw ISO7380-1-M10x40-A2-070	PCE		
+45141	yaw gear NCV GP4-490V-1224-R-VU-MF265	PCE		
+45229	K08T_01K1501ladder_PitchModule_N117	PCE		
+45269	pitchgear GP3-360-219,5-R-MF265_1000190	PCE		
+45271	pitch gearbox 709 T3N	PCE		
+45277	K08T_03A0952NK-ProtNR58,5_R37-44GRP	PCE		
+45278	K08T_03A0953NK-ProtNR58,5_R37-44Cons	PCE		
+45311	K08_11E0101MV_transf.housing_ToT_TG5	PCE		
+45478	K08T_14A0801LightnProtRB_Finish_NR58-2	PCE		
+45479	K08T_14A0802LightnProtRB_Compl_NR58-2	PCE		
+45480	K08T_14A0803LightnProtRB_Blank_NR58-2	PCE		
+45481	K08T_14A0804LightnProtRB_HS-SS_NR58-2	PCE		
+45482	K08T_14A0805LightnProtRB_HS-DS_NR58-2	PCE		
+45483	K08T_14A0806LightnProtRB_HG-SS_NR58-2	PCE		
+45484	K08T_14A0807LightnProtRB_HG-DS_NR58-2	PCE		
+45577	set infusion line SS	PCE		
+45578	set infusion line DS	PCE		
+45596	Hose 9,5x3,7 Silicon	PCE		
+45597	Hose 19x5,8 Silicon	PCE		
+45848	Stator with winding WJ562B1026-5A R1	PCE		
+45850	Rotor with shaft WJ562A3013 R1	PCE		
+45851	Labyrinth ring DE WY000D4149A	PCE		
+45852	Labyrinth ring NDE WY000D4149A	PCE		
+45853	air inlet-outlet housing WJ562A5003D R1	PCE		
+45854	air guide DE WY560B5026	PCE		
+45855	Air guide NDE WY560B5027	PCE		
+45856	Fixing plate WY000C8026D R1	PCE		
+45857	Flexible tube PTE 332 x 990 AOB40 HR	PCE		
+45858	Bearing plate WY000C5012A	PCE		
+45859	Bearing plate WY000C5012	PCE		
+45860	Slipring capsule WY000A8059T R1	PCE		
+45861	Brush bridge 0268747	PCE		
+46108	PVC textile tube 1 ｼ・   53,000	50		
+46110	T fitting plastic ・2 mm	PCE		
+46111	laboratory example for shell	PCE		
+46239	Brake Indicator 205	PCE		
+46296	flat headed screw ISO 7380-M10x16-A2-70	PCE		
+46300	main stringer equip. bonding layer NR58	PCE		
+46302	double sided PET tape 100mm (50m)	M		
+46303	Adhesive film PE red 500 mm (55m)	M		
+46325	label aero-config A01	PCE		
+46356	ad. label Warn. ag. entanglement hazard	PCE		
+46358	adhesive label wear safety harness 30mm	PCE		
+46359	ad. label risk of falling floor hatch	PCE		
+46442	ply wood board 1000x100x12	PCE		
+46452	K08T_01M0801transport_protectionRB_VG	PCE		
+4650	pressure gauge NG 63 3/8	ST		
+46502	fall arrest system HACA PH141 TOP	PCE		
+46691	pressure gage G1/4"-radial 0/6 bar	PCE		
+46692	connection sleeve tap/brass G1/4-G3/8-VA	PCE		
+46879	Fuse 14x51 20A gG	PCE		
+47349	VAP exhaust flap set base plate	PCE		
+47351	PE hose, 6x4x1 PE blue	M		
+47352	PA hose, 16x2x12 PA blue	M		
+4738	position switch ZCK-M1	ST		
+47422	switch cabinet CE100-NET	PCE		
+47425	K08T_15B8503ObLi_2xrd_100_NET_02	PCE		
+47451	PVC fabric hode 16/20	M		
+47452	clamp 16mm, galvanised	PCE		
+47738	manometer inverter cooling Hydac vert.	PCE		
+47739	inverter cooling Hydac heating rod 3kW	PCE		
+4779	ring bolt DIN 580-M16-tZn	PCE		
+47818	lubr.pinion Al z=9,m=22,h=170,2-parts	PCE		
+47994	elec.motor ET CRI 05-3 1,1 KW 400-60 CUL	PCE		
+47995	clutch ET Kit KUPPLUNG KPL. CR15	PCE		
+48027	Upgrade wather cooling 629 600 082	PCE		
+48040	water distribution L200  029 393 474	PCE		
+48041	water distribution L152 029 393 475	PCE		
+48042	water distribution L172  029 393 476	PCE		
+48043	hose clamp Torro D23-D3 stainless steel	PCE		
+48044	hose connector M20x1-AD21  L68  SW36	PCE		
+48045	Hose clamp 18,5RER  15,6-17,8	PCE		
+48046	Hose coupling LCN  G1/8A"-AD3,6	PCE		
+48047	Hose PEN  AD4xID2,7  PEN bl	PCE		
+48048	Hose fitting for heating block	PCE		
+48054	DS-inductor  3AC reactor  9ｵH 1100A	PCE		
+48055	phase module water cooled ProX690 - 9E1	PCE		
+48056	phase module water cooled ProX690 - 12E2	PCE		
+48057	DC-Chopper FRT3 029 386 472	PCE		
+48062	humidity supervision SK 50-100%	PCE		
+48528	Teflon bar 1000mm ・,0mm	PCE		
+48552	earthing brush Gen L0444466	PCE		
+4871	Hyd.tankcap with ventilation filter	ST		
+48744	Support ring HYDAC 356689	PCE		
+4875	hydraulic hand pump Hydropa HP29	ST		
+48759	Azimuth brake K08 gamma Svendborg	PCE		
+48760	Azimuth brake K08 gamma Stromag	PCE		
+4879	Plastik clutch for hy motor 19-PUR-98Sh	ST		
+48820	set O-ring	PCE		
+48834	Outer door locking top / Bottombox	PCE		
+4885	pressure restrict valve DB4E-01X-200V	ST		
+4888	Hydraulic filter element 0030D010 BN/3HC	ST		
+4890	clogging indicator VD5B.1	ST		
+4896	pressure restrict valve DB4E-01X-100V	ST		
+4898	throttle valve DV5E-01X	ST		
+4908	Pressure relief valve SBVE-R1/2-01X-XXXV	ST		
+49300	roll hoses RS120-300 27-42 0,6kV	PCE		
+4933	hex nut ISO 4032-M10-8-tZn	PCE		
+49799	Hose coupling 3/8" GE 029.390253	PCE		
+49800	power supply ALPHA CA1500 GE 029.387942	PCE		
+49803	Burdenboard 2 Ohm GE 029.353968	PCE		
+49822	Handle assy. smooth / Star 3812831	PCE		
+49823	Dowel pin pusher segments / 6099921	PCE		
+49828	Cords 3x33 TPE V0 3811449_D	PCE		
+5029	cyl. head screw ISO 4762-M6x20-8.8-galZn	PCE		
+5126	Threaded rod DIN 975-M12x1000-8.8-galZn	PCE		
+5298	zinc spray 400 ml aerosol can	PCE		
+5387	coupling hub B 19/24-24	ST		
+5388	Rotex 19/24 KTR hub for hy motor small	ST		
+5527	spring rod with weight ZCK-D06	ST		
+5619	reducer (water) 1/2''x3/8'' brass	PCE		
+5893	hose Polyurethane 259.17N ・x8mm	M		
+5982	hex screw ISO 4017-M20x50-10.9-tZn	PCE		
+5987	hex screw ISO 4014-M16x80-10.9	PCE		
+6032	hex bolt ISO 4017-M6x20-8.8-galZn	PCE		
+6120	T-pipe fitting 14.514-8	PCE		
+6121	angle-male stud fitting 13.514-8	PCE		
+6122	T-fitting 14.800-8	PCE		
+6124	connection for manometer 11.514-8	PCE		
+6128	hydraulic fitting XEW 42 PL A3C	PCE		
+6161	level/vibration sensor FTL260-0020	PCE		
+6235	windvane-compact NC	ST		
+6236	Anemometer compact NC 50m/s	ST		
+6240	temperature sensor PT100 TR211 1/2"	ST		
+6260	reducer (Hyd.) RI 1 1/2 '' x1 ''1''	PCE		
+6294	pressure switch SUCO-0166-403-03-1-011	PCE		
+6722	bucket rope 12mm	M		
+6723	oil Mobil SHC 629, 208 liter case	L		
+6875	SUB-D-Plug SUBCON 9/F-SH female	PCE		
+7016	srv HV-screw M36x220-10.9-tZn	PCE		
+7388	generator support  ESM N80/N90	ST		
+7391	washer DIN 125-A-17-tZn	PCE		
+7394	gearbox support ESM N80/N90	PCE		
+7397	hex-nut ISO 7040-M16-8-galZn	PCE		
+7400	washer DIN 125-A-21-tZn	PCE		
+7465	F-SMA-plugset PSM-SET-FSMA/4-HCS opt	PCE		
+7527	washer DIN 125-A-17-galZn	PCE		
+7530	hydraulic cylinder NH30-2-SD-25/16*100-S	ST		
+7535	hyd. cylinder NH25-2-SD-40/25*400-S	ST		
+7542	cable mounting hose MW 40/E	PCE		
+7543	clevis, gerade Form NG10. NIRO	PCE		
+7569	holder for geared cam switch	ST		
+7636	screw duct clamp 38-43mm, thread M8	PCE		
+7643	washer DIN 125-A-37-tZn	PCE		
+7644	hex screw ISO 4014-M20x90-10.9-tZn	PCE		
+7647	Molykote-grease G-Rapid plus 1kg package	KG		
+7651	ball valve 1 1/4'' brass nickel plated	PCE		
+7800	initiator disk coupling N80	PCE		
+7822	sealing ring VA 950x15x25 NBR	ST		
+7827	washer DIN 125-A-10.5-tZn	PCE		
+7844	hex screw ISO 4017-M8x16-8.8-galZn	PCE		
+7848	hex bolt ISO 4017-M20x100-8.8-tZn	PCE		
+7907	hex screw ISO 4017-M16x30-8.8-tZn	PCE		
+7910	hex screw ISO 4017-M16x50-10.9-tZn	PCE		
+8004	color Hempatex Enamel 56360 blue RAL5009	L		
+8015	elbow XEL 42 PL	PCE		
+8042	cooler 1700x800 passiv	ST		
+8048	nut M42 L	PCE		
+8093	bearing rotation duct PCJY60	PCE		
+8142	diaphragm safety valve 1/2x3/4 3,0bar	ST		
+8205	sealing pump-flange for Sauer Pumpe	ST		
+8206	sealing pump supp. AN11-07.2/80-90-RD147	ST		
+8272	Mobil SHC grease 460 WT, 174 kg	KG		
+8273	oil Mobil DTE 24	L		
+8392	cabinet lights 11W neon lamps	ST		
+8395	1 phase transformer 0,5kVA	ST		
+8403	contactor A12-30-01 230V AC/5,5 kW	ST		
+8646	cyl.head screw ISO 4762-M12x35-10.9galZn	PCE		
+8774	lubricating nipple DIN 3404-A-G3/8-galZn	PCE		
+8790	cable sleeve DIN 46267 240mmｲ	PCE		
+8810	hex screw ISO 4017-M24x50-10.9-tZn	PCE		
+8821	hex nut ISO 10511-M16-8-galZn	PCE		
+8935	resistance thermometer Jumo PT100	ST		
+9014	lace, round 5mm NBR 70 shore A black	M		
+9017	anti freeze Varidos FSK-45 1000 l Cont.	KG		
+9023	hex screw ISO 4017-M30x90-10.9	PCE		
+9031	cyl. head screw ISO 4762-M24x80-8.8	PCE		
+9097	hydraulik hose GH793-4DN6x700	ST		
+9100	hydraulic hose GH793-6DN10x750	ST		
+9102	hydraulic hose GH793-4DN6x600	ST		
+9110	hydraulik hose GH793-24DN40x1500	ST		
+9157	load holding valve LHV054322100220000	ST		
+9159	straight male stud fitting GE M65x2R2''	PCE		
+9160	adapter 90ｰ DKM/DKM	PCE		
+9164	fitting EGE 42 PLR	PCE		
+9166	angle screw XW 42 PL	PCE		
+9181	lubricating nipple M1 R1/8''	PCE		
+9184	locking plate for ultra bush	PCE		
+9193	flange half of 1 1/2 ''	PCE		
+9196	ball valve 2'' IG	PCE		
+9224	cable LiYCY 2x0,75mmｲ	M		
+9271	sealing profil	M		
+9394	spacer ring for ultra bush	PCE		
+9402	washer DIN 125-A-6.4-140HV-galZn	PCE		
+9424	ball valve 1 1/2'' MS	PCE		
+9442	washer ISO7089-24-300HVtZn inner chamfer	PCE		
+9443	washer ISO7089-20-300HVtZn inner chamfer	PCE		
+9444	washer DIN 125-B-17-300HV-tZn	PCE		
+9446	washer DIN 125-B-31-300HV-tZn	PCE		
+9565	auxiliary switch block CA5-01 1NC	PCE		
+9567	contactor A9-30-01 50/60Hz 3-pole 4kW	ST		
+9704	cyl. head screw ISO 4762-M6x25-8.8	PCE		
+9722	hex screw ISO 4017-M20x40-8.8-tZn	PCE		
+9821	screw coupling 2103-01-18.10 HD-G 1/4	ST		
+9822	shrink hose 30/8	PCE		
+9844	absolut value senderEQN 1325-2048-SSI-07	ST		
+9874	angle screw W12 LCFX	PCE		
+9943	carbon brush for Groundcable F1951Y	ST		
+K08_FD_00	K08_MAsm_Foundation	PCE		
+K08_GO_00	K08_MAsm_Nacelle	PCE		
+K08_GO_BEI_00	K08_MODULE_EQ_EQ_Pack_EquipmNacelle	PCE		
+K08_GO_MHA_40-03	K08_MODULE_MHAga_GenWNY50Hz_N117	PCE		
+K08_GO_MHO_40-03	K08_MODULE_MHOga_GenWNY50Hz_N117	PCE		
+K08_GO_OPT_00	K08_MODULE_OPT_Options	PCE		
+K08_GO_TRS_52-03	K08_MODULE_DrTga_Gbo3a_ECK98,7_50	PCE		
+K08_MS_00	K08_MAsm_Medium Voltage	PCE		
+K08_MS_07	K08T_11G0401MV_Cable_MT5TiT	PCE		
+K08_MS_15	K08T_11D2701MV_Transform_2,8MVA_NXT6_ToT	PCE		
+K08_MS_SPRACHE_00	K08T_15Q1601LanguageMV	PCE		
+K08_RB_00	K08_MAsm_Rotor Blade	PCE		
+K08_TM_00	K08_MAsm_Tower	PCE		
+K08_TM_BEI_00	K08_MODULE_EQ_EQ_Pack_EquipmTower	PCE		
+K08_TM_BEI_01	K08_MODULE_EQ_EQ_Pack_EquipmContainer	PCE		
+K08_TM_SCHILD_00	K08T_15Q0112Sign_Tower_OPT	PCE		
+N-490 200 68658	VEM 3rd generator fan	Piece		
+N-9000000	ANALOG BOARD COMPLETE AIO31 V3.1 REV.20 (N90)	Piece		
+N-9000001	BREATHER EUROTRAP TYP 11AE3 . PN40 (N90)	Piece		
+N-9000002	CAPACITOR 0.10µF 3500V 10% KMKP 3500-0.10 SA (N90)	Piece		
+N-9000003	CAPACITOR 47µF 900V 10% KMKP 900-47 IB (N90)	Piece		
+N-9000004	C-BANK FOR POWER STACK N80KE C-69-7700-KE (21X3300 UF) (DWG NO: 11-0201-90) (N90)	Piece		
+N-9000005	CBF-69-60-2.2-0 COMMUTATION WITH FUSES. W/O ISP (N90)	Piece		
+N-9000006	COMSERVER 10/100 BASE NETWORKADAPTOR (N90)	Piece		
+N-9000007	CONTACTOR 3 POLES & CHC BOARD MOUNTED 100-G860KF22 (N90)	Piece		
+N-9000008	CURRENT CONTROL BOARD COMPLETE CCB21 V2.1 REV.3 (N90)	Piece		
+N-9000009	CURRENT TRANSFORMER 1000A LTC-1000-TF (N90)	Piece		
+N-9000010	CURRENT TRANSFORMER 3000/1A KL 0.5 SW 105-6 (N90)	Piece		
+N-9000011	CURRENT TRANSFORMER 5000/1A CL.0.5 30VA 50HZ (N90)	Piece		
+N-9000012	DIGITAL INTERFACE BOARD COMPLETE DIO100B V1.3 REV.3A (N90)	Piece		
+N-9000013	Druck Sensor PK6524 10BAR 2A ANTIVAL. (N90)	Piece		
+N-9000014	DUAL CONTROL BOARD KE COMPLETE DCB100B V1.2 REV.4+2XFOB13+IBS(UFI) (N90)	Piece		
+N-9000015	ELEGARD FUSE FOR FUSE SUPERVISION. SUITABLE FOR NH-FUSE SIZE 00-3 (N90)	Piece		
+N-9000016	ELEGARD-FUSE BASE FOR FUSE SUPERVISION. SUITABLE FOR NH-FUSE GR.00-3 (N90)	Piece		
+N-9000017	FAN 230VAC 64W 580M3/H (FILTER) LV600 P15/350S RAL7035 (N90)	Piece		
+N-9000018	FIBRE-OPTICAL CONDUCTOR ASSEMBLED HFBR-ENS0035D-18A (N90)	Piece		
+N-9000019	FLASH DIVERTER - UC = 440V/AC - IN(8/20)µS = 50KA - UP <= 5KV (N90)	Piece		
+N-9000020	Flow-sensor SI5000 (N90)	Piece		
+N-9000021	HRC-FUSE SIZE 00. 63A. FOR 690V/AC AND 440V/DC. WITH VOLTAGE-CARRYING GRIPPING LUGS (N90)	Piece		
+N-9000022	HRC-FUSE. SIZE 1. 125A. GG/GL 690V/AC. STANDARD DESIGN. WITH VOLTAGE-CARRYING GRIPPING LUGS (N90)	Piece		
+N-9000023	INDUCTOR AC 3X0.8MH 350A BP-B-710/A 616124.9 (N90)	Piece		
+N-9000024	MEMORY EXPANDER BOARD MEX10 V1.0 REV.0 (N90)	Piece		
+N-9000025	OVERVOLTAGE ARRESTOR MVR 0.80-10KA. 800 VAC (N90)	Piece		
+N-9000026	POWER STACK N80K WITHOUT C-BANK PU-69-1600-K (DWG 05-0020-90-E) (N90)	Piece		
+N-9000027	Power supply DR-75-24 INPUT 100-240-264VAC OUTPUT 24V/3.2A (N90)	Piece		
+N-9000028	RACK MOUNT POWER SUPPLY ASSEMBLY (N90)	Piece		
+N-9000029	RC-ELEMENT 110...280VAC. 50/60HZ (N90)	Piece		
+N-9000030	RELAY 230VAC DPDT EMG 17-REL/KSR-W230/21-21-LC (N90)	Piece		
+N-9000031	RELAY 24V DPDT EMG 17-REL/KSR- 24/21-21-LC (N90)	Piece		
+N-9000032	RESISTOR 2X29R0 2X400W 10% FWD 40-400 (N90)	Piece		
+N-9000033	RESISTOR 3X0R44 3X250W 10% (SPIRAL) ZO.2-7 (3 UNITS) (N90)	Piece		
+N-9000034	ROTOR CROWBAR RCB-69-20-2.1-0 (N90)	Piece		
+N-9000035	SACE CIRCUIT BREAKER COMPLETE E3N 3200A 3P FHR (N90)	Piece		
+N-9000036	S-CROWBAR WITH FUSES SCB-69-60-2.1-0 (N90)	Piece		
+N-9000037	SNUBBER RC5-1/250 (N90)	Piece		
+N-9000038	SOFT POLYURETHAN-HOSE Ø5.5X8MM 25M ROLL (N90)	Piece		
+N-9000039	SURGE VOLTAGE ARRESTOR VAL-MS BE/FM (N90)	Piece		
+N-9000040	SURGE VOLTAGE PROTECTION UN 500V VAL-MS 500 ST (N90)	Piece		
+N-9000041	Temp. Sensor PT100 TYP W063P2106001004 (N90)	Piece		
+N-9000042	Thermostat 60C R&H (N90)	Piece		
+N-9000043	THYRISTOR SWITCH TSW-69-25-2.1-0 (N90)	Piece		
+N-9000044	VENTILATOR 2GDS15 120X126L Y43- (N90)	Piece		
+N-9000045	VOLTAGE FEEDBACK BOARD WITH CHASIS UFB111 V1.1 REV.0 WITH FUSES (N90)	Piece		
+N-9000046	AIR CONTACTOR 3-POLE. AC1=500A(60°C). AC3=200KW. AUX. CONTACT. 2NO+2NC. AUX. VOLTAGE: 220-240V 50/60HZ (N90)	Piece		
+N-9000047	CAPACITOR BANK - MKP-CAPACITOR - 45X 420UF 0...-15%. UN=1100V/DC. US=1650VDC. IMAX=35A. METALLIZED POLYPROPYLENE FILM. ALU CASE WITH M12 BASE MOUNTING STUD (N90)	Piece		
+N-9000048	CIRCUIT BREAKER 3-POLE. 3200A. ELECTR.. TRIPP.. MOTOR. ON-COIL EACH230V. 50/60HZ. SHUNT-TRIPP. UNDERV.COIL 24V/DC. PF. SDE1. 4CH-OVER (OF1-4). COUNTER. RES 230V/AC (N90)	Piece		
+N-9000049	CONTACTOR 3-POLIG_AC-3 IE=580A_ACTUATING VOLTAGE: A1/A2 110V-250V/DC/AC_50-60HZ_A3/A4 PLC CONTROL_SOND 714_LOAD-SIDED VARISTOR SUPPRESSOR (N90)	Piece		
+N-9000050	CSC4-0F1S0 MAIN DEVICE (N90)	Piece		
+N-9000051	CSK1-CWIWC (N90)	Piece		
+N-9000052	DC-LIMITER - NGX (N90)	Piece		
+N-9000053	IGBT PHASE MODULE - MACHINE SIDE - SKIIP 2403 GB172-4DK0256 V3 - WATERCOOLED (N90)	Piece		
+N-9000054	IGBT PHASE MODULE - MAINS SIDE - SKIIP 2013 GB172-4DK0255 V3 - WATERCOOLED (N90)	Piece		
+N-9000055	Mains Choke: 3-PH.. 200UH +-3 %. 690V. 50HZ. ITH=500A. ILIN=1200A.	Piece		
+N-9000056	S.S. RES. DC. IP00. R=4X 1.0 OHM +-5%. 4X100KWS FOR 0.6 SEC. NAT. COOLING. 1500VDC. TAMB: 60°C. 250K. ED 1X/10MIN.. ALL CONNECTORS ON THE SAME SIDE. TEMPERATURESWITCH T=125°C (N90)	Piece		
+N-9000057	Single Phase Choke. DU/DT.15-H-10%. Rated Frequency=10HZ. ITH=1000A.	Piece		
+N-9000058	Inductive Threaded Barrel Proximity Sensor - M30/15 mm Detection - PNP NO - 10 → 40 V dc	Piece		
+N-9000059	Anemometer DWS-V-DAC13 1054	Piece		
+N-9000060	Wind vane DWS-D-DAC13 1054	Piece		
+NM-60039219	Temperature sensor 90,281-F126	Piece		ewt:NM-60039219
+NM-60059181	PT100 sensor flender PEAC 4300	Piece		ewt:NM-60059181
+NM-60069192	PT100 Temperature sensor	Piece		ewt:NM-60069192;siemens:A9B00060209
+NM-60077464	PT100 sensor for PEAS 4390.4 H	Piece		ewt:NM-60077464
+N-0001	Generator	Piece	Added from Opus stock (FR)	vestas:093750;vestas:093810;vestas:093814
+N-0002	Gearbox	Piece	Added from Opus stock (FR)	
+N-0003	Main Shaft & Main Bearing	Piece	Added from Opus stock (FR)	
+N-0004	Converter	Piece	Added from Opus stock (FR)	
+N-0005	Blades Nordex N90 Blade Set	Piece	Added from Opus stock (FR)	
+N-0006	YAW GEAR	Piece	Added from Opus stock (FR)	
+N-0007	PITCH COMPLETE	Piece	Added from Opus stock (FR)	
+N-0008	SLIP RING HYDRO	Piece	Added from Opus stock (FR)	
+N-0009	TOP BOX, ELECTRICAL PARTS	Piece	Added from Opus stock (FR)	
+N-1801511537ALT	Signal conditioner - MINI MCR-2-U-I4 (replaces 1801511537)	Piece	Added from Opus stock (FR)	
+N-1801511860ALT	Power supply, QUINT4-PS/1AC/24DC/10 (replaces 1801511860)	Piece	Added from Opus stock (FR)	

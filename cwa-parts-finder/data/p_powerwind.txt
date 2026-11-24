@@ -1,0 +1,217 @@
+1-101160-0000X-5.00M	cable set (motor and encoder cable) DfBl. V2	Piece
+705T3WCXHB2S025A134	Pitch Gear Bonfigliolo	Piece
+900 kW	gearbox Moventas	Piece
+900/500 KW	generator ABB	Piece
+902105/10-378-1003-1-5-45-11-2000/000	Jumo push-in resistance thermometer (temperature inside nacelle)	Piece
+902105/10-378-1003-1-6-50-11-7000/317	Jumo push-in resistance thermometer (ambient temperature + main bearing)	Piece
+ABB-Generatorkühlung	Motor 50/60Hz	Piece
+ABB.A63-30-22 220-230V50HZ	contactor	Piece		vestas:184940
+ABB.AL12-30-10 24VDC	contactor	Piece		vestas:184940
+ABB.AL9-30-01 24VDC	contactor	Piece		vestas:184940
+ABB.AL_12-30-01	Power Contactor 5,5kW/1Ö	Piece
+ABB.DS201A-B20/0,03	residual current device/circuit breaker	Piece
+ABB.M2SSK1-101	key switch, 2 pos.	Piece
+ABB.M2SSK1-102	key switch, 2 pos.	Piece
+ABB.MO450-25	motor protection switch	Piece
+ABB.MO450-50	motor protection switch	Piece
+ABB.MS116-1,6	motor protection switch	Piece
+ABB.MS116-1.0	motor protection switch	Piece
+ABB.MS116-6,3	motor protection switch	Piece
+ABB.MS325-16	motor protection switch	Piece
+ABB.MS325-20	motor protection switch	Piece
+ABB.MS450-32	motor protection switch	Piece
+ABB.NL40E 24VDC	auxiliary contactor	Piece
+ABB.S201-C10	1-pole circuit breaker	Piece
+ABB.S201-C2	1-pole circuit breaker	Piece
+ABB.S201-C3	1-pole circuit breaker	Piece
+ABB.S201-C4	1-pole circuit breaker	Piece
+ABB.S201-C6	1-pole circuit breaker	Piece
+ABB.S202-C10	2-pole circuit breaker	Piece
+ABB.S202-C2	2-pole circuit breaker	Piece
+ABB.S202-C6	2-pole circuit breaker	Piece
+ABB.S204-C16	4-pole circuit breaker	Piece
+ABB_MS495-63	motor protection switch	Piece
+AO208/I	Analog output-Module	Piece
+BLK.PVFE_24/24-24	Circuit breaker	Piece		nordex:21322;senvion:31772
+BLK.PVSE230/24-10	switch-mode power supply	Piece
+BS 210	Main Control Cabinet Bar	Piece
+BS 211	Nacelle Control Cabinet bar	Piece
+C/RK/3/G1 1/2 TL230mm	Screw-In heater	Piece
+CAN @net 11	CAN to Ethernet converter (to pitch)	Piece
+CM202	CAN-Modul	Piece
+CNT 204/H	Countermodul	Piece
+CRI 15-R	Pump for converter cooling,  including motor CRI 05-4 1,1 kW 690-50	Piece
+Code unclear	yaw motor Bonfiglioli	Piece
+DEHN.DGPCSFM	surge arrester	Piece
+DEHN.DGS275FM	surge arrester	Piece
+DEHN.DGS600FM	surge arrester	Piece
+DIO 264	Digital Input-/Output Module	Piece
+DIO216	Digital Input-/Output Module	Piece
+DIO232	Digital Input-/Output Module	Piece
+E11987	Cable cabinet  10 m (cable for proximity sensor)	Piece
+EQN425	Encoder	Piece
+FFuse, 50A, 10 stk VPE	semiconductor fuse for intermediate circuit protection	Piece
+FIN.49.31.9.024.0050	coupling relay, series	Piece
+FIN.87.02.0.240.0000	sries XX industrial time delay relay (one shot relay)	Piece
+FM211	Fastbus-Module  FM221!	Piece
+FS 211/N	Fastbus Slave Modul	Piece
+GTES 135LC-390G FV	gear-type limit switch (cable twist) with pinion	Piece
+HJ190 B8-130S	Servo-BrMotor 21 Nm, 3000rpm, Encod. 512 ppr	Piece
+IFM IGS 212	poximity sensor for yawing	Piece
+IFM.DD2003 (replaced by DD2503)	overspeed monitor	Piece
+INT 10 OC (13 N 293 S21)	Anemometer (incl. 12 m Kabel)	Piece
+INT 30 M (13 N 291 S24)	Wind vane (incl. 12 m Kabel)	Piece
+LIN.1700.016 (~2 - 100A gL - gG - 400V-250V, 16A) - Siemens 16A D01 Neozed Fuse, gL, 400 V ac	NEOZED fuse link	Piece
+LM 201	dummy module	Piece
+MCZ OVP HF, 5V 0.3A	surge protection terminal MCZ OVP HF, 5V 0.3A	Piece
+MCZ OVP SL 24V UC 1,25A	surge protection terminal MCZ OVP SL 24V 1,25A	Piece
+MPC 240-128/512MBCF / MC205	Control-Modul	Piece
+MT711T037	yaw gear Bonfiglioli	Piece
+NT255	Power supply module	Piece
+OFAA000GG10	HRC Fuse Link 10A/690V	Piece
+OFAA000GG2A	HRC Fuse Link 2A/690V	Piece
+OFAA000GG63	HRC Fuse Link 63A/690V	Piece
+PFA.FLZ520	temperature controller „Cool"	Piece
+PFA.FLZ530	temperature controller „Heat"	Piece
+PFA.FLZ600	hygrostat	Piece
+PFA.PF43.000	filter fan	Piece
+PFA.PFA40.000	outlet filter	Piece
+PMC 16.2-000	PMC power and control unit firmware 16A/8,5kW firmware 136	Piece
+PMM 13.2-A 216001	PMM power and control unit firmware 210	Piece
+POW-000001	Pressure Switch Bosch HED5OH-3X/100K14	Piece
+POW-000002	Safety Sticker Set Powerwind Turbine	Set
+POW-000003	Grease Cartridge 400 gram , Yaw Bearing Teeth Grease, Fuchs Stabyl EOS E2 -	Piece
+POW-000004	Grease Cartridge - Gleitmo 585K - 370 gram	Piece
+POW-000005	Grease - Ceplattyn BL - Can 1 kg	Piece
+POW-000006	Grease Cartridge - Mobil Unirex N2 - 400 gram	Piece
+POW-000008	Gear Oil - Renolin CLP 320 - Pail 20 litre	Piece
+POW-000009	Grease KluberAlfa XZ3-1 1L Can	Piece
+POW-000010	Grease KluberAlfa YM 3-30 Spray 250mL	Piece
+POW-000011	Speed sensor for Tower vibration TAD 302 COP - Powerwind	Piece
+POW-000012	Fastbus-Module - Bachmann FM221	Piece
+POW-000013	Digital Input-/Output Module - Bachmann - DIO216	Piece
+POW-000014	EXP!!! Power Supply Module - NT255 - Bachmann (Use 6000461)	Piece
+POW-000015	Countermodul - Bachmann - CNT 204/H	Piece
+POW-000016	Digital Input-/Output Module - Bachmann - DIO232	Piece
+POW-000017	CAN-Modul - Bachmann - CM202	PCS
+POW-000018	Fastbus Slave Modul - Bachmann - FS 211/N	Piece
+POW-000020	temperature measurement module - Bachmann - PTAI216	Piece
+POW-000021	temperature controller „Cool" - Pfannenberg - PFA.FLZ520	Piece
+POW-000022	temperature controller „Heat" - Pfannenberg - PFA.FLZ530	Piece
+POW-000023	hygrostat - Pfannenberg - PFA.FLZ600	Piece
+POW-000024	Emergency Stop Relay - Phoenix - PSR-SCP- 24UC/ESM4/3X1/1X2/B 2963776	Piece
+POW-000026	Fan heater Rittal  250W 230VAC DIN rail	Piece
+POW-000027	Encoder - Heidenhain - EQN425	Piece
+POW-000028	EXP!!! Residual Current Device / Circuit Breaker - DS201A-B20/0.03 - ABB (Use POW-000152)	Piece
+POW-000030	Main Control Cabinet Bar - Bachmann - BS 210	Piece
+POW-000031	Nacelle Control Cabinet bar - Bachmann - BS 211	Piece
+POW-000032	HRC Fuse Link 10A/690V - ABB - OFAA000GG10	Piece
+POW-000033	HRC Fuse Link 2A/690V - ABB - OFAA000GG2A	Piece
+POW-000034	HRC Fuse Link 63A/690V - ABB - OFAA000GG63	Piece
+POW-000035	Coupling Relay - Series - FIN.49.31.9.024.0050	Piece
+POW-000036	poximity sensor for yawing -  - IFM IGS 212	Piece
+POW-000037	surge protection terminal MCZ OVP SL 24V 1.25A - MCZ OVP SL 24V UC 1,25A	Piece
+POW-000038	surge protection terminal MCZ OVP HF. 5V 0.3A - MCZ OVP HF. 5V 0.3A	Piece
+POW-000039	surge protection - Phoenix - PXC.2920638	Piece
+POW-000040	Surge Protection - TTC-6-1X2-24DC-UT- Phoenix	Piece
+POW-000041	surge protection - Phoenix - PXC.2838173	PCS
+POW-000042	Series XX industrial time delay relay (one shot relay) -  - FIN.87.02.0.240.0000	Piece
+POW-000043	surge arrester - Dehn - DEHN.DGS275FM	Piece
+POW-000044	surge arrester - Dehn - DEHN.DGS600FM	Piece
+POW-000046	Emergency Stop Relay - Phoenix - Phoenix PXC.2981020	Piece
+POW-000047	Motor Protection Switch - ABB - ABB.MS450-32	Piece
+POW-000048	Motor Protection Switch - ABB - ABB.MO450-50	Piece
+POW-000049	Ethernet unmanaged switch - Phoenix - Phoenix FL SWITCH SFN 7TX/FX (2891110)	Piece
+POW-000050	Motor Protection Switch - ABB - ABB_MS495-63	Piece
+POW-000051	OBS!!! 3Ph-lightning arrester Kl.1 -PU I 4.  PU I 4 R 280V/12.5kA - Weidmueller (Use POW-000153)	Piece
+POW-000052	Digital Input-/Output Module - Bachmann - DIO 264	Piece
+POW-000053	Analog output-Module - Bachmann - AO208/I	Piece
+POW-000054	Cable cabinet  10 m (cable for proximity sensor) - new part EVC549 - IFM - E11987	Piece
+POW-000055	Semiconductor fuse for intermediate circuit protection - Eaton Bussmann - Fuse 50A	Piece
+POW-000056	Wind vane (incl. 12 m Kabel) - Kriwan - INT 30 M (13 N 291 S24)	Piece
+POW-000058	Surge arrester PU III R 24V - Weidmuller - PU III R 24V/4kV	Piece
+POW-000063	1-pole circuit breaker - ABB - ABB.S201-C10	Piece
+POW-000064	1-pole circuit breaker - ABB - ABB.S201-C2	Piece
+POW-000065	1-pole circuit breaker - ABB - ABB.S201-C6	Piece
+POW-000066	1-pole circuit breaker - ABB - ABB.S201-C3	Piece
+POW-000067	1-pole circuit breaker - ABB - ABB.S201-C4	Piece
+POW-000068	contactor - ABB - ABB.AL9-30-01 24VDC	Piece
+POW-000069	contactor - ABB - ABB.AL12-30-10 24VDC	Piece
+POW-000070	2-pole circuit breaker - ABB - ABB.S202-C10	Piece
+POW-000071	motor protection switch - ABB - ABB.MS116-1.0	Piece
+POW-000072	2-pole circuit breaker - ABB - ABB.S202-C2	Piece
+POW-000073	2-pole circuit breaker - ABB - ABB.S202-C6	Piece
+POW-000074	MS116-6.3 Manual Motor Starter 4.0 - 6.3A - ABB - 1SAM250000R1009 (same as 8002119)	Piece
+POW-000075	motor protection switch - ABB - ABB.MS116-1.6	Piece
+POW-000076	4-pole circuit breaker - ABB - ABB.S204-C16	Piece
+POW-000077	Motor Protection Switch - ABB - ABB.MS325-16	Piece
+POW-000078	Motor Protection Switch - ABB - ABB.MS325-20	Piece
+POW-000079	Motor Protection Switch - ABB - ABB.MO450-25	Piece
+POW-000080	Contactor - ABB - ABB.A63-30-22 220-230V50HZ	Piece
+POW-000081	filter fan - Pfannenberg - PFA.PF43.000	Piece
+POW-000082	switch-mode power supply - Block - BLK.PVSE230/24-10	Piece
+POW-000083	Anemometer (incl. 12 m Kabel) - Kriwan - INT 10 OC (13 N 293 S21)	Piece
+POW-000084	auxiliary contactor  - ABB.NL40E 24VDC	Piece
+POW-000085	Power Contactor 24-60VDC 5.5kW/1oe - ABB	Piece
+POW-000086	overspeed monitor  - IFM.DD2503	Piece
+POW-000087	IXXAT-Modul - TCP/IP-CAN-Gateway - IXXAT 1.01.0086.10201	Piece
+POW-000088	Jumo push-in resistance thermometer (ambient temperature + main bearing)  - 902105/10-378-1003-1-6-50-11-7000/317	Piece
+POW-000089	PMC power and control unit firmware 16A/8,5kW firmware 136  - PMC 16.2-000	Piece
+POW-000090	PMM power and control unit firmware 210  - PMM 13.2-A 216001	PCS
+POW-000091	Servo-BrMotor 21 Nm, 3000rpm, Encod. 512 ppr  - HJ190 B8-130S	Piece
+POW-000092	grid measurement module  - WOODWARD.MFR300-75M - 8444-1092	Piece
+POW-000094	Circuit breaker - PM 0724-240-0 Block	Piece
+POW-000095	Control-Modul  - MPC 240-128/512MBCF / MC205	Piece
+POW-000096	gear-type limit switch (cable twist) with pinion  - GTES 135LC-390G FV	Piece
+POW-000098	Jumo push-in resistance thermometer (temperature inside nacelle)  - 902105/10-378-1003-1-5-45-11-2000/000	Piece
+POW-000099	NEOZED fuse link  - LIN.1700.016 (~2 - 100A gL - gG - 400V-250V, 16A) - Siemens 16A D01 Neozed Fuse, gL, 400 V ac	Piece
+POW-000100	surge arrester  - DEHN.DGPCSFM	Piece
+POW-000136	Control-Modul - Bachmann - MC205-1G/4GB CFA	Piece
+POW-000140	HCS glass fiber optic cable for coupling nacelle and main control cabinets 90.0m - Bachmann - K-LWLH1 90.0m	Piece
+POW-000147	Pump for converter cooling.  including motor CRI 05-4 1.1 kW 690-50 - Grundfos - CRI 15-R	Piece
+POW-000148	Slipring Assembly 28 Ways	Piece
+POW-000149	Ethernet Switch DIN Rail Mount - Phoenix 2891097	Piece
+POW-000150	PMM power and control unit firmware 210  - PMM 13.3-A 216	Piece
+POW-000151	Surge Protection TTC-6-2X1-24DC-UT - Phoenix 2906799	Piece
+POW-000152	Residual Current Device / Circuit Breaker S201 B20 A30 A | ABB 2CSR255180R1205	Piece
+POW-000154	Piston D94x97 with Brake Pad D63x7 - CuSn12 / JHS-1604	Piece
+POW-000155	Filter Element - Hydac 1300 R 010 BN4HC/-B4-KE50 - gearbox	Piece
+POW-000157	Brush Block 1A 106x99 5x60A	Piece
+POW-000158	Leaf-spring Brush, gold-wire L=35mm	Piece
+POW-000159	Klüber Perfluoropolyether Grease 100g  GR UT 18	Piece
+POW-000160	50A Ceramic Cartridge Fuse (10 Pieces per pack) - Eaton	Piece
+POW-000161	Electric Hoist Winch (Old P/N 4000163)	Piece
+POW-000162	Power Wind Fuse Q1005367, 6 9/6.9URD32TTF0700 700A 690V size 32 FF Square Body Fuse	Piece
+POW-000163	PMM Power and Control Unit Firmware 210 - PMM-A144	Piece
+POW-000164	Storage Module 4PBS4-C  incl. 4x PBS-4 Li-Ion-Batteries, & Battery Feedback Cable Set	Set
+POW-000165	D3G146-AH50-16 Centrigugal Fan	Piece
+POW-000166	Precharge Resistor 5ohm 110w ABB Converter (CBH-165-C-H-5R0-414)	Piece
+POW-000200	Ventilation Unit	Piece
+PSR-SCP- 24UC/ESM4/3X1/1X2/B 2963776	emergency stop relay	Piece
+PTAI216	temperature measurement module	Piece
+PU I 4 R 280V/12,5kA	3Ph-lightning arrester Kl.1, PU I 4.	Piece
+PU III R 24V/4kV	Surge arrester PU III R 24V,	Piece
+PXC.2838173	surge protection	Piece
+PXC.2838186	surge protection	Piece
+PXC.2920638	surge protection	Piece
+Phoenix FL SWITCH SFN 7TX/FX (2891110)	Ethernet unmanaged switch	Piece
+Phoenix PXC.2981020	emergency stop relay	Piece
+Pressure Switch Bosch HED5OH-3X/100K14	Hydraulic Pressure Switch	Piece
+TAD 302 COP	Sensor for tower vibration (mit 10 m Kabel)	Piece
+TCP/IP-CAN-Gateway	IXXAT-Modul / CAN-Gateway	Piece
+VIGOR 2910	Router "Draytek"	Piece
+Ventstar 180 W , Lüfter 24Vdc	Fan heater H: AC230V 180W, L: DC24V	Piece
+WOODWARD.MFR300-75M	grid measurement module	Piece
+POW-000089/R	REFURBISHED!!! Pitch Motion Controller PMC16	Piece	Added from Opus stock (UK)
+POW-000090/R	REFURBISHED!!! OBS!!! PMM power and control unit firmware 210  - PMM 13.2-A 216001 (Use POW-000150)	Piece	Added from Opus stock (UK)
+POW-000150/D	DEFECTIVE!!! PMM power and control unit firmware 210  - PMM 13.3-A 216	Piece	Added from Opus stock (UK)
+POW-000150/R	REFURBISHED!!! PMM power and control unit firmware 210  - PMM 13.3-A 216	Piece	Added from Opus stock (UK)
+POW-000201	NS4523 HOOK ON GREASE CONNECTER FOR USE WITH STD TAT HEAD NIPPLES	Piece	Added from Opus stock (UK)
+POW-000202	16-22mm grease coupler(Cromwell) KEN5410540K	Piece	Added from Opus stock (UK)
+POW-000203	Cromwell KPX5585152A circlip pliers	Piece	Added from Opus stock (UK)
+POW-000205	80mm stilsons Cromwell KEN5883840K	Piece	Added from Opus stock (UK)
+POW-000206	60mm shifting spanner Cromwell KEN5010180K	Piece	Added from Opus stock (UK)
+POW-000207	60mm spanner Cromwell KEN5801600K	Piece	Added from Opus stock (UK)
+POW-000208	60mm socket 3/4 Cromwell KEN5828380K	Piece	Added from Opus stock (UK)
+POW-ACS800/D	DEFECTIVE!!! ACS800-104LC-0700-7+E205 Dive Module	Piece	Added from Opus stock (UK)
+POW-ACS800/R	ACS800-104LC-0700-7+E205 Dive Module	Piece	Added from Opus stock (UK)

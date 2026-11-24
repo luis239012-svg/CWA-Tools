@@ -1,0 +1,124 @@
+PPE-1000103	Safety Glasses North-Tactile T2400 PC-BMSmoke (sunglasses) - PPE	Piece		ewt:PPE-1000103
+PPE-1000104	Yellow Ear Defenders 180g - PPE	Piece		ewt:PPE-1000104
+PPE-1000335	Overall Disposable XL - PPE	Piece		ewt:PPE-1000335
+PPE-1000336	Overall Disposable XXL - PPE	Piece		ewt:PPE-1000336
+PPE-1000338	Safety Glasses Atack	Piece		ewt:PPE-1000338;opus:T000338
+PPE-1000408	Electrical Insulated Gloves Low Voltage (1000 V) - size 10 - PPE	Pair		ewt:PPE-1000408
+PPE-1000409	Case for Insulated Gloves T000409 - PPE	Piece		ewt:PPE-1000409
+PPE-1000410	Face Shield - PPE	Piece		ewt:PPE-1000410
+PPE-1000481	Insulated Gloves -IEC standard 60903 - Category 3 -26.500 V - PPE	Pair		ewt:PPE-1000481
+PPE-1000496	Petzl 3M Clip-on Ear Defenders for Helmet (Black/Green) 26db - PPE	Piece		ewt:PPE-1000496
+PPE-1000605	Croll Chest rope clamp/Stijgklem Size S - PPE	Piece		ewt:PPE-1000605
+PPE-1001035	Petzl Tool Bag 6Kg 340mm x 340mm - PPE	Piece		ewt:PPE-1001035
+PPE-1001045	PPE Starter Kit	Set		ewt:PPE-1001045
+PPE-1001157	Electrical Safety Mat 1000 V 1m x 1m x1 mm - Knipex - PPE	Piece		ewt:PPE-1001157
+PPE-1001158	Rubber Insulating Shrouding 1000V - 1m - PPE	Piece		ewt:PPE-1001158
+PPE-1002000	Skylotec Ampuri Wind G2000, W-S/M  (replacement for 9002004) - PPE	Piece		ewt:PPE-1002000
+PPE-1002001	Skylotec Ampuri Wind G2000, W-M/L  (replacement for 9002004) - PPE	Piece		ewt:PPE-1002001
+PPE-110641	Bornack Railstop RS S 06 Fall Arrester - Safety Device to Intercept  PPE	Piece		ewt:PPE-110641
+PPE-6000158	Parking point / Fall arrester 9903 - PPE	Piece		ewt:PPE-6000158
+PPE-6001284	Fall arrester Hailo SSL-8-R1 upgraded Slider - PPE (old Type)	Piece		ewt:PPE-6001284
+PPE-6001285	Latchways LadderLatch Device (slider) LA-3100L-00T	Piece		ewt:PPE-6001285
+PPE-6001326	Fall Arrester HWS SKC EVO - Climbing Technology SKC EVO Removable Fall Arrester - 4F716K	Piece		ewt:PPE-6001326
+PPE-9000031	Baseline Fall Protection Harness 1126 - PPE	Piece		ewt:PPE-9000031
+PPE-9000033	Petzl Carabiner OK Triact 10mm - Lock Black - PPE	Piece		ewt:PPE-9000033
+PPE-9000034	Petzl Oxan Screw Lock Oval Steel Karabiner - PPE	Piece		ewt:PPE-9000034
+PPE-9000035	DMM Worksafe 11mm Black Abseil Rope 100m- PPE	Piece		ewt:PPE-9000035
+PPE-9000036	DMM Worksafe Plus 11mm Abseil Rope 100m -  PPE	Piece		ewt:PPE-9000036
+PPE-9000037	Lyon 7mm Galvanised Steel Wire Anchor Sling Strop 1m- PPE	Piece		ewt:PPE-9000037
+PPE-9000061	Head Torch LED Rechargeable, 275Lm, 95m Beam Distance IPX5 - Unilite - PPE	Piece		ewt:PPE-9000061
+PPE-9000062	Petzl Headlamp Aria 2R  600 Lumens- PPE	Piece		ewt:PPE-9000062
+PPE-9000100	Safety Gloves - L/9 - PPE	Piece		ewt:PPE-9000100
+PPE-9000104	Petzl Vertex Climbing Helmet - Yellow - PPE	Piece		ewt:PPE-9000104
+PPE-9000199	Safety Helmet White (for Visitors)  - PPE	Piece		ewt:PPE-9000199
+PPE-9000228	Inertia reel fall arrester 6.2m vertical & horizontal use - PPE	Piece		ewt:PPE-9000228
+PPE-9000232	Work Gloves Bull Flex PU size 10 - PPE	Pair		ewt:PPE-9000232
+PPE-9000233	Work Gloves Bull Flex PU size 11 - PPE	Piece		ewt:PPE-9000233
+PPE-9001021	Rubber mat 1.4mx1mx3mm (black)	Piece		ewt:PPE-9001021;opus:9001021
+PPE-9001072	3M Filter Retainer 501 (1 set is 2 pcs) - PPE	Set		ewt:PPE-9001072
+PPE-9001073	Particulate filter type 5935 3M - PPE	Piece		ewt:PPE-9001073
+PPE-9001074	Half Face Mask Respirator type 6200 3M Size M - PPE	Piece		ewt:PPE-9001074
+PPE-9001075	Gas & Vapour Cartridge type 6051 3M - PPE	Piece		ewt:PPE-9001075
+PPE-9001087	Safety Helmet Yellow - PPE	Piece		ewt:PPE-9001087
+PPE-9001088	Gloves ATG MaxiFlex Ultimate 42-874 black - size 9 (L)	Pair		ewt:PPE-9001088
+PPE-9001089	Gloves ATG MaxiFlex Ultimate 42-874 black - size 10 (XL)	Pair		ewt:PPE-9001089;opus:9001089
+PPE-9001167	Petzl Harness Volt Wind - PPE	Piece		ewt:PPE-9001167
+PPE-9001218	Copper Bar for Large Reactor 500kW (3pcs per reactor) - Mangoldt	Piece		ewt:PPE-9001218
+PPE-9001219	Copper Bar for Large Reactor 900kW (3pcs per reactor) - Mangoldt	Piece		ewt:PPE-9001219
+PPE-9001271	Safety Gloves - M/9 - PPE	Pair		ewt:PPE-9001271
+PPE-9001272	Safety Gloves - XL/11 - PPE	Pair		ewt:PPE-9001272
+PPE-9001279	Safety Glasses Polycarbonate UV - PPE	Piece		ewt:PPE-9001279
+PPE-9001367	EMG One Compartment Sports Bag 2802 54L - PPE	Piece		ewt:PPE-9001367
+PPE-9001410	Face Shield - PPE (for Helmet 9000199)	Piece		ewt:PPE-9001410
+PPE-9001428	Nitrile Gloves Heavy Duty- L /Size 9 (Box=100)	Piece		ewt:PPE-9001428
+PPE-9001429	Nitrile Gloves Heavy Duty- XL /Size 10 (Box=100)	Box		ewt:PPE-9001429
+PPE-9001571	Calu-loves Food Skyblue nitrile disposable handschoenen maat S 200st	Box		ewt:PPE-9001571
+PPE-9001577	Petzl Harness Volt Wind XS-M - PPE	Piece		ewt:PPE-9001577
+PPE-9001580	Calu-Gloves Food Skyblue Nitrile Gloves - XL (box = 100)	Box		ewt:PPE-9001580
+PPE-9001786	MP-59 - Long copper bus bar (1 complete set bus bars is 2*9001788 + 2*9001789 + 1*9001786 + 1*9001787)	Piece		ewt:PPE-9001786
+PPE-9001787	MP-60 - Long copper bus bar (1 complete set bus bars is 2*9001788 + 2*9001789 + 1*9001786 + 1*9001787)	Piece		ewt:PPE-9001787
+PPE-9001788	MP-61 - Short copper bus bar  (1 complete set bus bars is 2*9001788 + 2*9001789 + 1*9001786 + 1*9001787)	Piece		ewt:PPE-9001788
+PPE-9001789	MP-62 - Short copper bus bar (1 complete set bus bars is 2*9001788 + 2*9001789 + 1*9001786 + 1*9001787)	Piece		ewt:PPE-9001789
+PPE-9002000	EXP!!! Skylotec Speed Attach Runner - PPE (Old P/N 4000079) (Use 9002060)	Piece		ewt:PPE-9002000
+PPE-9002001	Petzl Astro Bod Fast - Size 1 - PPE	Piece		ewt:PPE-9002001
+PPE-9002002	Petzl Grillon Hook 2M - PPE	Piece		ewt:PPE-9002002
+PPE-9002003	HACA Fall Arrest Slider (0529 HACA Multisafe Slider) - PPE	Piece		ewt:PPE-9002003
+PPE-9002004	EXP!!! Skylotec Ignite Proton Wind Steel (M/XXL) - PPE  (replaced by PPE-9002061)	Piece		ewt:PPE-9002004
+PPE-9002005	Cabloc Slider (3M Protecta Cabloc EN 353-1) - PPE (Old P/N 4000080)	Piece		ewt:PPE-9002005
+PPE-9002006	Petzl Shackles for Podium Seat (Set of 2) - PPE (Old P/N 4000088)	Pair		ewt:PPE-9002006
+PPE-9002007	Skylotec Ergogrip SK12 Work Positioning Lanyard - PPE (Old P/N 4000092)	Piece		ewt:PPE-9002007
+PPE-9002008	Skylotec Twin Lanyard Skysafe Pro+ Y-Flex Orange Hooks - PPE	Piece		ewt:PPE-9002008
+PPE-9002009	Climbtec CT-02 Climbing protection runner- Logaer rail for Enercon - PPE (Old P/N 4000096)	Piece		ewt:PPE-9002009
+PPE-9002010	Petzl Absorber Axess for ASAP - PPE (Old P/N 4000130)	Piece		ewt:PPE-9002010
+PPE-9002011	Petzl Lanyard Progress Adjust Y - PPE	Piece		ewt:PPE-9002011
+PPE-9002012	Skylotec Ignite Proton Wind Steel (size XS-M) - PPE (Old P/N 4000146)	Piece		ewt:PPE-9002012
+PPE-9002013	Rescue Barrels - RGR14/UNIDRIVE 100m Ridge Rescue kit with Unidrive 100m - PPE	Piece		ewt:PPE-9002013
+PPE-9002014	Somain SKC H04 EVO Fall Arrester Traveller (for Siemens Gamesa only) - PPE	Piece		ewt:PPE-9002014
+PPE-9002015	Rescue Kit  Refurbishment - PPE	Piece		ewt:PPE-9002015
+PPE-9002016	Red Pro Rope 60m Spare (for Rescue Kit) - PPE	Piece		ewt:PPE-9002016
+PPE-9002017	Hi-Vis Vest Yellow - Hook & Loop Closure - Polyester  Size M - PPE	Piece		ewt:PPE-9002017
+PPE-9002018	Hi-Vis Vest Yellow - Hook & Loop Closure - Polyester Size L - PPE	Piece		ewt:PPE-9002018
+PPE-9002019	Hi-Vis Vest Yellow - Hook & Loop Closure - Polyester  Size XL - PPE	Piece		ewt:PPE-9002019
+PPE-9002020	Safety Boots Black Leather - Unisex - Size 4 - PPE	Pair		ewt:PPE-9002020
+PPE-9002021	Safety Boots Black Leather - Unisex - Size 5 - PPE	Pair		ewt:PPE-9002021
+PPE-9002022	Safety Boots Black Leather - Unisex - Size 6 - PPE	Pair		ewt:PPE-9002022
+PPE-9002023	Safety Boots Black Leather - Unisex - Size 7 - PPE	Pair		ewt:PPE-9002023
+PPE-9002024	Safety Boots Black Leather - Unisex - Size 8 - PPE	Pair		ewt:PPE-9002024
+PPE-9002025	Safety Boots Black Leather - Unisex - Size 9 - PPE	Pair		ewt:PPE-9002025
+PPE-9002026	Safety Boots Black Leather - Unisex - Size 11 - PPE	Pair		ewt:PPE-9002026
+PPE-9002027	Safety Boots Black Leather - Unisex - Size 12 - PPE	Pair		ewt:PPE-9002027
+PPE-9002028	EXP!!! Skylotec BFD Y SK12 1.5 M - PPE (new is 9002062)	Piece		ewt:PPE-9002028
+PPE-9002029	10M Work Positioning Lanyard Adjustable GFAF101-10 - PPE	Piece		ewt:PPE-9002029
+PPE-9002030	Petzl ASTRO BOD FAST C083AA02 size 2 - PPE	Piece		ewt:PPE-9002030
+PPE-9002031	Petzl Astro European Black/Yellow Size-0 Harness - PPE	Piece		ewt:PPE-9002031
+PPE-9002032	Petzl Astro European Black/Yellow Size-1 Harness - PPE	Piece		ewt:PPE-9002032
+PPE-9002033	Skylotec CLAW Vertical  8-10mm  - PPE	Piece		ewt:PPE-9002033
+PPE-9002034	Skylotec Conrest Kit - Rescue Stretcher - PPE	Piece		ewt:PPE-9002034
+PPE-9002035	First Aid Refill pack dm388 15/07/03 attachment 2  basic and d.l. 81 of 09/04/08 - PPE	Piece		ewt:PPE-9002035
+PPE-9002036	Safety Boots Black Leather - Unisex - Size 10 - PPE	Pair		ewt:PPE-9002036
+PPE-9002037	Veizen - Face Shield with Easyclip System for Vertex & Strato Helmets - PPE	Piece		ewt:PPE-9002037
+PPE-9002038	Petzl Self-braking Descender I'D S - PPE	Piece		ewt:PPE-9002038
+PPE-9002039	Petzl ASAP Lock Mobile Fall Arrest Device - PPE	Piece		ewt:PPE-9002039
+PPE-9002040	Petzl Energy Absorber ASAP'Sorber 40cm - PPE	Piece		ewt:PPE-9002040
+PPE-9002041	Petzl Ascension Right Handed Ascender - PPE	Piece		ewt:PPE-9002041
+PPE-9002042	Petzl Footape Adjustable Webbing Footloop - PPE	Piece		ewt:PPE-9002042
+PPE-9002043	Petzl 11mm Aluminium Alloy Am'D Screwgate Karabiner - PPE	Piece		ewt:PPE-9002043
+PPE-9002044	Rope 11.3mm Teufelberger Dynaflex - blue/black - per metre 5m x 3 - PPE	Meters		ewt:PPE-9002044
+PPE-9002045	Fall Arrest Avanti Glider (AL04 Click-On Runner) with Certificate - PPE	Piece		ewt:PPE-9002045
+PPE-9002046	Petzl Grillon Hook - 5m Work Positioning Lanyard - PPE	Piece		ewt:PPE-9002046
+PPE-9002047	Personal Fall Limiter MSA V-TEC 6mtr Cable Srl - Latchways - PPE	Piece		ewt:PPE-9002047
+PPE-9002048	Skylotec - Actsafe ACX Power Ascender - PPE	Piece		ewt:PPE-9002048
+PPE-9002049	ActSafe PLR - Semi Static - 11mm - Red 100m - Man Riding - PPE	Piece		ewt:PPE-9002049
+PPE-9002050	Footloop - Singing Rock Footer Complete II with Connector - PPE	Piece		ewt:PPE-9002050
+PPE-9002051	Rope Protector Pro Pad Plus with Wear Sheet - 60cm - PPE	Piece		ewt:PPE-9002051
+PPE-9002052	Rope Protector Lyon Canvas 15cm x 1m - PPE	Piece		ewt:PPE-9002052
+PPE-9002053	Anchor Strop - Stainless Steel with Eyelet Ends 7mm x 1.5m - PPE	Piece		ewt:PPE-9002053
+PPE-9002054	Beal Genius Tool Bucket 20L- PPE	Piece		ewt:PPE-9002054
+PPE-9002055	Petzl Tool Bag Pouch 3L - M - PPE	Piece		ewt:PPE-9002055
+PPE-9002056	Petzl Grillon Lanyard 10m - PPE	Piece		ewt:PPE-9002056
+PPE-9002057	Petzl Seat Podium - PPE	Piece		ewt:PPE-9002057
+PPE-9002058	Petzl Tool Bag 6Kg 180mm x 90mm - PPE	Piece		ewt:PPE-9002058
+PPE-9002059	Petzl TPU Yellow Safety Equipment Bag - PPE	Piece		ewt:PPE-9002059
+PPE-9002060	Skylotec Speed Traveller Runner - PPE	Piece		ewt:PPE-9002060
+PPE-9002062	Skylotec Nanolink Y (rope) (replaces  9002028) - PPE	Piece		ewt:PPE-9002062
+PPE-9002063	Duck R Rope Access Back up Device, S-TEC - PPE	Piece		ewt:PPE-9002063

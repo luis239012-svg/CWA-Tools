@@ -1,0 +1,694 @@
+T000001	Crimping Pliers - 0.08 - 10mm - 180mm - Knipex 97 53 04	Piece		ewt:T000001
+T000002	36mm 1" - Deep Impact Socket	Piece		ewt:T000002
+T000004	Plastic Vat Blauw 60L	Piece		ewt:T000004
+T000006	Zarges Alu Box K470 (uitw. 1150x350x150mm) - 40847	Piece		ewt:T000006
+T000007	36mm 3/4" -  Impact Socket - Square Drive	Piece		ewt:T000007
+T000008	Hammer Drill - HR2230 - Makita	Piece		ewt:T000008
+T000010	Cross Pein Hammer - 500g	Piece		ewt:T000010
+T000011	Dead Blow Nylon Hammer	Piece		ewt:T000011
+T000012	General Purpose Scissors	Piece		ewt:T000012
+T000013	Straight Tin Scissors	Piece		ewt:T000013
+T000014	Stanley Safety Knife with Snap-off Blade - Retractable - 0-10-018	Piece		ewt:T000014
+T000015	Stanley FatMax Safety Knife with Straight Blade - Retractable - 0-10-788	Piece		ewt:T000015
+T000016	Hacksaw Frame with Blade	Piece		ewt:T000016
+T000017	Hacksaw Blade 12"	Piece		ewt:T000017
+T000018	Flat File Bastard - 10" with Handle	Piece		ewt:T000018
+T000019	Prybar - 400mm	Piece		ewt:T000019
+T000020	Prybar - 530mm	Piece		ewt:T000020
+T000021	Putty Knife Square/Straight model - 40mm	Piece		ewt:T000021
+T000022	Putty Knife Square/Straight model - 60mm	Piece		ewt:T000022
+T000023	Putty Knife Square/Straight model - 80mm	Piece		ewt:T000023
+T000024	Level Double Plumb - 80cm	Piece		ewt:T000024
+T000025	Allen Key Set 1.5-10mm (9 Piece) - Short	Set		ewt:T000025
+T000026	Allen Key Set 1.5-10mm (9 Piece) - Long with Ball end	Set		ewt:T000026
+T000027	Torx Key Set tx10-tx40	Set		ewt:T000027
+T000028	Circlip Plier Set (4 Piece)	Set		ewt:T000028
+T000029	Water Pump Pliers - 250-255mm	Piece		ewt:T000029
+T000030	Insulated Side Cutters 180mm - Knipex	Piece		ewt:T000030
+T000031	Mole Grip Pliers - 250mm	Piece		ewt:T000031
+T000032	Bolt Cutter  - 600/610mm	Piece		ewt:T000032
+T000033	Bahco 6" Adjustable Wrench	Piece		ewt:T000033
+T000034	Bahco 8" Adjustable Wrench	Piece		ewt:T000034
+T000035	Bahco 10" Adjustable Wrench	Piece		ewt:T000035
+T000036	13mm Ratchet Spanner	Piece		ewt:T000036
+T000037	17mm Ratchet Spanner	Piece		ewt:T000037
+T000038	19mm Ratchet Spanner	Piece		ewt:T000038
+T000039	Combination Spanner Set (20 Piece) - 8-32mm	Set		ewt:T000039
+T000040	Combination Spanner - 7mm	Piece		ewt:T000040;siemens:A9B01000170
+T000041	Combination Spanner - 24mm	Piece		ewt:T000041
+T000042	Combination Spanner - 30mm	Piece		ewt:T000042
+T000043	Combination Spanner - 36mm	Piece		ewt:T000043
+T000044	Combination Spanner - 41mm	Piece		ewt:T000044;siemens:A9B01000315
+T000045	Single Ended Deep Offset Ring Spanner 24mm	Piece		ewt:T000045
+T000046	Single Ended Deep Offset Ring Spanner 36mm	Piece		ewt:T000046
+T000047	Single Ended Deep Offset Ring Spanner 41mm	Piece		ewt:T000047
+T000048	46mm Single Ended Deep Offset Ring Spanner	Piece		ewt:T000048
+T000050	Ring Slogging Spanner 41mm	Piece		ewt:T000050
+T000052	Flat VDE Screwdriver. 0.6 x 3.5	Piece		ewt:T000052
+T000053	Flat VDE Screwdriver. 0.8 x 4.0	Piece		ewt:T000053
+T000054	Flat VDE Screwdriver. 1.0 x 5.5	Piece		ewt:T000054
+T000055	Flat VDE Screwdriver. 1.6 x 8.0	Piece		ewt:T000055
+T000056	VDE Screwdriver PH 1 - 75-80mm	Piece		ewt:T000056
+T000057	VDE Screwdriver PH2 - 100mm	Piece		ewt:T000057
+T000058	VDE Screwdriver PH3 - 150mm	Piece		ewt:T000058
+T000059	Pozi VDE Screwdriver PZ1 - 75-80mm	Piece		ewt:T000059
+T000060	Pozi VDE Screwdriver PZ2 - 100mm	Piece		ewt:T000060
+T000061	Pozi VDE Screwdriver PZ3 - 150mm	Piece		ewt:T000061
+T000062	Feeler Gauge Set (20 Pieces) - 0.05 - 1.0mm - 100mm Metric	Set		ewt:T000062
+T000063	Feeler Gauge Set (20 Pieces) - 0.05 - 1.0mm - 200mm Metric	Set		ewt:T000063
+T000064	Tape Measure 3m/10ft - Stanley	Piece		ewt:T000064
+T000065	Hard Point Scriber - 150mm	Piece		ewt:T000065
+T000066	Steel Rule 300mm	Piece		ewt:T000066
+T000067	Bahco 106 Piece Imperial/Metric 1/2'' - 1/4''	Set		ewt:T000067
+T000068	19mm  1/2" - Deep  Impact Socket	Piece		ewt:T000068
+T000069	36mm 3/4" - Deep Impact Socket	Piece		ewt:T000069
+T000070	41mm 3/4" - Deep Impact Socket	Piece		ewt:T000070
+T000071	46mm  3/4" - Deep Impact Socket	Piece		ewt:T000071
+T000072	41mm 3/4" Impact Socket	Piece		ewt:T000072
+T000073	46mm 3/4" - Impact Socket	Piece		ewt:T000073
+T000074	41mm 1" - Deep Impact Socket	Piece		ewt:T000074;ewt:T000901
+T000075	46mm 1" - Deep Impact Socket	Piece		ewt:T000075
+T000076	36mm  1" - Impact Socket	Piece		ewt:T000076
+T000077	41mm 1" Impact Socket	Piece		ewt:T000077
+T000078	46mm 1" - Impact Socket	Piece		ewt:T000078
+T000079	19mm 3/4" - Drive Impact Socket	Piece		ewt:T000079
+T000080	17mm Hex Allen Impact Socket. 3/4"	Piece		ewt:T000080
+T000081	14mm Hex Allen Socket. 1/2"	Piece		ewt:T000081
+T000082	12mm Hex Allen Socket. 1/2"	Piece		ewt:T000082
+T000083	7mm Hex Allen Socket. 1/2"	Piece		ewt:T000083
+T000084	3/4" to 1/2" Adaptor	Piece		ewt:T000084
+T000085	3/4" to 1" Adaptor	Piece		ewt:T000085
+T000086	1" to 3/4" Adaptor	Piece		ewt:T000086
+T000087	Tap Wrench GR2 M4-12mm	Piece		ewt:T000087
+T000089	Machine Tap M24 HSS	Piece		ewt:T000089
+T000090	Machine Tap M16 HSS	Piece		ewt:T000090
+T000091	Machine Tap M12 HSS	Piece		ewt:T000091
+T000092	Machine Tap M10 HSS	Piece		ewt:T000092
+T000093	Machine Tap M8 HSS	Piece		ewt:T000093
+T000094	Machine Tap M6 HSS	Piece		ewt:T000094
+T000095	Dustpan Metal and Brush	Piece		ewt:T000095
+T000096	Soft Brush for Dust Pan	Piece		ewt:T000096
+T000097	Hand Pressure Sprayer - 2LT	Piece		ewt:T000097
+T000098	Funnel 200mm	Piece		ewt:T000098
+T000099	Stainless Steel Wire Brush	Piece		ewt:T000099
+T000100	3M Scotch-Brite Hand Pads (20 Pieces)	Piece		ewt:T000100
+T000101	24" Broom	Piece		ewt:T000101
+T000102	Kaulk Gun for silicone cartridges - 310mL	Piece		ewt:T000102
+T000105	Telescopic Ladder - Aluminium	Piece		ewt:T000105
+T000106	Bucket Black Plastic - 3 Gallon - 12lt	Piece		ewt:T000106
+T000107	Ratchet Tie Down - 5T / L: 9M W: 50mm	Piece		ewt:T000107
+T000108	Zinc Spray RUSTOLEUM  - ADR2	Piece		ewt:T000108
+T000109	Carbide Burr Kit 10 Piece	Piece		ewt:T000109
+T000110	WD40 Spray 400ml	Piece		ewt:T000110
+T000111	Wire Cup Brush 80mm M14x0.5	Piece		ewt:T000111
+T000112	Drill Bit Set (25 Piece) - 1-13mm	Piece		ewt:T000112
+T000116	Open end spanner 41-46	Piece		ewt:T000116
+T000117	Assorted box of Red Yellow and Blue Terminals	Piece		ewt:T000117
+T000118	Digital Vernier Caliper - 150mm	Piece		ewt:T000118
+T000119	Fluke 179  Multimeter Kit	Piece		ewt:T000119
+T000120	Heavy Duty Cable Cutter - 250mm - Knipex	Piece		ewt:T000120
+T000121	Crimping Pliers 0.5–6 mm² - 220mm - Knipex 97 52 36	Piece		ewt:T000121
+T000122	Crimping Tool 0.5-6.0mm²	Piece		ewt:T000122
+T000123	Torque Wrench - 721/30 60-300Nm	Piece		ewt:T000123
+T000124	Torque Wrench - 730/80 160-800Nm	Piece		ewt:T000124
+T000125	Hex Impact Socket - 70mm	Piece		ewt:T000125
+T000126	Hex Impact Socket - 75mm	Piece		ewt:T000126
+T000127	Numatic Vacuum Cleaner - Wet & Dry - 230V/1060W	Piece		ewt:T000127
+T000128	Hikoki Impact Wrench Multi-Volt - 36V with 2 x Batteries and Charger	Piece		ewt:T000128
+T000131	Duct Tape	Roll		ewt:T000131
+T000132	Garage Soap Dreumex 0.6 ltr	Piece		ewt:T000132
+T000133	Impact Wrench 3/4" - 600Nm - 110V - Hitachi WR22SE	Piece		ewt:T000133
+T000134	1/2 inch Drive to 3/4 inch Drive Impact Adaptor	Piece		ewt:T000134
+T000135	Stanley Flat Snap-off Blade - 0-11-301	Piece		ewt:T000135
+T000136	Stanley Flat Safety Knife Blade (Set of 10)	Set		ewt:T000136
+T000137	Combination Spanner - 46mm	Piece		ewt:T000137
+T000138	Flat VDE Screwdriver PB 0.4 x 2.5	Piece		ewt:T000138
+T000139	FAITHFULL FAITR15 ROLL UP TOOL BAG	Piece		ewt:T000139
+T000140	File set (5 Piece) - Different shapes	Set		ewt:T000140
+T000141	SDS Drill 12x210mm	Piece		ewt:T000141
+T000142	Hex Impact Socket - 90mm	Piece		ewt:T000142
+T000144	Flat VDE Screwdriver. Mains Tester	Piece		ewt:T000144
+T000145	SDS Drill 10x210mm	Piece		ewt:T000145
+T000147	FLAT CHISL 20X250mm (Platte Beitel)	Piece		ewt:T000147
+T000149	Extenstion cable on Reel  230VCEE connectors	Piece		ewt:T000149
+T000150	Cutting disk 1mm - 125mm	Piece		ewt:T000150
+T000151	Flap Disc, 115mm, Fine Grade, P40 Grit (1 Box of 10units) - 3M	Piece		ewt:T000151
+T000154	Megger MIT320 Insulation & Continuity Tester - 250V Min/1000VDC Max	Piece		ewt:T000154
+T000155	Fluke 9040 Field Rotation Meter	Piece		ewt:T000155
+T000156	Fluke 376 Current Clamp Meter	Piece		ewt:T000156
+T000157	Torque Wrench - EFCIP-60 - Alkitronic	Piece		ewt:T000157
+T000158	ALKITRONIC Torque Multiplier - HG10	Piece		ewt:T000158
+T000160	Tube for Single Ended Deep Offset Ring Spanner 24mm	Piece		ewt:T000160
+T000162	Cutting disk 1mm - 115mm, 5 Gritt (1Box of 5units) - Norton	Piece		ewt:T000162
+T000163	ROEBUCK 866848 ZIRCONIUM FLAT FLAP DISC 115 X 22.23 MM G120	Piece		ewt:T000163
+T000164	Cross Pein Hammer - 1.5 KG	Piece		ewt:T000164
+T000166	Lever Hoist 750 Kg. 1.5mtr lift	Piece		ewt:T000166
+T000168	Extension cable 20-25M - 230V	Piece		ewt:T000168
+T000169	Extension cable 10M - 230V. 16A blue Connectors . CEE	Piece		ewt:T000169
+T000170	Tap Wrench GR1 M1-10mm	Piece		ewt:T000170
+T000171	Pipe Wrench Gedore 175	Piece		ewt:T000171
+T000172	Tube for Single Ended Deep Offset Ring Spanner 36 & 41mm	Piece		ewt:T000172
+T000173	46mm Tube for Single Ended Deep Offset Ring Spanner	Piece		ewt:T000173
+T000176	Round Sling 2T - L 1m	Piece		ewt:T000176;ewt:T000401
+T000177	Round Sling 2T - L 2m	Piece		ewt:T000177;ewt:T000400
+T000183	Ameca - Threath Insert Assortment + Tool M6 | M8 | M10  | M12	Piece		ewt:T000183
+T000184	Socket wrench QR 1/4"	Piece		ewt:T000184
+T000185	Hex Impact Socket - 100mm	Piece		ewt:T000185
+T000187	Drill 5.0mm HSS - C05 DIN 338/N COBALT	Piece		ewt:T000187
+T000188	Drill 6.0mm HSS - C05 DIN 338/N COBALT	Piece		ewt:T000188
+T000190	Holesaw Kit in Plastic Case	Kit		ewt:T000190
+T000199	VDE Plier Set (Combi pliers/Side cutter/Nose pliers)	Piece		ewt:T000199
+T000205	Stahlwille Crimping Pliers 6638 (AMP)	Piece		ewt:T000205
+T000206	Wire Strippers Pliers - 0.08-10mm²	Piece		ewt:T000206
+T000214	Bow-Shackle WLL 1T Type 855 - | 210-855-00100	Piece		ewt:T000214
+T000219	Lincoln Powerluber 1884-E	Piece		ewt:T000219
+T000220	Hydraulic Crimp Tool  -  25-185mm²	Piece		ewt:T000220
+T000222	Tape Measure (Metric) 30m	Piece		ewt:T000222
+T000223	Safety Plateau Foldaway	Piece		ewt:T000223
+T000225	Universal Grease Gun 500cc	Piece		ewt:T000225
+T000226	Hot Air  Heat Gun - 230V - Hikoki	Piece		ewt:T000226
+T000227	Gedore Scraper 133 D-150	Piece		ewt:T000227
+T000228	Permanent Paint Marker White GP-X No.8 - Ambersil	Piece		ewt:T000228
+T000230	Screwdriver Gedore 2163 - Torx Tx8	Piece		ewt:T000230
+T000231	Marker Bic Onyx BLACK - 1482	Piece		ewt:T000231
+T000232	Bahco dopsleutelset 1/4 6712-RN	Piece		ewt:T000232
+T000233	Mitutoyo Magnetic Stand for Gauge -  7010SN	Piece		ewt:T000233
+T000234	Mitutoyo Measuring Gauge 10.mm / 0.01mm	Piece		ewt:T000234
+T000235	Ramin Broom Stick 28.5 x 150	Piece		ewt:T000235
+T000236	Gedore Single ended deep Offset Ring Spanner  50	Piece		ewt:T000236
+T000238	Combination Spanner - 50mm	Piece		ewt:T000238
+T000239	50mm 3/4" - Deep Impact Socket	Piece		ewt:T000239
+T000240	50mm  Impact Socket 3/4	Piece		ewt:T000240
+T000241	50mm 1" - Deep Impact socket	Piece		ewt:T000241
+T000242	50mm Impact Socket 1" Square Drive	Piece		ewt:T000242
+T000248	Round File - 310mm	Piece		ewt:T000248
+T000255	Socket 1/2" - 17mm 12-sided hexagon - Stahlwille 03010017	Piece		ewt:T000255
+T000263	Gloves Latex Yellow Size 10	Pair		ewt:T000263
+T000264	Gloves Latex Yellow Size 9	Box		ewt:T000264
+T000265	Battery for Kenwood Portofoon - KNB45LM	Piece		ewt:T000265
+T000266	Charger for Kenwood Portofoon - KSC-35SE	Piece		ewt:T000266
+T000269	D-Shackle  WLL 4.75T - Type 834 - G4151	Piece		ewt:T000269
+T000270	Webbing Sling 2T - L 2m	Piece		ewt:T000270
+T000271	M24 Machine Tap with welded Socket 1/2"	Piece		ewt:T000271
+T000272	Lifting Steel Cable Loop - with M10 Rod - for Yaw Gearbox	Piece		ewt:T000272
+T000273	Lifting Steel Cable Loop - with M12 Rod - for Setec Converter	Piece		ewt:T000273
+T000282	Webbing Sling 2T - L 4m	Piece		ewt:T000282
+T000284	Bow-Shackle 4.75T Type 855	Piece		ewt:T000284
+T000299	Drill 5.5mm HSS - C05 DIN 338/N COBALT	Piece		ewt:T000299
+T000311	Countersink drill set Ø6.3 - Ø25.0mm HSS	Piece		ewt:T000311
+T000317	Fluke TL175E Twist Guard Test Leads for Multimeter	Piece		ewt:T000317
+T000324	Scissor for bearing seal replacement - Rothe Erde	Piece		ewt:T000324
+T000337	Fold Ladder - Aluminium	Piece		ewt:T000337
+T000339	400 ml Aerosol Label Remover from RS Components 232-4357	Piece		ewt:T000339
+T000341	Ratchet Tie-Down Straps - 2 parts 25mm (consist of two parts)	Piece		ewt:T000341
+T000343	PAT tester kit hand held PB500 Easy	Piece		ewt:T000343
+T000344	Allen Key Set 1.5-8mm (9 Piece) - Long with Ball end	Set		ewt:T000344
+T000345	Back up wrench mechanic - Hytorc - type:BW-50mm	Piece		ewt:T000345
+T000352	Crimping Hydraulic Tool - 16-300 mm²	Piece		ewt:T000352
+T000355	Round Sling 6T - L 4m	Piece		ewt:T000355
+T000365	Dust Mask FFP3	Piece		ewt:T000365
+T000381	Tensile bolt for ISO 16 | 20 | 25  knock out punch set - Greenlee	Piece		ewt:T000381
+T000383	Lockout Kit - Electrician	Piece		ewt:T000383
+T000397	Webbing Sling 2T - L 5m	Piece		ewt:T000397
+T000398	Round Sling 30T - L 4m	Piece		ewt:T000398
+T000400	Round Sling 2T - L 2m	Piece		ewt:T000177;ewt:T000400
+T000401	Round Sling 2T - L 1m	Piece		ewt:T000176;ewt:T000401
+T000403	Closure. HMB - 17.0T-type 855	Piece		ewt:T000403
+T000406	Topsch GB-leng 33.0t-M-32-10 | 200-431-03300	Piece		ewt:T000406
+T000418	Torque Wrench 1/4"  6-30 NM	Piece		ewt:T000418
+T000423	CFast 2.0 Card Reader USB 3.0  C CF/SD/TF/XD Aluminum Memory Card Slot Combo Adapter	Piece		ewt:T000423
+T000437	Impact Wrench 3/4" - 600Nm - 230V - Hitachi WR22SE	Piece		ewt:T000437
+T000439	Tension Belt with Ratchet  5T =10m - Orange	Piece		ewt:T000439
+T000440	Angle Grinder Wireless - Metabo 125mm - W18LTX125EX (whitout charger + batteries)	Piece		ewt:T000440
+T000441	Pulley Puller - 2 arms - 160x150mm	Piece		ewt:T000441
+T000444	Charger + 2 Batteries for Metabo 125mm - W18LTX125EX  (T000440)	Piece		ewt:T000444
+T000448	D-Shackle WLL 1T - Type 834 - G4151	Piece		ewt:T000448
+T000455	Torque Wrench 30-150 Nm - 1/2" - Stahlwille 721/15	Piece		ewt:T000455
+T000457	Dremel 4250-35 - Multi-Tool Kit 175Kw - with Cord	Piece		ewt:T000457
+T000466	Crimping Pliers - KH120	Piece		ewt:T000466
+T000470	Combination Spanner - 18mm	Piece		ewt:T000470;siemens:A9B01000235
+T000471	Ring Slogging Spanner - 36mm	Piece		ewt:T000471
+T000473	Eye Wash Station -  2x500ml	Piece		ewt:T000473
+T000474	Eye Wash station Refill bottle - 500ml	Piece		ewt:T000474
+T000475	Combination Spanner - 13mm	Piece		ewt:T000475
+T000477	Hand Pressure Sprayer - 1LT	Piece		ewt:T000477
+T000479	Bow Shackle - 3.25T	Piece		ewt:T000479
+T000488	30mm Socket - Gedore No.32 - 3/4"	Piece		ewt:T000488
+T000499	Curved Vise-grip - 250mm	Piece		ewt:T000499
+T000503	14 Pipe Wrench Egamster	Piece		ewt:T000503
+T000504	24 Pipe Wrench Egamster	Piece		ewt:T000504
+T000519	Battery Impact Wrench - Makita DTW300Z	Piece		ewt:T000519
+T000524	Battery Grinder - Without batteries and charger - Makita	Piece		ewt:T000524
+T000525	Multi Tool 18v - Without batteries and charger - Makita DTM50Z	Piece		ewt:T000525
+T000526	Cordless Orbital Sander DBO180Z- Without batteries and charger - Makita	Piece		ewt:T000526
+T000527	Cordless Drill Driver DDF453Z 18V - Without batteries and charger - Makita	Piece		ewt:T000527
+T000528	Battery 18.0 V - 5.0 Ah - (For T000524/T000525/T000526/T000527) - Makita	Piece		ewt:T000528
+T000529	Battery Charger (For T000528) - Makita  DC18RC	Piece		ewt:T000529
+T000542	Velcro Sanding Disc a230 150mm 80grit with dust holes	Pack		ewt:T000542
+T000543	Velcro Sanding Disc 125mm 80grit (pack of 50) With dust holes	Pack		ewt:T000543
+T000544	Battery dispenser suitable for 400ml cartridge ratio 1to1. 2to1. 4to1. 10to1 with ElectraFlowTM Dual Ultra VBE 400 MR	Piece		ewt:T000544
+T000546	RUD Socket Rrench for VRS M16 - M18	Piece		ewt:T000546
+T000550	Digital Weighing Scale Digital 0-25Kg - Salter	Piece		ewt:T000550
+T000554	Megger MFT 1815 Multifunctional Tester	Piece		ewt:T000554
+T000555	Megger Test cable on reel  - 50m	Piece		ewt:T000555
+T000558	Mixing gun for Ergo 4472105	Piece		ewt:T000558
+T000559	Mixing nozzle for Ergo 1665	Piece		ewt:T000559
+T000560	Crimping Pliers RG Cable - 1.72-8.22mm TCC008	Piece		ewt:T000560
+T000567	Flash light LED	Piece		ewt:T000567
+T000568	Combination Spanner - 19mm	Piece		ewt:T000568
+T000574	Duct tape 1900. Silver 3M. 50 mmx 50 m	Roll		ewt:T000574
+T000582	Socket 1/2" - 30mm 12-sided hexagon - Stahlwille 03010030	Piece		ewt:T000582
+T000589	30mm 1/2"  - Deep Impact Socket	Piece		ewt:T000589
+T000590	Stud Bolt Puller M24 - Kukko	Piece		ewt:T000590
+T000592	Heating Blanket 1000x1000mm. 800W. 2mtr cable	Piece		ewt:T000592
+T000593	Heating Blanket 1000x2000mm. 1475W. 2mtr cable	Piece		ewt:T000593
+T000594	Heating Blanket 600x600mm. 425W. 2mtr cable	Piece		ewt:T000594
+T000595	Bahco 56 Piece Metric Socket Set - 1/2'' - 1/4''	Set		ewt:T000595
+T000597	Kenwood Portofoon Body Programmed - NX1300DE3	Piece		ewt:T000597
+T000600	Kenwood Portofoon + Battery + Charger + Antenna + Freq. programming	Piece		ewt:T000600
+T000603	Round Sling 15T - L 1.5m	Piece		ewt:T000603
+T000607	Voltage Tester & Proving Unit Kit <3.5mA 700V  VT298PD-S - Calibrated	Piece		ewt:T000607
+T000608	Work Light Led 110-240V	Piece		ewt:T000608
+T000610	Jerry Can 20L Heavy Duty	Piece		ewt:T000610
+T000611	Hikoki Cordless Drilldriver - Without batteries and charger	Piece		ewt:T000611
+T000612	Hikoki Cordless Impact Wrench without Charger/Batteries	Piece		ewt:T000612
+T000613	Hikoki Boosterpack A2 (Charger + 2x batteries)	Piece		ewt:T000613
+T000614	Hammer Drill - 230V/830W - Hikoki	Piece		ewt:T000614
+T000619	Grinding Wheel - 125m	Piece		ewt:T000619
+T000621	Vacuum cleaner Nilfisk saltix 10 (includes T000622)	Piece		ewt:T000621
+T000622	Nilfisk HEPA H13 (Carbon filter)	Piece		ewt:T000622
+T000623	Nilfisk Saltix 10 - Vacuum Bags	Piece		ewt:T000623
+T000625	Hoist Eye - Inschr-Strop-PHILIPP-0.5t-m12 | 602-645-00150	Piece		ewt:T000625
+T000627	13mm 1/2'' Socket	Piece		ewt:T000627
+T000630	Adjustable pin gauges set 8-150mm	Piece		ewt:T000630
+T000634	17mm  1/2" - Deep  Impact Socket	Piece		ewt:T000634
+T000636	13mm  1/2" - Deep Impact Socket	Piece		ewt:T000636
+T000639	Fluke TL910 Test Leads for Multimeter	Piece		ewt:T000639
+T000642	4 way Chain 13mm 14/10T gr10 - L= 6000mm - Gunnebo	Piece		ewt:T000642
+T000644	Blue Wonder Desinfection Cleaner 750ml	Piece		ewt:T000644
+T000645	Circuit Breaker - Master Lock universal	Piece		ewt:T000645
+T000670	VDE Insulated Combi Pliers - 180MM	Piece		ewt:T000670
+T000671	VDE Insulated Long Nose Pliers - 200mm	Piece		ewt:T000671
+T000691	Extension cable 10M - 5 Pole 400V 16A Red Connectors . CEE	Piece		ewt:T000691
+T000692	Prybar - 1500mm	Piece		ewt:T000692
+T000698	Marker Bic Onyx RED - 1482	Piece		ewt:T000698
+T000699	Step Drill Set Spiral Grooved HSS 4-30.00MM	Piece		ewt:T000699
+T000708	Back up wrench mechanic - Hytorc - type:BW-41mm	Piece		ewt:T000708
+T000713	Eye Wash Station in traveling case	Piece		ewt:T000713
+T000723	Cutting Oil - Dormer Green 250ml	Piece		ewt:T000723
+T000724	Stackable box storage bin with 2 fold lid 600*400*365 mm	Piece		ewt:T000724
+T000731	Universal Screwdriver Bit Holder - 899/4/1 - 75mm - Wera	Piece		ewt:T000731
+T000735	Tension Belt with Ratchet  4m - blue	Piece		ewt:T000735
+T000736	Webbing Sling 5T - L 8m	Piece		ewt:T000736
+T000742	Hydraulic Crimping Tool - Force 60kN - 10-70mm	Piece		ewt:T000742
+T000743	Hydraulic Crimping Head for 60kN CU DIN 50mm² KZ14 60-2/4	Piece		ewt:T000743
+T000744	Hydraulic Crimping Head for 60kN CU DIN 95mm² KZ18 60-2/4	Piece		ewt:T000744
+T000745	Hydraulic Crimping Head for 60kN CU DIN 185mm² KZ25 60-2/4	Piece		ewt:T000745
+T000746	Hydraulic Crimping Head for 60kN CU DIN 240mm² KZ28 60-2/4	Piece		ewt:T000746
+T000747	Hydraulic Crimping Head for 60kN DIN AL 95-120mm² RM/SM 120-150mm2 SE K22 60-2/4	Piece		ewt:T000747
+T000748	Hydraulic Crimping Head for 60kN DIN AL 185mm² RM/SM 240mm² SE Kz 28 60-2/4	Piece		ewt:T000748
+T000749	Hydraulic Crimping Head for 60kN DIN AL 240mm² RM/SM 300mm² SE Kz 32 60-2/4	Piece		ewt:T000749
+T000752	Screwdriver Set Torque (Set of 13 Pieces) - 0.8-5.0Nm	Set		ewt:T000752
+T000778	Bungee Lanyard Tool NLG 360 Carabiner & Loop SWL 5Kg	Piece		ewt:T000778
+T000779	Filling Adaptor grease hoses - Dropsa PRK-DE-001	Piece		ewt:T000779
+T000783	Megger MIT300 Insulation & Continuity Tester - 250V min/500VDC Max	Piece		ewt:T000783
+T000787	Tension belt with ratchet 0.5T L=4m	Piece		ewt:T000787
+T000788	Combination Spanner Set (26 Piece) - 6-32mm	Set		ewt:T000788
+T000789	Combination Spanner Ratchet Single End - 17mm	Piece		ewt:T000789
+T000790	Adjustable Spanner Set (3 Piece) - 4"/8"/12"	Set		ewt:T000790
+T000791	Combination Spanner - Double End - 36mm	Piece		ewt:T000791
+T000792	Combination Spanner Set (14 Piece) - 6-19mm	Set		ewt:T000792
+T000793	Combination Spanner - Double End - 41mm	Piece		ewt:T000793
+T000794	Combination Spanner Set (17 Piece) - 6-32mm	Set		ewt:T000794
+T000795	Combination Spanner Set (11 Piece) - 7-19mm	Set		ewt:T000795
+T000796	Hex Bit Socket 1/2" - 19mm x 70mm	Piece		ewt:T000796
+T000797	Hex Bit Socket 1/2" - 14mm x 65mm	Piece		ewt:T000797
+T000798	65mm 1" - Deep Impact Socket	Piece		ewt:T000798
+T000799	80mm 1" - Deep Impact Socket	Piece		ewt:T000799
+T000807	Feeler Gauge Set (20 Pieces) - 0.10 - 2.00 - 300mm Metric	Set		ewt:T000807
+T000810	Container Attached Lid  - 600X400X365mm - 68L	Piece		ewt:T000810
+T000811	Fluke TL80A Electronic Test Lead Set	Set		ewt:T000811
+T000812	Lifting Sling 1T - SWL 30mm x 2m	Piece		ewt:T000812
+T000813	Electric Fan Heater - Portable - 220vV/10.200 BTUkW	Piece		ewt:T000813
+T000814	Hand Crimp Tool for Tubular Cable Lugs - 10 → 95mm² Wire	Piece		ewt:T000814
+T000815	Black Epoxy Potting Compound 250g (260-0915 )	Piece		ewt:T000815
+T000816	Angle Grinder GA004GZ 40V Max XGT BL 115mm Brushless - Body Only - Makita	Piece		ewt:T000816
+T000817	Lithium-ion Battery Pack - 191B36-3/40V/2.5Ah - Makita	Piece		ewt:T000817
+T000818	Brushless Impact Driver - TD001GZ 40V Max XGT BL (Bare Unit) - Makita	Piece		ewt:T000818
+T000819	Europe to UK Travel Adapter	Piece		ewt:T000819
+T000820	Adjustable Torque Wrench 80 to 400Nm - 3/4"	Piece		ewt:T000820
+T000821	Hex Bit Socket 3/4" - 19mm x 80mm	Piece		ewt:T000821
+T000822	Socket Wrench for RUD Starpoint VRS/Inox	Piece		ewt:T000822
+T000823	Sweeper (V Sweep Kit), Synthetic, White, 1 Metre Head	Piece		ewt:T000823
+T000824	Replacement Sleeves For "V" Sweeper	Pair		ewt:T000824
+T000825	Prybar 4 Piece  Set	Set		ewt:T000825
+T000826	Dormer Tap & Drill Set, M12 Thread, Metric Standard, Hand Tap (787-8989)	Set		ewt:T000826
+T000827	Crimping Pliers - 0.08 - 16mm - 180mm - Knipex 97 55 04	Piece		ewt:T000827
+T000828	17mm Impact Socket 1/2" Square Drive	Piece		ewt:T000828
+T000829	Stanley Tool Tote Bag, 600 Denier Water Resistant Fabric, (L) 490mm x (W) 260mm x (H) 100mm	Piece		ewt:T000829
+T000830	Spray, Zinc Perfect, 400ml  (1111116114)	Piece		ewt:T000830
+T000831	Spray, Zinc, Kema ZN-595, 500ml (1111101020)	Piece		ewt:T000831
+T000832	3/4" Universal Ball Joint, 90mm, Chrome Molybdenum Steel	Piece		ewt:T000832
+T000833	Steel Extension Bar - 150mm - 3/4"	Piece		ewt:T000833
+T000834	Measuring Jug - 2L - Compatible with Oil/Petrol/Water	Piece		ewt:T000834
+T000835	Combination Ratcheting  Spanner - Double End - 24mm	Piece		ewt:T000835
+T000836	24mm 1/2" - Deep Impact Socket	Piece		ewt:T000836
+T000837	Torque Wrench - 1/2" 60-300nM	Piece		ewt:T000837
+T000838	Dymo Handheld Label Machine, Label Manager 160	Piece		ewt:T000838
+T000839	Bosch 100-Piece Masonry Drill Bit, Metal Drill Bit, Wood Drill Bit Set for Multi-Material, 32mm Max, 1mm Min, Metal Bits	Set		ewt:T000839
+T000840	Platform Weighing Scale, 150kg Weight Capacity,	Piece		ewt:T000840
+T000841	Red & White Plastic Chain Barrier 25m length	Piece		ewt:T000841
+T000842	SWA Hand Hydraulic Hexagon Crimp Tool 10mm² to 400mm²	Piece		ewt:T000842
+T000843	Magnetic Tray 239x137x30mm	Piece		ewt:T000843
+T000844	Screw Tool Set (Set of 52 Pieces)	Piece		ewt:T000844
+T000845	Knipex  Cobra Pliers Set  - 3pc	Set		ewt:T000845
+T000846	Automatic Wire Stripper - 0.2-6mm	Piece		ewt:T000846
+T000847	Cordless Power Tool Impact Driver Kit - DLX2145TJ/18V /Type G - Makita	Set		ewt:T000847
+T000848	Crowbar - 380mm	Piece		ewt:T000848
+T000849	ES165X Earth Spike Kit	Set		ewt:T000849
+T000850	Screwdriver Set - Phillips/Pozi/Slotted (Set of 10)	Set		ewt:T000850
+T000851	Socket Set 1/2in. Imperial/Metric, Set of 30	Set		ewt:T000851
+T000852	Hex Key 2-10mm (8 Piece) - T-Handle	Set		ewt:T000852
+T000853	Digital Level - MW580-03/0.05° - 60cm	Piece		ewt:T000853
+T000854	Steel Extension Bar - 305mm - 1"	Piece		ewt:T000854
+T000855	Plier Set (165/200/215/265mm)	Set		ewt:T000855
+T000856	Expandable Braided PET Black Cable Sleeve, 5mm Diameter, 5m Length	Piece		ewt:T000856
+T000857	Steel Slotted DIN Rail, Top Hat Compatible, 2m x 35mm x 7.5mm (1pack = 4 units)	Set		ewt:T000857
+T000858	Fluke TL71-1 Universal Test Lead Set	Set		ewt:T000858
+T000859	Manual Lever Hoist - 750kg - 1.5m Lift Chain with Safety Hook	Piece		ewt:T000859
+T000860	Metal Silicone Sealant Gun 380ml	Piece		ewt:T000860
+T000861	0.5M 16A Plug to 13A Socket 240v Fly Lead	Piece		ewt:T000861
+T000862	Bow Shackle Green Pin Wide Mouth 25T	Piece		ewt:T000862
+T000863	Webbing Sling 5T L=1m - W=150mm	Piece		ewt:T000863
+T000864	Flat Belt Sling 5T - L=4m	Piece		ewt:T000864
+T000865	Fein MM300  110V Oscillating Multi-Tool	Piece		ewt:T000865
+T000866	Putty Knife - 38mm 1.5" - Chisel Point Half Tang	Piece		ewt:T000866
+T000867	Putty Knife - 38mm 1.5" - Chisel Point Scale Tang	Piece		ewt:T000867
+T000868	Hand Pressure Sprayer - 1.5LT	Piece		ewt:T000868
+T000869	Allen Key Set 1.27-10mm (10 Piece) - Short	Set		ewt:T000869
+T000870	File Set (8 Piece) - 10" 250mm	Piece		ewt:T000870
+T000871	Spirit Level - 3 Vials - Non-Magnetic - 1m	Piece		ewt:T000871
+T000872	First Aid Kit Medium - Vans	Piece		ewt:T000872
+T000873	First Aid Kit Medium - Wall Bracket (For T000872)	Piece		ewt:T000873
+T000874	Oil Spill Kit - 50L Absorbent Capacity Per Kit - with Bag	Kit		ewt:T000874
+T000875	Oil Spill Kit 240 L	Set		ewt:T000875
+T000876	Coshh Lockable Cabinet Grey - 710x457x305 - Vans	Piece		ewt:T000876
+T000877	Container Attached Lid - 600X400X310mm - 52/58L - Vans	Piece		ewt:T000877
+T000878	Wire Stripping Pliers - VDE Insulated 160mm	Piece		ewt:T000878
+T000879	Fluke T5-600 Electrical Tester	Piece		ewt:T000879
+T000880	VDE Screwdriver PH2 - 125mm	Piece		ewt:T000880
+T000881	Stanley Safety Knife with Straight Blade - Retractable - 2-10-099	Piece		ewt:T000881
+T000882	Bahco 81 Piece Metric Electro-Mechanical Tool Kit -  1/4"-1/2"	Piece		ewt:T000882
+T000883	Bahco 25 Piece Metric 1/4 in Standard Socket/Bit Set with Ratchet	Piece		ewt:T000883
+T000884	Prybar - 375mm	Piece		ewt:T000884
+T000885	Pry Bar 3 Piece Set	Set		ewt:T000885
+T000886	Crimping Pliers - 0.08 - 10.0mm² - 180mm - Knipex 97 53 14	Piece		ewt:T000886
+T000887	Cordless Impact Wrench incl 2x Batteries and Charger - Makita	Set		ewt:T000887
+T000888	Milwaukee Grease Gun Kit 18V Cordless (with 5.0AH Battery and Charger)	Set		ewt:T000888
+T000889	Megger MIT420 2 Insulation Tester - 10V Min/1000V Max	Piece		ewt:T000889
+T000890	Hammer Drill - HR2630 - Makita	Piece		ewt:T000890
+T000891	Megger PSI410 Phase Rotation Tester	Piece		ewt:T000891
+T000892	Screwdriver Set Socket (20 Piece) - 1/2"	Set		ewt:T000892
+T000893	Gasket Scraper Set Long Handheld (3 Piece)	Set		ewt:T000893
+T000894	Torque Multiplier 2700Nm 3/4" - Norbar	Piece		ewt:T000894
+T000895	Feeler Gauge Set (19 Pieces) - 150mm Metric	Set		ewt:T000895
+T000896	Hot Air Heat Gun - 240V - Bosch	Piece		ewt:T000896
+T000897	Battery Charger - Twin Port - Makita	Piece		ewt:T000897
+T000898	Dustpan Heavy Duty Plastic and Brush	Piece		ewt:T000898
+T000899	Feeler Gauge Set (19 Pieces) - 250mm Metric	Set		ewt:T000899
+T000900	Cross Pein Hammer - 99gr	Piece		ewt:T000900
+T000901	41mm 1" - Deep Impact Socket	Piece		ewt:T000074;ewt:T000901
+T000902	19mm 3/4" - Deep Impact Socket	Piece		ewt:T000902
+T000903	Funnel Set (4 Piece) - Various sizes	Set		ewt:T000903
+T000904	VDE Insulated Cable Cutters - 200mm	Piece		ewt:T000904
+T000905	Circlip Plier Set (5 Piece) - Interchangeable	Piece		ewt:T000905
+T000906	Mitutoyo Digimatic Caliper - 200mm	Piece		ewt:T000906
+T000907	Grease Gun Cordless CPG 18v - 400g Cartridge Fill - 8000psi	Piece		ewt:T000907
+T000908	Universal Grease Gun 200cc - 3000psi	Piece		ewt:T000908
+T000909	Deadblow Hammer Polyurethane Shaft, 800g Replaceable Head - Kennedy	Piece		ewt:T000909
+T000910	Sliding Hammer Set Clarke 10PC 1801251 CHT1251	Set		ewt:T000910
+T000911	Putty Knife - 38mm 1.1/2" - Stiff	Piece		ewt:T000911
+T000912	Screwdriver Set (18 Piece) - Wiha	Set		ewt:T000912
+T000913	Flat Insulated Electricians Screwdriver 4mm x 100mm	Piece		ewt:T000913
+T000914	Flat Insulated Electricians Screwdriver 5.5mm x 125mm	Piece		ewt:T000914
+T000915	Flat Insulated Electricians Screwdriver 2.5mm x 75mm VDE, CK	Meters		ewt:T000915
+T000916	Screwdriver Set Slotted Insulated (7 Piece)	Piece		ewt:T000916
+T000917	Screwdriver Set Non-insulated  (37 PCS)	Piece		ewt:T000917
+T000918	Adjustable Wrench Set (4 Piece)	Set		ewt:T000918
+T000919	Plastic Oil Jug - 2lt	Piece		ewt:T000919
+T000920	Torque Wrench - EBS 350 (2x 5.5Ah Batteries 1x Charger standard cranked reaction arm & carry case.) -  Alkitronic	Piece		ewt:T000920
+T000921	Fluke 1664 Multifunction Installation Tester	Piece		ewt:T000921
+T000922	Cable Crimper and Cutting Tool with 2 x 5.0Ah Batteries	Set		ewt:T000922
+T000923	Electrical Stripping Tool - 50W - 0.3-4mm	Piece		ewt:T000923
+T000924	Thermal Imaging Camera (-20 - + 120°C) - 80 x 60pixel Detector Resolution	Piece		ewt:T000924
+T000925	Thermal Imaging Camera (–25 - +300°C) - 80 x 60pixel Detector Resolution	Piece		ewt:T000925
+T000926	Multi-Tool Kit - F0138240JK - Cordless - Dremel	Piece		ewt:T000926
+T000927	Bolt Roller 20mmx140mm Long	Piece		ewt:T000927
+T000928	Laminating Brush - 2"	Piece		ewt:T000928
+T000929	Stripping Knife - Medium (Old P/N 4000015)	Piece		ewt:T000929
+T000930	Stripping Knife - Small (Old P/N 4000016)	Piece		ewt:T000930
+T000931	Quick-Grip Medium-Duty Bar Clamp (Old P/N 4000028)	Piece		ewt:T000931
+T000932	Battery Adaptor 18v to Milwaukee 12v - Makita	Piece		ewt:T000932
+T000933	Triflex Roller Handles	Piece		ewt:T000933
+T000934	Toilet (portable) for Van - 20L - 30.5x26.5x29cm (Old P/N 4000098)	Piece		ewt:T000934
+T000935	Toilet Tent for Van - 190 cm - Camping Douche with Carry Bag (Old P/N 4000099)	Piece		ewt:T000935
+T000936	Toilet Bags for Van - Reliance 'Double Doodie' Toilet Bags (6 PCS) (Old P/N 4000100)	Piece		ewt:T000936
+T000937	Binoculars 12X42 HD Waterproof Low Light Night Vision (Old P/N 4000114)	Piece		ewt:T000937
+T000938	Maintenance Lockout Kit (Old P/N 4000125)	Piece		ewt:T000938
+T000939	Lockout Key Padlock - Weatherproof (Old P/N 4000145)	Piece		ewt:T000939
+T000940	Lockout Tag - 'Do Not Operate' (12 per Pack)	Piece		ewt:T000940
+T000941	Lockout Station - 5 Station Filled	Set		ewt:T000941
+T000942	Humidity Controller InkBird - IHC200	Piece		ewt:T000942
+T000943	Torque Wrench Adjustable 400NM (15007) 3/4"SD	Piece		ewt:T000943
+T000944	Drive Impact Reducer 3/4" Male x 1/2" Female Square (Old P/N 4000134)	Piece		ewt:T000944
+T000945	Telescopic Gauge "E" 54-90mm (Old P/N 4000151)	Piece		ewt:T000945
+T000946	Double Head Suction Cup 1 20mm	Piece		ewt:T000946
+T000947	Extension Cable - 20m/1.25mm/240v	Piece		ewt:T000947
+T000948	Standard Manual Vernier - 150mm (Old P/N 4000152)	Piece		ewt:T000948
+T000949	Cordless Impact Wrench - 3/4in. Drive 18V Brushless 1050Nm Max. Torque - Body Only - Makita (Old P/N 4000167)	Piece		ewt:T000949
+T000950	Torque Wrench Manoskop 160Nm - 14mm x 18mm 800Nm 730/80 (Old P/N 4000168)	Piece		ewt:T000950
+T000951	Scissor - Bi-Material Grip - 9.3/4" (Old P/N 4000175)	Piece		ewt:T000951
+T000952	Retractable Trimming Knife Steel Blade (Old P/N 4000179)	Piece		ewt:T000952
+T000953	Pocket Scriber  Carbide Point - 7mm/89mm (Old P/N 4000180)	Piece		ewt:T000953
+T000954	Socket Set 1/2in - Imperial (Set of 20) (Old P/N 4000181)	Set		ewt:T000954
+T000955	Multi-Purpose Cutter (Old P/N 4000184)	Piece		ewt:T000955
+T000956	Torx Key Set T8-T40 (9 Piece) - Short (Old P/N 4000197)	Piece		ewt:T000956
+T000957	Ratchet Handle Expert  3/4" (Old P/N 4000201)	Piece		ewt:T000957
+T000958	Reducer Converter  - 3/4" to 1/2" (Old P/N 4000204)	Piece		ewt:T000958
+T000959	Plunger Dial Gauge 25x0.01mm x 0-100 (Old P/N 4000209)	Piece		ewt:T000959
+T000960	Drill Set (Set of 51) - HSS-Tin A095 (Old P/N 4000214)	Piece		ewt:T000960
+T000961	Universal Magnetic Stand - 2 MAG (Old P/N 4000212)	Piece		ewt:T000961
+T000962	Angle Grinder  DGA452Z - 18V LXT 115mm - Body Only (Without Battery and Charger) - Makita	Piece		ewt:T000962
+T000963	Socket Set (Set of 36) - 3/4" Imperial	Set		ewt:T000963
+T000964	First Aid Trauma Kits – UK Vehicles Only	Piece		ewt:T000964
+T000965	AED Kits (Automated External Defibrillator)	Pack		ewt:T000965
+T000966	Industrial Dehumidifier 230V 900W 50L	Piece		ewt:T000966
+T000967	60mm 1" - Impact Socket	Piece		ewt:T000967
+T000968	Cordless Torque Impact Wrench  18V 2000 ft Lbs VT-2000  - TorcUP (Incl charger and battery)	Piece		ewt:T000968
+T000969	Toggle Latch - Rubber/Stainless Steel - 130 x 34 x 22mm (Set of 2 Pieces)	Set		ewt:T000969
+T000970	EMG Tool Bag - 3982 - 150L (500 KG)	Piece		ewt:T000970
+T000971	EMG Tool Bag - 3610 - 150L (150 KG)	Piece		ewt:T000971
+T000972	EMG Tool Bag - 3585 - 52L (150 KG)	Piece		ewt:T000972
+T000973	EMG Mini Tool Bag - 2651 - 6L (25 KG)	Piece		ewt:T000973
+T000974	EMG Tool Bag - 3579 - 52L (80 KG)	Piece		ewt:T000974
+T000975	EMG Tool Bag -1225 - 80L (80 KG) Cylinder	Piece		ewt:T000975
+T000976	EMG Tool Bag - 3225 - 95L (80 KG)	Piece		ewt:T000976
+T000977	EMG Tool Bag - 4897 - 150L (80 KG)	Piece		ewt:T000977
+T000978	EMG Tool Bag - 2601 - 14L (50 KG)	Piece		ewt:T000978
+T000979	EMG Tool Bag - 3209 - 80L (150 KG)	Piece		ewt:T000979
+T000980	Extension Lead 14m 1 Socket BS4343/EN60309 110V	Piece		ewt:T000980
+T000981	Gas Torch For Use With Butane/Propane (for use with T000982)	Piece		ewt:T000981
+T000982	Soldering Accessory Gas Refill (for use with T000981)	Piece		ewt:T000982
+T000983	Flame Retardant Calcium-Magnesium Silicate Thermal Insulating Sheet, 2.8m x 610mm x 2mm (724-8906)	Piece		ewt:T000983
+T000984	Blade Rope Access Kit	Kit		ewt:T000984
+T000985	Slide Hammer Locking Pliers	Piece		ewt:T000985
+T000986	Work Light LED (Standing) - Rechargable	Piece		ewt:T000986
+T000987	Work Light LED (Handheld) - Battery Operated	Piece		ewt:T000987
+T000988	Work Light LED (Handheld) - Rechargeable	Piece		ewt:T000988
+T000989	Toolless wheel cover - 125 mm	Piece		ewt:T000989
+T000990	Insulator Busbar 30mm M6 Thread (Set of 25)	Set		ewt:T000990
+T000991	Chisel Set 3 piece - 12/18/25 mm	Set		ewt:T000991
+T000992	Tarpaulin blue 3x4 m	Piece		ewt:T000992
+T000993	Electric Rechargeable Drum Pump 19.2V ZEDR55	Piece		ewt:T000993
+T000994	Double Stage Vacuum Pump - 4.2 CFM	Piece		ewt:T000994
+T000995	Solent Spill Control Chemical Absorbent Pads - 80L Per Pack Absorbent Capacity - 50 x 40cm - Pac	Piece		ewt:T000995
+T000996	Electric Chain Hoist (w/out chain) 24v 400v 3Ph 50Hz - 250kg	Piece		ewt:T000996
+T000997	Can 25 Ltr. Empty (incl. Cap)	Piece		ewt:T000997
+T000998	Machine Strapping Coil 12mm x 3000M (White 12mm x 0.55mm)	Roll		ewt:T000998
+T000999	Battery Torque Gun Drive 1" - 500/3500 NM	Piece		ewt:T000999
+T001000	Group Lockbox	Piece		ewt:T001000
+T001001	Drip Tray Pallet/Plastic Drum Spill Pallet/1280x 1285 x 275 mm	Piece		ewt:T001001
+T001002	T-Profile Bracket for CM Hoist Model C2(250Kgs)	Piece		ewt:T001002
+T001003	Chain Guide c/w Limit Switch Pins	Piece		ewt:T001003
+T001004	Flexible Telescopic Magnetic Pick Up Handheld Tool	Piece		ewt:T001004
+T001005	Binoculars Ruby 7 x 50 mm Porro Black	Piece		ewt:T001005
+T001006	Combination Pliers - VDE Insulated- 145MM	Piece		ewt:T001006
+T001007	Wire Stripper Pliers - VDE Insulated - 0.75-6mm - 200mm	Piece		ewt:T001007
+T001008	Test Meter Case	Piece		ewt:T001008
+T001009	Socket Set (Set of 24) - 1/2" - Bahco	Piece		ewt:T001009
+T001010	Tape Measure (Metric & Imperial) 8m - Stanley	Piece		ewt:T001010
+T001011	Steel Breaker Bar - 600mm	Piece		ewt:T001011
+T001012	Folding Torx Key (8 Piece) - T9-T40	Piece		ewt:T001012
+T001013	Self Grip Pliers (3 Piece) (220/185/165mm)	Set		ewt:T001013
+T001014	Slip Joint Pliers - 250mm	Piece		ewt:T001014
+T001015	Needle Nose Pliers - 280mm	Piece		ewt:T001015
+T001016	VDE Insulated Combination Pliers - 200mm	Piece		ewt:T001016
+T001017	Fluke 117 True RMS Electrician's Multimeter with Non-Contact Voltage	Piece		ewt:T001017
+T001018	10 m Extension Lead - 4 Sockets - UK only	Piece		ewt:T001018
+T001019	Screwdriver Set (Set of 6 Pieces)	Piece		ewt:T001019
+T001020	Screwdriver Set Pozi VDE  (Set of 6 Pieces)	Piece		ewt:T001020
+T001021	Magma Technicians Tool Case Plus	Piece		ewt:T001021
+T001022	Bungee Set (Set of 6 Pieces ) - 250mm - 1m	Piece		ewt:T001022
+T001023	Flexible Industrial Ducting - 45mm x 2m	Piece		ewt:T001023
+T001024	DryFan Desiccant Dehumidifier 220v - 12 Litres	Piece		ewt:T001024
+T001025	Fan Heater 9KW Industrial w/2 Heat Settings Jetheat OLY-JH9/3	Piece		ewt:T001025
+T001026	Industrial Heater - Portable - 415V/9kW	Piece		ewt:T001026
+T001027	Electric Fan Heater - 3KW/230V	Piece		ewt:T001027
+T001028	Gebuwin Pulley Man - 600KG	Piece		ewt:T001028
+T001029	50M steel rope for Pulley Man PM600 / PM300	Piece		ewt:T001029
+T001030	Polyester Media Roll Filter - 20 x 1m (Old P/N 4000153)	Piece		ewt:T001030
+T001031	Heat Shrink Kit For Tubing - 3:1 Shrink Ratio	Piece		ewt:T001031
+T001032	Black Bin Bag 90L (for general waste)	Piece		ewt:T001032
+T001033	Clear Bin Bag 90L (for contaminated/turbine waste)	Piece		ewt:T001033
+T001034	Blue Bin Bag 90L (for recyclable waste)	Piece		ewt:T001034
+T001036	Generator Petrol AVR PRAMACLIFT S8000 400V	Piece		ewt:T001036
+T001037	Electric Pump - 60L/min - 230V - EPD60	Piece		ewt:T001037
+T001038	Measuring Jug	Piece		ewt:T001038
+T001039	Test Accessory - 1 Electric & 3 Magnetic Field Probes w/Amplifier & SMA Cable	Piece		ewt:T001039
+T001040	LGX3000-U-W 1" Drive Battery Torque Gun, 500-4067 NM - Hytorc	Set		ewt:T001040
+T001041	Hand Ratcheting Crimp Tool for Tubular Cable Lugs	Piece		ewt:T001041
+T001042	Heavy Duty Splice Connector - Uninsulated - Tin 25 mm² (Pack of 10 units)	Pack		ewt:T001042
+T001043	EMI-NF-PROBE Near Field Probe Set / For Use With EMI-NF-AMP Wideband Amplifier	Piece		ewt:T001043
+T001044	Steel Mounting Bracket	Piece		ewt:T001044
+T001046	Pick and Hook Set	Set		ewt:T001046
+T001047	CRC Cleaner Label Off Super FPS 400 ml	Piece		ewt:T001047
+T001048	Clamp Meter - CM79 AC/DC TRMS	Piece		ewt:T001048
+T001049	Analogue Pressure Gauge G 1/4  250bar - Back Entry 63mm Outside Diameter	Piece		ewt:T001049
+T001050	Nylon Lockout Hasp - 6-Lock	Piece		ewt:T001050
+T001051	Circuit Breaker Switch Lockout - 7.14mm Shackle	Piece		ewt:T001051
+T001052	Fluke Multimeter Soft Case (Series 113-117 & Series 1503/1507)	Piece		ewt:T001052
+T001053	Eye Bolt - M10 Galvanised Steel	Piece		ewt:T001053
+T001054	Gas Soldering Iron Kit	Piece		ewt:T001054
+T001055	Bahco 8-way Control Cabinet Key	Piece		ewt:T001055
+T001056	Rock Salt/De-ice White 25Kg Bag	Piece		ewt:T001056
+T001057	Salt Spreader - HSP50 23Kg	Piece		ewt:T001057
+T001058	Hygrometer - ±3 %RH Accuracy - 100%RH Max	Piece		ewt:T001058
+T001059	Cable Crimper Milwaukee 109 KN Force Logic M18HCCT109/42-522C Hydraulic Cable Crimper	Set		ewt:T001059
+T001060	Chain Hoist 1m - 5.2x15mm EN818-7-DAT	Piece		ewt:T001060
+T001061	Screw Pin Bow Shackle - 2T SWL	Piece		ewt:T001061
+T001062	Round Sling 3T -  60mm x 0.5m	Piece		ewt:T001062
+T001063	Screw Extractor Set (6 Piece)	Piece		ewt:T001063
+T001064	Electric Hydraulic Pump, 3/2 Manual Valve, 230V Enerpac PUJ1200E	Piece		ewt:T001064
+T001065	Flexible Hose Set (2 Pieces) - 1200mm	Set		ewt:T001065
+T001066	Polyurethane Foam Gun	Piece		ewt:T001066
+T001067	Manual Chain Hoist Chain	Piece		ewt:T001067
+T001068	Round Sling 5T - L 2m	-		ewt:T001068
+T001069	Round Sling 4T - L 3m	Piece		ewt:T001069
+T001070	Ring Shell - 732/80.30-30mm	Piece		ewt:T001070
+T001071	Ring Shell - 732/80.32-32mm	Piece		ewt:T001071
+T001072	Multifunction Electrical Terminal Crimping Tool (CU & AL Compatible)	Piece		ewt:T001072
+T001073	Lifting Systems Carabiner	Piece		ewt:T001073
+T001074	EMG Lifting Bag - 4389 29L (25 Kgs) (Back Pack)	Piece		ewt:T001074
+T001075	Norbar Torque Multiplier HT72-27 2000 N.m 1/2" IP 1" OP	Piece		ewt:T001075
+T001076	Impact Square Drive Adaptor Set (8 Piece)	Set		ewt:T001076
+T001077	Two Way Radio/T62 Walkie Talkie	Set		ewt:T001077
+T001078	1/2in. Drive - Bi-Hexagon Impact Socket Set - 10mm - 24mm	Set		ewt:T001078
+T001079	Geocel Sealant Gun - 400ml	Piece		ewt:T001079
+T001080	Oscillating Saw Blade for use with Multi-Cutter (4 Piece) - Makita	Set		ewt:T001080
+T001081	Back Pack Sprayer for part nr 6001574	Piece		ewt:T001081
+T001082	Hand Pressure Pump 50bar	Piece		ewt:T001082
+T001083	Composite Fibreglass Shears - 250mm	Piece		ewt:T001083
+T001084	PP Polypropylene Rope - 220m	Piece		ewt:T001084
+T001085	Ferrule Crimp Terminal Kit  Single, Colour Coded	Piece		ewt:T001085
+T001086	Chain Hoist Remote DSC - Demag	Piece		ewt:T001086
+T001087	Personal Rope Access Kit Rope Bag 47/60 Litre	Piece		ewt:T001087
+T001088	Battery Cartridge Gun for BladeRep LEP 10/400 ml Cartridge - Powerpush 7000	Piece		ewt:T001088
+T001089	Plastic Wet Film Thickness Paint Combs	Piece		ewt:T001089
+T001090	Solder Dispenser 1.2mm	Piece		ewt:T001090
+T001091	Screwdriver Bit Holder - 1/4" 200mm	Piece		ewt:T001091
+T001092	Bit Socket - 1/4" S/D x 1/4" - Hex Bit Holder	Piece		ewt:T001092
+T001093	3/8 to 1/2" - Square Converter	Piece		ewt:T001093
+T001094	Crowfoot Spanner Set - 10 - 24mm (Set of 10)	Set		ewt:T001094
+T001095	Ratcheting Torque Wrench 1/2"  - 40 to 200Nm - Norbar	Piece		ewt:T001095
+T001096	1/4 Analogue Pressure Gauge 250bar Bottom Entry 63mm Outside Diameter - Wika	Piece		ewt:T001096
+T001097	Crimping Die Set, 6mm²-300mm² 13pcs - Klauke R22SET	Set		ewt:T001097
+T001098	Fan Heater 2kW, Floor Mounted, Type G-British 3-pin  plug	Piece		ewt:T001098
+T001099	Web Sling 10T, 300mm, x 10m, Duplex	Piece		ewt:T001099
+T001100	Ferrule Crimp Terminal Kit - Double, Colour Coded	Set		ewt:T001100
+T001101	Adjustable Spanner, 770mm Overall, 85mm Jaw Capacity, Plastic Handle Non-Sparking, Bahco 87	Piece		ewt:T001101
+T001102	Digital Pressure Gauge, E2 Series, 0 TO 700 Bar, SIKA-Type-E2	Piece		ewt:T001102
+T001103	Hand Crimp Tool for Tubular Cable Lugs - 120 → 240mm² Wire	Piece		ewt:T001103
+T001104	Paint Brush Synth 100mm 4", Hamilton Prestige	Piece		
+T001105	ArmaPet GRX-ST Foam Core 100kg/m³ - 15mm	Piece		ewt:T001105
+T001106	ArmaPet GRX-ST Foam Core 100kg/m³ - 20mm	Piece		ewt:T001106
+T001107	Digital Level - Bosch GIM 60 , (Measurement Range: 0-360º, Length: 60 cm)	Piece		ewt:T001107
+T001108	Flexible Hose Set for Makita Grease Gun 191W58-9	Piece		ewt:T001108
+T001109	ArmaPet GRX-ST Foam Core 100kg/m³ - 10mm	Piece		ewt:T001109
+T001110	Commutator Stone Cleaning KLM 40X20X70	Piece		ewt:T001110;senvion:A9BSEN50513
+T001111	Steel Ruler 1m Metric Stasinless - Facom	Piece		ewt:T001111
+T001112	Ratcheting Torque Wrench 1/2", 10 to 50Nm	Piece		ewt:T001112
+T001113	Container Attached Lid - 600X400X400mm - 77L	Piece		ewt:T001113
+T001114	Vacuum Pump with Hose Tail Fitting CC-141	Meters		ewt:T001114
+T001115	Vacuum Pump Oil (for T001114) 1L	Piece		ewt:T001115
+T001116	Vacuum T Piece 6mm OD	Piece		ewt:T001116
+T001117	Torque Multiplier Bar, 1000 ft-lbs. ENERPAC E291	Piece		ewt:T001117
+T001118	Stripe Off Disc with Shank - Power TECv	Piece		ewt:T001118
+T001119	Stainless Steel Scraper  Blade length 31cm, Stanley	Piece		ewt:T001119
+T001120	Gorilla Tub Large 38 Litres, Heavy Duty Flexible Plastic Utility Tub	Piece		ewt:T001120
+T001121	Flap Disc, 115 mm, Fine Grade, P120 Grit 1 Per Pack	Piece		ewt:T001121
+T001122	Suction Lifter 1 Cup , 120 kg, Metal - Stanley	Piece		ewt:T001122
+T001123	Tape Measure Heavy Duty 10m/33ft, Class II Accuracy - Stanley Control-Lock	Piece		ewt:T001123
+T001124	Hygrometer 50 °C, ±3 %RH Accuracy, 60 °C Max, 100 %RH Max - RS PRO-91	Piece		ewt:T001124
+T001125	Safety Knife with Straight Blade Retractable 60 mm - RS PRO	Piece		ewt:T001125
+T001126	Heat Blanket – Capable of >70 degrees – 1100mm x 400mm	Piece		ewt:T001126
+T001127	Drill Bit 5mm, 150mm-Overall, Carbide Tip - Bosh	Piece		ewt:T001127
+T001128	Drill Bit 6.5mm Diameter, High Speed Steel  - Starrett	Piece		ewt:T001128
+T001129	3M Backing Pad, Centre-Pin, Backup Pad for use with Angle Grinder	Piece		ewt:T001129
+T001130	Dustpan Lacquered Shovel  Steel, Spartex	Piece		ewt:T001130
+T001131	Hand Brush Coconut Bristle, 4 Rows, Length - 29cm, Spartex	Piece		ewt:T001131
+T001132	Accu MultiVolt Battery 36V - 4.0Ah /18V - 8.0Ah Li-ion BSL36B18 - Hikoki	Piece		ewt:T001132
+T001133	Mac-Vac Lite H-Type Vacuum (Battery Powered) - Thermac	Set		ewt:T001133
+T001134	Mac-Vac Lite Replacement Battery (for T001133) - Thermac	Piece		ewt:T001134
+T001135	Mac-Vac Lite Flexible Wand (for T001133) - Thermac	Piece		ewt:T001135
+T001136	Manual Grease Filler Pump. Model 638-37549-1	Piece		ewt:T001136
+T001137	Belt Sander 10mm Band File, Brushless Cordless - Bare - Milwaukee	Piece		ewt:T001137
+T001138	3/8 in Drive 6 mm Bit Square, 49.5mm Overall Length	Piece		ewt:T001138
+T001139	Deep Cut Hole Saw 25mm - Starrett	Piece		ewt:T001139
+T001140	Hole Saw Arbor 8.75.. Length Deep, AY1391 - Starett	Piece		ewt:T001140
+T001141	Cylindrical Deburring Tool, 16 mm Carbide, P801 Series - Dormer	Piece		ewt:T001141
+T001142	Drill Extension Bar, Drum Sanding Attachment - DeWalt	Piece		ewt:T001142
+T001143	Threading Tap, M16 Thread, Metric Fine Standard, Hand Tap - Dormer	Set		ewt:T001143
+T001144	M14.5 Drill Bit - Multiple, Minimum HSS Steel	Piece		ewt:T001144
+T001145	M12.5 Drill Bit - Multiple, Minimum HSS Steel	Piece		ewt:T001145
+T001146	Torque Wrench, 10 to 50 Nm, 3/8 in Drive, Square Drive, 327 mm Overall	Piece		ewt:T001146
+T001147	Silicone Profile Tool  (set of 3)	Set		ewt:T001147
+T001148	Bench Vice 30.5mm x 50mm x 35mm, 1 kg	Piece		ewt:T001148
+T001149	Fine Rectangular Honing/Sharpening Stone, 203.2mm x 50.8mm x 25.4mm	Piece		ewt:T001149
+T001150	Elcometer 319 Dew Point Meter, Model S	Piece		ewt:T001150
+T001151	Hot Air Heat Gun, Cordless, DHG181ZJ LXT 550 °C (w/out Battery) - Makita	Piece		ewt:T001151
+T001152	Rotary Vane Anemometer - for Air Temp. and Air Velocity,  25m/s	Piece		ewt:T001152
+T001153	Mac-Vac Lite Ulpa Filters (for T001133) - Thermac	Piece		ewt:T001153
+T001154	EMG Tool Bag - 4626 - 40L (25 Kg)	Piece		ewt:T001154
+T001155	EMG Tall Triangle Insert for Ø35 Bags - 6166	Piece		ewt:T001155
+T001156	EMG Low Triangle Insert for Ø35 Bags - 6180	Piece		ewt:T001156
+T001159	Ratcheting Torque Wrench 1/2"  - 20 to 100Nm - Norbar	Piece		ewt:T001159
+T001160	Velcro Sanding Disc 125mm 120grit (pack of 50) With dust holes	Pack		ewt:T001160
+T001161	Crimped Abrasive Brush, 25mm Diameter (set of 3)	Set		ewt:T001161
+T001162	Fluke 1662 Multifunction Tester  Set - 1000V With Wireless	Set		ewt:T001162
+T001163	EMG Tool Bag - 4270 - 225L (500 Kg)	Piece		ewt:T001157;ewt:T001163
+T001164	Trolley Duffel Bag 85-100L	Piece		ewt:T001164
+T001165	3/4" Drive Impacted Impact Extension Bar Total Length 12" (300mm)	Piece		ewt:T001165
+T001166	Ratchet Insert Tool 735/100	Piece		ewt:T001166
+T001167	Heavy Duty Splice Connector - Uninsulated - Tin 50 mm² (Pack of 10 units)	Pack		ewt:T001167
+T002000	FC Crafter Van Tool Kit - Complete	Kit		ewt:T002000
+T002001	FC Small Van Tool Kit - Complete	Kit		ewt:T002001
+T002002	FC Enercon Van Tool Kit - Complete	Kit		ewt:T002002
+T002003	FC FN24 PYO Tool Kit	Kit		ewt:T002003
+T002004	FC Senvion Van Tool Kit - Complete	Set		ewt:T002004
+T142989	Fein Multitalent AMM 500 Cordless Multi-Cutter Tool	Set		ewt:T142989
+T15768	Crimp Tool for Han-Yellock Connector Contacts, Han E Connector Contacts, Han D Connector Contacts, Harting	Piece		ewt:T15768
+T1741740	Insertion Tool, Han D, Han E, Han-Yellock Series, Crimp Contact, Insertion Tool Contact - Harting	Piece		ewt:T1741740
+T18257	Mounting Tool HARTING, Type 41612 Connector 09990000059	Piece		ewt:T18257
+T18258	Crimp Extraction Tool, Removal Tool, Contact size 0.14 to 4 mm² Harting	Piece		ewt:T18258
+T6873	Crimp Extraction Tool, Removal Tool for Crimp Contacts, Harting	Piece		ewt:T6873
+T8430257	Removal Tool, Han D Series 1 Way, For Use With Crimp Contact - Harting	Piece		ewt:T8430257

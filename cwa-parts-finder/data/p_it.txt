@@ -1,0 +1,20 @@
+IT-0001	DEIF 4G Router with SCADA access at Enercon turbines with CS48 and CS82 cards (Old P/N 4000031)	Piece		ewt:IT-0001
+IT-0002	DEIF Cloud access - Software as a Service + Engineering support (Old P/N 4000032)	Piece		ewt:IT-0002
+IT-0003	Enercon on-site protocol enabler (IPC based) - Emerson (Old P/N 4000033)	Piece		ewt:IT-0003
+IT-0004	MiScout 1MW generation license - Emerson	Piece		ewt:IT-0004
+IT-0005	Ubiquiti Unifi Dream Machine Router - UDM-SE (Old P/N 4000047)	Piece		ewt:IT-0005
+IT-0006	MiScout 25 user license - Emerson	Piece		ewt:IT-0006
+IT-0007	Helix HX310 Intel Elkhart Lake Industrial Edge Computer HX310 OnLogic	Piece		ewt:IT-0007
+IT-0008	Ubiquiti UniFi Dream Machine Special Edition (180W) | UDM-SE	Piece		ewt:IT-0008
+IT-0009	Ubiquiti UniFi 6 In-Wall WiFi 6 Access Point | U6-IW	Piece		ewt:IT-0009
+IT-0010	Ubiquiti SFP Multimode Fibre-Optic Transceiver Twin Pack	Set		ewt:IT-0010
+IT-0011	Teltonika RUT976 5G/4G Mobile Broadband Router / Firewall	Piece		ewt:IT-0011
+IT-0012	Teltonika PR2 Power Cable	Piece		ewt:IT-0012
+IT-0013	Teltonika Steel DIN Rail Mount for RUT series Router / Firewall	Piece		ewt:IT-0013
+IT-0014	Teltonika RUT142 Ethernet Router with RS232 Serial Converter	Piece		ewt:IT-0014
+IT-0015	Teltonika TSW202 8 port Managed Ethernet Switch with PoE+	Piece		ewt:IT-0015
+IT-0016	Teltonika NTP001 - NTP Server. RJ45 - RS232/RS485 & I/Os	Piece		ewt:IT-0016
+IT-0017	2U DIN Rail Mounting Kit for 19in Rack Cabinet, Exsys	Piece		ewt:IT-0017
+IT-0018	Cogent DataHub v.11 OPC UA Tunneller (COG11 – DHTUNUA) Perpetual Licence	Piece		ewt:IT-0018
+IT-0019	Teltonika SWM280 Managed PoE+ Rackmount Ethernet Switch	Piece		ewt:IT-0019
+IT-0020	Teltonika BAT120 12V Uninterruptible Power Supply	Piece		ewt:IT-0020

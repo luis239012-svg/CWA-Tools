@@ -1,0 +1,1996 @@
+100 002 10001	Auxiliary switch CA5-10, 1NO	Piece		
+100 002 10052	Contactor EH550 230V/50Hz	Piece		
+100 002 10058	Contactor A9-30-10 230 VAC	Piece		
+100 002 10059	Contactor A26-30-10 230 VAC/50Hz	Piece		
+100 002 10062	Interface relay f. contactor A9-A110	Piece		
+100 002 10072	Contactor EH800 230V/50Hz	Piece		
+100 002 10073	Contactor A16-30-10 230V/50Hz	Piece		
+100 002 10074	Contactor  A40-30-10 230V/50Hz	Piece		
+100 002 10086	Circuit breaker S7H, Q8 V80-V90	Piece		
+100 002 10102	Circuit breaker S6H630	Piece		
+100 002 10116	Auxiliary switch CA5-01, 1-pole	Piece		
+100 002 10122	Circuit breaker S5H, Q7 V66-V90	Piece		
+100 002 10163	circuit breaker S6N, Q8 V52	Piece		
+100 002 10178	Contactor AF265-30-22-13	Piece		
+100 002 10575	Circuit breaker S2S Q16	Piece		
+100 002 10657	Circuit breaker Tmax T4 Q15	Piece		
+100 007 10117	Postfilling sentences Silicagel	Stk		
+100 009 11118	Contactor UA75-30-00-R 230V 50/60	Piece		
+100 023 10031	Fuse NH 000 690V 80A	Piece		
+100 023 10076	Battery backup for Vestas-Controller Battery AA -	Stk		
+100 036 10001	Cooling liquid mixed 52Vol.% -40°C Clariant Antifrogen N	ltr		
+100 041 10128	Battery backup aviation light	Stk		
+100 041 10167	Relay Izumi RH1B-U 24VDC IDEC	Stk		
+100 054 10105	protective hose hollowshaft V66-V90	Piece		
+100 070 10022	Cooling liquid VCS 50Vol.% -40°C Orange	ltr		
+100 077 10026	pump unit gear oilV80/90 electric	Piece		
+100 077 10027	pump unit gear oil V66-V80 electric	Piece		
+100 077 10049	Oil pump unit QPM40; V52 Mk1-4	Piece		
+100 083 10001	Oil suction pad / PIG Brown	Stk		
+100 084 10002	Capacitor 690V 12,5 kVAr	Piece		
+100 084 10003	Capacitor 690V 25 kVAr MKK690-D	Piece		
+100 084 10005	EMC-Filter 3 x 90A 480/275V	Piece		
+100 087 10007	relay base 11pol Schrack MT78740	Piece		
+100 087 10032	Capacitor transformer fan V66-V90	Piece		
+100 099 10010	Skiip-Pack CTV Standard V66 - V90	Piece		
+100 099 10011	Skiip-Pack CTVU Standard V66 - V90	Piece		
+100 099 10012	Skiip-Pack Grid AGO2 V66 - V90	Piece		
+100 099 10013	Skiip-Pack Rotor AGO2 V66 - V90	Piece		
+100 099 10020	Hydraulic cylinder Pitch V52	Piece		
+100 099 10021	Hydraulic cylinder Pitch V39-V47	Piece		
+100 099 10023	Skiip-Pack Rotor/Rotor standard	Piece		
+100 099 10024	Skiip-Pack Grid/Rotor standard	Piece		
+100 099 10039	gasket for US-Windsensor FT	Piece		
+100 099 10061	fan wheel gear oil cooler V42-V90	Piece		
+100 099 10102	Flex. exhaust hose f. oil cooler V39-V47	Piece		
+100 099 10104	Flex. exhaust generator	Piece		
+100 099 10105	Flex. exhaust hose f. generator	Piece		
+100 099 10106	Flex. exhaust hose f.  generator V39-V47	Piece		
+100 099 10326	Flex. exhaust hose f. slipring	Piece		
+100 099 10616	Sensor inductive Vestas Rotor/VOG	Piece		
+100 099 10620	sensor inductive fork 18mm for V52	Piece		
+100 099 10686	cable arcnet hollowshaft V66-V90	Piece		
+100 099 11081	waterpump danfos	Piece		
+100 099 11288	Contactor EH1200 230V/50Hz	Piece		
+100 138 10031	Grease container blade bearing V39-V90	Stk		
+100 154 10005	waterpump Grundfos Magna 32	Piece		
+100 189 10027	slipring 3 lane generator	Piece		
+100 238 10005	cable 5x4mm²  hollowshaft V66-V90	Piece		
+100 263 10006	fan radial230VAC trafo T53 V66-V90	Piece		
+100 276 10001	Transformer VCS T54c	Piece		
+100 305 10001	Sintered brake lining w. thermistor	Piece		
+100 309 10001	brake caliper disc Brembo side	Piece		
+100 309 10002	brake caliper disc Brembo top	Piece		
+100 322 10005	pump gear oil mech. V47 Hansen	Piece		
+100 371 10001	Hydraulic cylinder Pitch V66	Piece		
+100 376 10018	Flex. exhaust hose f. oil cooler V66-V90	Piece		
+100 376 10021	Flex. exhaust hose f. oil cooler V80	Piece		
+100 439 10015	hydr. Pump set	Piece		
+100 439 10019	hydraulic pump set	Piece		
+100 608 10003	Sintered brake lining w/o thermistor	Piece		
+101003	Int. vent. Cont. A2D 300-AP06-XB Ebm	Piece		
+101081	IGBT module, SKIIP Rotor – Rotor 2 x 942 GB120 Semikron Stan	Piece		
+101082	IGBT module, SKIIP Rotor – Grid 942 GB120 + 342 GD120 Semikr	Piece		
+101083	Grid SKiiPPACK 942GB120-317CTV SEMIKRON	Piece		
+101084	Grid SKiiPPACK 942GB120-317CTVU SEMIKRON	Piece		
+101101	External rotor resistors 0.22 Y/0.66 SAN, Jevi	Piece		
+101103	Electromotor MEZ80-4-0,75KW	Piece		
+101119	Elec. motor 1.1/3x690/50/B14	Piece		
+101156	MOTOR ELECTRIC 0,18/0,21UL	Piece		
+101171	PUMP UNIT, PX055-B	Piece		
+101178	MOTOR/DRIVE COMBI 7.5KW UL EMC	Piece		
+101180	Motor, gear oil pump Motor 3 kW 690 From Mk	Piece		
+101302	HYDR.VALVE PRESS RELIEF	Piece		
+101303	PRESSURE SWITCH 5-55 BAR	Piece		
+101304	VALVE NON -RETURN 0,4-0,5 BAR	Piece		
+1020712	DRAFT-v4	Piece		
+103198	PT 100 SENSOR	Piece		
+1032141	Datasheet/drawing on file	Piece		
+1032142	Datasheet/drawing on file	Piece		
+103565	O-SEAL 3RD STAGE	Piece		
+103713	PUMP. CARRIER	Piece		
+103743	FILTER 60MY	Piece		
+103808	HYDR.AD.ACCUM.2,0/100/30	Piece		
+103809	HYDR.AD.ACCUM.0,16/250/25	Piece		
+103819	GREASE PUMP F. BLADE BEARINGS	Piece		
+103867	GREASE LUBRIC PUMP FOR 3MW MK9	Piece		
+103978	Motor, gear oil pump 2.2 GR45-SMT16B	Piece		
+103979	Motor, gear oil pump 2.2 GR45-SMT16B Dani – 60 Hz	Piece		
+103988	Gear oil pump 1,5kW 1440omdr	Piece		
+104067	PUMP UPS 50-180 F 280, 50HZ	Piece		
+104082	Motor, gear oil pump GR45-SMT16B V80	Piece		
+105103	THROTTEL VAVLE NFCC-LCN A40122	Piece		
+105113	HYDRAULIC HOSE	Piece		enercon:18865
+105115	DIFF. PRESSURE INDICATOR	Piece		
+105116	4/2 DIRECTION VALVE	Piece		
+105117	VALVE CHECK	Piece		
+105118	RELIEF VALVE 276 BAR	Piece		
+105120	RELIEF VALVE 260 BAR	Piece		
+105128	HYDRAULIC HOSE	Piece		enercon:18865
+105130	HYDRAULIC HOSE	Piece		enercon:18865
+105132	DIFFERENS TRYKINDIKATIOR	Piece		
+105135	CHECK VALVE 0,2 BAR	Piece		
+105137	HYDRAULIC HOSE	Piece		enercon:18865
+105138	HYDRAULIC HOSE	Piece		enercon:18865
+105139	HYDRAULIC HOSE	Piece		enercon:18865
+105141	PUMP, 40 L /MIN	Piece		
+105161	PROPORTIONAL VALVE	Piece		
+105173	LEVEL SWITCH V=350 & PT 100	Piece		
+105174	SEALING RING FOR OFFLINE PUMP	Piece		
+105203	BALL BEARING 6336 MC4 LS	Piece		
+105213	FITTING SCREW SPRING LOAD	Piece		
+105249	GEN BEARING LS W LOCK NUT	Piece		
+105267	PT100 FOR BEARING TEMP.	Piece		
+105601	HUDR PUMP VAR 45CC	Piece		
+105602	ELEC MOTOR 22KW UL	Piece		
+105619	HYDR VAL BKHU20-KOMBI	Piece		
+105632	HYDR MAGNET GZ37-4 24	Piece		
+105640	HYDR PRES FLOW VALVE	Piece		
+106426	Ultrasonic sensor US-2D 4.3800.00.340 Thies Clima Discontinu	Piece		
+106427	Ultrasonic wind sensor CT341	Piece		
+106428	Wind Sensor Ultrasonic FT702LT FT Technologies Ltd Introduce	Piece		
+106429	RUBBER GASKET FOR FT SENSOR	Piece		
+106630	Fog detector	Piece		
+106631	Fog horn 2 NM	Piece		
+107036	BLADE BEA. Ø2120 X Ø1697 X 250	Piece		
+107080	Prolim PL20/13 690 V	Piece		
+107691	Hoisting w inch/110V-60Hz (125kg)	Piece		
+107692	Hoisting winch/230V-50Hz (125kg) BAU-LIFTKET	Piece		
+107698	Hoisting winch/690V-50Hz BAU-LIFTKET	Piece		
+107705	Crane, 800 kg chain B4.2 800/1-10	Piece		
+107707	Crane, 800 kg chain 690 B4.2 500/1-12	Piece		
+107713	CRANE 800 KG, 3X 400V-50HZ	Piece		
+108071	O-RING 97,8X3,53 W.BACKUP RING	Piece		
+1082035	R04 to MORGAN REKOFA	Piece		
+108234	O-RING Ø189,9 X 5,33 VITON	Piece		
+108321	O-RING STRING Ø4,5 NBR 70SHORE A	Piece		
+108334	FILTER HIGH PRESSURE	Piece		
+108342	DODP-LBN	Piece		
+108352	CVGV-XCN KONTRAVENTIL	Piece		
+108365	MEASURE NIPPEL AB20-11/K1	Piece		
+108598	HYDR CYL 125/85 X 760	Piece		
+108917	HOLDER FOR PIPE C5 Ø26.9	Piece		
+108922	HOLD.F.PIPE,SING.HOSE Ø38 6.38	Piece		
+108924	HOLDER F. PIPE,Ø30 SINGLE 5.30	Piece		
+108938	HOLDER FOR PIPE CB4+BG Ø15	Piece		
+108965	HOLDER FOR PIPE Ø20 4.20	Piece		
+109001	OIL GAUGE AB31-20	Piece		
+109021	Cooling water level C. Lausten Biler A/S	Piece		
+109025	Level sensor, VRCC- EVS311-20012	Piece		
+109040	Filter indicator. Electric. Mahle 763,655,0 Danfoss V66 / V8	Piece		
+109084	BREATH.FILTER MAHL PI0121 SM-L	Piece		
+109090	Oil level sensor hydraulic Gems LS600-150-NO-10 Berendsen PM	Piece		
+109102	Pt-100 sensors, hydraulic oil ½” RG, L = 200 mm Berendsen PM	Piece		
+109109	Solenoid valve emerg. feathering Vick. CVUA-6-PDN-3-MUH-10 B	Piece		
+109152	Level switch, gear oil Kobold Hansen V66	Piece		
+109155	Pressure switch, brake accumulator Hydropa DS302/F-55/SS Ber	Piece		
+109156	Pressure switch, brake Hydropa DS 302/F-55/SS Berendsen	Piece		
+109180	Leak oil indicator Vegaswing InstTech	Piece		
+109185	Pressure switch , offline Layer FS10119 CCJ V66 / V80	Piece		
+109230	Rail transceiver RT2 (option)	Piece		
+109241	Ice detected LID 3201B (option)	Piece		
+109251	Humidity sensor HMP 243 (option)	Piece		
+109368	BALL VALVE 3/4"	Piece		siemens:A9B10059325
+109436	GASKET 107X61 MM	Piece		
+109443	FLOW REGULATOR 2", V=8630L/H	Piece		
+109537	Analog pressure transducer hyd. Danfoss MBS 33 Berendsen	Piece		
+109573	Trip coil for Uniswitch	Piece		
+109596	Solenoid valve, emerg. feathering Vick. CVUA-6-PDN-3-MUH-10	Piece		
+109654	PRESS. SENSOR IFM 0-10 BAR	Piece		
+109751	PITCH BLOCK, 3MW	Piece		
+109821	HYDR.PUMP U.,HANSA GL290-20	Piece		
+109823	CALIBRE, TOP MOUNTED	Piece		
+109827	CALIBRE, SIDE MOUNTED	Piece		
+109953	Motor, Water TP 32-120 Grundfos	Piece		
+109959	Water pump UPS 25-55 Grundfoss	Piece		
+109967	Cirkula Pump TP32- TP32-80,60 Hz Grundfos Only	Piece		
+109986	pump M240	Piece		
+111065	HYDR ACCU 20L 85BAR DUAL	Piece		
+111066	HYDR ACCU 20L 85BAR AS1210	Piece		
+111067	HYDR ACCU 20L 85BAR JIS	Piece		
+114214	Thermostat, hub cont for Eberle RTR6122, 5- JD 5°C	Piece		
+114219	Thermostat, top controller 0° EBERLE type 6704 J. D. Fridric	Piece		
+114248	Inductive sensor, M18 PNP, EI 1805	Piece		
+114257	Inductive sensor, rotor EI3010 PP0SS1638	Piece		
+114264	Inductive sensor, generator DU 10, EP, PNP	Piece		
+114265	Temperature sensor, ambient Pt100 w. shield	Piece		
+114266	Linear transducer BTL5-A11 0580-B- Balluff V66	Piece		
+114270	ETR temp. sensor ETR 61A	Piece		
+114279	Temperature sensor, ambient Pt100	Piece		
+114289	Temperature sensor to E940 NTC 4.7k-A25 Promax	Piece		
+114295	Linear transducer BTL-A10-0500-B-SA56-S32 LJM/Balluff	Piece		
+114299	Temperature sensor, Pt-100, plögner Hansen V66	Piece		
+114332	Time relay, computer cut out SB 125 724, 8-180 sec.	Piece		
+114369	Power relay 3CO-16A 24 Vdc	Piece		
+114373	Undervoltage relay CM-ESS.1	Piece		
+114377	Relay, contactor coils G2R-1-S 24 V Omron (option)	Piece		
+114379	Relay, manual emerg. G7SA-5A1B, 24 Omron	Piece		
+114441	Timer, turbine DMB51 CM24 0.1 s-	Piece		
+114445	Thermostat, hub cont KTO Stego 5°C	Piece		
+114447	Thermostat, hub cont. KTS Stego	Piece		
+114453	PT100 SENSOR HS SHAFT ROTOR SIDE	Piece		
+114454	PT100 SENSOR HS SHAFT ROTOR SIDE	Piece		
+114455	PT100 SENSOR IM SHAFT	Piece		
+114460	PT 100 SENSOR MANIFOLD	Piece		
+114474	Time relay CT-MFE	Piece		
+114476	Temp. Diff. relay ST115	Piece		
+114477	Temp. relay (box A18- ST185-230 Offshore	Piece		
+114478	Timer Combitimer S117 166 920	Piece		
+114685	Optical single mode 3 (option)	Piece		
+114686	Optical multi mode 2 pair (option)	Piece		
+114701	PT100 thermo res. cooling water 90810-F30 JUMO	Piece		
+114724	PT100180-5-7M-SA	Piece		
+114855	Vibration sensor WLNJ-S2-G OMRON	Piece		
+114941	Inductive sensor, nacelle M18 PNP, EI1805	Piece		
+114952	Inductive sensor, M30 MI1- Balluff	Piece		
+115227	EL MOTOR AEG, AM112MZ4 with	Piece		
+115232	Ventilator motor, 50Hz MT 90L-2/4 MK110301-B	Piece		
+115235	Motor, nacelle ventilator MT90S, 1.5 kW,690	Piece		
+115253	Ventilator motor, 60Hz	Piece		
+115254	Yaw motor, 60Hz	Piece		
+115257	Yaw motor, 50Hz MT 100L28F130-6 MK110111-D	Piece		
+115259	Hydraulic motor 60Hz	Piece		
+115265	Motor, nacelle ventilator 3 kW – 690 V	Piece		
+115271	EL.MOTOR ABB 4.0KW 600VY 50HZ	Piece		
+115276	Actuator, trafo air inlet	Piece		
+115278	Yaw motor, 2.2 kW, 2103955	Piece		
+115284	Motor for trafo damper	Piece		
+115285	ACTUATOR 500N 130MM	Piece		
+115287	ACTUATOR 500N 20MM	Piece		
+115301	Motor 230 V 50 Hz 0.55 kW (option)	Piece		
+115413	YAW GEAR V90 PG1604	Piece		
+115451	WORM GEAR I=80	Piece		
+115691	GAS CYL.SPR.19-200-505-100-WG	Piece		
+115775	Pressostat, emerg. Hydropa DS112- Berendsen V80	Piece		
+115779	BRAKE PAD, W. WEAR INDICATOR	Piece		
+115780	BRAKE PAD W. THERMISTOR	Piece		
+115889	DEHUMIDIFIER F. WINDTURB.TOWER	Piece		
+116180	Pressure switch, gear oil MBC 5000-1011 Danfoss V66 / V80	Piece		
+116182	PRES SWITCH 0.5, IFM PP 7126 KPS-31 1/4” Danfoss	Piece		
+116246	Socket for D349	Piece		
+116253	Emerg. stop relay, contactor coil	Piece		
+116262	Relay, communication sw itch	Piece		
+116265	Relay, water pump	Piece		
+116270	Relay, Start/stop ventilator, ground	Piece		
+116280	Relay, smoke detector	Piece		
+116292	Relay, trip HV-circuit	Piece		
+116323	Switch, communication ZB2-BJ294 Telemecanique Option	Piece		
+116328	Man. start NO – ZBE 101	Piece		
+116330	Emergency stop button, top panel ZB 2B S54 75 17 613 349 Tel	Piece		
+116335	Switch light, hub 901-000 1-P Brodersen	Piece		
+116359	RCS-local, setting local (option)	Piece		
+116361	Emergency stop button, gear XAL-J174 75 17 110 428 Telemecan	Piece		
+116546	Circuit breaker S261 D10, 1 pole	Piece		
+116573	Circuit breaker S281 D13	Piece		
+116594	Circuit breaker if S273 C16, 3 pole	Piece		
+116607	Circuit breaker S271 K32	Piece		
+116608	Automatic fuse, processor supply S261-B13	Piece		
+116611	Circuit breaker, battery	Piece		
+116612	Automatic fuse, aux. Supply STOTZ S261 C2	Piece		
+116615	Circuit breaker S261 C10	Piece		
+116617	Automatic fuse, contactor coils STOTZ S261 B10	Piece		
+116619	Automatic fuse, light/socket top STOTZ S261 B16	Piece		
+116657	Inductive sensor, generator M18 PNP, EI 1805	Piece		
+116663	Motor trafo vent. EBM MP80020061 Jenk’s eftf. option	Piece		
+116702	Motor trafo vent. D2E097-BK66-G3 Jenk’s eftf. Option IP44	Piece		
+116765	Rectifier aux. supply	Piece		
+116769	Rectifier, hydraulic KBPC15-06	Piece		
+116810	Transformer 690/230V TA-4 4 kVA (50 Hz)	Piece		
+116883	Grid choke 3x0.4 mH 300A/300A Jacke	Piece		
+116885	Choke 1.32 mH 60 Hz	Piece		
+117040	Circuit breaker ISOMAX S3X 125 3P	Piece		
+117041	Circuit breaker ISOMAX S3X 125 3P	Piece		
+117043	Circuit breaker Sace E-max E2N-	Piece		
+117047	Circuit breaker Isomax, S7H-1600 3P	Piece		
+117048	Circuit breaker, generator (60Hz) Isomax, S7S 1200, LSIG	Piece		
+117049	Circuit breaker, generator (50 Hz) Isomax, S6N 630, LSIG	Piece		
+117051	Circuit breaker, control current Isomax, S3N 160	Piece		
+117054	Circuit breaker Isomax S2S R160	Piece		
+117055	Circuit breaker Isomax S5H-400 3P	Piece		
+117056	Circuit breaker, generator (50 Hz) Isomax, S6N 800, LSIG	Piece		
+117057	Circuit breaker Isomax S2X 80 3p	Piece		
+117059	Circuit breaker, de- Isomax S5H400	Piece		
+117062	Circuit Break. S5H-400 Isomax S5H-400 3P Option	Piece		
+117063	Electronic release PR 212/P LSIG	Piece		
+117066	Circuit breaker w	Piece		
+117067	Circuit breaker Isomax, S7H-1600 3P	Piece		
+117077	Motor Drive F. ISOMAX Option	Piece		
+117078	MOTORDR. TO Isomax S2S R160 Option	Piece		
+117080	Short circuit protection Prolim PL20/13	Piece		
+117081	Short circuit protection Prolim PLM20-C	Piece		
+117615	GREASE COLLECTING BAG	Piece		
+119110	GASKET EF901 HS STAGE	Piece		
+119118	V90 GEAR EF901E+ 50HZ L:104,6	Piece		
+119142	HS STAGE EF901E 1:104,6	Piece		
+120 019 10002	Gearoil Castrol Tribol 1710 VG 320	ltr		
+120 019 10003	Hydrauliköl Castrol Hyspin HVI 32	ltr		
+120 019 10007	Grease Castrol Optimol optipit, 400g	Stk		
+120 019 10009	Gearoi lCastrol Alphasyn PG 320	ltr		
+120 037 10001	grease Bechem GKN HTBJ, 120g.	Stk		
+120 037 10002	grease Bechem GKN HTBJ, 400g.	Stk		
+120 054 10005	Grease SKF LGWM1, 400 gr	Stk		
+120 059 10002	Grease Klüberplex BEM41-132, 400g	Stk		
+120 059 10004	Grease Klüberplex BEM 41-141,  370g	Stk		
+120 059 10006	Grease Klüberplex AG 11-462, 450g	Stk		
+120 059 10007	Grease Klüberplex AG11-462, 1kg	DS		
+120 070 10006	Gearoil Mobil Mobilgear SHC XMP 320	ltr		
+120 070 10008	Gearoil Shell Omala S4 WE 320	ltr		
+120 070 10015	Hydrauliköl Mobil DTE 10 Excel 15	ltr		
+120 070 10017	hydr. oil Texaco Rando WM 32 V44-V90	ltr		
+120 070 10018	Gearoil Texaco Meropa 320	ltr		
+120 070 10020	grease Shell Rhodina BBZ, 400g	Stk		
+120 070 10021	grease Texaco Starplex EP2, 400g	Stk		
+120 070 10023	Grease Shell Gadus S5 T460 1.5. 400g	Stk		
+120 290 10005	Grease cartridge 5kg SKF LGWM1	Stk		
+120 290 10020	Grease cartridge 5kg Shell	Stk		
+130483	ROTATING UNION V90, 3,0MW	Piece		
+130515	FILTER ELEMENT MAHLE PI22040	Piece		
+130516	3MY DIN 24550 SIZE 1000	Piece		
+130537	FILTER SIZE 1000 6MY DIN 24550	Piece		
+130539	FILTER SIZE 1000 10MY,DIN24550	Piece		
+130549	Pressure switch, filter Berendsen	Piece		
+130558	Diff. pressure filter, hub Mahle Pi 3430-13 Berendsen V80	Piece		
+131028	Pressostat, gear oil cooling KPS-31 1/4” Danfoss	Piece		
+131035	SOLENO.VALVE SV13-12-C-0-24DGH	Piece		
+131036	Solenoid valve, emerg. feathering Vick. CVUA-6-PDN-3- Berend	Piece		
+131084	CHECK VALVE CV3-10-P-0-3	Piece		
+131301	CHECK VALVE CV11-12-P-0-2.5	Piece		
+131325	Solenoid, disc brake Hydro Technik V80	Piece		
+131513	SLIDE BEARING BPV-0131 SPEC.	Piece		
+131947	HIGHPRES. HOSE Ø8,6X2,3 L=4650	Piece		
+132380	REDUCTION PG-13PG9 BRASS	Piece		
+132512	BONDED SEALS 2"BSP	Piece		
+134011	DISC.NORDLOCK.NL8SSSP	Piece		
+140 011 10014	sensor inductive fork 18mm for V27-V47	Piece		
+140 011 10015	Sensor inductive 18mm with cable	Piece		
+140 099 10002	CT 3364 External Supply 24VDC	Piece		
+140 099 10003	CT 3363 External Supply 24VDC	Piece		
+140 099 10004	CT 3354 Internal Supply 5VDC	Piece		
+140 099 10005	CT 3357 Internal Supply 5VDC	Piece		
+140 099 10006	CT 3133 DC Input	Piece		
+140 099 10007	CT 3153 DC Output	Piece		
+140 099 10008	CT 3513 ArcNet Module	Piece		
+140 099 10009	CT 3503 processor in exchange	Piece		
+140 099 10010	CT 3409 Rack  for 9 module in exchange	Piece		
+140 099 10011	CT 3415 Rack 15er in exchange	Piece		
+140 099 10012	CT 3251 Power Control	Piece		
+140 099 10014	CT 3514 ArcNet Module	Piece		
+140 099 10015	CT 3232 Analog Output	Piece		
+140 099 10016	CT 3218 Intelligent I/O V27-V63	Piece		
+140 099 10017	CT 3220 Analog Input GFFC	Piece		
+140 099 10018	CT 3218 Intelligent I/O V66VCS -V90	Piece		
+140 099 10019	CT 3252 ArcNet Interface	Piece		
+140 099 10020	CT 217 Watchdog in exchange	Piece		
+140 099 10021	CT 279 VOG in exchange	Piece		
+140 099 10031	prop valve pitch V39-V66	Piece		
+140 099 10032	prop valve pitch V80/90-2.0 Mk1-Mk7	Piece		
+140 099 10034	CT 3614 ArcNet Module/Optic RS422	Piece		
+140 099 10035	CT 3613 ArcNet/Twisted Pair	Piece		
+140 099 10037	CT 291.01 Intergated Terminal	Piece		
+140 099 10038	US-windsensor V66-V80 FT702LT	Piece		
+140 099 10039	Thermostat PTS5	Piece		
+140 099 10040	CT 3220 Analog Input HFFC	Piece		
+140 099 10041	CT 3220 Analog Input FFFC	Piece		
+140 099 10049	CT 3220 Analog Input G	Piece		
+140 099 10050	CT 3220 Analog Input FFFF	Piece		
+140 099 10051	CT 3220 Analog Input BBFF	Piece		
+140 099 10053	CT 3601 Prozessor	Piece		
+140 099 10058	CT 3234 Quad Analog Output	Piece		
+140 099 10060	Skiip-Pack Grid/Rotor V52 AGO 2	Piece		
+140 099 10061	Skiip-Pack Rotor/Rotor V52 AGO 2	Piece		
+140 099 10066	VCP-Board only for AGO2 V66-V90 318.14	Piece		
+140 099 10067	wind vane V39-V47	Piece		
+140 099 10076	CT 227 measering module V27-V66	Piece		
+140 099 10080	anemomete V39-V66 kompl.	Piece		
+140 099 10082	battery cover	Piece		
+140 099 10098	CT 368 EMC-Board	Piece		
+140 099 10099	CT 5601 24V- Rack-Supply	Piece		
+140 099 10101	CT 228 Thyristor Driver im	Piece		
+140 099 10103	temp.sensor anemom./windv.heat.V39-47	Piece		
+140 099 10104	heating element anemometer windsensor	Piece		
+140 136 10020	CT 291.02 Intergated Terminal	Piece		
+140 136 10021	VCP-board for standart V52	Piece		
+140 136 10032	thyristor V39 - V66RCC small generator	Piece		
+140 235 10003	way sensor pitch cylinder V66	Piece		
+140 235 10004	way sensor pitch cylinder V52	Piece		
+140 235 10005	way sensor pitch cylinder V39 - V47	Piece		
+140 235 10006	sensor inductive 30mm Vestas rotor/VOG	Piece		
+140 329 10001	CT 341 VUSW	Piece		
+14217	R1	Piece		
+144201	OVP shunt resistor 1 mΩ	Piece		
+149022	AUTOLUBE PERMA12,TEXACO STARPL	Piece		
+149053	TECTYL SPRAY CHESTERTON H/D	Piece		
+149116	TEXACO WAY LUBRICANT X320	Piece		
+149250	BREATH.PLUG F.AIR FILTER HOUS.	Piece		
+150859	HEX COUN.SC M12X35 A4 TUFTLOCK	Piece		
+150925	HEX SOC.H.SCR.M 6X 16 A4-70	Piece		
+150941	HEX COUN.SCR. M 8X30 A4-70	Piece		
+151020	HEX SOC.H.SCR.M 5X 8 A4-70	Piece		
+151033	HEX COUN.SCR. M 8X 20 A4-70	Piece		
+151047	HEX SOC.H.SCR.M 6X 70 A4-70	Piece		
+151054	HEX. SOC. H. SCR. M6X80 A4-70	Piece		
+151171	CYL.SKR.INSEX M16X180 10.9 DEL	Piece		
+151444	HEX SOC.H.SCR.M 8X 20 A4-70	Piece		
+151445	HEX SOC.H.SCR.M 8X 25 A4-70	Piece		
+151465	HEX SOC.H.SCR.M 6X 35 A4-70	Piece		
+151466	HEX SOC.H.SCR.M 6X 12 A4-70	Piece		
+151467	HEX SOC.H.SCR.M 6X 40 A4-70	Piece		
+151468	HEX SOC.H.SCR.M 6X 45 A4-70	Piece		
+151472	HEX SOC.H.SCR.M 6X 60 A4-70	Piece		
+151492	CYL.SKR.INSEX M12X 100 A4-70	Piece		
+151494	CYL.SKR.INSEX M12X 130 A4-70	Piece		
+151571	HEX SOC.SET.SCR.C M 3X 5 45H	Piece		
+151588	HEX SOC.SET.SCR M 4X 6 DELTA	Piece		
+152097	HEXBOLT M12X55 8.8U TZN	Piece		
+152193	HEXBOLT M 8X35 8.8U TZN	Piece		
+152210	HEX BOLT M10 X 45 8.8 TZN	Piece		
+152233	HEX BOLT M16X 65 8.8 TZN	Piece		
+152235	BOLT ISO 4014 - M10 x 70 - 8.8U - TZN	Piece		
+152340	HEXBOLT M24X160 8.8U TZN	Piece		
+152416	HEX SOC.H.SCR.M14X180 10.9 DEL	Piece		
+152430	6-KT SKR. M20X 50 10.9 DT-DSGZ	Piece		
+152496	HEXSCR. M12X30 8.8U TZN	Piece		
+152976	HEX BOLT M12X 75 8.8 TZN	Piece		
+152986	HEXBOLT M20X100 8.8U TZN	Piece		
+153103	BLT HEX M4X6 A4-70	Piece		
+153141	HEXSCR. M 8X20 8.8U TZN	Piece		
+153178	HEXSCR. M 8X30 8.8U TZN	Piece		
+153184	HEXSCR. M 8X25 8.8U TZN	Piece		
+153189	HEX SCR. M12X 25 8.8 TZN	Piece		
+153257	HEX SOC.SET.SCR.C. M 5X 10 GZN	Piece		
+153302	HEX. SCR. M6X20 8.8U TZN	Piece		
+153314	HEXSCR. M12X60 8.8U TZN	Piece		
+153397	HEXSCR. M10X30 8.8U TZN	Piece		
+153613	HEXSCR. M 8X35 8.8U TZN	Piece		
+154199	HEXBOLT M10X40 8.8U TZN	Piece		
+154263	HEX G-SCR. M6X16 8.8 TZN	Piece		
+154415	HEXSCR. M16X40 8.8U TZN	Piece		
+155372	HEX SCR. M 8X 20 A4-70	Piece		
+155374	SETSCREW M 8X 25 A4-70	Piece		
+155379	HEX SCR. M 6X 20 A4-70	Piece		
+155381	HEX SCR. M10X 30 A4-70	Piece		
+155396	HEX SCR. M 6X 16 A4-70	Piece		
+155411	HEX SCR. M 8X 16 A4-70	Piece		
+155427	SETSCREW M10X 25 A4-70	Piece		
+155752	WASHER, PLAIN HV200 M 6 TZN	Piece		
+155900	WASHER, M 6 A4	Piece		
+156156	LOCK WASHER NORDLOCK NL6ST - A4	Piece		
+156191	WASHER, SPR.LOCK M 4 A4-70	Piece		
+156195	SPRING WASHER A DIN 128 - 10 - A4	Piece		
+156198	WASHER, SPR.LOCK M 6 A2-70	Piece		
+156273	WASHER, PLAIN M 4 A4-70	Piece		
+156274	WASHER, PLAIN M 5 A2-70	Piece		
+156276	WASHER, PLAIN, M 6 A4-70	Piece		
+156280	PLAIN WASHER M 8, A4	Piece		
+156295	WASHER M10 A4-70	Piece		
+156663	WASHER, PLAIN HV200 M 8 TZN	Piece		
+157010	WASHER,PLAIN HV300 M10 TZN	Piece		
+157012	WASHER - 13 - ISO7089, HV300,TZN	Piece		
+157016	WASHER-17-HV300-TZN-IK900194	Piece		
+157020	WASHER-21-HV300-TZN-IK900194	Piece		
+157024	WASHER-25-HV300-TZN-IK900194	Piece		
+157066	HEX HD. NUT M20 8 TZN	Piece		
+157076	HEX HD. NUT M 6 A4-70	Piece		
+157077	HEX HD. NUT M 8 A4-70	Piece		
+157198	HEX HD. NUT M24 8TZN	Piece		
+157252	HEX HD.NUT M10 8 TZN	Piece		
+157341	HEX HD. NUT M 8 8 TZN	Piece		
+157352	HEX HD. NUT M12 8 TZN	Piece		
+157552	NUT, END, M8	Piece		
+157715	P.TORQUE NUT M10 A4-70	Piece		
+157723	LOCK NUT M 8, A4-70	Piece		
+157783	P.TORQUE NUT M12 A4-70	Piece		
+157996	HEX HD. NUT M16 8 TZN	Piece		
+158394	FENDER WASHER M8, A4-70	Piece		
+159373	SPRING PIN SLOT. Ø10X40 A2	Piece		
+159936	SPLIT PIN Ø 2.5 X 32 A4-70	Piece		
+160 023 10075	Filter bag air inlet tower door V80 filter pad 300x320x5	Stk		
+160 056 10009	Filter element gear oil NG1000	Stk		
+160 056 10011	Filter element gear oil HC35,	Stk		
+160 056 10013	Filter element hydraulic V39-V52, 3µm Mahle PI 2108	Stk		
+160 056 10014	Filter element hydraulic	Stk		
+160 056 10015	Filter element pitch V63-V66	Stk		
+160 056 10021	Air filter gearbox/pitch	Stk		
+160 096 10005	Filter element offline filtr. HDU 15/25 Offline oil	Stk		
+160 316 10001	Air filter slipring V52-V80	Stk		
+160 358 10001	Air dryer DES-CASE DC-3 Air filter hydr. power unit	Stk		
+184925	RCD protec. F503 C10/0.03	Piece		
+184929	Circuit breaker S201UP-K40A 1P	Piece		
+184931	Circuit breaker S201UPK16A 1P	Piece		
+184932	Circuit breaker S201 UP K20A	Piece		
+184933	Circuit breaker Isomax S3D 160	Piece		
+184940	Contactor	Piece		powerwind:ABB.A63-30-22 220-230V50HZ;powerwind:ABB.AL12-30-10 24VDC;powerwind:ABB.AL9-30-01 24VDC
+184947	Circuit breaker S201 UP K5A	Piece		
+184948	Circuit breaker S201 UP K6A	Piece		
+184949	Circuit breaker S201 UP K10A	Piece		
+184950	Circuit breaker S201 B10, 1 pole	Piece		
+184951	Circuit breaker S201 B6, 1 pole	Piece		
+184952	Circuit breaker S201 D10, 1 pole	Piece		
+184953	Circuit breaker S201-Z4	Piece		
+184954	Earth leakage FS 201 B13	Piece		
+184955	Circuit breaker S201 B16	Piece		
+184957	Circuit breaker S201 C20	Piece		
+184958	Circuit breaker S201 B13	Piece		
+184959	Circuit breaker S201 C10, 1 pole	Piece		
+184960	Circuit breaker S201 K32	Piece		
+184961	Circuit breaker S202 K32A	Piece		
+184962	Circuit breaker S201P D13	Piece		
+184963	Circuit breaker FS 201 B16	Piece		
+184964	Circuit breaker, T38, 24 S201-Z1	Piece		
+184997	Circuit breaker FS201 B16	Piece		
+184998	Earth leakage circuit FS201 B13	Piece		
+185026	Automatic fuse, control current GV2P16	Piece		
+185032	Circuit breaker 10A MCB S201-Z10 1P	Piece		
+185066	Circuit breaker S201 Z6, 1 pole	Piece		
+185067	Circuit breaker MO325 9 A	Piece		
+185083	Contactor, supply hub A9-30-01 230 V-	Piece		
+186021	Safety relay PNOZ-S4C PILZ CIM1360	Piece		
+186150	Nacelle position, 30 impuls/rotation 2R-HTP SR0030	Piece		
+186173	UPS 1000VA 9120 Powerware AGO2	Piece		
+186181	UPS RT 5000 RM 230 V APC	Piece		
+186201	Power supply ADC 5783 2.5 A (option)	Piece		
+186204	Power Supply ADC 5421R Scanpocon HRC	Piece		
+186211	UPS Linear PLUS- Desitek Offshore	Piece		
+186214	UPS SMART UPS RT 5000 APC AGO	Piece		
+187901	11.0 kV transformer 2100 kVA 50 Hz	Piece		
+187902	15.0 kV transformer 2100 kVA 50 Hz	Piece		
+187903	30.0 kV transformer 2100 kVA 50 Hz	Piece		
+187904	21.0 kV transformer 2100 kVA 50 Hz	Piece		
+187905	10.75 kV trans- 2100 kVA 50 Hz	Piece		
+187920	13.8 kV Transformer 1850 kVA 13.8/0.69 kV 60 Hz	Piece		
+187921	12.5 kV Transformer 1850 kVA 12.5/0.69 kV 60 Hz	Piece		
+187922	34.5 kV Transformer 1850 kVA 34.5/0.69 kV 60 Hz	Piece		
+187923	25.0 kV Transformer 1850 kVA 25.0/0.69 kV 60 Hz	Piece		
+187925	27.5 kV Transformer 1850 kVA 27.5/0.69 kV 60 Hz	Piece		
+188010	Switch relay 1 NO, 1 NC	Piece		
+188228	Overload relay for M204 TA25 DU 25A	Piece		
+188229	Overload relay, int. vent. TA25DU 0,63	Piece		
+188230	Thermo relay, nacelle vent. Low TA25 DU 1.0	Piece		
+188232	Thermo relay, nacelle vent. Low, TA25 DU 1.8	Piece		
+188233	Thermal Overload Relay, nacelle vent. E16 DU 8,5	Piece		
+188234	Thermo relay, yaw motor, 60Hz TA25 DU 5.0	Piece		
+188235	Thermo relay, hydraulic pump TA25 DU 6.5 A	Piece		
+188237	Thermal Overload Relay, nacelle vent. TA25DU 3,1	Piece		
+188238	Thermo relay, hydraulic pump, 60Hz TA25 DU 11A	Piece		
+188240	Overload relay for M204 TA25 DU 14A	Piece		
+188241	Thermo relay, yaw motor, 50Hz E16 DU 2,7	Piece		
+188242	Thermal relay E16 DU2-6,3A	Piece		
+188249	Automatic fuse, voltage measuring MS325 0.4-0.63	Piece		
+188250	Circuit breaker MS325 9-12.5 A	Piece		
+188251	Automatic fuse, motors MS325 12.5-16	Piece		
+188252	Circuit breaker MS325 4-6.3 A	Piece		
+188253	Circuit breaker MS325 1.6-2.6 A	Piece		
+188254	Automatic fuse, control current MS325 6,3-9 A	Piece		
+188264	Miniature Circuit Breaker	Piece		
+188265	Circuit breaker MS325 4.0 A	Piece		
+188266	Automatic fuse, voltage measuring MO325 0.63	Piece		
+188267	Circuit breaker MO325 16A	Piece		
+188268	Circuit breaker MO325 6.3 A	Piece		
+188269	Automatic fuse, control current MO325 12,5 A	Piece		
+188270	Automatic fuse, motors 690V MS325 12.5-16	Piece		
+188274	Short circuit protection WT63-3P	Piece		
+188317	Transformer VCS/processor TPS 271 Danica / Abletec	Piece		
+188319	Current transformer 690 N60/30 1800/1A Garre	Piece		
+188327	Transformer TA-6,3 kVA, 690/230 Kohsel 50 Hz	Piece		
+188340	Transformer for solenoids TA-F630 690/27.3/22.0V A. Åkerman	Piece		
+188342	Transformer for solenoids TA-F630 480/27.3/22.0V A. Åkerman	Piece		
+188344	Transformer 480/264/230/110V TA-5	Piece		
+188346	Transformer VRCC supply TA-F100 230/24V 100VA	Piece		
+188347	Transformer 230/26.7 V, 50 VA, Kohsel	Piece		
+188348	Transformer 690/264/230/110V	Piece		
+188357	Transformer 690V/480V 350VA Jacke	Piece		
+188358	Transformer 690V/480V 75kVA Jacke	Piece		
+188369	Transformer TA-7.5 kVA, 690/230 Kohsel 50/60 Hz	Piece		
+188371	Transformer TA-4kVA 690V/110 V Kohsel 50/60 Hz	Piece		
+188389	10.5kV Transformer 2100 kVA 50 Hz	Piece		
+188390	20.0 kV transformer 2100 kVA 50 Hz	Piece		
+188391	Rotating transformer ETK160 Weier	Piece		
+188427	Current transformer LEM LF1005-S / Motron	Piece		
+188432	Current transformer 600/1 50/30 065-3913-1BL kl. 02 Garre tr	Piece		
+188435	Current transformer 800/1 50/30 065-4113-1BL kl. 02 Garre tr	Piece		
+188445	Transformer 230/24 V 170 Kohsel V80 option	Piece		
+188446	Trafo 230/170/6 V Dantrafo AGO1	Piece		
+188448	Autotrafo for int. VCS 700 VA JACKE AGO1	Piece		
+188457	Battery charger ADC 54XY 10A Scanpocon From Mk 3-	Piece		
+188463	Power supply DR-54-24 Craftec	Piece		
+188469	Battery charger Panasonic BCA22-1, 24V/1Ah, AC-Tec Option	Piece		
+188478	Battery Panasonic LCR-12V 7.2P AC-Tec Option	Piece		
+188495	Hour counter, line OK Muller BG4027 24VDC Brodersen Option	Piece		
+188503	36 kV HV overvoltage HSRC 45, 36 kV COV Bowthorpe	Piece		
+188504	6 kV HV overvoltage HSRA 9, 7.2 kV COV Bowthorpe	Piece		
+188505	24 kV HV overvoltage HSRC 30, 24 kV COV Bowthorpe	Piece		
+188507	12 kV HV overvoltage HSRA15, 12 kV COV Bowthorpe	Piece		
+188508	Overvoltage protection, Dehn Guard 75 Dehn	Piece		
+188509	Overvoltage protection, modem DEHN, ALD 250V Desitek Option	Piece		
+188512	Overvoltage protect, current loop DEHN, ALD 24V Desitek Opti	Piece		
+188519	Lightning arrester, grid Dehn VM 360 FM Desitek 60Hz	Piece		
+188520	Lightning arrester, gnd. processor Dehn VED 220V Desitek	Piece		
+188521	Lightning arrester, grid Dehn VM 500 FM Desitek	Piece		
+188559	Fuse 100 A, 690 V DIN00	Piece		
+188560	Fuse, capacitor, 80A, 660V, DIN00 Følsgaard	Piece		
+188562	Fuse, lightning arrester, grid 63 A DIN00 Følsgaard	Piece		
+188565	Fuse, capacitor, 125A, 500V, DIN00 Følsgaard 60Hz	Piece		
+188575	Fuse for Uniswitch	Piece		
+188601	Shunt resistance for T4- 2 Ω  0.1%, 172-132 Fredslund R4-R6	Piece		
+188603	Measuring resistans 2 Dale, RH-10 2 Fredslund Pedersen	Piece		
+188635	Capacitor, VRCC suply 150mF 40/50V Ditz Schweitzer	Piece		
+188655	Capacitor 10uF, 450 V, NP60100061 Jenks eftf.	Piece		
+188660	Battery Panasonic LC-P127R2P AC-Tec	Piece		
+188742	CAP 30UF+-10% 400V DC	Piece		
+188802	Charge resistor SRC 50.300 21Ohm MUECAP	Piece		
+188803	Sym. resistor SRC 20.120 6KOhm Muecap	Piece		
+188810	Resistor 3- Phase 0.1 Ohm JACKE AGO1	Piece		
+188824	Resistor, RC-link phase L1 33, 25 W Danotherm	Piece		
+188827	Resistor 30 ohm, 25 W Danother	Piece		
+188873	Discharge resistor RCD170 120Kohm 5W F. Pedersen	Piece		
+189006	Resistors 120k ohm SFR232218153124 Fredslund Petersen	Piece		
+189085	Chopper resistor 0,4 Ohm 0R4 2000A (SDB 6C04V HVR AGO2	Piece		
+189092	Autotrafo 250 kVA JACKE AGO1	Piece		
+189100	Fuse for PFC-capacitors 630NH3G-660 Trafomo F7A+B	Piece		
+189152	Contactor A75-30-00	Piece		
+189155	Aux. Contact CE5-10W0.1	Piece		
+189291	Transformer, TA-3 kVA 230/690 V Kohsel (option)	Piece		
+189292	Transformer, TA-3 kVA Kohsel (option)	Piece		
+189601	Transformer TA-9.3 kVA, 690/230 V Kohsel LT-Option	Piece		
+189602	Transformer 690/264/230/110V	Piece		
+189732	Transformer for solenoids Trafo 230/27.3/22.0V Kohsel IK9006	Piece		
+189768	Circuit breaker S201 Z3, 1	Piece		
+189780	Short circuit protection LA9LB920	Piece		
+189791	Automatic fuse, control current GV2P20	Piece		
+190 099 10007	motor fan gearoil	Piece		
+190 328 10001	Motor nacelle fan V66 - V90	Piece		
+190 328 10004	Motor yaw gear V39 - V66	Piece		
+190 328 10005	Motor IGBT fan M549 V66 - V90	Piece		
+190 328 10007	Motor yaw gear V80-V90 with brake	Piece		
+190 341 10001	Motor slipring	Piece		
+193415	Proportional valve Vickers KAFDG4V-3- Berendsen	Piece		
+193420	Proportional valve KBFDG4V-5-2C50N Berendsen V80	Piece		
+193450	Solenoid, emergency VICKERS SV 13-16-C V80	Piece		
+193455	Solenoid, emergency VICKERS SV 13-12-O Berendsen V80	Piece		
+193803	Electronic part of	Piece		
+193804	Electronic part of lin. transducer	Piece		
+193805	Electronic part of line	Piece		
+193850	EMC CABLE GLAND PG9	Piece		
+193870	FAN N24 400-2400 M3/H 50HZ	Piece		
+193882	BALLUFF BES 516-370-G-E5-Y-S4	Piece		
+193883	INDUCTIVE SENSOR	Piece		
+193886	BALLUFF BCS 018-PO-1-C-S4 NC	Piece		
+193892	BALLUFF BTL5-H112-M0800-B-S93	Piece		
+193894	Linear transducer BTL5-A11 0620-B-SA56- Balluff	Piece		
+193895	Linear transducer BTL5-A11 M0800-B- Balluff V80	Piece		
+193920	Light, hub (complete) Svendborg armatur Louis	Piece		
+193921	Light, hub-controller Hella Hella	Piece		
+193922	Cover for luminaire	Piece		
+193924	(complete)	Piece		
+193925	Fluorescent type	Piece		
+193931	Heating element, Control 400 W, 230 V Lund	Piece		
+193933	Heating elements 230 V 500 W LT option	Piece		
+193938	NACELLE FAN MOUNTED VM560 50HZ	Piece		
+193940	Bell, smoke detector ROSHNI (option)	Piece		
+193955	Ventilator motor, 50Hz 2850omdr. 50Hz	Piece		
+193982	Fan VRCC water cooling Motor 0.6/2 kW 690 V	Piece		
+193993	Yaw motor, 1.5 kW, Motor M2ARS100LC	Piece		
+193994	Yaw motor, 1.75 kW, Motor M2ARS100LC	Piece		
+193995	Yaw motor, 50Hz MT 100L28F130-6	Piece		
+193996	/ Yaw motor, 2.5 kW, Motor M2ARS100LC	Piece		
+194022	YAW MOTOR 2,2KW 4P BRAK 100 LC	Piece		
+194035	Heating elements Heat mat 300 W LT option	Piece		
+194096	Yaw motor, 2.2 kW, Motor HSLIP 100L Lafert 50 Hz –	Piece		
+194097	Yaw motor, 2.5 kW, Motor HSLIP 100L Lafert 60 Hz –	Piece		
+194315	Proportional valve Vickers KAFDG4V-3-2C2ON Berendsen	Piece		
+194844	Snubber diode 116 A, 1700 V SKKE 120 F17 Semikron	Piece		
+194895	Lamp, aux. supply SwissTac Brodersen	Piece		
+194926	Motor, int. vent. VCS A2D 300-AP06- EBM	Piece		
+194971	Fan VRCC-heatsink EBM D4E180-02-02 Jenks eftf.	Piece		
+194978	Motor, int. vent. VCS A2D 300-AP06-XB EBM	Piece		
+194988	Heating element, hub 50 W, 23 V Dewi	Piece		
+194992	Thermal element, ground control 400 W DEVI (Lund)	Piece		
+194998	Air to air cooler, busbar section Cosmotec EXA36003200 Cubic	Piece		
+195002	Heating element, hub 200 W, 24 V Dewi	Piece		
+195009	Varistor, 24 V aux. supply	Piece		
+195015	HEATING ELEMENT, 1KW, 3X400V	Piece		
+195051	Lightning arrester, top processor Dehnguard 275FM Desitek	Piece		
+195052	Over Voltage Protection DEHNGUARD 320FM Dehn	Piece		
+195062	Arc detector 601A0200-15 Camto	Piece		
+195065	Arc detection relay 601D0925S 230 Vac Camto	Piece		
+195532	LUMINARIES 2X18W 230V	Piece		
+195541	LUMINARIES 2X18W 50/60HZ	Piece		
+223107	ANTI FRETTING PASTE SKFLGAF 3E	Piece		
+23785	MOUNT.PASTE KLÜBER 46 MR 401	Piece		
+24155	CORD FPM 4MM DIAMETER	Piece		
+25135	GLUE LOCTITE 401	Piece		
+29527	BEAR GREASE BEM41-132	Piece		
+46116	- cooler	Piece		
+46347	Motor, external MOTOR VDL Delmas Air-to-air	Piece		
+46348	Fan Right Spare Part F	Piece		
+46349	Fan Left 500 Spare Part	Piece		
+46940	HEATER1.4571/D=8,4/230V800W	Piece		
+510227	Measure transformer box CT227.02	Piece		
+6000059	15 - 400VAC pulse filter capacitor 100µF - C87.0CG3	Piece		
+6000458	Datasheet/drawing on file	Piece		
+6000955	WEB-PDF-BoltRex-RS-type-SW	Piece		
+6001151	181001-3kW-275mm	Piece		
+6001162	Seal Inspection and Replacement Procedure for Yaw Bearing	Piece		
+6001472	Heating element, ground Stego CR 027 Stego	Piece		
+6002530	Datasheet/drawing on file	Piece		
+700996	Cable, supply light/socket tower PVICJ 4G1.5mm2	Piece		
+701285	Varistor-box, 24V, SCADA	Piece		
+701290	VAS, for top controller VAS/RC	Piece		
+701291	VAS, for generator selection box VAS/RC	Piece		
+703254	Vibration sensor Complet	Piece		
+703520	Cable, plug in nacelle H07RN-F, 4G1.5mm2	Piece		
+703521	Cable, supply light/socket top	Piece		
+703522	Cable, supply light/socket top H07RN-F, 4G1.5 mm2	Piece		
+703523	Supply nacelle light H07RN-F, 4G1.5 mm2	Piece		
+703524	Cable, supply motors H07RN-F, 4G2.5mm2	Piece		
+703525	Supply cable, yaw motor M140A H07RN-F, 4G1.5mm2	Piece		
+703526	Supply cable, yaw motor M140B H07RN-F, 4G1.5mm2	Piece		
+703528	Cable, suppli. hydr. motor M240 H07RN-F, 4G1,5mm2	Piece		
+703530	Cable, ventilator motor (Low) H07RN-F, 4G1.5mm2	Piece		
+703533	Cable, gear heating H07RN-F 3G 1.5	Piece		
+703535	Supply cable, control current H07RN-F, 5G1.5mm2	Piece		
+703537	Cable, twist-sensor LIYCY 6x0.38mm2	Piece		
+703539	Cable, signals emerg.stop/therm. LIYCY 6x0.38mm2 + skærm	Piece		
+703540	Cable, top/box A3 LIYCY 10x0.25mm2 + shield	Piece		
+703545	Cable, Pt-100 hydraulic oil RHEYFLEX, 2x0.75mm2	Piece		
+703547	Cable, Pt-100 gear RHEYFLEX-Y, 2x0.75mm2	Piece		
+703548	Cable, vibration sensor RHEYFLEX-Y, 2x0.75mm2	Piece		
+703550	Cable for now -100 gear bearing RHEYFLEX 2x0.75mm2	Piece		
+703551	Cable, emergency stop gear RHEYFLEX-Y, 2x0.75mm2	Piece		
+703552	Cable, emergency stop yaw plate RHEYFLEX-Y, 2x0.75mm2	Piece		
+703555	Cable, thermistor brake, S207 PKL 105, 2x0.75mm2	Piece		
+703557	Cable, Pt100 generator RHEYFLEX-Y 7x0.75mm2	Piece		
+703559	Earthing pitch cylinder H07V-K 1x6mm2	Piece		
+703560	Earthin, right back cover frame H07RN-F 1x25mm2	Piece		
+703562	Earthing, tower-machinery founda. H07RN-F 1x25mm2	Piece		
+703564	Earthing, right front cover frame H07RN-F 1x25mm2	Piece		
+703566	Earthing, right front cover fix H07RN-F 1x25mm2	Piece		
+703568	Earthing, right front roof railing H07RN-F 1x25mm2	Piece		
+703570	Earthing, left back cover fix H07RN-F 1x25mm2	Piece		
+703571	Earthing, ground controller H07V-K 1x25mm2	Piece		
+703572	Earthing, genrator-mach.foundat. H07RN-F 1x25mm2	Piece		
+703574	Earthing, right back roof rail H07RN-F 1x25mm2	Piece		
+703576	Earthing, top controller-mach. fou. H07 V-K 1x6mm2	Piece		
+703578	Earthing, hydrau.-mach. foundation H07V-K 1x6mm2	Piece		
+703582	Cable, prop. valve LIYCY 6x0.38mm2 + shield	Piece		
+703584	Cable, oil level sensor hydr. oil RHEYFLEX, 2x0.75mm2	Piece		
+703586	Cable, linear transducer LIYCY, 7x0.25mm2 + shield	Piece		
+703592	Cable, anemometer 6x0.38mm2 LIYCY	Piece		
+703593	Cable, wind vane 6x0.38mm2 LIYCY	Piece		
+703625	WEIGHTBLOCK	Piece		
+703626	THREAD F. VIBRATION SENSOR	Piece		
+703627	DIST.PIECE F.VIBRATION SENSOR	Piece		
+704059	Cable, thermistor brake PKL 105, 2x0.75 5,0 m	Piece		
+705100	Resistor unit VRCC 600kW	Piece		
+705110	changed to Power Electronic unit	Piece		
+705180	Power Electronic unit 1700 V VRCC VRCC 600kW	Piece		
+724128	Rotating ArcNet, rotor	Piece		
+724129	Rotating ArcNet, stator	Piece		
+727301	VAS for K500,501,502 VAS 727301	Piece		
+727509	Cable, trip F60 H07RN-F, 3G1.5	Piece		
+727512	Cable, earthing, H07 V-K, 240 mm2 --- 0.5 m	Piece		
+727514	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.17 m	Piece		
+727541	Cable, communication, HCP-M0200T-A02EB- Optilas H60	Piece		
+727544	Cable, F60-earth H07 V-K, 1x25 mm2 --- 1.2 m	Piece		
+727545	Cable, F79-earth H07 V-K, 1x50 mm2 --- 0,6 m	Piece		
+727580	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.45 m	Piece		
+727581	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 3.925 m	Piece		
+727582	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 3.67 m	Piece		
+727583	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 3.355 m	Piece		
+727584	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 3.02 m	Piece		
+727585	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.765 m	Piece		
+727586	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.55 m	Piece		
+727587	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.52 m	Piece		
+727588	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.64 m	Piece		
+727589	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.74 m	Piece		
+727590	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.86 m	Piece		
+727591	Cable, contactor to reactor A07RN-F 3G25 mm2 Geveke 2.995 m	Piece		
+727594	Cable, earthing H07V-K, 1x25 mm2 Otra 0.65 m	Piece		
+727595	Cable, earthing H07V-K, 1x25 mm2 Otra 0.65 m	Piece		
+727596	Cable, earthing, H07V-K, 1x25 mm2 Otra 0.7 m	Piece		
+727597	Cable, earthing, H07V-K, 1x25 mm2 Otra 0.7 m	Piece		
+727598	Cable, earthing, H07V-K, 1x25 mm2 Otra 0.31 m	Piece		
+727615	Cable, A12 (HV meas.)- H07 V-K, 1x50 mm2 --- 2 m	Piece		
+727616	Cable, A5 (Ground --- 4 m	Piece		
+727636	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727637	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727638	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.17 m	Piece		
+727639	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.35 m	Piece		
+727640	Cable, earthing, H07 V-K, 240 mm2 --- 0,6 m	Piece		
+727645	Cable, earthing, Control H07 V-K, 1x25 mm2 --- 1.2 m	Piece		
+727648	Cable, F79-earth H07 V-K, 1x50 mm2 --- 0.5 m	Piece		
+727649	Cable, F79-earth H07 V-K, 1x50 mm2 --- 0.4 m	Piece		
+727650	Cable, T53-earth H07 V-K, 240 mm2 --- 1.1 m	Piece		
+727651	Cable, T53-earth H07 V-K, 240 mm2 --- 1.1 m	Piece		
+727666	Box, heating on	Piece		
+727682	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 6.995 m	Piece		
+727683	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 6.915 m	Piece		
+727684	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 6.925 m	Piece		
+727685	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.915 m	Piece		
+727686	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.765 m	Piece		
+727687	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.54 m	Piece		
+727688	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 8.05 m	Piece		
+727689	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.85 m	Piece		
+727690	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.69 m	Piece		
+727691	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 8.24 m	Piece		
+727692	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 7.775 m	Piece		
+727693	Cable, reactor to fuse A07RN-F 3G25 mm2 Geveke 8.035 m	Piece		
+727802	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727803	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727804	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727805	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727806	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727807	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727808	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727809	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727810	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727811	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727812	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727813	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727814	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727815	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.22 m	Piece		
+727816	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.55 m	Piece		
+727817	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.55 m	Piece		
+727818	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.35 m	Piece		
+727819	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.35 m	Piece		
+727820	Cable, earthing, shield H07 V-K, 50 mm2 --- 0.17 m	Piece		
+727821	Cable, earthing, shield H07 V-K, 50 mm2	Piece		
+727822	Cable, earthing, shield H07 V-K, 50 mm2	Piece		
+727823	Cable, earthing H07V-K, 50 mm2 Otra 0.6 m	Piece		
+727824	Cable, earthing H07V-K, 50 mm2 Otra 0.45 m	Piece		
+727849	Cable, T805-A2, ArcNet Belden type 89182	Piece		
+733576	Earthing, generator 2 H07RN-F 1x25mm2	Piece		
+733577	Earthing, gen. selection box H07RN-F 1x25mm2	Piece		
+733578	Cable, A5 (ground H07V-K, 1x50 mm2 Otra 2 m	Piece		
+733583	Cable, supply for heat 55m H07RN-F, 5G1.5mm2	Piece		
+733592	Cable for inlet for M360 H07RN-F, 3G1.5mm2 LT/HT Option	Piece		
+733593	Cable for box A361 HMUS 2x0,75mm2 LT Option	Piece		
+733594	Cable for box A361 LSOH 3G1,5mm2 LT Option	Piece		
+733600	Cable UPS H07RN-F5G 2.5mm2 AGO2	Piece		
+737150	Service button	Piece		
+737510	Generator cable, to ground A07RN-F, 3x35mm2	Piece		
+737512	Generator cable, to ground A07RN-F, 3x70mm2	Piece		
+737528	Generator cable, Generator 1 A07RN-F, 3x35mm2	Piece		
+737529	Generator cable, gen. 2 A07RN-F, 3x70mm2	Piece		
+737560	Cable, VRCC supply H03VV-F 3G0.75	Piece		
+737561	Cable for VRCC	Piece		
+737580	Cable for RCC LIYCY 3x2x0.14mm2+ shield R. Schmidt 7 m	Piece		
+737582	Cable, signal to gen. selection box LIYCY 6x0.38mm2 + shield	Piece		
+737583	Cable, ctrl. supply to gen. selection H07RN-F, 6x1, mm2	Piece		
+737584	Cabel, PT 100 generator 2 LIYCY 2x0.75mm2	Piece		
+737590	Cable, communication top-ground Fiber, HCP-MO200T-A02EB-06 O	Piece		
+737682	Cable, signals to box A14 Liycy 6x0.38 Option LT/HT	Piece		
+737683	Cable for motor M349 (nacelle vent) H07RN-F, 4G1.5mm2 LT/HT	Piece		
+737686	Cable for hydr. cooling unit H07RN-F 4G1.5 10 m	Piece		
+737687	Cable, stand still heating H07RN-F, 3G1,5 mm2 Option	Piece		
+747182	Cable on ETR sensor	Piece		
+747509	Cable, socket outlet, H07RN-F, 3G2.5 mm2 Otra 40 m H67	Piece		
+747510	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747511	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747512	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747513	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747514	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747515	Cable, trafo vent. H07RN-F, 4G1.5	Piece		
+747517	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747518	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747519	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747520	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747521	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747522	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+747541	Cable, communication, HCP-M0200T-A02EB- Optilas H67	Piece		
+747545	Cable, LIYCY 10x0.39 mm2 Geveke 12 m	Piece		
+747546	Cable, nacelle-tower H07 V-K, 50 mm2 --- 35 m	Piece		
+747547	Cable, nacelle-tower H07 V-K, 50 mm2 --- 35 m	Piece		
+747550	Cable, tower-ground H07 V-K, 50 mm2 --- 52 m	Piece		
+747551	Cable, tower-ground H07 V-K, 50 mm2 --- 52 m	Piece		
+747554	Cable, socket outlet, H07RN-F, 3G2.5 mm2 Otra 51 m H78	Piece		
+747555	Cable, communication, HCP-M0200T-A02EB- Optilas H78	Piece		
+747558	Cable, light in tower H07RN-F, 4G1.5 mm2 Otra 63 m H78	Piece		
+747561	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747562	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747563	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747564	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747566	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747567	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747568	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747569	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747570	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747578	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747579	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747580	Cable, F60-T53 3 x 25/25 mm2	Piece		
+747595	Cable, communication, HCP-M0200T-A02EB- Optilas H117	Piece		
+747627	Cable, light in tower H07RN-F, 4G1.5 mm2 Otra 52 m H67	Piece		
+747641	Cable, earthing H07V-K, 50 mm2 Otra 0.5 m	Piece		
+747645	Cable, earthing H07V-K, 50 mm2 Otra 0.5 m	Piece		
+747652	Cable, Trafovent, T53- H07 V-K, 6 mm2 --- 0.25 m	Piece		
+747653	Cable, Trafovent, T53- H07 V-K, 6 mm2 --- 0.25 m	Piece		
+747654	Cable, from T53 to earth H07 V-K, 240 mm2 --- 2 m	Piece		
+747667	Box, trafo vent.	Piece		
+747668	Box, thermistor	Piece		
+747680	Cable, supply to box A18 H07RN-F, 4G 2.5 mm2 Otra 8.5 m (LT)	Piece		
+747681	Cable from box A18 to H07RN-F 4G2.5 mm2	Piece		
+747682	Cable from box A18 to H07RN-F 4G2.5 mm2	Piece		
+747683	Cable from box A18 to H07RN-F 4G2.5 mm2	Piece		
+747685	Cable, Air inlet flap trafo H07RN-F, 3G1.5 mm2 Otra 15 m (LT	Piece		
+747687	Cable, supply to VCMS H07RTN-F,	Piece		
+747811	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747812	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747813	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747814	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747815	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747816	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747817	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747818	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747819	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747820	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747821	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747822	Cable, T53-A1 A07RN-F, 1 x 240	Piece		
+747911	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747912	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747913	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747914	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747915	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747916	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747917	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747918	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747919	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747920	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747921	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+747922	Cable, T53-A1, A07RTN-F, 1 x 240	Piece		
+753037	HEATING ELEM.F.ROT.CONTACT HOU	Piece		
+753044	AIR FILTER	Piece		
+753045	Slip rings ventilator (med blæser)	Piece		
+753137	Vent. sliprings LINDAB CBUV 160B LINDAB	Piece		
+753306	FAN 50 HZ/60 HZ	Piece		
+753479	BRUSH GEAR ASS. 3MW	Piece		
+753483	and 29050548 can be used until the stock is used up. Do not mix the 2	Piece		
+753535	V-80 ROT. UNIT FOR HYAC-HEAT	Piece		
+753546	BRUSH WITH CABLE TERMINAL	Piece		
+753640	Complete unit for slip 50 Hz 690 V Jenks Eft. HRC	Piece		
+753686	CURRENT CONNECTION Ø13/16	Piece		
+753741	BRUSH D-END	Piece		
+753776	GROUND CONTACT IN D-END, MOUNT	Piece		
+753798	V90-3MW - COMPLETE OUTLET SYSTEM	Piece		
+753824	Encoder Pepperl + AGO1	Piece		
+753902	ROTATING PARTS 3MW, HSE	Piece		
+755138	Cable, A2-nacellelight H07RN-F, 4x1.5mm2	Piece		
+755139	Cable, nacelle light-nacelle light H07RN-F, 4x1.5mm2	Piece		
+755619	EMC-filter	Piece		sg:SIE. E. 0001
+755750	Measure-circuit VCS-TRU V2.0	Piece		
+755780	IGBT module, SKIIP Rotor – Rotor 2 x 1203 GB122 Semikron AGO	Piece		
+755781	IGBT module, SKIIP Rotor – Grid 1203GB122 + 603GD122 Semikro	Piece		
+755785	Chopper-IGBT-module, mounted CT383 + CM1400E3U-	Piece		
+757539	Earthing, ground controller H07V-K 1x50mm2	Piece		
+757540	Earthing, right back cover frame H07RN-F 1x25mm2	Piece		
+757541	Earthing, left back cover frame H07RN-F 1x25mm2	Piece		
+757543	Earthing, right front cover frame H07RN-F 1x25mm2	Piece		
+757544	Earthing, left front cover frame H07RN-F 1x25mm2	Piece		
+757545	Earthing, right front cover fix H07RN-F 1x25mm2	Piece		
+757546	Earthing, left front cover fix H07RN-F 1x25mm2	Piece		
+757547	Earthing, right front roof safety rail H07RN-F 1x25mm2	Piece		
+757548	Earthing, left front roof safety rail H07RN-F 1x25mm2	Piece		
+757549	Earthing, right back cover fix	Piece		
+757550	Earthing, left back cover fix H07RN-F 1x25mm2	Piece		
+757551	Earthing, generator/mach. foundation H07RN-F 1x50mm2	Piece		
+757552	Earthing, right back roof rail H07RN-F 1x25mm2	Piece		
+757553	Earthing, left back roof rail H07RN-F 1x0.25mm2	Piece		
+757554	Earthing, hydraulic.-mach. Foundation H07V-K 1x25mm2	Piece		
+757561	Cable, generator, A07RN-F, 3x240 mm2	Piece		
+757562	Cable, generator, A07RN-F, 3x240 mm2	Piece		
+757563	Cable, generator, A07RN-F, 3x240 mm2	Piece		
+757564	Cable, generator, A07RN-F, 3x240 mm2	Piece		
+757570	Cable, rotor, W581A A07RN-F 3x70 mm2	Piece		
+757571	Cable, rotor, W581B A07RN-F 3x70 mm2	Piece		
+757572	Cable, rotor, W581C A07RN-F 3x70 mm2	Piece		
+757573	Cable, rotor, W581D A07RN-F 3x70 mm2	Piece		
+757576	Supply cable to box A14 H07RN-F 3G1.5 mm2 Otra 9.5 m	Piece		
+757577	Cable, gear oil pump H07RN-F 4G1.5 mm2 Otra 9 m	Piece		
+763041	Cable, A35A-B458 LSOH 4x 0.75	Piece		
+763042	Cable, A35A-B425 LSOH 4x 0.75	Piece		
+763043	Cable, A35A-B459 LSOH 4x 0.75	Piece		
+763044	Cable, A35A-R454 LSOH 2x 0.75	Piece		
+763045	Cable, A32A-S457 LSOH 2x0.75	Piece		
+763356	Cable, A4-tower acc. LSOH 2 x 0.75 (option)	Piece		
+764880	Cable, earthing, VRCC H07V-K, 50 mm2	Piece		
+764884	Cable, communication Sabix 3x2x0.34 mm2 Otra 2.6 m	Piece		
+764888	Cable, VRCC to resistors Silicoul 1x95 mm2	Piece		
+764889	Cable, VRCC to snubber Silicoul 1x6 mm2	Piece		
+764894	Cable, earthing, VRCC H07V-K, 50 mm2	Piece		
+764904	Cable, light, nose cone RHEYFLEX, 2 x 1,5	Piece		
+764909	Cable, proportional valve LIYCY 7 x 1 mm2	Piece		
+764911	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764912	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764913	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764914	Cable, proportional valve LIYCY 7 x 1 mm2	Piece		
+764915	Cable, S236B pressure 2 x 1.5 mm2	Piece		
+764916	Cable, S236C pressure 2 x 1.5 mm2	Piece		
+764918	Cable, diff. pressure hub 2 x 1.5 mm2	Piece		
+764921	Cable, prop. valve LIYCY 6 x 1 mm2 Geveke 5 m	Piece		
+764922	Cable, prop. valve LIYCY 6 x 1 mm2 Geveke 6 m	Piece		
+764923	Cable, prop. valve LIYCY 6 x 1 mm2 Geveke 8 m	Piece		
+764924	Cable, solenoid Rheyflex-Y 2x1.5 mm2 Geveke 5 m	Piece		
+764925	Cable, solenoid Rheyflex-Y 2x1.5 mm2 Geveke 6 m	Piece		
+764926	Cable, solenoid Rheyflex-Y 2x1.5 mm2 Geveke 8 m	Piece		
+764927	Cable, position sensor, LIYCY 7x0.25 mm2 Otra 6 m	Piece		
+764928	Cable, position sensor, LIYCY 7x0.25 mm2 Otra 8 m	Piece		
+764930	Cable, prop. valve LIYCY 7 x 1 mm2	Piece		
+764931	Cable, prop. valve LIYCY 7 x 1 mm2	Piece		
+764932	Cable, prop. valve LIYCY 7 x 1 mm2	Piece		
+764933	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764934	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764935	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764937	Cable, proportional valve LIYCY 7 x 1 mm2	Piece		
+764938	Cable, position sensor, LIYCY 7x0.25 mm2	Piece		
+764948	Cable, A2-earth H07 V-K, 6 mm2 G/G --- 1.5 m	Piece		
+764953	Cable, S236A pressure 2 x 1.5 mm2	Piece		
+764954	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764955	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764956	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764957	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764958	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764963	Cable, leak oil S217 7x0.25 mm2 V66	Piece		
+764965	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764966	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+764967	Y219A	Piece		
+764971	Y219B	Piece		
+764972	Y219C	Piece		
+765062	Capacitor mount. on plade	Piece		
+765218	OVP Modul	Piece		
+765320	EMC-filter-grid	Piece		
+765335	Thyristor stock Westcode AGO1	Piece		
+765620	EMC-filter-grid	Piece		
+765753	Two chopper modules	Piece		
+765754	Chopper module incl.	Piece		
+765761	Rotor SKiiPPACK 2403GB123-4DUK SEMIKRO AGO2	Piece		
+765778	Grid SKiiPPACK 942 GB120-3DK SEMIKRO Replaces	Piece		
+765779	Grid SKiiPPACK 942 GB120-3UK SEMIKRO Replaces	Piece		
+765808	Box, hydraulic	Piece		
+765850	Cable to UPS (option)	Piece		
+767320	Yaw control PF090301480002 V66	Piece		
+767526	Cable, twist-sensor LIYCY, 6 x 0.38 mm2 --- 6.0 m	Piece		
+767537	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+767538	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+767539	Cable, solenoid feathering 2 x 1.5 mm2	Piece		
+767558	Cable, 480 V supply A07RN-F, 1 x 240	Piece		
+767559	Cable, 480 V supply A07RN-F, 1 x 240	Piece		
+767560	Cable, 480 V supply A07RN-F, 1 x 240	Piece		
+767562	Cable, A1-T805, ArcNet Belden type 89182	Piece		
+767574	Optical cable from Option	Piece		
+767575	Optical cable from Option	Piece		
+767582	Cable, level sensor, Rheyflex Y 2 x 0.75 Geveke 10 m	Piece		
+767591	Cable, F60-T53, 3 x 25/25 mm2 ATON	Piece		
+767684	Cable to box A18 H07RN-F 2G2.5 mm2 Otra 8.5 m (LT)	Piece		
+768040	Cable, pressure switch, HMUS 2x0.75	Piece		
+768052	Cable, signal to box HMUS 10 x	Piece		
+768054	Cable, gear oil pump H07RTN-F DRAKA 9 m	Piece		
+768058	Supply cable to box H07RTN-F	Piece		
+768068	Cable, A5-light H07RTN-F 3G1.5	Piece		
+768103	Cable, W483 Cable for B430 ---	Piece		
+768104	Cable, W483 Cable for B400 ---	Piece		
+768115	Cable, emergency H07RTN-F 3G1.5	Piece		
+768120	Cable, A4-A35A LSOH 10 x 1	Piece		
+768124	Cable, A4-A32A LSOH 4x0.75	Piece		
+768125	Cable, A32 – Y211A (option)	Piece		
+768127	Cable, A32A-Y217 LSOH 2x0.75	Piece		
+768130	Cable, A32A-Y250 LSOH 2x0.75	Piece		
+768131	Cable, A4-A35A LSOH 2x0.75	Piece		
+768133	Cable, A5-remote H07RTN-F 120 m	Piece		
+768137	Cable, A5-light boat H07RTN-F 3G1.5	Piece		
+768138	Cable, A5-Racon system H07RTN-F	Piece		
+768139	Cable, A4-Visibility meter LSOH 4x0.75	Piece		
+768301	Cable, light switch at H07RN-F, 2 x 1.5	Piece		
+768302	Cable, light in tower H07RN-F, 4G1.5	Piece		
+768303	Cable, light in nacelle H07RN-F, 4G1.5	Piece		
+768304	Cable, 230 V signals H07RN-F, 7G1,5	Piece		
+768305	Cable, 230 V signals H07RN-F, 7G1,5	Piece		
+768306	Cable, supply to box A18 H07RN-F, 4G2.5	Piece		
+768307	Cable, 24 V supply from H07RN-F, 3G2,5	Piece		
+768308	Cable, 24 V signals from Liycy 10 x 1 mm2	Piece		
+768309	Cable, socket outlet at PVIKJ 3x2,5 mm2 LP 8 m	Piece		
+768310	Cable, socket outlet, PVIKJ 3x2,5 mm2 LP 20 m	Piece		
+768311	Cable, socket outlet, H07RN-F, 3G2,5	Piece		
+768312	Cable, 690 V supply A07RN-F, 3 x 25 mm2	Piece		
+768313	Cable, 480 V supply H07RN-F, 4G1.5	Piece		
+768314	Cable, 230 V supply H07RN-F, 3G6 mm2	Piece		
+768315	Cable, light nacelle H07RN-F, 4G1.5	Piece		
+768316	Cable, light nacelle H07RN-F, 4G1.5	Piece		
+768317	Cable, light nacelle H07RN-F, 4G1.5	Piece		
+768318	Cable, elevator 690 V H07RN-F, 4G1.5	Piece		
+768319	Cable, A1-T52 H07RN-F, 5G1.5	Piece		
+768320	Cable A07RTN-F, 3 x 35	Piece		
+768321	Cable H07RTN-F, 5 x 2.5	Piece		
+768322	Cable, CEE plug nacelle H07RN-F, 4G1.5	Piece		
+768323	Cable, to PT 100 on LIYCY 6 x 1 mm2	Piece		
+768324	Cable, to PT 100 on LIYCY 6 x 1 mm2	Piece		
+768325	Cable, trafo vent H07RN-F, 4G1.5	Piece		
+768326	Cable, thermistor trafo Rheyflex-Y 2 x 0.75	Piece		
+768327	Cable, yaw motor H07RN-F 4G1.5 mm2	Piece		
+768328	Cable, yaw motor H07RN-F 4G1.5 mm2 Otra 11.5 m	Piece		
+768329	Cable, yaw motor H07RN-F 4G1.5 mm2 Otra 11 m	Piece		
+768330	Cable, yaw motor H07RN-F 4G1.5 mm2 Otra 6 m	Piece		
+768331	Cable, twist sensor LIYCY, 6 x 1 mm2 --- 6.0 m	Piece		
+768332	Cable, hydraulic motor H07RN-F 4G2..5 mm2	Piece		
+768333	Cable to box A32 (Y211) RHEYFLEX-Y, 2x1.5	Piece		
+768334	Supply to box A32 LiYCY 10 x 1 mm2	Piece		
+768337	Cable, pressure LiYCY, 2 x 0.75 mm2	Piece		
+768338	Cable, pressure drop LiYCY, 2 x 0.75 mm2	Piece		
+768339	Cable, solenoid brake RHEYFLEX-Y, 2x1.5	Piece		
+768340	Cable, pressure switch, RHEYFLEX-Y, 2x0.75	Piece		
+768341	Cable, hydraulic heat H07RN-F, 3G1.5 mm2	Piece		
+768342	Cable, ventilator motor H07RN-F 4G1.5 mm2	Piece		
+768343	Cable, ventilator motor H07RN-F 4G1.5 mm2 Otra 14 m	Piece		
+768344	Cable, ventilator motor H07RN-F 4G1.5 mm2	Piece		
+768345	Cable, smoke detector LIYCY 4 x 0.5 mm2	Piece		
+768346	Cable, Air inlet flap trafo H07RN-F, 3G1.5	Piece		
+768347	Cable, supply to VCMS H07RN-F, 4G1.5	Piece		
+768350	Cable, supply box A6 H07RN-F, 3G1.5	Piece		
+768351	Cable, from box A6-A to H07RN-F 3G1.5 mm2	Piece		
+768352	Cable, signal to box A11 LIYCY 10 x 1 mm2	Piece		
+768353	Cable to box A18 H07RN-F 4G2.5 mm2	Piece		
+768354	Cable, gear oil pump H07RN-F 4G1.5 mm2	Piece		
+768355	Cable, gear oil heating – H07RN-F 3G1.5 mm2	Piece		
+768356	Cable, gear oil heating – H07RN-F 3G1.5 mm2	Piece		
+768357	Cable, gear oil heating – H07RN-F 3G1.5 mm2	Piece		
+768358	Supply cable to box A14 H07RN-F 4G1.5 mm2	Piece		
+768359	Cable, filter indicator LiYCY 2 x 0.75 mm2	Piece		
+768360	Cable, offline filter H07RN-F 3G1.5 mm2	Piece		
+768361	Cable from A4 to box LiYCY 6 x 1 mm2	Piece		
+768362	Cable, Pt-100 gear oil LiYCY 2 x 0.72 mm2	Piece		
+768363	Cable, vibration sensor LiYCY 2 x 0.72 mm2	Piece		
+768364	Cable to box A8 LiYCY 10 x 1 mm2	Piece		
+768365	Cable to box A9 LiYCY 10 x 1 mm2	Piece		
+768366	Cable, R406, gear LiYCY 2 x 0.75 mm2	Piece		
+768367	Cable, S412, pressostat LiYCY 2 x 0.75 mm2	Piece		
+768368	Cable, S404, gear oil LiYCY 2 x 0.75 mm2	Piece		
+768369	Cable, S426, offline filter LiYCY 2 x 0.75 mm2	Piece		
+768370	Cable, F426, offline filter LiYCY 2 x 0.75 mm2	Piece		
+768371	Cable, int. / ext. vent. H07RN-F 7G1.5 mm2	Piece		
+768372	Cable external ventilator H07RN-F 7G1.5 mm2	Piece		
+768373	Cable, 230 V supply box H07RN-F, 4x1.5 mm2	Piece		
+768374	Cable, signall to. box LiYCY 4 x 0.5 mm2	Piece		
+768375	Cable, 230 V supply box H07RN-F, 4x1.5 mm2	Piece		
+768376	Cable, signal to. box A34 LiYCY 5 x 0.5 mm2	Piece		
+768377	Cable, int. gen. vent H07RN-F 7G1.5 mm2	Piece		
+768378	Cable, int. gen. vent H07RN-F 7G1.5 mm2	Piece		
+768379	Cable, Water H07RN-F, 4G1.5	Piece		
+768382	Cable, level sensor, LiYCY 2 x 0.75 mm2	Piece		
+768383	Cable, generator A07RN-F, 3x240 mm2	Piece		
+768384	Cable, generator A07RN-F, 3x240 mm2	Piece		
+768385	Cable, generator A07RN-F, 3x240 mm2	Piece		
+768386	Cable, generator A07RN-F, 3x240 mm2	Piece		
+768387	Cable, rotor A07RN-F 3x70 mm2	Piece		
+768388	Cable, rotor A07RN-F 3x70 mm2	Piece		
+768389	Cable, rotor A07RN-F 3x70 mm2	Piece		
+768390	Cable, rotor A07RN-F 3x70 mm2	Piece		
+768391	Cable, E531, generator H07RN-F, 3G1.5	Piece		
+768392	Cable, A1-A10 LiYCY, 10 x 1 mm2	Piece		
+768393	Cable, emergency stop Rheyflex 2 x 1.5 mm2	Piece		
+768394	Cable, emergency stop Rheyflex 2 x 1.5 mm2	Piece		
+768395	Cable signals from A1 to LIYCY, 10 x 1 mm2	Piece		
+768396	Cable, signals emerg. LIYCY, 10 x 1 mm2	Piece		
+768397	Cable, fiber from VCP to HCP-M0200T-A02EB- Optilas 6.8 m	Piece		
+768398	Cable, 690 V for T51 H07RN-F, 4G2.5	Piece		
+768399	Cable, 690 V for aux. H07RN-F, 4G2.5	Piece		
+768401	Cable, light nacelle H07RN-F, 4G1.5	Piece		
+768402	Cable, light nacelle H07RN-F, 4G1.5	Piece		
+768404	Cable, offline filter H07RN-F 4G1.5 mm2 Otra 14 m	Piece		
+768418	Cable, PT100/level LiYCY, 2x0.75 mm2	Piece		
+768420	Cable, from box A6A to Sabix 4x2x0.34 mm2 Otra 5 m	Piece		
+768421	Cable, from box A6B to Sabix 4x2x0.34 mm2 7.5 m	Piece		
+768422	Cable, from box A6-A to Sabix 3x2x0.34 mm2 Otra 15 m	Piece		
+768423	Cable, from box A6-A to Sabix 3x2x0.34 mm2 Otra 2 m	Piece		
+768425	Cable, T52-A2 BIHFP-J , 5 x 4 mm2 Otra 15 m	Piece		
+768427	Cable, T805-A2, ArcNet Belden type 89182	Piece		
+768428	Cable LSOH 2x1.5 DRAKA From Mk 5	Piece		
+768432	Cable, hydraulic fan H07RN-F, 4G1.5 Otra 15 m	Piece		
+768433	Cable, to PT100 R519 and LSOH 4x0.75 mm2	Piece		
+768435	Cable, water H07RN-F, 4G1.5 mm2 Otra 8 m	Piece		
+768436	Cable, fan, reactor H97RN-F, 3G1.5 mm2 Otra 8 m	Piece		
+768437	Cable, from box A6-A Sabix Otra 1.5 m	Piece		
+768438	Cable, VRCC fan, low H07RN-F 4G1.5 mm2 Otra 8 m	Piece		
+768439	Cable, VRCC fan, high H07RN-F 4G1.5 mm2 Otra 8 m	Piece		
+768448	Cable, earthing H07V-K, 50 mm2 Otra 0.5 m	Piece		
+768449	Cable, earthing H07V-K, 50 mm2 Otra 0.5 m	Piece		
+768451	Cable, light, nose cone RHEYFLEX, 2 x 1.5 Geveke 10 m	Piece		
+768452	Y800B	Piece		
+768453	A800B	Piece		
+768454	A800C	Piece		
+768455	Y210A	Piece		
+768456	Y800C	Piece		
+768457	switch	Piece		
+768459	Cable, diff. pressure hub Rheyflex 2x1.5 mm2 Geveke 10 m	Piece		
+768460	Y800A	Piece		
+768461	A800A	Piece		
+768462	Cable, A2-earth H07V-K, 6 mm2 G/G Otra 10 m	Piece		
+768463	switch	Piece		
+768464	V80 halog.free	Piece		
+768465	Y210C	Piece		
+768466	Y212A	Piece		
+768467	Y212B	Piece		
+768468	Y212C	Piece		
+768469	Cable, leak oil S217 LIYCY 7x0.25 mm2 Otra 10 m	Piece		
+768471	Y218A	Piece		
+768472	Y218B	Piece		
+768473	Y218C	Piece		
+768474	Cable, earthing, H07V-K, 240 mm2	Piece		
+768475	Cable, earthing, H07V-K, 240 mm2	Piece		
+768480	Terminal box, slip rings	Piece		
+768481	Box, heating hub LT-Option	Piece		
+768482	Box, heating hub LT-Option	Piece		
+768500	Box, A6A US	Piece		
+768501	US-wind sensor box	Piece		
+768502	Terminal box, gear	Piece		
+768503	Terminal box, rotor	Piece		
+768508	Terminal box, hydraulic	Piece		
+768509	Terminal box, offline	Piece		
+768516	Box, trafo damper (option)	Piece		
+768556	Box A8	Piece		
+768557	Box for gear (option)	Piece		
+768558	Box, hydraulic (option)	Piece		
+768600	Cable, 690 V for T51 H07RN-F, 4G2.5	Piece		
+768601	Cable, 690 V for T51 H07RN-F, 4G2.5	Piece		
+768602	Cable, 690 V for T51 H07RN-F, 4G2.5	Piece		
+768603	Cable, 690 V for aux. H07RN-F, 4G2.5	Piece		
+768604	Cable, 690 V for aux. H07RN-F, 4G2.5	Piece		
+768605	Cable, 690 V for aux. H07RN-F, 4G2.5	Piece		
+768606	Cable, 230 V signals H07RN-F, 7G1,5	Piece		
+768607	Cable, 230 V signals H07RN-F, 7G1,5	Piece		
+768608	Cable, 230 V signals H07RN-F, 7G1,5	Piece		
+768609	Cable, F60-T53 3 x 25/25 mm2	Piece		
+768610	Cable, F60-T53 3 x 25/25 mm2	Piece		
+768611	Cable, communication, HCP-M0200T-A02EB- Optilas H100	Piece		
+768612	Cable, signals emerg. LIYCY, 10 x 1 mm2	Piece		
+768613	Cable, signals emerg. LIYCY, 10 x 1 mm2	Piece		
+768614	Cable, signals emerg. LIYCY, 10 x 1 mm2	Piece		
+768640	Cable, 230 V from H07RTN-F, 3G1.5	Piece		
+768641	Cable, A5-A6 UPS HMUS 5G2.5 mm2	Piece		
+768642	Cable, A5-400 V H07RTN-F 5G2.5	Piece		
+768643	Cable, A5-400 V H07RTN-F 5G2.5	Piece		
+768645	Cable, A5-A6 HMUS 4G10 mm2	Piece		
+768646	Cable, A5-A4 HMUS 5G2.5 mm2	Piece		
+768647	Cable, 24 V signals LSOH 4 x 0.75 mm2	Piece		
+768649	Cable, Navigation H07RTN-F 3G1.5	Piece		
+768650	Cable, A5-A6 UPS LSOH 2x0.75 mm2	Piece		
+768651	Cable, UPS-A5 LSOH 4x 0.75 mm2	Piece		
+768652	Cable, A5-MV LSOH 10x1 mm2	Piece		
+768653	Cable, A5- MV LSOH 2x0.75 mm2	Piece		
+768654	Cable, A5- emergency H07RTN-F 3G1.5	Piece		
+768655	Cable, aviation light H017RTN-F 3G1.5	Piece		
+768656	Cable, A4- box for LSOH 10 x 1 mm2	Piece		
+768657	Cable, A4-temp. H07RTN-F	Piece		
+768658	Cable, dehumidifier H07RTN-F	Piece		
+768659	V80	Piece		
+768660	V80	Piece		
+768661	V80	Piece		
+768662	V80 halog.free	Piece		
+768663	V80 halog.free	Piece		
+768664	V80 halog.free	Piece		
+768665	V80	Piece		
+768666	V80	Piece		
+768668	V80 halog.free	Piece		
+768670	V80 halog.free	Piece		
+768671	Cable, A4-A360 LSOH	Piece		
+768676	Cable, A5-MV LSOH 10x1 mm2	Piece		
+768677	Cable, A5-MV H07RTN-F 5G1.5	Piece		
+768678	Cable, A5- MV LSOH 4x0.75 mm2	Piece		
+768679	Cable, A4- ABDL H07RTN-F, 3G0.75	Piece		
+768680	Cable, Vent. IGBT M549 H07RN-F, 4G1.5	Piece		
+768681	Cable, Vent. IGBT M549 H07RN-F, 4G1.5	Piece		
+768682	Cable, smoke detect LSOH 2x075	Piece		
+768683	Cable, bell smoke LSOH	Piece		
+768684	Cable, Temp. H07RTN-F	Piece		
+768690	Cable, to heat element, H07RN-F 3x1.5 mm2	Piece		
+768697	Cable, A5-MV H07RTN-F 5G1.5	Piece		
+768731	Cable, A4-ice detector Liyci 4x0.5 mm2	Piece		
+768740	Cable, elevator 690 V H07RN-F, 5G1.5 mm2 Otra 78 m H60	Piece		
+768741	Cable, elevator 690 V H07RN-F, 5G1.5 mm2 Otra 85 m H67	Piece		
+768742	Cable, elevator 690 V H07RN-F, 5G1.5 mm2 Otra 96 m H78	Piece		
+768750	Cable, 690 V from H07RTN-F, 4G4	Piece		
+768751	Cable, hydraulic motor H07RTN-F	Piece		
+768752	Cable, filter indicator HMUS 2 x 0.75 mm2	Piece		
+768753	Cable, S412, pressostat HMUS 2x0.75 mm2	Piece		
+768754	Cable, gear oil heating –	Piece		
+768755	Cable, gear oil heating –	Piece		
+768756	Cable, gear oil heating –	Piece		
+768757	Cable, PT100 gear oil HMUS 2x0.75 mm2	Piece		
+768758	Cable, S404, gear oil HMUS 2x0.75 mm2	Piece		
+768759	Cable, AUX supply H07RN-F 5G1.5 mm2 Otra 98 m H 78	Piece		
+768770	Cable, heater hydraulic H07RN-F3G1.5 mm2 LT-option	Piece		
+768771	Cable, heater hydraulic H07RN-F3G1.5 mm2 LT-option	Piece		
+768772	ETR sensor nacelle (LT-option)	Piece		
+768773	Cable, heating hub H07RN-F, 5G2.5 mm2 LT-Option	Piece		
+768774	Cable, heating hub H07RN-F, 5G2.5 mm2 LT-Option	Piece		
+768777	Cable, A6A CT 340- 0.5 m	Piece		
+768778	Cable, A6B CT 340- 0.5 m	Piece		
+768794	gear (S425) HMUS 4 x 0.75 mm2 Din 1000	Piece		
+768796	Cable from A4 to box LiYCY 6 x 1 mm2 Geveke 14 m	Piece		
+768803	Cable from control box LSOH 6x1 mm2 Option	Piece		
+768804	Cable from control box HO7RN-F 3G1.5 mm2 Option	Piece		
+768887	M12x1 3pol	Piece		
+768888	M12x1 3pol	Piece		
+768889	M12x1 3pol	Piece		
+768900	Cable, thermistor in 2x0.75 mm2 3 m	Piece		
+768901	Cable for M20H 3x1.5 mm2 3 m	Piece		
+768915	Cable, W494 Cable for B418 ---	Piece		
+768923	Cable from control box HO7RN-F 3G1.5 mm2 Option	Piece		
+768924	Cable from control box HO7RN-F 3G1.5 mm2 Option	Piece		
+768925	Cable from control box HO7RN-F 3G1.5 mm2 Option	Piece		
+768928	Cable for M538 H07RTN-F DRAKA HRC	Piece		
+769052	Box, hydraulic Eegholm Mk 3+4	Piece		
+769057	Box, hydraulic – Eegholm Mk 5	Piece		
+769102	Cable for B255 LSOH 2x0.5 DRAKA HRC	Piece		
+769103	Cable to box A32B LSOH 2X1.5 DRAKA HRC	Piece		
+769104	Cable, pressure switch, LSOH 4x0.5 Draka HRC	Piece		
+769105	Cable to Y252A LSOH 2x1.5 DRAKA HRC	Piece		
+769107	Cable to Y252B LSOH 2x1.5 DRAKA HRC	Piece		
+769109	Cable, for S208A M12x1-3pol. Følsgaard HRC	Piece		
+769110	Cable, for S208B M12x1-3pol. Følsgaard HRC	Piece		
+769113	Cable, from box A6A to Cable for Rosenberger	Piece		
+769250	Cable for leak oil sensor M12 sensor	Piece		
+7692500	Cable, gear oil pump H07RTN-F DRAKA From Mk	Piece		
+775021	Earthing, tower-nacelle bedplate H07RN-F 1x50mm2	Piece		
+775130	Cable, A2-towerlight H07RN-F, 4x1.5mm2	Piece		
+775144	Supply cable, control current H07RN-F, 5G1.5mm2	Piece		
+775152	Cable, A1 ground PVICKJ, 4x1.5mm2	Piece		
+775162	Cable, socket tower H07RN-F, 4x1.5mm2	Piece		
+775168	Cable, A2-socket nacelle H07RN-F, 4x1.5mm2	Piece		
+775169	Cable, A2-socket nacelle-chain H07RN-F, 4x1.5mm2	Piece		
+775172	Cable, socket tower PVICKJ, 4x1.5mm2	Piece		
+777320	Cable twist-sensor, 3693 S1825 X/2FR6/150-091170 DEMEX Elect	Piece		
+777501	Feedback Q7 LIYCY 2x0,75 mm2	Piece		
+777502	Cable, twist-sensor LIYCY 6x0.38mm2	Piece		
+777503	Cable, Pt-100 hydraulic oil LIYCY 2x0.75mm2	Piece		
+777504	Cable, oil level sensor hydr. oil LIYCY 2x0.75mm2	Piece		
+777505	Cable, solenoid emerg. feathering LIYCY 2x0.75mm2	Piece		
+777506	Cable, solenoid emerg. feathering LIYCY 2x0.75mm2	Piece		
+777507	Cable, pressure transducer LIYCY 2x0.75mm2	Piece		
+777508	Cable, pressure drop filter LIYCY 2x0.75mm2	Piece		
+777509	Cable, S202 brake accumulator LIYCY 2x0.75mm2	Piece		
+777510	Cable, solenoid brake LIYCY 2x0.75mm2	Piece		
+777511	Cable, thermistor brake, S207 LIYCY 2x0.75mm2	Piece		
+777512	Cable, S208, brake activated LIYCY 2x0.75mm2	Piece		
+777513	Cable, smoke detector LIYCY 6x1.0mm2	Piece		
+777514	Cable, Pt-100 ambient LIYCY 2x0.75mm2	Piece		
+777515	Cable, temp. sensor, nacelle LIYCY 2x0.75mm2	Piece		
+777516	Nacelle position) LIYCY 2x0.75mm2	Piece		
+777517	Nacelle position (nulstilling) LIYCY 6x1.0mm2	Piece		
+777518	Cable, Gear oil level LIYCY 2x0.75mm2	Piece		
+777519	Cable, acceleration logit LIYCY 10x1.0mm2 7 m	Piece		
+777520	Gear oil filter LIYCY 2x0.75mm2	Piece		
+777521	Cable, Pt-100 gear LIYCY 2x0.75mm2	Piece		
+777522	Cable, vibration sensor LIYCY 2x0.75mm2	Piece		
+777523	Cable, generator --- ---	Piece		
+777524	Cable, top/box A3 LIYCY 10x1.0mm2 + shield	Piece		
+777525	Cable, box A3/box A4 LIYCY 6x0.38mm2 + shield	Piece		
+777526	Cable, temperature sensor gear. LIYCY 2x0.75mm2	Piece		
+777527	Cable, flow error, oil cooling S412 LIYCY 2x0.75mm2 Mobro in	Piece		
+777528	Cable, pressure switch oil filter LIYCY 2x0.75mm2	Piece		
+777530	Cable, termistor Slip rings vent. LIYCY 2x0.75 mm2	Piece		
+777531	Cable, Slip rings vent. A07RN-F, 3x1.5mm2	Piece		
+777532	Cable, cooling water level LIYCY 2x0.75 mm2	Piece		
+777533	Cable, Generator selection box LIYCY 10x1.0 mm2	Piece		
+777534	Cable, prop. valve LIYCY 6x1.0mm2 + shield	Piece		
+777535	Cable, linear transducer LIYCY, 7x0.25mm2 + shield	Piece		
+777536	Cable, emergency stop gear LIYCY 2x0.75 mm2	Piece		
+777537	Cable, emergency stop yaw plate LIYCY 2x0.75 mm2	Piece		
+777538	Earthing, top controller-mach. found H07 V-K 1x16mm2	Piece		
+777543	Supply cable, yaw motor M140A H07RN-F, 4G1.5mm2	Piece		
+777544	Supply cable, yaw motor M140B H07RN-F, 4G1.5mm2	Piece		
+777545	Cable, supplier. hydr. motor 240 H07RN-F, 4G1,5mm2	Piece		
+777546	Cable, ventilator motor (Low) H07RN-F, 4G1.5mm2	Piece		
+777547	Cable, ventilator (High) H07RN-F, 4G1.5mm2	Piece		
+777548	Cable, ventilator motor (Low) H07RN-F, 7G1.5mm2	Piece		
+777550	Cable, gear oil pump H07RN-F 3x1.5mm2	Piece		
+777551	Cable, gear heating H07RN-F 3x1.5mm2	Piece		
+777552	Cable, gear filter pump H07RN-F 3x1.5mm2	Piece		
+777553	Cable, termistor Slip rings vent. LIYCY 2x0.75 mm2	Piece		
+777554	Cable, Slip rings heat. A07RN-F, 3x1.5mm2	Piece		
+777559	Generator cable, nacelle A07RN-F, 3x70mm2	Piece		
+777561	Generator cable, rotor section A07RN-F, 3x70mm2	Piece		
+777565	Cable M545 water pump H07RN-F 3x1.5mm2	Piece		
+777606	Cable, hydraulic oil cooler 4G1,5MM2 L=10M	Piece		
+777607	Cable, VCS fan 4G1,5MM2 L=13,5M	Piece		
+777608	Cable, VCS fan 4G1,5MM2 L=13,5M	Piece		
+780420	NG 6,5/ALU-SB KL 33 F BRK UNIT	Piece		
+780422	G 1/2 GN 552-31-B-2 F BRK UNIT	Piece		
+780423	AZPB-10-1,0LCP2MB F BRK UNIT	Piece		
+780432	KSDER1NB/HN11V F BRAKE UNIT3MW	Piece		
+780433	GZ37-4 24VDC 22W F BRAKE UNIT	Piece		
+781021	HIGH PRESSURE HOSE	Piece		
+781022	HIGH PRESSURE HOSE L=250MM	Piece		
+781023	HIGH PRESSURE HOSE L=1960MM	Piece		
+781024	HIGH PRESSURE HOSE L=320MM	Piece		
+781025	HIGH PRESSURE HOSE L=740MM	Piece		
+781026	HIGH PRESSURE HOSE L=1140MM	Piece		
+781027	HIGH PRESSURE HOSE L=510MM	Piece		
+781028	HIGH PRESSURE HOSE L=850MM	Piece		
+781029	HIGH PRESSURE HOSE L=1250MM	Piece		
+781030	HIGH PRESSURE HOSE L=1150MM	Piece		
+781031	HIGH PRESSURE HOSE L=500MM	Piece		
+781032	HIGH PRESSURE HOSE L=800MM	Piece		
+781033	HIGH PRESSURE HOSE L=280MM	Piece		
+781034	HIGH PRESSURE HOSE L=720MM	Piece		
+781035	HIGH PRESSURE HOSE L=1120MM	Piece		
+781036	HIGH PRESSURE HOSE L=1520MM	Piece		
+781037	HIGH PRESSURE HOSE L=1500MM	Piece		
+781038	HIGH PRESSURE HOSE L=550MM	Piece		
+781054	PUMP, P203 4L STAMINA HDS2	Piece		
+781057	V90-3MW- GREASE LUB. FOR GENERATOR	Piece		
+781078	HYDR ACCU MOUNT AS1210	Piece		
+781079	HYDR ACCU MOUNT JIS	Piece		
+781161	HIGH PRESSURE HOSE L=350MM	Piece		
+781162	HIGH PRESSURE HOSE L=2270MM	Piece		
+781163	HIGH PRESSURE HOSE L=5070MM	Piece		
+781164	HIGH PRESSURE HOSE L=2970MM	Piece		
+781173	CABLE FOR LCTU 50MM2 L=275MM	Piece		
+781179	LIGHTNING ROD ASSEMBLED	Piece		
+781270	PUR. PLUG 1, 44M BLADE BALANC.	Piece		
+781271	PUR. PLUG 2, 44M BLADE BALANC.	Piece		
+781418	HIGH PRESSURE HOSE Ø8,6 X 2,3	Piece		
+781736	GASKET FOR PITCHCYLINDER	Piece		
+781737	GASKET FOR PITCHCYLINDER	Piece		
+781739	COVERING FOR PITCHCYLINDER	Piece		
+781762	EMERGENCY HOSE 915MM 1"	Piece		
+781766	RETURN HOSE FILTER	Piece		
+781770	EMERGENCY HOSE 1"	Piece		
+781771	HOSE F. RETURN OIL, OFFLINE	Piece		
+781772	SUCK HOSE FOR OFFLINE FILTER	Piece		
+781773	DISTANCE BLOCK 30 X 30 X 60	Piece		
+781774	BREATHER HOSE FOR GEAROIL TANK	Piece		
+781872	HYDR VAL BALL DN20	Piece		
+781898	HOSES MOUNTED	Piece		
+781910	V90-3MW- HYDR CYLINDER SUB ASS	Piece		
+781917	HYDR ACCU CLAMP	Piece		
+781986	SITE PATS REAR CAPS R9010	Piece		
+781997	SITE PARTS, REAR CAPS R7035 (MODULE)	Piece		
+782030	HYDR HOSE 3/4", L=2530MM	Piece		
+782031	HYDR HOSE 1/2", L=2375MM	Piece		
+782032	HYDR HOSE 1/4", L=2290MM	Piece		
+782033	HYDR HOSE 5/8", L=2380MM	Piece		
+782034	HYDR HOSE 3/4", L=2540MM	Piece		
+782035	HYDR HOSE 1/2", L=2410MM	Piece		
+782036	HYDR HOSE 1/4", L=2330MM	Piece		
+782037	HYDR HOSE 5/8", L=2940MM	Piece		
+782038	HYDR HOSE 3/4", L=3760MM	Piece		
+782039	HYDR HOSE 1/2", L=3700MM	Piece		
+782040	HYDR HOSE 1/4", L=3600MM	Piece		
+782041	HYDR HOSE 5/8", L=2805MM	Piece		
+782042	HYDR HOSE 1", L=1485MM	Piece		
+782043	HYDR HOSE 3/4", L=1610MM	Piece		
+782044	HYDR HOSE 1/2", L=1510MM	Piece		
+782045	HYDR HOSE 5/8", L=1590MM	Piece		
+782049	HYDR ACCU MOUNT CE	Piece		
+782152	PUMP FOR GENERATOR 50HZ	Piece		
+782154	PIPES FRONT GEAR COOLING	Piece		
+782155	PIPES FRONT GENERATOR COOLING	Piece		
+782156	PUMP FOR GEAR, 50HZ	Piece		
+782159	ARRETER SYSTEM, MOUNTED	Piece		
+782203	SITE PARTS, ANEMOMETER (MODULE)	Piece		
+782467	BRAKE DRAINING VALVE	Piece		
+782468	OIL HOSE DRAINING VALVE	Piece		
+782469	VALVE UNIT	Piece		
+782476	GENERATOR MOUNTED, 50HZ	Piece		
+782480	GEAR SUBASS. V90 EF901E 50HZ	Piece		
+783073	HOSE FOR EVAPORATION TANK	Piece		
+783108	RETURN FLOW HOSE, 2. STAGE	Piece		
+783109	RETURN FLOW HOSE, 3. STAGE	Piece		
+783110	RETURN FLOW HOSE, MAIN BEARING	Piece		
+783111	RETURN FLOW HOSE, 1. STAGE	Piece		
+783270	HOSE FOR GENERATOR, HOT	Piece		
+783872	BRAKE ASSEMBLY	Piece		
+783876	WASHER Ø13 X Ø60 X 5	Piece		
+783994	BRAKE PUMP UNIT MOUNT 50/60HZ	Piece		
+784032	GEAR OIL LUBRICATION, 190L/MIN	Piece		
+784130	COOLING SYSTEM, 50HZ	Piece		
+784644	COOLING HOSES FOR GENERATOR	Piece		
+784892	ELEC PARTS FOR GRID, 50HZ	Piece		
+785724	Grid SKiiPPACK 1803GB123-3DUK SEMIKRO AGO1 +	Piece		
+785763	OIL HOSE LOCK SYSTEM	Piece		
+785764	OIL HOSE LOCK SYSTEM	Piece		
+787410	TRAFO WALL, 50HZ	Piece		
+787535	CLEVINS PIN WITH HOLE Ø10 X29	Piece		
+787580	INTAKE GATE, MOUNTED	Piece		
+787818	GRID FRAME PARTS, TZN	Piece		
+788003	YAW SYSTEM, 50HZ	Piece		
+788006	YAW LUBRICATION	Piece		
+788432	ROTATING TRANSFER F. MAIN SHAFT 3MW	Piece		
+788448	COOLING HOSE 2335MM, COLD	Piece		
+788449	COOLING HOSE 1645MM, VARM	Piece		
+788459	HOSE FOR GENERATOR, COLD	Piece		
+788473	HOSE F. HYDR. POWER PACK, COLD	Piece		
+788475	HOSE FOR PUMP, GEAR, COLD	Piece		
+788488	COOLING HOSE, 460MM	Piece		
+788489	HOSE FOR PUMP, GENERATOR, COLD	Piece		
+788506	HYDRAULIC STATION 22KW 200BAR	Piece		
+788596	PH CRANE DAMPER, MOUNTED	Piece		
+788612	V90-3MW- TRAVELLING CRANE ASS	Piece		
+788935	HYDRAULIC HOSE 1 1/4", L=1155	Piece		
+788938	HYDRAULIC HOSE 1/2", L=1590MM	Piece		
+788939	HYDRAULIC HOSE 1/2", L=610MM	Piece		
+788944	HYDRAULIC HOSE L=630	Piece		
+788949	HYDRAULIC HOSE 1", L=1375	Piece		
+789062	GASKET FOR PUMP PLATE	Piece		
+791275	Vestas Overspeed Guard VOG	Piece		
+8000037	THI-7.1414.40.xxx-manual_684	Piece		
+8000089	Encoder cable - TS-1003023-B	Piece		
+8000203	DATA sheet - CEL-LI-32-DCW-PCFL - rev2 -new	Piece		
+8001298	Datasheet/drawing on file	Piece		
+8001353	L11102BB351AJ2_datasheet_en (1)	Piece		
+8001354	Siemens_ALTERNATIVE_ 3WL11102BB344AN2-Z+C22_datasheet_en ALTERNATIVE f	Piece		
+8001796	4NC53260CE21_datasheet_en	Piece		
+8002003	datenblatt_x1255990991D_acs	Piece		
+8002197	ABBFixingPlate V3	Piece		
+809451	Box, Heating LT heating control LT option	Piece		
+809454	Box, Heating With temp. diff. relay Option	Piece		
+8100301	InLine_748XX_Datasheet	Piece		
+833993	FITTING FOR VIBRATION SENSOR	Piece		
+835783	Windvane	Piece		
+836659	Transformer, rectifier 230/24 V (TA-F20) Kohsel	Piece		
+836660	116830 Transformer, TA-F 20, 220/24V, 20 VA A. Åkerman	Piece		
+085446	LINK BEARING GE110	Piece		
+86007	GEN 50HZ V5 SERIES 3MW 1KV VND	Piece		
+866660	Trafo TA-F20 Kohsel (option)	Piece		
+869058	Thermo resistor NTC	Piece		
+871915	Thermal control, ground control PTS 5	Piece		
+872300	Anemometer	Piece		
+883278	Upgrade kit CIM2235	Piece		
+897390	WASHER Ø13XØ37X5 HDG	Piece		
+897426	WASHER Ø8,5XØ28X4 A4	Piece		
+897476	WASHER Ø25XØ120X20	Piece		
+090039	Smoke detector ION S60 Louis Poulsen	Piece		
+090706	VRCC control unit	Piece		
+090781	Watch dog CT 217	Piece		
+090829	OVP-circuit CT297	Piece		
+90970	Small parts and cleaning charges	Stk		
+90973	charge for nitrogen	Stk		
+091180	Cabletwist-sensor, 3693 S1825 X/2FR6/150-091170 TER DEMEX El	Piece		
+091520	Circuit breaker HV RM6 1D CB VIP12R, Merlin Option	Piece		
+091717	Cable for S412 M12x1 4pol. Følsgaard HRC	Piece		
+091788	Trip Q8 ZB2-BA4 75 17 612 023 Telemecanique	Piece		
+091796	Safety switch OT45E3 3P45A	Piece		
+091797	Switch Disconnector OT45E3	Piece		
+091819	SENSOR MBS3050-3011	Piece		
+091840	Cable set to rotor choke 092325	Piece		
+091841	Cable set to rotor choke 092338	Piece		
+091842	Reserve cables for	Piece		
+091843	Reserve cables for	Piece		
+091845	Reserve cables for	Piece		
+091847	Reserve cables for	Piece		
+091992	Earth-leakage circ. breaker light F271-B13/30/0,03	Piece		
+091993	Earth-leakage circ. breaker light	Piece		
+091996	Circuit breaker S271 C40 NA	Piece		
+091999	Miniature Circuit Breaker	Piece		
+092006	Trigger Modul C510-02-K	Piece		
+092063	Motor, offline filter unit	Piece		
+092066	M otor, offline filter unit HDU15/25PM-690 V CC	Piece		
+092071	EMC Filter Cap. B84143G0090R021	Piece		
+092081	EMC-filter B84143-B320-S20	Piece		
+092083	EMC-filter B84143-B320-S24 EPCOS AGO1	Piece		
+092089	Diode modul for OVP	Piece		
+092091	OVP - Diode module, 350A, 1600V DD350 N16 EUPEC	Piece		
+092099	IGBT modul 600 A, 1700 V FZ 600 R17 KE3 EUPEC	Piece		
+092102	Thyristor Eupec TT430 N22 Geveke	Piece		
+092106	Thyristor, phase L1 TT215 2200KOF EUPEC	Piece		
+092111	Thyristor modul for OVP	Piece		
+092124	OVP - Thyristor module, 425A, TZ425 N16 EUPEC	Piece		
+092290	Fan, top controller Heidolph, typ 842	Piece		
+092294	Ventilator, hub, 24 V 842.129.0049	Piece		
+092296	Fan, processor section JENK’S	Piece		
+092297	Fan, reactor section, 2500-3000 CUBIC	Piece		
+092320	Discharge impedance coil DT10355-3 Dantrafo Discharge < 10	Piece		
+092325	Rotor choke 300 A 0.15 mH 300A Jacke Standard	Piece		
+092331	Rotor choke 3x0.06 mH Jacke	Piece		
+092338	Rotor choke 300 A 0.15 mH 300A Jacke AGO2	Piece		
+092341	Rotor choke 3x0.06mH 850A Jacke AGO2	Piece		
+092343	EMC – filter condensator 25 kVAr-690 V-50 Hz	Piece		
+092367	Capacitor, 12.5kVAr, 690V, 50Hz 4RB5 125-5 AD68, 3x27.9F Si	Piece		
+092368	Capacitor, 12.5kVAr, 690V, 60Hz	Piece		
+092369	Capacitor, 12.5kVAr, 480V, 60Hz 4RB4 525-5 AB52, 3x48.1F Si	Piece		
+092378		Piece		
+092380	Capacitor for prop. valve 10.000F, 63V Roederstein	Piece		
+092387	Snubber capacitor 1,5uF, 1000V C4SNBX4150ZFJJ Arcotronics AG	Piece		
+092388	Bus bar capacitor FXR2H392NEM6 Hitachi	Piece		
+092391	Capacitor 2µF/450V	Piece		
+092395	Snubber capacitor 0.47uF, Arcotronics Trafomo	Piece		
+092396	Capacitor RC-link phase L1 ICAR 0.47F, 1200V 850Vrms Berend	Piece		
+092397	Snubber Capacitor 0,47uF, 1000V IDENT S1013040 Semikron	Piece		
+093026	Contactor, bypass, 60Hz EH 800-11/240V	Piece		
+093031	Contactor, bypass EH800-30-11 50/60	Piece		
+093145	Leak oil indicator in HUB Vegaswing 51	Piece		
+093174	Thermistor, thyristor UCHIYA UP 62 T150, 90°C Trafom	Piece		
+093182	Thermo relay, nacelle vent. High TA25 DU 2.4	Piece		
+093184	Thermo relay, nacelle vent. High, 60 TA25 DU 4.0	Piece		
+093185	Thermo relay, yaw motor, 50Hz TA25 DU 3.1	Piece		
+093186	Overload relay TH TA25DU 60 Hz	Piece		
+093187	Overload relay, vent. ext. TA25DU 8,5	Piece		
+093189	Thermistor brake UP62 UCHIYA 130C 95 Trafomo	Piece		
+093287	Contactor, Gen. 2, selection box EH175	Piece		
+093289	Contactor, Gen. 1, selection box EH550	Piece		
+093291	Thermistor 40°C (start temp.) KO 810 040 03, Nr. 339-291 TRA	Piece		
+093293	Thermistor 70°C, alarm input KO 810 070 03, Nr. 339-308 TRAF	Piece		
+093312	Contactor for M204 A40-30-10 230 V-	Piece		
+093314	Circuit breaker OETL 800 KS	Piece		
+093316	Contactor, vent. int. high. A16-30-10 230 V	Piece		
+093330	Contactor, yaw motor CW B9-30-10	Piece		
+093332	Contactor, nacelle vent. high temp	Piece		
+093336	Contactor, supply control voltage BC 25-40-00/24VDC	Piece		
+093341	Contactor, hydraulic pump B16-30-10	Piece		
+093369	Relay Solid State Brodersen	Piece		
+093428	Varistor for coil in K932B RC5-1/250 110-	Piece		
+093429	RC-led for K349	Piece		
+093433	CAPACITOR 1900PF DC 15KV	Piece		
+093453	Interface relay, for K410	Piece		
+093467	Emergency (contact	Piece		
+093471	Auxiliary contact CAL5-11	Piece		siemens:A9B00017534
+093479	feedback for K349 CA5-10	Piece		
+093482	Auxiliary contact	Piece		siemens:A9B10232159
+093493	Interface relay, ventilator	Piece		
+093494	Auxiliary contact	Piece		siemens:A9B10232159
+093495	Auxiliary contact	Piece		siemens:A9B10232159
+093497	Feedback motors HKF-11	Piece		
+093663	Inductive sensor trafo Induktiv	Piece		
+093679	Contactor, power fac. corr. 1 LC1 DWK12 P5 Telemecanique IEC	Piece		
+093689	Contactor, Gen. 1, star connection AF260-30-11	Piece		
+093691	Contactor, hydraulic pump A26-30-10	Piece		
+093693	Contactor, generator EH 1200, 240 V	Piece		
+093694	Contactor, EMC filter –	Piece		
+093695	Contactor, Gen. 1, delta connection	Piece		
+093750	Generator	Piece		nordex:N-0001
+093755	Generator FLSB 400 LKC Leroy Somer 850 kW-50/60Hz	Piece		
+093801	Generator, CW DASG 400 WL Weier 600 kW/50 Hz	Piece		
+093802	Generator, CCW	Piece		
+093808	Generator, CW DASG 400 WL Weier 600 kW/60 Hz	Piece		
+093809	Generator, CCW	Piece		
+093810	Generator	Piece		nordex:N-0001
+093813	Generator M2CG 280MB 4 B5	Piece		
+093814	Generator	Piece		nordex:N-0001
+093885	GEN 3MW 50HZ VCS GREASED BEAR LS/VND	Piece		
+093888	Generator 1.75/2.0 MW –	Piece		
+093893	Generator 1,75/2,0 MW – 690 V- -	Piece		
+093894	Generator incl air/air 1.80 MW – 690 V-60 -	Piece		
+94043	PH HEATER 1X230V/800W DA560	Piece		
+94046	PH ASS BEARING A SEAL DE DA560	Piece		
+94047	PH ASS BEAR AND SEAL NDE DA560	Piece		
+941888	Datasheet/drawing on file	Piece		
+094211	Fuse, VRCC suply 8A time-lag, Ø5x20 Louis Poulsen	Piece		
+094212	Fuse 10A 250V 5x20 TD	Piece		
+094215	Fuse, brake valve 2A T Ø5x20 mm	Piece		
+094217	Fuse, hydraulic 5A time-lag, Ø5x20 Louis Poulsen	Piece		
+094219	Fuse, pitch 4A time-lag, Ø5x20 Louis Poulsen	Piece		
+094228	Fuse for prop. valve T3,15A Ø5x20 mm Louis	Piece		
+094230	Fuse for T38, 24VDC T1A, Ø5x20, 143-341 Louis Poulsen	Piece		
+942759	Datasheet/drawing on file	Piece		
+094500	Light diode, hub ZB6E1618745 Telemeca	Piece		
+094531	Light diode, com ZB6E1618745 Telemeca	Piece		
+948001	CT module overview	Piece		
+095330	Circuit breaker HV	Piece		
+095353	VCP-board CT294/318	Piece		
+095354	VCP-circuit CT318	Piece		
+095355	Vestas Over speed Guard CT279	Piece		
+095358	Lightning detector CT304	Piece		
+095361	Acceleration, (option)	Piece		
+095399	RCC control unit CT257	Piece		
+095402	OVP-controller CT309 v.1 for 1200 V	Piece		
+095404	OVP-controller CT309 v.2 for 1700 V	Piece		
+095821	Lightning detector CT304	Piece		
+095832	VCP-board CT318.04	Piece		
+095844	Optical interface US	Piece		
+095845	Box, A6A US sensor,	Piece		
+095846	Optical interface US	Piece		
+095851	I/O controller	Piece		
+095854	24 V DC combi I/O	Piece		
+964089	Electrical diagrams for Mk 5	Piece		
+099085	VORTEX GENERATOR 3MM	Piece		
+099086	VORTEX GENERATOR 6MM	Piece		
+V-106350	CLOTH,CLEANING,PP,460 mm,380 mm	Piece		
+V-114941	Proximity Sensor - 0mm/5mm	Piece		
+V-33708261	Operation box +AN2 30t	Set		
+V-51701001	TAC 84C VIB Guard 2 Filters	Piece		
+V-60036493	BAR RELIEF HJ4-2757 175BAR	Piece		
+V-60058294	Bushing for lightning conduktor	Piece		
+V-60060037	Accumulator 1.4-140	Piece		
+V-60062425REN	ACCUMULATOR 40 BAR RECONDITIONED	Piece		
+V-990001	Temperature sensor. ambient   Section Ambient Comp No R300  Item No 114279 (V47)	Piece		
+V-990002	Anemometer   Section Ambient Comp No B301  Item No 872300 (V47)	Piece		
+V-990003	Windvane   Section Ambient Comp No B302-B303  Item No 835783 (V47)	Piece		
+V-990004	Thermostat. top controller 0deg  0degC Section Ambient Comp No B304  Item No 114219 (V47)	Piece		
+V-990005	Aux. relay. panel thermostat top   Section Ambient Comp No D304  Item No 116270 (V47)	Piece		
+V-990006	Thermostat. ground controller 0degC  0degC Section Ambient Comp No B305  Item No 114219 (V47)	Piece		
+V-990007	Aux. relay. panel thermost. ground   Section Ambient Comp No D305  Item No 116270 (V47)	Piece		
+V-990008	Temperature sensor. nacelle   Section Ambient Comp No R306  Item No 114279 (V47)	Piece		
+V-990009	Aux. relay. nacelle vent. Low   Section Ambient Comp No D307  Item No 116270 (V47)	Piece		
+V-990010	Contactor. nacelle vent. Low   Section Ambient Comp No K307  Item No 093330 (V47)	Piece		
+V-990011	Thermo relay. nacelle vent. Low  50Hz : I  = 0.9 A th 60Hz : I  = 0.7 A th Section Ambient Comp No F308  Item No 188230 (V47)	Piece		
+V-990012	Thermistor 40degC (start temp.)   Section Ambient Comp No S309  Item No 093291 (V47)	Piece		
+V-990013	Temperature sensor. top controller   Section Ambient Comp No R310  Item No 114279 (V47)	Piece		
+V-990014	Thermistor 70degC. alarm input   Section Ambient Comp No S311  Item No 093293 (V47)	Piece		
+V-990015	Relay. Start/stop ventilator. ground   Section Ambient Comp No K312  Item No 116270 (V47)	Piece		
+V-990016	Aux. relay nacelle vent. High   Section Ambient Comp No D313  Item No 116270 (V47)	Piece		
+V-990017	Contactor. nacelle vent. high   Section Ambient Comp No K313  Item No 093330 (V47)	Piece		
+V-990018	Thermo relay. nacelle vent. High  50Hz : I  = 2.0 A th 60Hz : I  = 2.3 A th Section Ambient Comp No F314  Item No 093182 (V47)	Piece		
+V-990019	Relay. fan. top controller   Section Ambient Comp No K315  Item No 116270 (V47)	Piece		
+V-990020	Relay. nacelle heating  Option Section Ambient Comp No D316  Item No 116270 (V47)	Piece		
+V-990021	Contactor. nacelle heating  Option Section Ambient Comp No K316  Item No ------ (V47)	Piece		
+V-990022	Time relay. computer cut out  60 sec. Section Ambient Comp No K330  Item No 114332 (V47)	Piece		
+V-990023	Ventilator motor. 50Hz Ventilator motor. 60Hz  1.7/0.3kW-50Hz 1.9/0.35kW-60Hz Section Ambient Comp No M340  Item No 115232 115253 (V47)	Piece		
+V-990024	Aux. relay for K349  LT/HT Option Section Ambient Comp No D349  Item No 116270 (V47)	Piece		
+V-990025	Contactor. nacelle vent. HT  LT/HT Option Section Ambient Comp No K349  Item No 093330 (V47)	Piece		
+V-990026	feedback for K349  LT/HT Option Section Ambient Comp No S349  Item No 093479 (V47)	Piece		
+V-990027	Thermo relay. nacelle vent. HT  LT/HT Option Section Ambient Comp No F349  Item No 188230 (V47)	Piece		
+V-990028	Cable for motor M349 (nacelle vent)  LT/HT Option Section Ambient Comp No W349  Item No 737683 (V47)	Piece		
+V-990029	Relay for inlet for M360  LT/HT Option Section Ambient Comp No K360  Item No 116270 (V47)	Piece		
+V-990030	Cable for inlet for M360  LT/HT Option Section Ambient Comp No W360  Item No 733592 (V47)	Piece		
+V-990031	Cable for box A361  LT Option Section Ambient Comp No W361A  Item No 733593 (V47)	Piece		
+V-990032	Cable for box A361  LT Option Section Ambient Comp No W361B  Item No 733594 (V47)	Piece		
+V-990033	Cable. Pt-100 ambient   Section Ambient Comp No W380  Item No ------ (V47)	Piece		
+V-990034	Cable. anemometer  9 m Section Ambient Comp No W381  Item No 703592 (V47)	Piece		
+V-990035	Cable. wind vane  9 m Section Ambient Comp No W382  Item No 703593 (V47)	Piece		
+V-990036	Cable. temp. sensor. nacelle   Section Ambient Comp No W383  Item No ------ (V47)	Piece		
+V-990037	Cable. ventilator motor (Low)  6.5 m Section Ambient Comp No W385  Item No 703530 (V47)	Piece		
+V-990038	Cable. ventilator  (High)  6.5 m Section Ambient Comp No W386  Item No 703530 (V47)	Piece		
+V-990039	Emerg. stop relay from comp. top   Section Emergency Comp No K900  Item No 116270.0 (V47)	Piece		
+V-990040	Emerg. stop relay from comp. ground   Section Emergency Comp No K901  Item No 116270.0 (V47)	Piece		
+V-990041	Emerg. stop relay. comp. top   Section Emergency Comp No K902  Item No 116270.0 (V47)	Piece		
+V-990042	Emerg. stop relay. contactor coil   Section Emergency Comp No K903  Item No 116253.0 (V47)	Piece		
+V-990043	Aux. relay. watch-dog   Section Emergency Comp No D906  Item No 116253.0 (V47)	Piece		
+V-990044	Watch dog   Section Emergency Comp No K906  Item No 90781.0 (V47)	Piece		
+V-990045	Relay. SCADA  Option Section Emergency Comp No K920  Item No 116270.0 (V47)	Piece		
+V-990046	Relay. SCADA  Option Section Emergency Comp No K921  Item No 116270.0 (V47)	Piece		
+V-990047	Relay. SCADA  Option Section Emergency Comp No K922  Item No 116270.0 (V47)	Piece		
+V-990048	Hour counter. line OK  Option Section Emergency Comp No P922  Item No 188495.0 (V47)	Piece		
+V-990049	Relay. SCADA  Option Section Emergency Comp No K923  Item No 116270.0 (V47)	Piece		
+V-990050	Hour counter. turbine OK  Option Section Emergency Comp No P923  Item No 188495.0 (V47)	Piece		
+V-990051	Emerg. stop relay emerg. feath.   Section Emergency Comp No K932  Item No 116253.0 (V47)	Piece		
+V-990052	Emergency stop button. gear   Section Emergency Comp No S933  Item No 116361.0 (V47)	Piece		
+V-990053	Emergency stop button. yaw plate   Section Emergency Comp No S934  Item No 116361.0 (V47)	Piece		
+V-990054	Emergency stop button. top panel   Section Emergency Comp No S935  Item No 116330.0 (V47)	Piece		
+V-990055	Emerg. stop button. ground panel   Section Emergency Comp No S936  Item No 116330.0 (V47)	Piece		
+V-990056	Service button   Section Emergency Comp No S937  Item No 737150.0 (V47)	Piece		
+V-990057	Fuse for T38. 24VDC   Section Emergency Comp No F938  Item No 94230.0 (V47)	Piece		
+V-990058	Thermal element. ground control   Section Emergency Comp No E939  Item No 194992.0 (V47)	Piece		
+V-990059	Thermal control. ground control   Section Emergency Comp No E940  Item No 871915.0 (V47)	Piece		
+V-990060	Thermal element. top controller   Section Emergency Comp No E941  Item No 194992.0 (V47)	Piece		
+V-990061	Thermal control. top controller   Section Emergency Comp No E942  Item No 871915.0 (V47)	Piece		
+V-990062	Lamp. aux. supply   Section Emergency Comp No H943  Item No 194895.0 (V47)	Piece		
+V-990063	Lamp. temperature   Section Emergency Comp No H944  Item No 194895.0 (V47)	Piece		
+V-990064	Lamp. computer   Section Emergency Comp No H945  Item No 194895.0 (V47)	Piece		
+V-990065	Air to air cooler. busbar section   Section Emergency Comp No E946A-B  Item No 194998.0 (V47)	Piece		
+V-990066	VAS. for top controller   Section Emergency Comp No F948  Item No 701290.0 (V47)	Piece		
+V-990067	VAS. for generator selection box  Option Section Emergency Comp No F948B  Item No 701291.0 (V47)	Piece		
+V-990068	VAS. for ground controller   Section Emergency Comp No F949  Item No 701291.0 (V47)	Piece		
+V-990069	Trip Q8   Section Emergency Comp No S952  Item No 91788.0 (V47)	Piece		
+V-990070	Fan. top controller   Section Emergency Comp No E953  Item No 92290.0 (V47)	Piece		
+V-990071	Aux. relay. trip Q8   Section Emergency Comp No D955  Item No 116270.0 (V47)	Piece		
+V-990072	Varistor-box. 24V. SCADA  Option Section Emergency Comp No F958A-B  Item No 701285.0 (V47)	Piece		
+V-990073	Hoisting winch/230V-50Hz (125kg) Hoisting winch/110V-60Hz (125kg)  Hoist. time 12m/min. Hoist. time 12m/min. Section Emergency Comp No M959  Item No 107692 107691 (V47)	Piece		
+V-990074	Varistor   Section Emergency Comp No F960  Item No 195009 (V47)	Piece		
+V-990075	Overvoltage protection. RS422  Option Section Emergency Comp No F961A-B  Item No ------ (V47)	Piece		
+V-990076	Overvoltage protect. current loop  Option Section Emergency Comp No F962A-B  Item No 188512 (V47)	Piece		
+V-990077	Temperature sensor to E940   Section Emergency Comp No R963  Item No 114289 (V47)	Piece		
+V-990078	Temperature sensor to E942   Section Emergency Comp No R964  Item No 114289 (V47)	Piece		
+V-990079	Overvoltage protection. modem  Option Section Emergency Comp No F965  Item No 188509 (V47)	Piece		
+V-990080	Switch. communication  Option Section Emergency Comp No S966  Item No 116323 (V47)	Piece		
+V-990081	Relay. communication switch  Option Section Emergency Comp No K967  Item No 116262 (V47)	Piece		
+V-990082	Relay. communication switch  Option Section Emergency Comp No K968  Item No 116262 (V47)	Piece		
+V-990083	Battery charger  Option Section Emergency Comp No G972  Item No 188469 (V47)	Piece		
+V-990084	Battery  Option Section Emergency Comp No G973  Item No 188478 (V47)	Piece		
+V-990085	Timer  Option Section Emergency Comp No K974  Item No 114478 (V47)	Piece		
+V-990086	Relay. grid drop out  Option Section Emergency Comp No K975  Item No 116270 (V47)	Piece		
+V-990087	Relay. emergency stop  Option Section Emergency Comp No K976  Item No 116270 (V47)	Piece		
+V-990088	Circuit breaker  Option Section Emergency Comp No F977  Item No 116611 (V47)	Piece		
+V-990089	Cable. signals to box A14  Option LT/HT Section Emergency Comp No W978  Item No 737682 (V47)	Piece		
+V-990090	Cable. communication top-ground  56 m (UV) Section Emergency Comp No W980  Item No 737590 (V47)	Piece		
+V-990091	Cable. emergency stop gear  7 m Section Emergency Comp No W981  Item No 703551 (V47)	Piece		
+V-990092	Cable. emergency stop yaw plate  3 m Section Emergency Comp No W982  Item No 703552 (V47)	Piece		
+V-990093	Cable. signals emerg.stop/therm.  50 m (UV) Section Emergency Comp No W983  Item No 703539 (V47)	Piece		
+V-990094	Earthing. ground controller  1 m Section Emergency Comp No W988  Item No 703571 (V47)	Piece		
+V-990095	Earthing pitch cylinder  0.5 m Section Emergency Comp No W989  Item No 703559 (V47)	Piece		
+V-990096	Earthin. right back cover frame  0.12 m Section Emergency Comp No W990A  Item No 703560 (V47)	Piece		
+V-990097	Earthing. left back cover frame  0.12 m Section Emergency Comp No W990B  Item No 703560 (V47)	Piece		
+V-990098	Earthing. tower-machinery founda.  53 m Section Emergency Comp No W991A  Item No 703562 (V47)	Piece		
+V-990099	Earthing. tower-machinery founda.  53 m Section Emergency Comp No W991B  Item No 703562 (V47)	Piece		
+V-990100	Earthing. top controller-mach. fou.  1.5 m Section Emergency Comp No W992  Item No 703576 (V47)	Piece		
+V-990101	Earthing. gen. selection box  1.4 m (gen. 2) Section Emergency Comp No W992C  Item No 733577 (V47)	Piece		
+V-990102	Earthing. right front cover frame  0.5 m Section Emergency Comp No W993A  Item No 703564 (V47)	Piece		
+V-990103	Earthing. left front cover frame  0.5 m Section Emergency Comp No W993B  Item No 703564 (V47)	Piece		
+V-990104	Earthing. right front cover fix  0.3 m Section Emergency Comp No W994A  Item No 703566 (V47)	Piece		
+V-990105	Earthing. left front cover fix  0.3 m Section Emergency Comp No W994B  Item No 703566 (V47)	Piece		
+V-990106	Earthing. right front roof railing  0.75 m Section Emergency Comp No W995A  Item No 703568 (V47)	Piece		
+V-990107	Earthing. left front roof railing  0.75 m Section Emergency Comp No W995B  Item No 703568 (V47)	Piece		
+V-990108	Earthing. right back cover fix  0.75 m Section Emergency Comp No W996 A  Item No 703570 (V47)	Piece		
+V-990109	Earthing. left back cover fix  0.75 m Section Emergency Comp No W996B  Item No 703570 (V47)	Piece		
+V-990110	Earthing. genrator-mach.foundat.  0.4 m Section Emergency Comp No W997A-B  Item No 703572 (V47)	Piece		
+V-990111	Earthing. generator 2  3 m (gen. 2) Section Emergency Comp No W997C  Item No 733576 (V47)	Piece		
+V-990112	Earthing. right back roof rail  0.25 m Section Emergency Comp No W998A  Item No 703574 (V47)	Piece		
+V-990113	Earthing. left back roof rail  0.25 m Section Emergency Comp No W998B  Item No 703574 (V47)	Piece		
+V-990114	Earthing. hydrau.-mach. foundation  0.5 m Section Emergency Comp No W999  Item No 703578 (V47)	Piece		
+V-990115	Aux. relay. gen. 1. selection box  Gen. 2 Section Generator Comp No D501  Item No 116270 (V47)	Piece		
+V-990116	Contactor. Gen. 1. selection box  Gen. 2 Section Generator Comp No K501  Item No 093289 (V47)	Piece		
+V-990117	Aux. relay. gen. 2. selection box  Gen. 2 Section Generator Comp No D502  Item No 116270 (V47)	Piece		
+V-990118	Contactor. Gen. 2. selection box  Gen. 2 Section Generator Comp No K502  Item No 093287 (V47)	Piece		
+V-990119	Generator 1 temperature   Section Generator Comp No R503  Item No ------ (V47)	Piece		
+V-990120	Generator 2 temperature  Gen. 2 Section Generator Comp No R504  Item No ------ (V47)	Piece		
+V-990121	Relay. stand still heating  Option Section Generator Comp No K506  Item No 116270 (V47)	Piece		
+V-990122	Socket for K506  Option Section Generator Comp No (K506)  Item No 116246 (V47)	Piece		
+V-990123	RCC control unit VRCC control unit  Weier generator ABB and LS generator Section Generator Comp No D520  Item No 095399 090706 (V47)	Piece		
+V-990124	Stand still heating  Option Section Generator Comp No E531  Item No --- (V47)	Piece		
+V-990125	Transformer VRCC supply   Section Generator Comp No T532  Item No 188346 (V47)	Piece		
+V-990126	Fuse. VRCC suply   Section Generator Comp No F533  Item No 094211 (V47)	Piece		
+V-990127	Rectifier. VRCC supply   Section Generator Comp No U534  Item No 116769 (V47)	Piece		
+V-990128	Capacitor. VRCC suply   Section Generator Comp No C535  Item No 188635 (V47)	Piece		
+V-990129	Power Electronic unit 1700 V VRCC  ABB and LS generator Section Generator Comp No U536  Item No 705180 (V47)	Piece		
+V-990130	Resistor unit  ABB and LS generator Section Generator Comp No R537  Item No 705100 (V47)	Piece		
+V-990131	Generator. CW Generator. CCW Generator Generator Generator  600 kW/50 Hz 600 kW/50 Hz 600kW/50Hz 600kW/50Hz 660kW-50/60Hz Section Generator Comp No G540  Item No 093801 093802  093814 093750 (V47)	Piece		
+V-990132	Generator  200kW Section Generator Comp No G540B  Item No 093813 (V47)	Piece		
+V-990133	Generator cable. to ground  4 pcs of 57 m Section Generator Comp No W580A-D  Item No 737510 (V47)	Piece		
+V-990134	Generator cable. Generator 1 From gen.1 to selection box (660/200kW)  4 pcs of 5 m (gen. 2) Section Generator Comp No W580E-H  Item No 737528 (V47)	Piece		
+V-990135	Generator cable. gen. 2  3.2 m (gen. 2) Section Generator Comp No W581  Item No 737529 (V47)	Piece		
+V-990136	Cable. Pt100 generator  5 m Section Generator Comp No W582  Item No 703557 (V47)	Piece		
+V-990137	Cable. stand still heating  Option Section Generator Comp No W583  Item No 737687 (V47)	Piece		
+V-990138	Cable for RCC Cable for VRCC  7 m 7.5 m Section Generator Comp No W584  Item No 737580 737561 (V47)	Piece		
+V-990139	Cable. VRCC supply  7 m Section Generator Comp No W593  Item No 737560 (V47)	Piece		
+V-990140	Cable. signal to gen. selection box  6 m (gen. 2) Section Generator Comp No W594  Item No 737582 (V47)	Piece		
+V-990141	Cable. ctrl. supply to gen. selection box  6 m (gen. 2) Section Generator Comp No W595  Item No 737583 (V47)	Piece		
+V-990142	Cabel. PT 100 generator 2  5 m (gen. 2) Section Generator Comp No W596  Item No 737584 (V47)	Piece		
+V-990143	Current transformer 600/1   Section Grid Comp No T4-T6  Item No 188432 (V47)	Piece		
+V-990144	Measuring resistans 2?   Section Grid Comp No R4-R6  Item No 188603 (V47)	Piece		
+V-990145	Circuit breaker. generator (50 Hz)   Section Grid Comp No Q8  Item No 117049 (V47)	Piece		
+V-990146	Aux. relay. trip main circ. Br. Q8   Section Grid Comp No D8  Item No 116270 (V47)	Piece		
+V-990147	Lightning arrester. grid   Section Grid Comp No F9-F11  Item No 188521 (V47)	Piece		
+V-990148	Lightning arrester. generator selection box   Section Grid Comp No F9B-F11B  Item No 188521 (V47)	Piece		
+V-990149	Fuse. lightning arrester. grid   Section Grid Comp No F12-F14  Item No 188562 (V47)	Piece		
+V-990150	Fuse. lightning arrester. generator selec. Box   Section Grid Comp No F12B-F14B  Item No 188562 (V47)	Piece		
+V-990151	Safety switch   Section Grid Comp No Q16  Item No 091796 (V47)	Piece		
+V-990152	Circuit breaker. control current   Section Grid Comp No F30  Item No 117051 (V47)	Piece		
+V-990153	Automatic fuse. control current   Section Grid Comp No F30  Item No 188254 (V47)	Piece		
+V-990154	Automatic fuse. control current   Section Grid Comp No F30  Item No 189791 (V47)	Piece		
+V-990155	Automatic fuse. light/socket top   Section Grid Comp No F31  Item No 116619 (V47)	Piece		
+V-990156	Automatic fuse. aux. Supply   Section Grid Comp No F32  Item No 116612 (V47)	Piece		
+V-990157	Automatic fuse. motors   Section Grid Comp No F33  Item No 188251 (V47)	Piece		
+V-990158	Automatic fuse. voltage measuring   Section Grid Comp No F34  Item No 188249 (V47)	Piece		
+V-990159	Automatic fuse. contactor coils   Section Grid Comp No F35  Item No 116617 (V47)	Piece		
+V-990160	Automatic fuse. processor supply   Section Grid Comp No F36  Item No 116617 (V47)	Piece		
+V-990161	Automatic fuse. processor supply   Section Grid Comp No F36B  Item No 116608 (V47)	Piece		
+V-990162	116830 Transformer. 116765 Rectifier aux. supply   Section Grid Comp No T38  Item No 836660 (V47)	Piece		
+V-990163	Earth-leakage circ. breaker light Earth-leakage circ. breaker light   Section Grid Comp No F39  Item No 091992 091993 (V47)	Piece		
+V-990164	Lightning arrester. gnd. processor   Section Grid Comp No F40  Item No 188520 (V47)	Piece		
+V-990165	Lightning arrester. top processor   Section Grid Comp No F41  Item No 188520 (V47)	Piece		
+V-990166	Short circuit protection   Section Grid Comp No F42  Item No 117081 (V47)	Piece		
+V-990167	Short circuit protection   Section Grid Comp No F42  Item No 189780 (V47)	Piece		
+V-990168	Relay. supply control voltage   Section Grid Comp No K43  Item No 116253 (V47)	Piece		
+V-990169	Contactor. supply control voltage   Section Grid Comp No K44  Item No 093336 (V47)	Piece		
+V-990170	Current transformer 800/1  60Hz Section Grid Comp No T4-T6  Item No 188435 (V47)	Piece		
+V-990171	Circuit breaker. generator (60Hz)  480V-60HZ L=0.7.t =B  1S=2.t=A 2I=4.t=?\? 2G=0.4.t =A 4 Section Grid Comp No Q8  Item No 117048 (V47)	Piece		
+V-990172	Lightning arrester. grid  60Hz Section Grid Comp No F9-F11  Item No 188519 (V47)	Piece		
+V-990173	Circuit breaker. control current  60Hz - Ith=32A. Im=500A Section Grid Comp No F30  Item No  (V47)	Piece		
+V-990174	Automatic fuse. control current  Ith=18A Section Grid Comp No F30  Item No 189791 (V47)	Piece		
+V-990175	Automatic fuse. motors  60Hz : Ith=16.0A Section Grid Comp No F33  Item No 188251 (V47)	Piece		
+V-990176	Contactor. supply control voltage  60Hz Section Grid Comp No K44  Item No 093336 (V47)	Piece		
+V-990177	Transformer 480/264/230/110V  5 kVA (60 Hz) Section Grid Comp No T50  Item No 188344 (V47)	Piece		
+V-990178	Thermo relay. yaw motor. 60Hz  60Hz : I  = 4.4 A th Section Grid Comp No F106-F107  Item No 188234 (V47)	Piece		
+V-990179	Thermo relay. hydraulic pump. 60Hz  60 Hz : I  = 9.4 th A Section Grid Comp No F205  Item No 188238 (V47)	Piece		
+V-990180	Transformer for solenoids  Ek<1.38% (60Hz) Section Grid Comp No T231  Item No 188342 (V47)	Piece		
+V-990181	Thermo relay. nacelle vent. Low. 60Hz  60Hz : I  = 1.4 A th Section Grid Comp No F308  Item No 188232 (V47)	Piece		
+V-990182	Thermo relay. nacelle vent. High. 60 Hz  60Hz : I  = 3.4 A th Section Grid Comp No F314  Item No 093184 (V47)	Piece		
+V-990183	Generator. CW Generator. CCW  600 kW/60 Hz 600 kW/60 Hz Section Grid Comp No G540  Item No 093808 093809 (V47)	Piece		
+V-990184	Generator cable. to ground  4 pcs of 57 m Section Grid Comp No W580A-D  Item No 737512 (V47)	Piece		
+V-990185	Capacitor. 12.5kVAr. 480V. 60Hz  500kW-60Hz: 150.0kVAr 600kW-60Hz: 187.5kVAr Section Grid Comp No C611-628  Item No 092369 (V47)	Piece		
+V-990186	Fuse. capacitor.  60Hz Section Grid Comp No F651-F654  Item No 188565 (V47)	Piece		
+V-990187	Contactor. bypass. 60Hz  60Hz Section Grid Comp No K700  Item No 093026 (V47)	Piece		
+V-990188	Oil level sensor hydraulic Gems LS600-150-NO-10 Pos. 2 Section Hydraulics Comp No S200  Item No 109090 (V47)	Piece		
+V-990189	Pressure switch. filter  Pos. 10 Section Hydraulics Comp No S201  Item No ------ (V47)	Piece		
+V-990190	Pressure switch. brake accumulator Hydropa DS302/F-55/SS Pos. 26.1 Section Hydraulics Comp No S202  Item No 109155 (V47)	Piece		
+V-990191	Analog pressure transducer hyd. Danfoss MBS 33 0606301800 Pos. 12 Section Hydraulics Comp No A203  Item No  (V47)	Piece		
+V-990192	Aux. relay. hydraulic motor Izumi RY-2S-U. 24 VDC  Section Hydraulics Comp No D204  Item No 116270 (V47)	Piece		
+V-990193	Contactor. hydraulic pump B16-30-10  Section Hydraulics Comp No K204  Item No 093341 (V47)	Piece		
+V-990194	Thermo relay. hydraulic pump TA25 DU 6.5 A 50 Hz : I  = 5.4 A th60 Hz : I  = 5.4 A th Section Hydraulics Comp No F205  Item No 188235 (V47)	Piece		
+V-990195	Pt-100 sensors. hydraulic oil ?? RG. L = 200 mm Pos. 4 Section Hydraulics Comp No R206  Item No 109102 (V47)	Piece		
+V-990196	Thermistor brake UP62 UCHIYA 130C 95  Section Hydraulics Comp No S207  Item No 093189 (V47)	Piece		
+V-990197	Relay. thermistor brake Izumi RY-2S-U. 24VDC  Section Hydraulics Comp No K207  Item No 116270 (V47)	Piece		
+V-990198	Pressure switch. brake Hydropa DS 302/F-55/SS Pos. 26.2 Section Hydraulics Comp No S208  Item No 109156 (V47)	Piece		
+V-990199	Relay. 24 V OK hydraulic Izumi RY-2S-U. 24VDC  Section Hydraulics Comp No K209  Item No 116270 (V47)	Piece		
+V-990200	Solenoid valve emerg. feathering Vick. CVUA-6-PDN-3-MUH-10 Pos. 22.2 Section Hydraulics Comp No Y210A  Item No 109109 (V47)	Piece		
+V-990201	Solenoid valve. emerg. feathering Vick. CVUA-6-PDN-3-MUH-10 Pos. 22.1 Section Hydraulics Comp No Y210B  Item No 109596 (V47)	Piece		
+V-990202	Aux. relay. emergency feathering Izumi RH 1B-U. 24VDC  Section Hydraulics Comp No D210  Item No 116253 (V47)	Piece		
+V-990203	Solenoid valve. disc brake Vick. CVUA-6-PDN-3-MUH-10 Pos. 22.3 Section Hydraulics Comp No Y211  Item No 109109 (V47)	Piece		
+V-990204	Aux. relay. disc brake Izumi RH 1B-U. 24VDC  Section Hydraulics Comp No D211  Item No 116253 (V47)	Piece		
+V-990205	Fuse. hydraulic 5A time-lag. ?5x20  Section Hydraulics Comp No F230  Item No 094217 (V47)	Piece		
+V-990206	Transformer for solenoids TA-F630 690/27.3/22.0V Ek<1.38% Section Hydraulics Comp No T231  Item No 188340 (V47)	Piece		
+V-990207	Rectifier. hydraulic KBPC15-06  Section Hydraulics Comp No U232  Item No 116769 (V47)	Piece		
+V-990208	EL.MOTOR ABB 4.0KW 600VY 50HZ Hydraulic motor 60Hz See description AEG AM 112 MZ4 4kW-600V-50Hz 4kW-690V-60Hz Section Hydraulics Comp No M240  Item No 115271 115259 (V47)	Piece		
+V-990209	Cable. suppli. hydr. motor M240 H07RN-F. 4G1.5mm2 2 m Section Hydraulics Comp No W280  Item No 703528 (V47)	Piece		
+V-990210	Cable. Pt-100 hydraulic oil RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W281  Item No 703545 (V47)	Piece		
+V-990211	Cable. oil level sensor hydr. oil RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W282  Item No 703584 (V47)	Piece		
+V-990212	Cable. solenoid emerg. feathering RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W283  Item No 703584 (V47)	Piece		
+V-990213	Cable. solenoid emerg. feathering RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W284  Item No 703584 (V47)	Piece		
+V-990214	Cable. pressure transducer RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W285  Item No 703584 (V47)	Piece		
+V-990215	Cable. pressure drop filter RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W286  Item No 703584 (V47)	Piece		
+V-990216	Cable. S202 brake accumulator RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W287  Item No 703584 (V47)	Piece		
+V-990217	Cable. solenoid brake RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W288  Item No 703584 (V47)	Piece		
+V-990218	Cable. thermistor brake. S207 PKL 105. 2x0.75mm2 3 m Section Hydraulics Comp No W289  Item No 703555 (V47)	Piece		
+V-990219	Cable. security pressure valve RHEYFLEX. 2x0.75mm2 3 m Section Hydraulics Comp No W290  Item No 703584 (V47)	Piece		
+V-990220	Cable. S208. brake activated RHEYFLEX. 2x0.75mm2 2 m Section Hydraulics Comp No W291  Item No 703584 (V47)	Piece		
+V-990221	Cable for hydr. cooling unit H07RN-F 4G1.5 10 m Section Hydraulics Comp No W293  Item No 737686 (V47)	Piece		
+V-990222	Inductive sensor. rotor   Section Mechanism Comp No B400  Item No 114257 (V47)	Piece		
+V-990223	Inductive sensor. generator  Fork-shaped Section Mechanism Comp No B401  Item No 114264 (V47)	Piece		
+V-990224	Temperature sensor. gear   Section Mechanism Comp No R402  Item No ------ (V47)	Piece		
+V-990225	Vibration sensor   Section Mechanism Comp No S403  Item No 114855 (V47)	Piece		
+V-990226	Vestas Overspeed Guard Vestas Overspeed Guard  Introduced in 1997 Section Mechanism Comp No U405  Item No 791275 095355 (V47)	Piece		
+V-990227	Temperature sensor. gear bearing   Section Mechanism Comp No R406  Item No ------ (V47)	Piece		
+V-990228	Pressostat. gear oil cooling   Section Mechanism Comp No S412  Item No 131028 (V47)	Piece		
+V-990229	Relay. gear heating   Section Mechanism Comp No K414  Item No 116253 (V47)	Piece		
+V-990230	Gear heating element  1500 W (850 W) Section Mechanism Comp No E415  Item No ------ (V47)	Piece		
+V-990231	Inductive sensor. VOG   Section Mechanism Comp No B430  Item No 114257 (V47)	Piece		
+V-990232	Cable. Pt-100 gear  5 m Section Mechanism Comp No W480  Item No 703547 (V47)	Piece		
+V-990233	Cable. vibration sensor  5 m Section Mechanism Comp No W481  Item No 703548 (V47)	Piece		
+V-990234	Cable. generator sensor   Section Mechanism Comp No W482  Item No ------ (V47)	Piece		
+V-990235	Cable. rotor sensor  6.5 m Section Mechanism Comp No W483  Item No ------ (V47)	Piece		
+V-990236	Cable. VOG sensor  6.5 m Section Mechanism Comp No W484  Item No ------ (V47)	Piece		
+V-990237	Cable. top/box A3  4 m Section Mechanism Comp No W485  Item No 703540 (V47)	Piece		
+V-990238	Cable. box A3/box A4  5 m Section Mechanism Comp No W486  Item No 703537 (V47)	Piece		
+V-990239	Cable for now -100 gear bearing  8 m Section Mechanism Comp No W489  Item No 703550 (V47)	Piece		
+V-990240	Cable. flowerror. oil cooling  9 m Section Mechanism Comp No W490  Item No ------ (V47)	Piece		
+V-990241	Cable. gear heating  7 m Section Mechanism Comp No W492  Item No 703533 (V47)	Piece		
+V-990242	Linear transducer   Section Pitch Comp No A800  Item No 114295.0 (V47)	Piece		
+V-990243	Proportional valve  Pos. A Section Pitch Comp No Y800  Item No 194315.0 (V47)	Piece		
+V-990244	Capacitor for prop. valve   Section Pitch Comp No C801  Item No 92380.0 (V47)	Piece		
+V-990245	Relay. 24V OK. pitch   Section Pitch Comp No K804  Item No 116270.0 (V47)	Piece		
+V-990246	Fuse. pitch   Section Pitch Comp No F830  Item No 94219.0 (V47)	Piece		
+V-990247	Rectifier. pitch   Section Pitch Comp No U832  Item No 116769.0 (V47)	Piece		
+V-990248	Cable. prop. valve  2 m Section Pitch Comp No W880  Item No 703582.0 (V47)	Piece		
+V-990249	Cable. linear transducer  5 m Section Pitch Comp No W882  Item No 703586.0 (V47)	Piece		
+V-990250	Aux. relay. power fac. corr. 1   Section Power Factor Comp No D601  Item No 116270 (V47)	Piece		
+V-990251	Contactor. power fac. corr. 1  IEC 947 Section Power Factor Comp No K601  Item No 093679 (V47)	Piece		
+V-990252	Aux. relay. power fac. corr. 2   Section Power Factor Comp No D602  Item No 116270 (V47)	Piece		
+V-990253	Contactor. power fac. corr. 2  IEC 947 Section Power Factor Comp No K602  Item No 093679 (V47)	Piece		
+V-990254	Aux. relay power fac. corr. 3   Section Power Factor Comp No D603  Item No 116270 (V47)	Piece		
+V-990255	Contactor. power fac. corr. 3  IEC 947 Section Power Factor Comp No K603  Item No 093679 (V47)	Piece		
+V-990256	Aux. relay power fac. corr. 4   Section Power Factor Comp No D604  Item No 116270 (V47)	Piece		
+V-990257	Contactor. power fac. corr. 4  IEC 947 Section Power Factor Comp No K604  Item No 093679 (V47)	Piece		
+V-990258	Discharge impedance coil  Discharge < 10 sec. Section Power Factor Comp No L605-L608  Item No 092320 (V47)	Piece		
+V-990259	Capacitor. 12.5kVAr. 690V. 50Hz Capacitor. 12.5kVAr. 690V. 60Hz  225.0kVAr 175.0kVAr Section Power Factor Comp No C611-628  Item No 092367 092368 (V47)	Piece		
+V-990260	Fuse. capacitor.   Section Power Factor Comp No F651-F654  Item No 188560 (V47)	Piece		
+V-990261	Aux. relay. bypass contactor   Section Thyristor Comp No D700  Item No 116270.0 (V47)	Piece		
+V-990262	Contactor. bypass   Section Thyristor Comp No K700  Item No 93289.0 (V47)	Piece		
+V-990263	Thermistor. thyristor   Section Thyristor Comp No S702  Item No 93174.0 (V47)	Piece		
+V-990264	Thyristor. phase L1   Section Thyristor Comp No V710-V711  Item No 92106.0 (V47)	Piece		
+V-990265	Thyristor. phase L2   Section Thyristor Comp No V712-V713  Item No 92106.0 (V47)	Piece		
+V-990266	Thyristor. phase L3   Section Thyristor Comp No V714-V715  Item No 92106.0 (V47)	Piece		
+V-990267	Resistor. RC-link phase L1   Section Thyristor Comp No R716  Item No 188824.0 (V47)	Piece		
+V-990268	Resistor. RC-link phase L2   Section Thyristor Comp No R717  Item No 188824.0 (V47)	Piece		
+V-990269	Resistor. RC-link phase L3   Section Thyristor Comp No R718  Item No 188824.0 (V47)	Piece		
+V-990270	Capacitor RC-link phase L1   Section Thyristor Comp No C719  Item No 92396.0 (V47)	Piece		
+V-990271	Capacitor RC-link phase L2   Section Thyristor Comp No C720  Item No 92396.0 (V47)	Piece		
+V-990272	Capacitor RC-link phase L3   Section Thyristor Comp No C721  Item No 92396.0 (V47)	Piece		
+V-990273	Section Unknown Comp No T50  Item No TA-4 TA-5 (V47)	Piece		
+V-990274	Section Unknown Comp No F64  Item No Prolim PL20/13 (V47)	Piece		
+V-990275	Section Unknown Comp No F68  Item No WT63-3P (V47)	Piece		
+V-990276	Section Unknown Comp No W80  Item No H07RN-F. 4G1.5mm2 (V47)	Piece		
+V-990277	Section Unknown Comp No W81  Item No H07RN-F. 5G1.5mm2 (V47)	Piece		
+V-990278	Section Unknown Comp No W82  Item No H07RN-F. 5G1.5mm2 (V47)	Piece		
+V-990279	Section Unknown Comp No W83  Item No H07RN-F. 4G1.5 mm2  H07RN-F. 4G4.0 mm2 (V47)	Piece		
+V-990280	Section Unknown Comp No W84  Item No PVICJ 4G1.5mm2 (V47)	Piece		
+V-990281	Section Unknown Comp No W85  Item No H07RN-F. 4G2.5mm2 (V47)	Piece		
+V-990282	Section Unknown Comp No W86  Item No H07RN-F. 4G1.5 mm2 (V47)	Piece		
+V-990283	Section Unknown Comp No W87  Item No H07RN-F. 4G1.5mm2 (V47)	Piece		
+V-990284	Contactor   Section Unknown Comp No 5K2  Item No 93332.0 (V47)	Piece		
+V-990285	Miniature Circuit Breaker  Could be replaced with MS325 1.6-2.5 item no. 188253 Section Unknown Comp No 4F4.1  Item No 188264.0 (V47)	Piece		
+V-990286	Miniature Circuit Breaker   Section Unknown Comp No 4F6.1  Item No 188266.0 (V47)	Piece		
+V-990287	Transformer   Section Unknown Comp No 4T6  Item No  (V47)	Piece		
+V-990288	Miniature Circuit Breaker   Section Unknown Comp No 4F6.2  Item No 91999.0 (V47)	Piece		
+V-990289	Trigger Modul   Section Unknown Comp No 5D5  Item No 92006.0 (V47)	Piece		
+V-990290	Electronic overload relays  1.05 A Section Unknown Comp No 4F4.2  Item No 188241.0 (V47)	Piece		
+V-990291	Man. start   Section Unknown Comp No 5S3  Item No 116328.0 (V47)	Piece		
+V-990292	Aux. relay. yaw motor CW Izumi RY-S2-U. 24VDC  Section Yawing Comp No D100  Item No 116270 (V47)	Piece		
+V-990293	Contactor. yaw motor CW B9-30-10  Section Yawing Comp No K100  Item No 093330 (V47)	Piece		
+V-990294	Aux. relay. yaw motor CCW Izumi RY-2S-U. 24VDC  Section Yawing Comp No D101  Item No 116270 (V47)	Piece		
+V-990295	Contactor. yaw motor CCW B9-30-10  Section Yawing Comp No K101  Item No 093330 (V47)	Piece		
+V-990296	Cabletwist-sensor. 3693 S1825 X/2FR6/150-091170 TER Z = 10. M = 12 Section Yawing Comp No S102-S105  Item No 091180 (V47)	Piece		
+V-990297	Thermo relay. yaw motor. 50Hz TA25 DU 3.1 50Hz : I  = 2.5 A th60Hz : I  = 2.6 A th Section Yawing Comp No F106-F107  Item No 093185 (V47)	Piece		
+V-990298	Yaw motor. 50Hz Yaw motor. 60Hz MT 100L28F130-6 MK110111-D MT 100L28F130-6 1.5 kW-690V-50Hz 1.75 kW-690V-60Hz Section Yawing Comp No M140 A-B  Item No 115257115254 (V47)	Piece		
+V-990299	Supply cable. yaw motor M140A H07RN-F. 4G1.5mm2 1.5 m Section Yawing Comp No W180  Item No 703525 (V47)	Piece		
+V-990300	Supply cable. yaw motor M140B H07RN-F. 4G1.5mm2 5 m Section Yawing Comp No W181  Item No 703526 (V47)	Piece		
+V-990301	Cable. twist-sensor LIYCY 6x0.38mm2 5 m Section Yawing Comp No W182  Item No 703537 (V47)	Piece		
+V-156253	WASHER,SPRING,DIN 6796,10,FSt,flZn-480h	Piece	Added from Opus stock (UK)	
+V-60015771	TAC84C Vibration guard (RS485) 1 filter-60015771	Piece	Added from Opus stock (FR)	
+V-60060652	Brake pads, SIME SHD5-60060652	Piece	Added from Opus stock (FR)	
