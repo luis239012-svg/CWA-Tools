@@ -1,0 +1,349 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>CWA Parts Finder</title>
+<meta name="theme-color" content="#0B2545">
+<meta name="description" content="Wind turbine spare parts catalogue with Opus stock levels across 11 OEMs and 5 countries.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-192.svg">
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap">
+<style>
+:root{
+  --bg:#F3F6FA; --surface:#FFFFFF; --sunk:#E7EEF6; --line:#D3DEEA;
+  --fg:#0B2545; --muted:#5A6F88; --brand:#0B2545; --brand-fg:#FFFFFF; --brand-sub:#B8D4F8;
+  --accent:#F4511E; --link:#1C4E8A;
+  --ok:#1E7F4F; --ok-bg:#E2F3EA; --none:#8A99AC; --none-bg:#EDF1F6;
+  --chip:#FFFFFF; --chip-on:#0B2545; --chip-on-fg:#FFFFFF;
+  --shadow:0 1px 2px rgba(11,37,69,.06),0 4px 16px rgba(11,37,69,.06);
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#060E1E; --surface:#0E1A30; --sunk:#14233D; --line:#203352;
+  --fg:#E6EEF8; --muted:#8FA6C2; --brand:#08142A; --brand-fg:#FFFFFF; --brand-sub:#B8D4F8;
+  --accent:#FF6A3D; --link:#7AABDD;
+  --ok:#5BD08F; --ok-bg:#12321F; --none:#6F829B; --none-bg:#16233A;
+  --chip:#0E1A30; --chip-on:#3476B8; --chip-on-fg:#FFFFFF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#060E1E; --surface:#0E1A30; --sunk:#14233D; --line:#203352;
+  --fg:#E6EEF8; --muted:#8FA6C2; --brand:#08142A; --brand-fg:#FFFFFF; --brand-sub:#B8D4F8;
+  --accent:#FF6A3D; --link:#7AABDD;
+  --ok:#5BD08F; --ok-bg:#12321F; --none:#6F829B; --none-bg:#16233A;
+  --chip:#0E1A30; --chip-on:#3476B8; --chip-on-fg:#FFFFFF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 16px rgba(0,0,0,.25); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45;-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--brand)}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg)}
+.brandbar{background:var(--brand);color:var(--brand-fg)}
+.wrap{max-width:760px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.brandbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:10px}
+.logo{height:40px;width:auto;display:block}
+.logo .ink{fill:#FFFFFF}.logo .sub{fill:var(--brand-sub)}.logo .hub{fill:var(--brand)}
+.app-name{font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.08em;text-transform:uppercase;color:var(--brand-sub);text-align:right;line-height:1.1}
+.app-name b{display:block;color:#fff;font-size:19px;font-weight:700;letter-spacing:.04em}
+
+.controls{padding-block:12px 8px;display:grid;gap:10px;border-bottom:1px solid var(--line)}
+.search{position:relative}
+.search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:20px;height:20px;stroke:var(--muted)}
+#q{width:100%;height:50px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);color:var(--fg);font:500 17px var(--f-body);padding:0 44px 0 44px;box-shadow:var(--shadow)}
+#q:focus{border-color:var(--link);outline:none}
+#clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:transparent;width:38px;height:38px;border-radius:50%;color:var(--muted);font-size:22px;cursor:pointer}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;margin-inline:-2px;padding-inline:2px}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--chip);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;display:inline-flex;gap:6px;align-items:center}
+.chip small{color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{background:var(--chip-on);border-color:var(--chip-on);color:var(--chip-on-fg)}
+.chip[aria-pressed="true"] small{color:inherit;opacity:.75}
+.row2{align-items:center}
+.chip.stock[aria-pressed="true"]{background:var(--ok);border-color:var(--ok);color:#fff}
+.sep{width:1px;height:20px;background:var(--line);margin-inline:2px}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+
+.status{display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding-block:12px 6px;font-size:13px;color:var(--muted)}
+.status b{color:var(--fg);font-variant-numeric:tabular-nums}
+.loadbar{height:3px;background:var(--sunk);border-radius:2px;overflow:hidden;margin-top:8px}
+.loadbar i{display:block;height:100%;width:0;background:var(--accent);transition:width .2s}
+
+.list{display:grid;gap:8px;padding-bottom:40px}
+.part{display:grid;grid-template-columns:1fr auto;gap:4px 12px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;text-align:left;cursor:pointer;width:100%}
+.part:active{background:var(--sunk)}
+.sku{font-family:var(--f-mono);font-weight:600;font-size:14.5px;letter-spacing:.01em;word-break:break-all;min-width:0}
+.desc{grid-column:1/-1;font-size:14px;color:var(--fg);min-width:0;overflow-wrap:anywhere}
+.meta{grid-column:1/-1;display:flex;gap:8px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.tag{font-family:var(--f-display);font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:12.5px;color:var(--link)}
+.badge{justify-self:end;align-self:start;border-radius:8px;padding:3px 8px;font-size:12px;font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums}
+.badge.in{background:var(--ok-bg);color:var(--ok)}
+.badge.out{background:var(--none-bg);color:var(--none);font-weight:500}
+.flags{display:inline-flex;gap:3px}
+.flag{font:600 10.5px var(--f-mono);padding:1px 4px;border-radius:4px;background:var(--ok-bg);color:var(--ok)}
+mark{background:transparent;color:var(--accent);font-weight:600}
+.more{text-align:center;color:var(--muted);font-size:13px;padding:14px}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:28px 18px;text-align:center;color:var(--muted)}
+.empty h3{font-family:var(--f-display);font-size:22px;color:var(--fg);margin:0 0 6px;letter-spacing:.02em}
+
+.summary{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:4px}.cstrip{grid-column:1/-1;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}.cstrip .stat{padding:8px 6px;text-align:center}.cstrip .n{font-size:17px;letter-spacing:-.01em}.cstrip .t{font-family:var(--f-mono);font-weight:600;margin-top:2px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.stat .n{font-family:var(--f-display);font-weight:700;font-size:26px;line-height:1;font-variant-numeric:tabular-nums}
+.stat .t{font-size:12px;color:var(--muted);margin-top:4px}
+
+.scrim{position:fixed;inset:0;background:rgba(6,14,30,.5);z-index:40;opacity:0;pointer-events:none;transition:opacity .2s}
+.scrim.on{opacity:1;pointer-events:auto}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;background:var(--surface);border-radius:18px 18px 0 0;max-height:88%;overflow-y:auto;transform:translateY(105%);transition:transform .25s ease;box-shadow:0 -8px 30px rgba(0,0,0,.2);padding-bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+.sheet.on{transform:none}
+@media (min-width:800px){.sheet{left:50%;right:auto;width:720px;margin-left:-360px}}
+.grab{width:40px;height:4px;border-radius:2px;background:var(--line);margin:10px auto 4px}
+.sheet .wrap{display:grid;gap:14px;padding-block:6px 4px}
+.sh-head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.sh-sku{font-family:var(--f-mono);font-weight:600;font-size:20px;word-break:break-all}
+.sh-desc{font-size:16px;margin-top:2px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 12px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap}
+.btn.x{border:0;font-size:24px;line-height:1;padding:4px 8px;color:var(--muted)}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 14px;font-size:14px}
+.kv dt{color:var(--muted)}.kv dd{margin:0;min-width:0;overflow-wrap:anywhere}
+h4{font-family:var(--f-display);font-weight:700;font-size:15px;letter-spacing:.1em;text-transform:uppercase;margin:0;color:var(--muted)}
+.stk{display:grid;gap:8px}
+.ctry{border:1px solid var(--line);border-radius:12px;overflow:hidden}
+.ctry-h{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;background:var(--sunk);font-weight:600}
+.ctry-h span:last-child{font-variant-numeric:tabular-nums;color:var(--ok)}
+.wh{display:flex;justify-content:space-between;gap:10px;padding:7px 12px;border-top:1px solid var(--line);font-size:14px}
+.wh span:last-child{font-variant-numeric:tabular-nums;font-weight:600}
+.nostock{background:var(--none-bg);color:var(--muted);border-radius:12px;padding:12px 14px;font-size:14px}
+.xref{display:flex;flex-wrap:wrap;gap:6px}
+.xref button{border:1px solid var(--line);background:var(--sunk);border-radius:8px;padding:6px 10px;font-size:13px;cursor:pointer}
+.xref button b{font-family:var(--f-mono);font-weight:600}
+.foot{font-size:12px;color:var(--muted);text-align:center;padding:10px 0 28px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:8px 14px;border-radius:10px;font-size:13px;z-index:60;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+@media (prefers-reduced-motion:reduce){.sheet,.scrim,.toast{transition:none}}
+</style>
+</head><body>
+
+<div class="top">
+  <div class="brandbar"><div class="wrap">
+    <svg class="logo" viewBox="0 0 320 80" role="img" aria-label="Coelho Wind Advisory">
+      <g transform="translate(40,40) scale(0.33)">
+        <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#F4511E" transform="rotate(-20)"/>
+        <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(100)"/>
+        <path d="M 9 -12 C 11 -22 11 -36 9 -50 C 6 -62 3 -74 0 -86 C -3 -74 -8 -62 -10 -50 C -12 -36 -12 -22 -10 -12 Z" fill="#3476B8" transform="rotate(220)"/>
+        <circle r="22" class="hub"/>
+        <circle r="28" fill="none" stroke="#3476B8" stroke-width="4.5"/>
+        <circle r="10" fill="#3476B8"/>
+        <circle r="4.5" fill="#C8DEFF"/>
+      </g>
+      <text x="88" y="47" class="ink" font-family="Arial Black, Arial" font-weight="900" font-size="36" letter-spacing="3">COELHO</text>
+      <text x="90" y="67" class="sub" font-family="Arial" font-weight="400" font-size="15" letter-spacing="5">WIND ADVISORY</text>
+    </svg>
+    <div class="app-name"><b>Parts Finder</b><span id="stockdate">Opus stock</span></div>
+  </div></div>
+  <div class="wrap controls">
+    <div class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input id="q" type="search" inputmode="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Part number or description…" aria-label="Search parts">
+      <button id="clear" aria-label="Clear search" hidden>×</button>
+    </div>
+    <div class="chips" id="plats" role="group" aria-label="Turbine / category"></div>
+    <div class="chips row2" id="stockrow" role="group" aria-label="Stock filter">
+      <button class="chip stock" id="instock" aria-pressed="false">In Opus stock</button>
+      <span class="sep"></span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="status"><span id="count">Loading catalogue…</span><span id="sortinfo"></span></div>
+  <div class="loadbar" id="loadbar"><i></i></div>
+  <div id="summary"></div>
+  <div class="list" id="list"></div>
+  <div class="more" id="more" hidden></div>
+  <div class="foot">Coelho Wind Advisory · Parts catalogue with Opus stock snapshot (NL · UK · FR · GR · IT)</div>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<section class="sheet" id="sheet" role="dialog" aria-modal="true" aria-label="Part details"><div class="grab"></div><div class="wrap" id="sheetbody"></div></section>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+const PLAT_ORDER=["enercon","vestas","senvion","siemens","sg","nordex","ewt","powerwind","tools","ppe","it","opus"];
+const COUNTRIES=["NL","UK","FR","GR","IT"];
+const CNAME={NL:"Netherlands",UK:"United Kingdom",FR:"France",GR:"Greece",IT:"Italy"};
+const $=id=>document.getElementById(id);
+let LABELS={},COUNTS={},STOCK={},ROWS=[],loaded=0,total=0;
+const state={q:"",plat:"all",inStock:false,country:null};
+try{const s=JSON.parse(localStorage.getItem("cwa-parts-filters")||"{}");if(s.plat)state.plat=s.plat;if(s.inStock)state.inStock=true;if(s.country)state.country=s.country;}catch(e){}
+function save(){try{localStorage.setItem("cwa-parts-filters",JSON.stringify({plat:state.plat,inStock:state.inStock,country:state.country}))}catch(e){}}
+
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm=s=>s.toLowerCase();
+const squash=s=>s.toLowerCase().replace(/[\s\-_.\/]/g,"");
+const fmt=n=>{n=Math.round(n*1000)/1000;return n.toLocaleString("en-GB",{maximumFractionDigits:3})};
+
+function stockOf(r){return STOCK[r.sku]||null}
+function stockTotals(st){const by={};let t=0;for(const [c,w,q] of st){by[c]=(by[c]||0)+q;t+=q}return{by,t}}
+
+async function boot(){
+  const meta=await (await fetch("data/meta.json")).json();
+  LABELS=meta.labels;COUNTS=meta.counts;total=Object.values(COUNTS).reduce((a,b)=>a+b,0);
+  $("stockdate").textContent="Stock "+new Date(meta.stockDate+"T12:00:00").toLocaleDateString("en-GB",{day:"numeric",month:"short",year:"numeric"});
+  buildChips();
+  STOCK=await (await fetch("data/stock.json")).json();
+  const order=[...PLAT_ORDER].sort((a,b)=>(COUNTS[a]||0)-(COUNTS[b]||0));
+  await Promise.all(order.map(async p=>{
+    const txt=await (await fetch("data/p_"+p+".txt")).text();
+    const out=[];
+    for(const line of txt.split("\n")){
+      if(!line)continue;
+      const [sku,desc,unit,note,x]=line.split("\t");
+      if(!sku||sku==="..."||sku==="-")continue;
+      const st=STOCK[sku];
+      let tq=0,cs="";
+      if(st){const t=stockTotals(st);tq=t.t;cs=Object.keys(t.by).filter(c=>t.by[c]>0).sort().join(",")}
+      out.push({sku,desc:desc||"",unit:unit||"",note:note||"",x:x||"",plat:p,h:norm(sku+" "+(desc||"")),s:squash(sku),tq,cs});
+    }
+    for(const r of out)ROWS.push(r);
+    loaded+=COUNTS[p]||0;
+    $("loadbar").firstElementChild.style.width=Math.min(100,loaded/total*100)+"%";
+    run();
+  }));
+  $("loadbar").hidden=true;
+  ROWS.sort((a,b)=>(b.tq>0)-(a.tq>0)||PLAT_ORDER.indexOf(a.plat)-PLAT_ORDER.indexOf(b.plat)||a.sku.localeCompare(b.sku));
+  window._ready=true;run();
+}
+
+function buildChips(){
+  const pc=$("plats");
+  const mk=(id,label,n)=>{const b=document.createElement("button");b.className="chip";b.dataset.p=id;b.innerHTML=esc(label)+(n!=null?` <small>${n>=1000?(n/1000).toFixed(n>=10000?0:1)+"k":n}</small>`:"");b.setAttribute("aria-pressed",state.plat===id);b.onclick=()=>{state.plat=id;save();syncChips();run()};pc.appendChild(b)};
+  mk("all","All",total);
+  for(const p of PLAT_ORDER)mk(p,LABELS[p]||p,COUNTS[p]);
+  const sr=$("stockrow");
+  for(const c of COUNTRIES){const b=document.createElement("button");b.className="chip";b.dataset.c=c;b.textContent=c;b.title=CNAME[c];b.setAttribute("aria-pressed",state.country===c);b.onclick=()=>{state.country=state.country===c?null:c;if(state.country)state.inStock=true;save();syncChips();run()};sr.appendChild(b)}
+  $("instock").onclick=()=>{state.inStock=!state.inStock;if(!state.inStock)state.country=null;save();syncChips();run()};
+  syncChips();
+}
+function syncChips(){
+  document.querySelectorAll("#plats .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.p===state.plat));
+  document.querySelectorAll("#stockrow .chip[data-c]").forEach(b=>b.setAttribute("aria-pressed",b.dataset.c===state.country));
+  $("instock").setAttribute("aria-pressed",state.inStock);
+}
+
+let results=[],shown=0;const PAGE=40;
+function run(){
+  const q=state.q.trim();
+  const toks=norm(q).split(/\s+/).filter(Boolean);
+  const sq=squash(q);
+  const res=[];
+  for(const r of ROWS){
+    if(state.plat!=="all"&&r.plat!==state.plat)continue;
+    if(state.inStock&&!(r.tq>0))continue;
+    if(state.country&&r.cs.indexOf(state.country)<0)continue;
+    if(toks.length){
+      let ok=true;for(const t of toks){if(r.h.indexOf(t)<0){ok=false;break}}
+      if(!ok&&!(sq.length>=3&&r.s.indexOf(sq)>=0))continue;
+    }
+    res.push(r);
+  }
+  if(sq){
+    res.sort((a,b)=>rank(b,sq)-rank(a,sq));
+  }
+  results=res;shown=0;
+  $("list").innerHTML="";
+  const ready=window._ready;
+  const nIn=res.reduce((a,r)=>a+(r.tq>0?1:0),0);
+  $("count").innerHTML=ready||res.length?`<b>${res.length.toLocaleString("en-GB")}</b> parts · <b>${nIn.toLocaleString("en-GB")}</b> in stock`:"Loading catalogue…";
+  $("sortinfo").textContent=!ready?`${Math.round(loaded/total*100)}% loaded`:(sq?"Best match first":"In-stock first");
+  renderSummary(!q);
+  if(!res.length&&ready){$("list").innerHTML=`<div class="empty"><h3>No parts found</h3>Check the part number, try fewer words, or switch the filters to <b>All</b>.</div>`;$("more").hidden=true;return}
+  more();
+}
+function rank(r,sq){
+  if(r.s===sq)return 1000+(r.tq>0?5:0);
+  if(r.s.startsWith(sq))return 500+(r.tq>0?5:0);
+  if(r.s.indexOf(sq)>=0)return 200+(r.tq>0?5:0);
+  return r.tq>0?5:0;
+}
+function hl(text,toks){
+  let s=esc(text);
+  for(const t of toks){if(t.length<2)continue;const re=new RegExp("("+esc(t).replace(/[.*+?^${}()|[\]\\]/g,"\\$&")+")","ig");s=s.replace(re,"<mark>$1</mark>")}
+  return s;
+}
+function more(){
+  const toks=norm(state.q).split(/\s+/).filter(Boolean);
+  const frag=document.createDocumentFragment();
+  const end=Math.min(results.length,shown+PAGE);
+  for(let i=shown;i<end;i++){
+    const r=results[i];
+    const b=document.createElement("button");b.className="part";b.dataset.i=i;
+    const badge=r.tq>0?`<span class="badge in">${fmt(r.tq)} in stock</span>`:`<span class="badge out">No stock</span>`;
+    const flags=r.cs?`<span class="flags">${r.cs.split(",").map(c=>`<span class="flag">${c}</span>`).join("")}</span>`:"";
+    b.innerHTML=`<span class="sku">${hl(r.sku,toks)}</span>${badge}<span class="desc">${hl(r.desc||"(no description)",toks)}</span><span class="meta"><span class="tag">${esc(LABELS[r.plat]||r.plat)}</span>${r.unit&&r.unit!=="-"?`<span>${esc(r.unit)}</span>`:""}${flags}</span>`;
+    b.onclick=()=>openPart(r);
+    frag.appendChild(b);
+  }
+  $("list").appendChild(frag);shown=end;
+  const m=$("more");m.hidden=shown>=results.length;m.textContent=`Showing ${shown.toLocaleString("en-GB")} of ${results.length.toLocaleString("en-GB")} · scroll for more`;
+}
+function renderSummary(show){
+  const el=$("summary");
+  if(!show||!window._ready||state.inStock||state.plat!=="all"){el.innerHTML="";return}
+  const byC={};let inParts=0;
+  for(const r of ROWS){if(r.tq>0){inParts++;for(const c of r.cs.split(","))byC[c]=(byC[c]||0)+1}}
+  el.innerHTML=`<div class="summary">
+    <div class="stat"><div class="n">${ROWS.length.toLocaleString("en-GB")}</div><div class="t">Parts in catalogue</div></div>
+    <div class="stat"><div class="n" style="color:var(--ok)">${inParts.toLocaleString("en-GB")}</div><div class="t">Parts with Opus stock</div></div>
+    <div class="cstrip">${COUNTRIES.map(c=>`<button class="stat" style="cursor:pointer;color:inherit" data-c="${c}" title="Show parts stocked in ${CNAME[c]}"><div class="n">${(byC[c]||0).toLocaleString("en-GB")}</div><div class="t">${c}</div></button>`).join("")}</div>
+  </div><div class="status" style="padding-top:16px"><span class="lbl">All parts · in-stock first</span></div>`;
+  el.querySelectorAll(".cstrip .stat").forEach(b=>b.onclick=()=>{state.country=b.dataset.c;state.inStock=true;save();syncChips();run()});
+}
+const io=new IntersectionObserver(e=>{if(e[0].isIntersecting&&shown<results.length)more()},{rootMargin:"600px"});
+io.observe($("more"));
+
+let t;
+$("q").addEventListener("input",e=>{state.q=e.target.value;$("clear").hidden=!state.q;clearTimeout(t);t=setTimeout(run,140)});
+$("clear").onclick=()=>{$("q").value="";state.q="";$("clear").hidden=true;run();$("q").focus()};
+
+function openPart(r){
+  const st=stockOf(r);
+  let stockHtml;
+  if(st&&st.length){
+    const by={};for(const [c,w,q] of st){(by[c]=by[c]||[]).push([w,q])}
+    stockHtml=`<div class="stk">${Object.keys(by).sort((a,b)=>COUNTRIES.indexOf(a)-COUNTRIES.indexOf(b)).map(c=>{
+      const tot=by[c].reduce((a,x)=>a+x[1],0);
+      return `<div class="ctry"><div class="ctry-h"><span>${CNAME[c]||c} <small style="color:var(--muted);font-weight:500">${c}</small></span><span>${fmt(tot)}</span></div>${by[c].sort((a,b)=>b[1]-a[1]).map(([w,q])=>`<div class="wh"><span>${esc(w||"Unspecified warehouse")}</span><span>${fmt(q)}</span></div>`).join("")}</div>`}).join("")}</div>`;
+  }else stockHtml=`<div class="nostock">Not in Opus stock in any country (snapshot ${esc($("stockdate").textContent.replace("Stock ",""))}).</div>`;
+  const xr=r.x?r.x.split(";").filter(Boolean).map(s=>{const i=s.indexOf(":");return[s.slice(0,i),s.slice(i+1)]}):[];
+  $("sheetbody").innerHTML=`
+    <div class="sh-head"><div style="min-width:0"><span class="tag">${esc(LABELS[r.plat]||r.plat)}</span><div class="sh-sku">${esc(r.sku)}</div></div>
+      <div style="display:flex;gap:4px;align-items:center"><button class="btn" id="copy">Copy no.</button><button class="btn x" id="close" aria-label="Close">×</button></div></div>
+    <div class="sh-desc">${esc(r.desc||"(no description)")}</div>
+    <dl class="kv"><dt>Unit</dt><dd>${esc(r.unit||"–")}</dd>${r.note?`<dt>Note</dt><dd>${esc(r.note)}</dd>`:""}</dl>
+    <h4>Opus stock${r.tq>0?` · ${fmt(r.tq)} total`:""}</h4>${stockHtml}
+    ${xr.length?`<h4>Also listed as</h4><div class="xref">${xr.map(([p,s])=>`<button data-p="${esc(p)}" data-s="${esc(s)}">${esc(LABELS[p]||p)} · <b>${esc(s)}</b></button>`).join("")}</div>`:""}`;
+  $("sheet").classList.add("on");$("scrim").classList.add("on");$("sheet").scrollTop=0;
+  $("close").onclick=closeSheet;
+  $("copy").onclick=()=>{navigator.clipboard&&navigator.clipboard.writeText(r.sku).then(()=>toast("Copied "+r.sku),()=>toast("Copy blocked – long-press the number"))};
+  $("sheetbody").querySelectorAll(".xref button").forEach(b=>b.onclick=()=>{const m=ROWS.find(x=>x.plat===b.dataset.p&&x.sku===b.dataset.s);if(m)openPart(m);else toast("Not found in catalogue")});
+}
+function closeSheet(){$("sheet").classList.remove("on");$("scrim").classList.remove("on")}
+$("scrim").onclick=closeSheet;
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSheet()});
+let ty=null;$("sheet").addEventListener("touchstart",e=>{if($("sheet").scrollTop<=0)ty=e.touches[0].clientY},{passive:true});
+$("sheet").addEventListener("touchend",e=>{if(ty!=null&&e.changedTouches[0].clientY-ty>90)closeSheet();ty=null});
+function toast(m){const el=$("toast");el.textContent=m;el.classList.add("on");clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove("on"),1600)}
+
+boot().catch(e=>{$("count").textContent="Could not load the parts data. Reload the page to try again.";console.error(e)});
+})();
+
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+</script>
+
+</body></html>
