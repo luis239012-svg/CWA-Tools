@@ -275,12 +275,12 @@ const DC_NAMES={1:'First',2:'Second',3:'Third'};
 
 function idx2018(u){return u%256;}
 function idx2009(u){return u%256;}
-function code2018(u){if(u===5000)return 4876;return T1[u%256];}
-function code2009(u){return T2[u%256];}
+function code2018(u){if(u===0)return null;if(u===5000)return 4876;return T1[u%256];}
+function code2009(u){if(u===0)return null;return T2[u%256];}
 function isBlocked(u){return BL.has(u);}
 function isDev(u){return DEV_USERS.has(u);}
 function pad4(n){return String(n).padStart(4,'0');}
-function family2018(u){if(u===5000){return [5000];}const idx=u%256;const m=[];for(let i=0;i<6144;i++){if(i!==5000&&i%256===idx)m.push(i);}m.sort((a,b)=>a-b);return m;}
+function family2018(u){if(u===0){return [0];}if(u===5000){return [5000];}const idx=u%256;const m=[];for(let i=0;i<6144;i++){if(i===0||i===5000)continue;if(i%256===idx)m.push(i);}m.sort((a,b)=>a-b);return m;}
 function dcYearTerm(y){var yy=y%100;var m=((yy%9)+9)%9;return m*m;}
 function dayCode(level,day,month,year){return((day%2===0)?2092:91)+20+Math.floor(DC_SEEDS[level]/day)+day*29+day*(day+17)+61*(day-month)+dcYearTerm(year);}
 
@@ -295,6 +295,7 @@ userInput.addEventListener('input',()=>{
   if(!val||isNaN(val)){lookupResult.innerHTML='';return;}
   const u=parseInt(val,10);
   if(u<0||u>6143){lookupResult.innerHTML='<div class="empty-state">User numbers range from 0000 to 6143</div>';return;}
+  if(u===0){lookupResult.innerHTML='<div class="result-card" style="border-color:var(--accent)"><div class="result-header"><div class="result-user" style="color:var(--accent)">User 0000</div><span class="badge" style="background:var(--accent-light);color:var(--accent)">Day Code User</span></div><div class="result-body"><div class="code-block" style="grid-column:1/-1;text-align:center"><div class="code-label">Day Code User</div><div class="code-value" style="font-size:1rem;letter-spacing:0">Use the Day Code Generator app</div></div></div><div class="result-footer">User 0000 uses day codes. Code 4680 (T1[0]) is reserved as the day code seed for level 1.</div></div>';return;}
   const c18=code2018(u),c09=code2009(u),blocked=isBlocked(u),dev=isDev(u);
   const fam=family2018(u),activeCount=fam.filter(m=>!isBlocked(m)).length,blockedCount=fam.length-activeCount;
   let html='';
@@ -319,7 +320,7 @@ function doCodeSearch(){
   if(indices.length===0){searchResult.innerHTML=`<div class="empty-state">Code ${pad4(code)} not found in the ${codeType.value} code table</div>`;return;}
   let html='';
   for(const idx of indices){
-    const users=[];for(let u=0;u<6144;u++){if((is2018?idx2018(u):idx2009(u))===idx)users.push(u);}
+    const users=[];for(let u=0;u<6144;u++){if(u===0)continue;if((is2018?idx2018(u):idx2009(u))===idx)users.push(u);}
     const aU=users.filter(u=>!isBlocked(u)),bU=users.filter(u=>isBlocked(u));
     html+=`<div class="result-card"><div class="result-header"><div class="result-user">Code ${pad4(code)}</div><span class="badge badge-active">${codeType.value} Â· Index ${idx}</span></div>
       <div class="result-footer">${users.length} users total Â· ${aU.length} active Â· ${bU.length} blocked</div></div>
@@ -345,7 +346,7 @@ function renderBlockList(filter){const items=filter?BL_ARR.filter(u=>String(u).i
 renderBlockList('');blSearch.addEventListener('input',()=>renderBlockList(blSearch.value.trim()));
 
 const auBody=document.getElementById('au-body'),auSearch=document.getElementById('au-search'),auWrap=auBody.closest('.table-wrap');
-const ACTIVE_USERS=[];for(let i=0;i<6144;i++){if(!BL.has(i))ACTIVE_USERS.push(i);}
+const ACTIVE_USERS=[];for(let i=0;i<6144;i++){if(i===0||BL.has(i))continue;ACTIVE_USERS.push(i);}
 let auFiltered=ACTIVE_USERS,auShown=0;const AU_PAGE=200;
 function renderActiveUsers(filter,reset){
   if(reset){auFiltered=filter?ACTIVE_USERS.filter(u=>pad4(u).includes(filter)||String(code2018(u)).includes(filter)||pad4(code2018(u)).includes(filter)||String(code2009(u)).includes(filter)||pad4(code2009(u)).includes(filter)):ACTIVE_USERS;auShown=0;auBody.innerHTML='';}
